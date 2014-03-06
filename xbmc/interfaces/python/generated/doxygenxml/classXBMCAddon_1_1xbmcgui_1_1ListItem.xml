@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1ListItem" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::ListItem</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a0db07e3f57afef1779abb31b234cd398" prot="public" static="no" mutable="no">
+        <type>CFileItemPtr</type>
+        <definition>CFileItemPtr XBMCAddon::xbmcgui::ListItem::item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="50" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a74c1764c92146ff0656919334ae2825a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ListItem::ListItem</definition>
+        <argsstring>(const String &amp;label=emptyString, const String &amp;label2=emptyString, const String &amp;iconImage=emptyString, const String &amp;thumbnailImage=emptyString, const String &amp;path=emptyString)</argsstring>
+        <name>ListItem</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label2</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>iconImage</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>thumbnailImage</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+          <defval>emptyString</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="56" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="39" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a41f23eda94371cedb8b48179784412b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ListItem::ListItem</definition>
+        <argsstring>(CFileItemPtr pitem)</argsstring>
+        <name>ListItem</name>
+        <param>
+          <type>CFileItemPtr</type>
+          <declname>pitem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="59" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a3da249755c793457a791d01ed9ed899d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ListItem::~ListItem</definition>
+        <argsstring>()</argsstring>
+        <name>~ListItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="69" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ab4547bdd034353f97065364c7f630d0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::ListItem::getLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ab4547bdd034353f97065364c7f630d0c" kindref="member">getLabel()</ref> <ndash/> Returns the listitem label.</para><para>example:<itemizedlist>
+<listitem><para>label = self.list.getSelectedItem().<ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ab4547bdd034353f97065364c7f630d0c" kindref="member">getLabel()</ref> </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="77" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="69" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a92ce089328a670d985b76cf455760ae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::ListItem::getLabel2</definition>
+        <argsstring>()</argsstring>
+        <name>getLabel2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a92ce089328a670d985b76cf455760ae1" kindref="member">getLabel2()</ref> <ndash/> Returns the listitem label.</para><para>example:<itemizedlist>
+<listitem><para>label = self.list.getSelectedItem().<ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a92ce089328a670d985b76cf455760ae1" kindref="member">getLabel2()</ref> </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="85" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="82" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a39b578b0d2bcaf3539ef51e818daa118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::setLabel</definition>
+        <argsstring>(const String &amp;label)</argsstring>
+        <name>setLabel</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setLabel(label) <ndash/> Sets the listitem&apos;s label.</para><para>label : string or unicode - text string.</para><para>example:<itemizedlist>
+<listitem><para>self.list.getSelectedItem().setLabel(&apos;Casino Royale&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="95" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="95" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9062cf9d34e22e05d6c0fe73b604dee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::setLabel2</definition>
+        <argsstring>(const String &amp;label)</argsstring>
+        <name>setLabel2</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setLabel2(label) <ndash/> Sets the listitem&apos;s label2.</para><para>label : string or unicode - text string.</para><para>example:<itemizedlist>
+<listitem><para>self.list.getSelectedItem().setLabel2(&apos;Casino Royale&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="105" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="105" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a30cfd4ff45973c8548fbfdab7789708f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::setIconImage</definition>
+        <argsstring>(const String &amp;iconImage)</argsstring>
+        <name>setIconImage</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>iconImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setIconImage(icon) <ndash/> Sets the listitem&apos;s icon image.</para><para>icon : string - image filename.</para><para>example:<itemizedlist>
+<listitem><para>self.list.getSelectedItem().setIconImage(&apos;emailread.png&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="115" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="115" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a39a5cbe9ce5d46a88538f2a190e96b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::setThumbnailImage</definition>
+        <argsstring>(const String &amp;thumbFilename)</argsstring>
+        <name>setThumbnailImage</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>thumbFilename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setThumbnailImage(thumbFilename) <ndash/> Sets the listitem&apos;s thumbnail image.</para><para>thumb : string - image filename.</para><para>example:<itemizedlist>
+<listitem><para>self.list.getSelectedItem().setThumbnailImage(&apos;emailread.png&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="125" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="124" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a3a43d35d83d82035344361c8db8bad18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::select</definition>
+        <argsstring>(bool selected)</argsstring>
+        <name>select</name>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>select(selected) <ndash/> Sets the listitem&apos;s selected status.</para><para>selected : bool - True=selected/False=not selected</para><para>example:<itemizedlist>
+<listitem><para>self.list.getSelectedItem().select(True) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="135" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="133" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9ad24c75f897563c30e29b703aa483a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::ListItem::isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9ad24c75f897563c30e29b703aa483a0" kindref="member">isSelected()</ref> <ndash/> Returns the listitem&apos;s selected status.</para><para>example:<itemizedlist>
+<listitem><para>is = self.list.getSelectedItem().<ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9ad24c75f897563c30e29b703aa483a0" kindref="member">isSelected()</ref> </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="143" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="143" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a4ea767a123fb55b90170611fcdaebb12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::setInfo</definition>
+        <argsstring>(const char *type, const Dictionary &amp;infoLabels)</argsstring>
+        <name>setInfo</name>
+        <param>
+          <type>const char *</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceXBMCAddon_1ac88d16aff1213066efa782f8fb1a11d4" kindref="member">Dictionary</ref> &amp;</type>
+          <declname>infoLabels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setInfo(type, infoLabels) <ndash/> Sets the listitem&apos;s infoLabels.</para><para>type : string - type of media(video/music/pictures). infoLabels : dictionary - pairs of { label: value }.</para><para>*Note, To set pictures exif info, prepend &apos;exif:&apos; to the label. Exif values must be passed as strings, separate value pairs with a comma. (eg. {&apos;exif:resolution&apos;: &apos;720,480&apos;} See CPictureInfoTag::TranslateString in PictureInfoTag.cpp for valid strings.</para><para>You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>General Values that apply to all types: count : integer (12) - can be used to store an id for later, or for sorting purposes size : long (1024) - size in bytes date : string (d.m.Y / 01.01.2009) - file date</para><para>Video Values: genre : string (Comedy) year : integer (2009) episode : integer (4) season : integer (1) top250 : integer (192) tracknumber : integer (3) rating : float (6.4) - range is 0..10 watched : depreciated - use playcount instead playcount : integer (2) - number of times this item has been played overlay : integer (2) - range is 0..8. See GUIListItem.h for values cast : list (Michal C. Hall) castandrole : list (Michael C. Hall|Dexter) director : string (Dagur Kari) mpaa : string (PG-13) plot : string (Long Description) plotoutline : string (Short Description) title : string (Big Fan) originaltitle : string (Big Fan) sorttitle : string (Big Fan) duration : string (3:18) studio : string (Warner Bros.) tagline : string (An awesome movie) - short description of movie writer : string (Robert D. Siegel) tvshowtitle : string (Heroes) premiered : string (2005-03-04) status : string (Continuing) - status of a TVshow code : string (tt0110293) - IMDb code aired : string (2008-12-07) credits : string (Andy Kaufman) - writing credits lastplayed : string (Y-m-d h:m:s = 2009-04-05 23:16:04) album : string (The Joshua Tree) artist : list ([&apos;U2&apos;]) votes : string (12345 votes) trailer : string (/home/user/trailer.avi) dateadded : string (Y-m-d h:m:s = 2009-04-05 23:16:04)</para><para>Music Values: tracknumber : integer (8) duration : integer (245) - duration in seconds year : integer (1998) genre : string (Rock) album : string (Pulse) artist : string (Muse) title : string (American Pie) rating : string (3) - single character between 0 and 5 lyrics : string (On a dark desert highway...) playcount : integer (2) - number of times this item has been played lastplayed : string (Y-m-d h:m:s = 2009-04-05 23:16:04)</para><para>Picture Values: title : string (In the last summer-1) picturepath : string (/home/username/pictures/img001.jpg) exif* : string (See CPictureInfoTag::TranslateString in PictureInfoTag.cpp for valid strings)</para><para>example:<itemizedlist>
+<listitem><para>self.list.getSelectedItem().setInfo(&apos;video&apos;, { &apos;Genre&apos;: &apos;Comedy&apos; })<linebreak/>
+ </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="221" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="248" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a906b546c8fdf2aca4ef6582ee6c067d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::addStreamInfo</definition>
+        <argsstring>(const char *cType, const Dictionary &amp;dictionary)</argsstring>
+        <name>addStreamInfo</name>
+        <param>
+          <type>const char *</type>
+          <declname>cType</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceXBMCAddon_1ac88d16aff1213066efa782f8fb1a11d4" kindref="member">Dictionary</ref> &amp;</type>
+          <declname>dictionary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addStreamInfo(type, values) <ndash/> Add a stream with details.</para><para>type : string - type of stream(video/audio/subtitle). values : dictionary - pairs of { label: value }.</para><para>Video Values: codec : string (h264) aspect : float (1.78) width : integer (1280) height : integer (720) duration : integer (seconds)</para><para>Audio Values: codec : string (dts) language : string (en) channels : integer (2)</para><para>Subtitle Values: language : string (en)</para><para>example:<itemizedlist>
+<listitem><para>self.list.getSelectedItem().addStreamInfo(&apos;video&apos;, { &apos;Codec&apos;: &apos;h264&apos;, &apos;Width&apos; : 1280 }) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="247" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="475" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ad99b8ae5f9de9844a3bdd852cbdff7ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::addContextMenuItems</definition>
+        <argsstring>(const std::vector&lt; Tuple&lt; String, String &gt; &gt; &amp;items, bool replaceItems=false)</argsstring>
+        <name>addContextMenuItems</name>
+        <param>
+          <type>const std::vector&lt; <ref refid="classXBMCAddon_1_1Tuple" kindref="compound">Tuple</ref>&lt; String, String &gt; &gt; &amp;</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>replaceItems</declname>
+          <defval>false</defval>
+        </param>
+        <exceptions> throw (ListItemException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addContextMenuItems([(label, action,)*], replaceItems) <ndash/> Adds item(s) to the context menu for media lists.</para><para>items : list - [(label, action,)*] A list of tuples consisting of label and action pairs.<itemizedlist>
+<listitem><para>label : string or unicode - item&apos;s label.</para></listitem><listitem><para>action : string or unicode - any built-in function to perform. replaceItems : [opt] bool - True=only your items will show/False=your items will be added to context menu(Default).</para></listitem></itemizedlist>
+</para><para><ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> of functions - <ulink url="http://wiki.xbmc.org/?title=List_of_Built_In_Functions">http://wiki.xbmc.org/?title=List_of_Built_In_Functions</ulink></para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>listitem.addContextMenuItems([(&apos;Theater Showtimes&apos;, &apos;XBMC.RunScript(special://home/scripts/showtimes/default.py,Iron Man)&apos;,)])<linebreak/>
+ </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="265" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="533" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a721ed1e674e1fea198d5fa5400833001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::setProperty</definition>
+        <argsstring>(const char *key, const String &amp;value)</argsstring>
+        <name>setProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setProperty(key, value) <ndash/> Sets a listitem property, similar to an infolabel.</para><para>key : string - property name. value : string or unicode - value of property.</para><para>*Note, Key is NOT case sensitive. You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>Some of these are treated internally by XBMC, such as the &apos;StartOffset&apos; property, which is the offset in seconds at which to start playback of an item. Others may be used in the skin to add extra information, such as &apos;WatchedCount&apos; for tvshow items</para><para>example:<itemizedlist>
+<listitem><para>self.list.getSelectedItem().setProperty(&apos;AspectRatio&apos;, &apos;1.85 : 1&apos;)</para></listitem><listitem><para>self.list.getSelectedItem().setProperty(&apos;StartOffset&apos;, &apos;256.4&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="285" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="156" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ad08713603e1e8728cd63734bc5891070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::ListItem::getProperty</definition>
+        <argsstring>(const char *key)</argsstring>
+        <name>getProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getProperty(key) <ndash/> Returns a listitem property as a string, similar to an infolabel.</para><para>key : string - property name.</para><para>*Note, Key is NOT case sensitive. You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>AspectRatio = self.list.getSelectedItem().getProperty(&apos;AspectRatio&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="299" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="186" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1af7feacf87c7f01af9e241d1070da10f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::setPath</definition>
+        <argsstring>(const String &amp;path)</argsstring>
+        <name>setPath</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addContextMenuItems([(label, action,)*], replaceItems) <ndash/> Adds item(s) to the context menu for media lists.</para><para>items : list - [(label, action,)*] A list of tuples consisting of label and action pairs.<itemizedlist>
+<listitem><para>label : string or unicode - item&apos;s label.</para></listitem><listitem><para>action : string or unicode - any built-in function to perform. replaceItems : [opt] bool - True=only your items will show/False=your items will be added to context menu(Default).</para></listitem></itemizedlist>
+</para><para><ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> of functions - <ulink url="http://wiki.xbmc.org/?title=List_of_Built_In_Functions">http://wiki.xbmc.org/?title=List_of_Built_In_Functions</ulink></para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>listitem.addContextMenuItems([(&apos;Theater Showtimes&apos;, &apos;XBMC.RunScript(special://home/scripts/showtimes/default.py,Iron Man)&apos;,)]) setPath(path) <ndash/> Sets the listitem&apos;s path.</para></listitem></itemizedlist>
+</para><para>path : string or unicode - path, activated when item is clicked.</para><para>*Note, You can use the above as keywords for arguments.</para><para>example:<itemizedlist>
+<listitem><para>self.list.getSelectedItem().setPath(path=&apos;ActivateWindow(Weather)&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="329" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="208" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a2da86c4897416439a14f606e85bc10f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ListItem::setMimeType</definition>
+        <argsstring>(const String &amp;mimetype)</argsstring>
+        <name>setMimeType</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>mimetype</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setMimeType(mimetype) <ndash/> Sets the listitem&apos;s mimetype if known.</para><para>mimetype : string or unicode - mimetype.</para><para>*If known prehand, this can avoid xbmc doing HEAD requests to http servers to figure out file type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="338" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="214" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9b2c004551016d5f3aad2db97f88e3e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::ListItem::getdescription</definition>
+        <argsstring>()</argsstring>
+        <name>getdescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9b2c004551016d5f3aad2db97f88e3e2" kindref="member">getdescription()</ref> <ndash/> Returns the description of this PlayListItem. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="343" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1abee751b5140549cd25e55a3d6d6a5b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::ListItem::getduration</definition>
+        <argsstring>()</argsstring>
+        <name>getduration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1abee751b5140549cd25e55a3d6d6a5b0e" kindref="member">getduration()</ref> <ndash/> Returns the duration of this PlayListItem </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="348" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="225" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ab3321f9b46d6b6b66f466ac2d8a2adf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::ListItem::getfilename</definition>
+        <argsstring>()</argsstring>
+        <name>getfilename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ab3321f9b46d6b6b66f466ac2d8a2adf3" kindref="member">getfilename()</ref> <ndash/> Returns the filename of this PlayListItem. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="353" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.cpp" bodystart="243" bodyend="246"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a3dcc3339497986459166c03e6a097bd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1AddonClass_1_1Ref" kindref="compound">AddonClass::Ref</ref>&lt; <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">ListItem</ref> &gt;</type>
+        <definition>static AddonClass::Ref&lt;ListItem&gt; XBMCAddon::xbmcgui::ListItem::fromString</definition>
+        <argsstring>(const String &amp;str)</argsstring>
+        <name>fromString</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="62" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" bodystart="61" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="334">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+      </node>
+      <node id="333">
+        <label>XBMCAddon::xbmcgui::ListItem</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ListItem"/>
+        <childnode refid="334" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="336">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="337" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="335">
+        <label>XBMCAddon::xbmcgui::ListItem</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ListItem"/>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="337">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" line="48" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/ListItem.h" bodystart="47" bodyend="355"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ad99b8ae5f9de9844a3bdd852cbdff7ec" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>addContextMenuItems</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a3ec5b6d08299a5b8913967c855e536c0" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a0a75a3b4efb4b2ac3c995465e9b9e6a9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a906b546c8fdf2aca4ef6582ee6c067d0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>addStreamInfo</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a3dcc3339497986459166c03e6a097bd6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>fromString</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5006d4fc03ec77770e5e06e8b112ee60" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9b2c004551016d5f3aad2db97f88e3e2" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>getdescription</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1abee751b5140549cd25e55a3d6d6a5b0e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>getduration</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ab3321f9b46d6b6b66f466ac2d8a2adf3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>getfilename</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ab4547bdd034353f97065364c7f630d0c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>getLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a92ce089328a670d985b76cf455760ae1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>getLabel2</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ad08713603e1e8728cd63734bc5891070" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>getProperty</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9ad24c75f897563c30e29b703aa483a0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>isSelected</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a0db07e3f57afef1779abb31b234cd398" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>item</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a74c1764c92146ff0656919334ae2825a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>ListItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a41f23eda94371cedb8b48179784412b6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>ListItem</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a3a43d35d83d82035344361c8db8bad18" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>select</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a30cfd4ff45973c8548fbfdab7789708f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>setIconImage</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a4ea767a123fb55b90170611fcdaebb12" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>setInfo</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a39b578b0d2bcaf3539ef51e818daa118" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>setLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9062cf9d34e22e05d6c0fe73b604dee0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>setLabel2</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a2da86c4897416439a14f606e85bc10f6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>setMimeType</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1af7feacf87c7f01af9e241d1070da10f1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>setPath</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a721ed1e674e1fea198d5fa5400833001" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>setProperty</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a39a5cbe9ce5d46a88538f2a190e96b8f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>setThumbnailImage</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a3da249755c793457a791d01ed9ed899d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ListItem</scope><name>~ListItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

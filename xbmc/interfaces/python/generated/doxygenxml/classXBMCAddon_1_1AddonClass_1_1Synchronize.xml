@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classXBMCAddon_1_1AddonClass_1_1Synchronize" kind="class" prot="public">
+    <compoundname>XBMCAddon::AddonClass::Synchronize</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CSingleLock</basecompoundref>
+    <includes refid="AddonClass_8h" local="no">AddonClass.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1AddonClass_1_1Synchronize_1a5bb2a9d837dc76a0d263b1e3822fc32d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::AddonClass::Synchronize::Synchronize</definition>
+        <argsstring>(const AddonClass &amp;obj)</argsstring>
+        <name>Synchronize</name>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1AddonClass" kindref="compound">AddonClass</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/AddonClass.h" line="224" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/AddonClass.h" bodystart="224" bodyend="224"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class can be used like a &quot;synchronize&quot; block in java as long as the object is an <ref refid="classXBMCAddon_1_1AddonClass" kindref="compound">AddonClass</ref>. It can be used to synchronize on &apos;this&apos; effectively creating the effect of a synchronize keyword on a method declaration.</para><para>Keep in mind that this DOES NOT use &apos;monitor&apos; semantics, but uses MUTEX semantics. That means that using this class, a thread can deadlock itself, while in java a synchronize keyword won&apos;t. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="394">
+        <label>CSingleLock</label>
+      </node>
+      <node id="393">
+        <label>XBMCAddon::AddonClass::Synchronize</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Synchronize"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="396">
+        <label>CSingleLock</label>
+      </node>
+      <node id="395">
+        <label>XBMCAddon::AddonClass::Synchronize</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Synchronize"/>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/AddonClass.h" line="222" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/AddonClass.h" bodystart="221" bodyend="225"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1_1Synchronize_1a5bb2a9d837dc76a0d263b1e3822fc32d" prot="public" virt="non-virtual"><scope>XBMCAddon::AddonClass::Synchronize</scope><name>Synchronize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

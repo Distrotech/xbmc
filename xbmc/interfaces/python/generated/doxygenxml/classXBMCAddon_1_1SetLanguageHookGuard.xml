@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classXBMCAddon_1_1SetLanguageHookGuard" kind="class" prot="public">
+    <compoundname>XBMCAddon::SetLanguageHookGuard</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1SetLanguageHookGuard_1a1fa15d49a5a5f3e164b18f0d655c78b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::SetLanguageHookGuard::SetLanguageHookGuard</definition>
+        <argsstring>(LanguageHook *languageHook)</argsstring>
+        <name>SetLanguageHookGuard</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1LanguageHook" kindref="compound">LanguageHook</ref> *</type>
+          <declname>languageHook</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="159" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1SetLanguageHookGuard_1ae14a870307e5cf49dc9f5287643bf40f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::SetLanguageHookGuard::~SetLanguageHookGuard</definition>
+        <argsstring>()</argsstring>
+        <name>~SetLanguageHookGuard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="160" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="160" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="157" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="156" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1SetLanguageHookGuard_1a1fa15d49a5a5f3e164b18f0d655c78b1" prot="public" virt="non-virtual"><scope>XBMCAddon::SetLanguageHookGuard</scope><name>SetLanguageHookGuard</name></member>
+      <member refid="classXBMCAddon_1_1SetLanguageHookGuard_1ae14a870307e5cf49dc9f5287643bf40f" prot="public" virt="non-virtual"><scope>XBMCAddon::SetLanguageHookGuard</scope><name>~SetLanguageHookGuard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

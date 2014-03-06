@@ -1,0 +1,881 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1ControlList" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::ControlList</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1Control" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::Control</basecompoundref>
+    <includes refid="Control_8h" local="no">Control.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1af662eb159c4ba85d7186a0909a2c282a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classXBMCAddon_1_1AddonClass_1_1Ref" kindref="compound">AddonClass::Ref</ref>&lt; <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">ListItem</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;AddonClass::Ref&lt;ListItem&gt; &gt; XBMCAddon::xbmcgui::ControlList::vecItems</definition>
+        <argsstring></argsstring>
+        <name>vecItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="809" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3a3d431ce16c1b3c958a0ae600483faa" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlList::strFont</definition>
+        <argsstring></argsstring>
+        <name>strFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="810" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="810" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aa9362f33ed16d0b16eca5dabc3ea4cbe" prot="public" static="no" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1AddonClass_1_1Ref" kindref="compound">AddonClass::Ref</ref>&lt; <ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin" kindref="compound">ControlSpin</ref> &gt;</type>
+        <definition>AddonClass::Ref&lt;ControlSpin&gt; XBMCAddon::xbmcgui::ControlList::pControlSpin</definition>
+        <argsstring></argsstring>
+        <name>pControlSpin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="811" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aa8b81632342b42d507e384637f2b3a9b" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlList::textColor</definition>
+        <argsstring></argsstring>
+        <name>textColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="813" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="813" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a0ad056a5d2d57065d7e365472c9bfe5f" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlList::selectedColor</definition>
+        <argsstring></argsstring>
+        <name>selectedColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="814" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="814" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a08cd1e63b7a13817a23d4dea4d3e7649" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlList::strTextureButton</definition>
+        <argsstring></argsstring>
+        <name>strTextureButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="815" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1afe2b91555708d00ac3c3dc10ba0a9ef1" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlList::strTextureButtonFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureButtonFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="816" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="816" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a877713453d448642580b6a257c6bfa40" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlList::imageHeight</definition>
+        <argsstring></argsstring>
+        <name>imageHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="818" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="818" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a8415d6764d707d566bb0303afd5cf388" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlList::imageWidth</definition>
+        <argsstring></argsstring>
+        <name>imageWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="819" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="819" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1af378466c75175d77f56f60f7732d13f1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlList::itemHeight</definition>
+        <argsstring></argsstring>
+        <name>itemHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="820" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="820" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aa92e817bd8ca0c93323fe846e032fbb4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlList::space</definition>
+        <argsstring></argsstring>
+        <name>space</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="821" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="821" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a7e205f0113aaabe1381eccdd36a148bc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlList::itemTextOffsetX</definition>
+        <argsstring></argsstring>
+        <name>itemTextOffsetX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="823" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="823" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a5049c5f791ccfeaec780d9012803475b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlList::itemTextOffsetY</definition>
+        <argsstring></argsstring>
+        <name>itemTextOffsetY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="824" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3f3cd81d6ec257569ae8636e965ba3b4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t XBMCAddon::xbmcgui::ControlList::alignmentY</definition>
+        <argsstring></argsstring>
+        <name>alignmentY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="825" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="825" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a99224662e0fa4966a084db7693c841fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::internAddListItem</definition>
+        <argsstring>(AddonClass::Ref&lt; ListItem &gt; listitem, bool sendMessage)</argsstring>
+        <name>internAddListItem</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1AddonClass_1_1Ref" kindref="compound">AddonClass::Ref</ref>&lt; <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">ListItem</ref> &gt;</type>
+          <declname>listitem</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sendMessage</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="624" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1194" bodyend="1205"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a7398995e1dbd8a504548147a3b5aa4c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlList::ControlList</definition>
+        <argsstring>(long x, long y, long width, long height, const char *font=NULL, const char *textColor=NULL, const char *buttonTexture=NULL, const char *buttonFocusTexture=NULL, const char *selectedColor=NULL, long _imageWidth=10, long _imageHeight=10, long _itemTextXOffset=CONTROL_TEXT_OFFSET_X, long _itemTextYOffset=CONTROL_TEXT_OFFSET_Y, long _itemHeight=27, long _space=2, long _alignmentY=XBFONT_CENTER_Y)</argsstring>
+        <name>ControlList</name>
+        <param>
+          <type>long</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buttonTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buttonFocusTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>selectedColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_imageWidth</declname>
+          <defval>10</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_imageHeight</declname>
+          <defval>10</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_itemTextXOffset</declname>
+          <defval>CONTROL_TEXT_OFFSET_X</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_itemTextYOffset</declname>
+          <defval>CONTROL_TEXT_OFFSET_Y</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_itemHeight</declname>
+          <defval>27</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_space</declname>
+          <defval>2</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_alignmentY</declname>
+          <defval>XBFONT_CENTER_Y</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="633" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1106" bodyend="1147"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae69e7d04683fdbf32e681b59be236a24" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlList::~ControlList</definition>
+        <argsstring>()</argsstring>
+        <name>~ControlList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="635" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1149" bodyend="1149"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aef751e0b16922005d366f74a5506cfba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::addItemStream</definition>
+        <argsstring>(const String &amp;fileOrUrl, bool sendMessage=true)</argsstring>
+        <name>addItemStream</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a629b3ff8946ff28bdeac588144123b92">addItemStream</reimplements>
+        <param>
+          <type>const String &amp;</type>
+          <declname>fileOrUrl</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sendMessage</declname>
+          <defval>true</defval>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>,WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addItem(item) <ndash/> Add a new item to this list control.</para><para>item : string, unicode or <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">ListItem</ref> - item to add.</para><para>example:<itemizedlist>
+<listitem><para>cList.addItem(&apos;Reboot XBMC&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="645" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1184" bodyend="1187"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aff4dff699d39fc031f922d4a6e8a6fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::addListItem</definition>
+        <argsstring>(const XBMCAddon::xbmcgui::ListItem *listitem, bool sendMessage=true)</argsstring>
+        <name>addListItem</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a51374ba4aa293f4e04df8856b06adf8a">addListItem</reimplements>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *</type>
+          <declname>listitem</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sendMessage</declname>
+          <defval>true</defval>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>,WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="646" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1189" bodyend="1192"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a7b6b5f6552f9802ff076f541f81a8bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::selectItem</definition>
+        <argsstring>(long item)</argsstring>
+        <name>selectItem</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a1d4cbbd70af5ececee9819bd13b31294">selectItem</reimplements>
+        <param>
+          <type>long</type>
+          <declname>item</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>selectItem(item) <ndash/> Select an item by index number.</para><para>item : integer - index number of the item to select.</para><para>example:<itemizedlist>
+<listitem><para>cList.selectItem(12) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="656" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1219" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3c23efa49b0e70915f410e0c12747d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a693895dcdebc931731650490396e99b4">reset</reimplements>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3c23efa49b0e70915f410e0c12747d6e" kindref="member">reset()</ref> <ndash/> Clear all ListItems in this control list.</para><para>example:<itemizedlist>
+<listitem><para>cList.reset()<linebreak/>
+ </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="664" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1228" bodyend="1237"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a9b9ac0cd03a6d14c732050f707943d42" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+        <definition>Control * XBMCAddon::xbmcgui::ControlList::getSpinControl</definition>
+        <argsstring>()</argsstring>
+        <name>getSpinControl</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a83008e43ccff27c3ae1a781dce2a2934">getSpinControl</reimplements>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a9b9ac0cd03a6d14c732050f707943d42" kindref="member">getSpinControl()</ref> <ndash/> returns the associated <ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin" kindref="compound">ControlSpin</ref> object.</para><para>*Note, Not working completely yet - After adding this control list to a window it is not possible to change the settings of this spin control.</para><para>example:<itemizedlist>
+<listitem><para>ctl = cList.getSpinControl() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="676" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1239" bodyend="1242"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a6ddf11d3b177ccbb130b0dc8405b42e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmcgui::ControlList::getSelectedPosition</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedPosition</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac5bdfb98171294a6c23f027aca06e8a3">getSelectedPosition</reimplements>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a6ddf11d3b177ccbb130b0dc8405b42e5" kindref="member">getSelectedPosition()</ref> <ndash/> Returns the position of the selected item as an integer.</para><para>*Note, Returns -1 for empty lists.</para><para>example:<itemizedlist>
+<listitem><para>pos = cList.getSelectedPosition() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="686" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1244" bodyend="1261"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a178d1efd7e16d9fa4af74c03c0d91c06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *</type>
+        <definition>XBMCAddon::xbmcgui::ListItem * XBMCAddon::xbmcgui::ControlList::getSelectedItem</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedItem</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad3f6d8dcda92b95b6a18feca695e392b">getSelectedItem</reimplements>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a178d1efd7e16d9fa4af74c03c0d91c06" kindref="member">getSelectedItem()</ref> <ndash/> Returns the selected item as a <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">ListItem</ref> object.</para><para>*Note, Same as <ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a6ddf11d3b177ccbb130b0dc8405b42e5" kindref="member">getSelectedPosition()</ref>, but instead of an integer a <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">ListItem</ref> object is returned. Returns None for empty lists. See windowexample.py on how to use this.</para><para>example:<itemizedlist>
+<listitem><para>item = cList.getSelectedItem() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="698" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1263" bodyend="1281"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1afcdcdf22056586f12eeac0c57756b899" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::setImageDimensions</definition>
+        <argsstring>(long imageWidth, long imageHeight)</argsstring>
+        <name>setImageDimensions</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a01737c9ff88c99a2f6038c03ec5f733c">setImageDimensions</reimplements>
+        <param>
+          <type>long</type>
+          <declname>imageWidth</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>imageHeight</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setImageDimensions(imageWidth, imageHeight) <ndash/> Sets the width/height of items icon or thumbnail.</para><para>imageWidth : [opt] integer - width of items icon or thumbnail. imageHeight : [opt] integer - height of items icon or thumbnail.</para><para>example:<itemizedlist>
+<listitem><para>cList.setImageDimensions(18, 18)<linebreak/>
+ </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="711" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1283" bodyend="1295"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a2264e4af27e7fab9345db925543a896d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::setItemHeight</definition>
+        <argsstring>(long height)</argsstring>
+        <name>setItemHeight</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aa8e12ada769ab3e60bcbc4dbe84a1704">setItemHeight</reimplements>
+        <param>
+          <type>long</type>
+          <declname>height</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setItemHeight(itemHeight) <ndash/> Sets the height of items.</para><para>itemHeight : integer - height of items.</para><para>example:<itemizedlist>
+<listitem><para>cList.setItemHeight(25) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="722" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1297" bodyend="1309"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1add4d7ad57e17c4e08ab81c4cdfe035d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::setSpace</definition>
+        <argsstring>(int space)</argsstring>
+        <name>setSpace</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a2bf5c2786d7ae60a9a5fde75c9ba350b">setSpace</reimplements>
+        <param>
+          <type>int</type>
+          <declname>space</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setSpace(space) <ndash/> Set&apos;s the space between items.</para><para>space : [opt] integer - space between items.</para><para>example:<itemizedlist>
+<listitem><para>cList.setSpace(5) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="733" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1311" bodyend="1323"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3f6538400fd26b44ce76b3e9973225e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::setPageControlVisible</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>setPageControlVisible</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a74dce6add1e059a338056d648d2840b3">setPageControlVisible</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setPageControlVisible(visible) <ndash/> Sets the spin control&apos;s visible/hidden state.</para><para>visible : boolean - True=visible / False=hidden.</para><para>example:<itemizedlist>
+<listitem><para>cList.setPageControlVisible(True) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="744" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1325" bodyend="1339"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a64756cbabc1bddc6e0e1ec8fccf83303" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmcgui::ControlList::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0145ea5b68d025f5d641c6b1bed2a1b6">size</reimplements>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a64756cbabc1bddc6e0e1ec8fccf83303" kindref="member">size()</ref> <ndash/> Returns the total number of items in this list control as an integer.</para><para>example:<itemizedlist>
+<listitem><para>cnt = cList.size() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="753" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1341" bodyend="1344"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ad3b89116d0fe64b377088f44c879ab73" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmcgui::ControlList::getItemHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getItemHeight</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a632ef6651d4bca79ca733cc83fec66bc">getItemHeight</reimplements>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ad3b89116d0fe64b377088f44c879ab73" kindref="member">getItemHeight()</ref> <ndash/> Returns the control&apos;s current item height as an integer.</para><para>example:<itemizedlist>
+<listitem><para>item_height = self.cList.getItemHeight()<linebreak/>
+ </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="763" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1346" bodyend="1349"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae3e5f54ecf25888322473a94e8208625" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmcgui::ControlList::getSpace</definition>
+        <argsstring>()</argsstring>
+        <name>getSpace</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a87a4d60def195f5f8001ef7536b2812c">getSpace</reimplements>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae3e5f54ecf25888322473a94e8208625" kindref="member">getSpace()</ref> <ndash/> Returns the control&apos;s space between items as an integer.</para><para>example:<itemizedlist>
+<listitem><para>gap = self.cList.getSpace()<linebreak/>
+ </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="772" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1351" bodyend="1354"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ab004e7197c849f2b42e7d378a5eb3216" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *</type>
+        <definition>XBMCAddon::xbmcgui::ListItem * XBMCAddon::xbmcgui::ControlList::getListItem</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getListItem</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac9d7efc674bfc9117dbebdde1192837e">getListItem</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>,WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getListItem(index) <ndash/> Returns a given <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">ListItem</ref> in this <ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref>.</para><para>index : integer - index number of item to return.</para><para>*Note, throws a ValueError if index is out of range.</para><para>example:<itemizedlist>
+<listitem><para>listitem = cList.getListItem(6)<linebreak/>
+ </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="785" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1356" bodyend="1363"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ac9a64be324db472c2d17ac7301e632f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::setStaticContent</definition>
+        <argsstring>(const ListItemList *items)</argsstring>
+        <name>setStaticContent</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a43823b6dff1fc5c73809350834e16665">setStaticContent</reimplements>
+        <param>
+          <type>const ListItemList *</type>
+          <declname>items</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setStaticContent(items) <ndash/> Fills a static list with a list of listitems.</para><para>items : <ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> - list of listitems to add.</para><para>*Note, You can use the above as keywords for arguments.</para><para>example:<itemizedlist>
+<listitem><para>cList.setStaticContent(items=listitems)<linebreak/>
+ </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="797" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1365" bodyend="1385"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1abdd4d6ecd86e66978853159753bd5686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlList::sendLabelBind</definition>
+        <argsstring>(int tail)</argsstring>
+        <name>sendLabelBind</name>
+        <param>
+          <type>int</type>
+          <declname>tail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="800" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1207" bodyend="1217"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a69c70e0b9e0797b234a771b3cac360f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::ControlList::canAcceptMessages</definition>
+        <argsstring>(int actionId)</argsstring>
+        <name>canAcceptMessages</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad44fc311107f120e1bf5f9e0c1814211">canAcceptMessages</reimplements>
+        <param>
+          <type>int</type>
+          <declname>actionId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="803" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="802" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae08d29c43d6c2122e7dc4b84a109fb1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlList::ControlList</definition>
+        <argsstring>()</argsstring>
+        <name>ControlList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="807" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="807" bodyend="807"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a99141f59333f35004865b44d715aa11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL CGUIControl *</type>
+        <definition>CGUIControl * XBMCAddon::xbmcgui::ControlList::Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a90551421a79adc25f50592d0d0043e89">Create</reimplements>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="827" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1151" bodyend="1182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList" kindref="compound">ControlList</ref> class.</para><para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList" kindref="compound">ControlList</ref>(x, y, width, height[, font, textColor, buttonTexture, buttonFocusTexture, selectedColor, imageWidth, imageHeight, itemTextXOffset, itemTextYOffset, itemHeight, space, alignmentY])<linebreak/>
+"//, shadowColor])</para><para>x : integer - x coordinate of control. y : integer - y coordinate of control. width : integer - width of control. height : integer - height of control. font : [opt] string - font used for items label. (e.g. &apos;font13&apos;) textColor : [opt] hexstring - color of items label. (e.g. &apos;0xFFFFFFFF&apos;) buttonTexture : [opt] string - filename for focus texture. buttonFocusTexture : [opt] string - filename for no focus texture. selectedColor : [opt] integer - x offset of label. imageWidth : [opt] integer - width of items icon or thumbnail. imageHeight : [opt] integer - height of items icon or thumbnail. itemTextXOffset : [opt] integer - x offset of items label. itemTextYOffset : [opt] integer - y offset of items label. itemHeight : [opt] integer - height of items. space : [opt] integer - space between items. alignmentY : [opt] integer - Y-axis alignment of items label - *Note, see xbfont.h //"shadowColor : [opt] hexstring - color of items label&apos;s shadow. (e.g. &apos;0xFF000000&apos;)</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword. After you create the control, you need to add it to the window with addControl().</para><para>example:<itemizedlist>
+<listitem><para>self.cList = <ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlList" kindref="compound">xbmcgui.ControlList</ref>(100, 250, 200, 250, &apos;font14&apos;, space=5) </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="216">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+      </node>
+      <node id="215">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>XBMCAddon::xbmcgui::ControlList</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlList"/>
+        <childnode refid="215" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="219">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="220" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="221">
+        <label>XBMCAddon::xbmcgui::ListItem</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ListItem"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+        <childnode refid="221" relation="usage">
+          <edgelabel>WindowException</edgelabel>
+        </childnode>
+      </node>
+      <node id="217">
+        <label>XBMCAddon::xbmcgui::ControlList</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlList"/>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+        <childnode refid="222" relation="usage">
+          <edgelabel>pControlSpin</edgelabel>
+        </childnode>
+      </node>
+      <node id="222">
+        <label>XBMCAddon::AddonClass::Ref&lt; ControlSpin &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="220">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="623" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="622" bodyend="829"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aef751e0b16922005d366f74a5506cfba" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>addItemStream</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a398f57e93e3bf1680191d7e94690d024" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>addLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aff4dff699d39fc031f922d4a6e8a6fd2" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>addListItem</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a3ec5b6d08299a5b8913967c855e536c0" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a0a75a3b4efb4b2ac3c995465e9b9e6a9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3f3cd81d6ec257569ae8636e965ba3b4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>alignmentY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a69c70e0b9e0797b234a771b3cac360f2" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>canAcceptMessages</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0df9d800b7bfaec4211f7bcb60d3c851" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>Control</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a4337ab7595b7cc6aca2eb7510067c728" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>controlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac1e1aa737b881c6d48e8f835a9a38f3b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>controlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a7398995e1dbd8a504548147a3b5aa4c5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>ControlList</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae08d29c43d6c2122e7dc4b84a109fb1c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>ControlList</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0f64496cd3f47bb86a69096984060681" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>controlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac22927946710cc0152f80ec03f2a7b19" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>controlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a99141f59333f35004865b44d715aa11d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>Create</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a459ef963aff77bcd3b94c731580cca92" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>dwHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0594c29026ce33f93da497d4739cf2db" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>dwPosX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a082bd10bb17b2e06ba2c66e4d5c89076" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>dwPosY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a09ec4357c7696031c0dbf27dfe9a7ab3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>dwWidth</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5006d4fc03ec77770e5e06e8b112ee60" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a1324db4f6a1c923f40711344f7e208ff" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6a3989df5298f5165b59a73155bafdb1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ad3b89116d0fe64b377088f44c879ab73" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getItemHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a7679e8634b7adbc2b932d46575c07f2d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a66c50b660da6d20bfc2b395bb14deb94" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getLabel2</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ab004e7197c849f2b42e7d378a5eb3216" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getListItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a929d64b1a1272e895dcc893a326efd4e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getPercent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a21a679353632887bed370b0d54c841b3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a653c8c9fe36dd8c00a9ac45da7bdd82d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getSelected</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a178d1efd7e16d9fa4af74c03c0d91c06" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getSelectedItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a6ddf11d3b177ccbb130b0dc8405b42e5" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getSelectedPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae3e5f54ecf25888322473a94e8208625" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getSpace</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a9b9ac0cd03a6d14c732050f707943d42" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getSpinControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1acc6563c94e9963472005adddc8a07814" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getText</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af1b19d1516e7756e16eedfc880602243" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac72e0cadbf7a8b0ec66299085fdb8083" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aadf9649e0f9891d00bc22e7e0dda7df0" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>getY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a010243cc31f63805e840261bb06db684" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>iControlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a831f2a90cd2386d6619b8d3244f3c3c6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>iControlId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6d2c926cbf74ea3319f6751613a439d9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>iControlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab5d517c7663a4b9d974fe5abcaec8462" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>iControlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a59ac3f58260c830b0104198420157ae4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>iControlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a877713453d448642580b6a257c6bfa40" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>imageHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a8415d6764d707d566bb0303afd5cf388" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>imageWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a99224662e0fa4966a084db7693c841fd" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>internAddListItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a762cabd8a02fa224e164cd2b7e467465" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>iParentId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aa8fbf6c4d9990213c4fb684fb43b6025" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>isSelected</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1af378466c75175d77f56f60f7732d13f1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>itemHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a7e205f0113aaabe1381eccdd36a148bc" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>itemTextOffsetX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a5049c5f791ccfeaec780d9012803475b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>itemTextOffsetY</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a7bd60f560d45968bbe1426c263198534" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>operator&lt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a43fa362a752eef414ce817a9949a1cf1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>operator==</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac622958d57c2680ad7077bd8bf00d41e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>operator&gt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aa9362f33ed16d0b16eca5dabc3ea4cbe" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>pControlSpin</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aefdaa3fba21ce3ffeb4d21268aeb947a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>pGUIControl</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3c23efa49b0e70915f410e0c12747d6e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>reset</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a075261aa6c764352a50209aab4eaae72" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>scroll</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a0ad056a5d2d57065d7e365472c9bfe5f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>selectedColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a7b6b5f6552f9802ff076f541f81a8bc8" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>selectItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1abdd4d6ecd86e66978853159753bd5686" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>sendLabelBind</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af9d0e604ae56521b35b04acb93613f9e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setAnimations</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a18e808a6219946cb50a1282607be207e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setColorDiffuse</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a4589457684372706c7c621a5e128c758" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setDisabledColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac45a0f76e5d0605a1706abac62952df8" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setEnableCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a2741facef1d6730289d5572e256678f7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setEnabled</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a25280450c5fbf816106d82840e2b9442" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a39b855060de1b19a7b5cb2f8b9480abc" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setImage</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1afcdcdf22056586f12eeac0c57756b899" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setImageDimensions</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a2264e4af27e7fab9345db925543a896d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setItemHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a364129c170d016cb8235922cdffdb04a" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a8f280d0ba18e1766ffdb0cec17dbc464" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setNavigation</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3f6538400fd26b44ce76b3e9973225e3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setPageControlVisible</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a028397ad7a0b9c0fe4192ad814a9ff93" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setPercent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a03048c7627077b3bb9c2197d6ddf8152" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab315f135a6885095c8e0feb7704b50c6" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setRadioDimension</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a9e91e948eae9f9128ab4cd34e4e04678" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setSelected</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1add4d7ad57e17c4e08ab81c4cdfe035d1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setSpace</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ac9a64be324db472c2d17ac7301e632f3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setStaticContent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad03b0dc8052b287d56fa86162a1f39ea" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setText</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad9c53c325b8491abd8e9194094a5c5a5" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setTextures</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a80e809b56d258c43ea813315c15b6c81" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setVisible</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6f5b424b8bde8e4210e6e20572abf72d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setVisibleCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aaf6c51df65738d70afca44842119b360" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>setWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a64756cbabc1bddc6e0e1ec8fccf83303" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>size</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aa92e817bd8ca0c93323fe846e032fbb4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>space</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3a3d431ce16c1b3c958a0ae600483faa" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>strFont</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a08cd1e63b7a13817a23d4dea4d3e7649" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>strTextureButton</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1afe2b91555708d00ac3c3dc10ba0a9ef1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>strTextureButtonFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aa8b81632342b42d507e384637f2b3a9b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>textColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1af662eb159c4ba85d7186a0909a2c282a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>vecItems</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a92062437972cb63d5e3a3d7a52f5a817" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>WindowException</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab7e2e25ceebca04c0a5294a28fccf48e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>WindowException</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a76cf22380945688660f8fe9befa388ab" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>~Control</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae69e7d04683fdbf32e681b59be236a24" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlList</scope><name>~ControlList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

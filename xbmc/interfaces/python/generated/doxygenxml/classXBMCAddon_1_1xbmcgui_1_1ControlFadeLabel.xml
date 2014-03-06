@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::ControlFadeLabel</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1Control" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::Control</basecompoundref>
+    <includes refid="Control_8h" local="no">Control.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1ac5edec1448db725c1ef626da0ba10096" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlFadeLabel::strFont</definition>
+        <argsstring></argsstring>
+        <name>strFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="881" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="881" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1aed07a7c51db20b42517322da3ac8c93c" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlFadeLabel::textColor</definition>
+        <argsstring></argsstring>
+        <name>textColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="882" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="882" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a5906d06408009046c6a388e777a0fba0" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; XBMCAddon::xbmcgui::ControlFadeLabel::vecLabels</definition>
+        <argsstring></argsstring>
+        <name>vecLabels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="883" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="883" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a5720d489c5c55d8606ec82bd85a85f10" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t XBMCAddon::xbmcgui::ControlFadeLabel::align</definition>
+        <argsstring></argsstring>
+        <name>align</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="884" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="884" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1ab4169c9ca04626b824767282f941dc5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlFadeLabel::ControlFadeLabel</definition>
+        <argsstring>(long x, long y, long width, long height, const char *font=NULL, const char *textColor=NULL, long _alignment=XBFONT_LEFT)</argsstring>
+        <name>ControlFadeLabel</name>
+        <param>
+          <type>long</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_alignment</declname>
+          <defval>XBFONT_LEFT</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="859" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="55" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1ae036164ad82e3489912b70c4287203ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlFadeLabel::addLabel</definition>
+        <argsstring>(const String &amp;label)</argsstring>
+        <name>addLabel</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a398f57e93e3bf1680191d7e94690d024">addLabel</reimplements>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addLabel(label) <ndash/> Add a label to this control for scrolling.</para><para>label : string or unicode - text string.</para><para>example:<itemizedlist>
+<listitem><para>self.fadelabel.addLabel(&apos;This is a line of text that can scroll.&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="870" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a50ec01bad9593f9f995ddeb00ca0b36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlFadeLabel::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a693895dcdebc931731650490396e99b4">reset</reimplements>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a50ec01bad9593f9f995ddeb00ca0b36d" kindref="member">reset()</ref> <ndash/> Clear this fade label.</para><para>example:<itemizedlist>
+<listitem><para>self.fadelabel.reset()<linebreak/>
+ </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="878" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="83" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a41d1a0750a0ed21c56104d67e31d39b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL CGUIControl *</type>
+        <definition>CGUIControl * XBMCAddon::xbmcgui::ControlFadeLabel::Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a90551421a79adc25f50592d0d0043e89">Create</reimplements>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="886" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="91" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a48286919bdb8fc3271d48ba9133eec2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlFadeLabel::ControlFadeLabel</definition>
+        <argsstring>()</argsstring>
+        <name>ControlFadeLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="888" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="888" bodyend="888"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel" kindref="compound">ControlFadeLabel</ref> class. <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> that scroll&apos;s labl</para><para>ControlFadeLabel(x, y, width, height[, font, textColor, alignment])</para><para>x : integer - x coordinate of control. y : integer - y coordinate of control. width : integer - width of control. height : integer - height of control. font : [opt] string - font used for label text. (e.g. &apos;font13&apos;) textColor : [opt] hexstring - color of fadelabel&apos;s labels. (e.g. &apos;0xFFFFFFFF&apos;) alignment : [opt] integer - alignment of label - *Note, see xbfont.h</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword. After you create the control, you need to add it to the window with addControl().</para><para>example:<itemizedlist>
+<listitem><para>self.fadelabel = <ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel" kindref="compound">xbmcgui.ControlFadeLabel</ref>(100, 250, 200, 50, textColor=&apos;0xFFFFFFFF&apos;) </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="184">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+      </node>
+      <node id="182">
+        <label>XBMCAddon::xbmcgui::ControlFadeLabel</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel"/>
+        <childnode refid="183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="184" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="187">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="188" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="189">
+        <label>XBMCAddon::xbmcgui::ListItem</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ListItem"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>XBMCAddon::xbmcgui::ControlFadeLabel</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel"/>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+        <childnode refid="189" relation="usage">
+          <edgelabel>WindowException</edgelabel>
+        </childnode>
+      </node>
+      <node id="188">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" line="854" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="853" bodyend="890"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a629b3ff8946ff28bdeac588144123b92" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>addItemStream</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1ae036164ad82e3489912b70c4287203ed" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>addLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a51374ba4aa293f4e04df8856b06adf8a" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>addListItem</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a3ec5b6d08299a5b8913967c855e536c0" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a0a75a3b4efb4b2ac3c995465e9b9e6a9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a5720d489c5c55d8606ec82bd85a85f10" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>align</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad44fc311107f120e1bf5f9e0c1814211" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>canAcceptMessages</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0df9d800b7bfaec4211f7bcb60d3c851" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>Control</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a4337ab7595b7cc6aca2eb7510067c728" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>controlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1ab4169c9ca04626b824767282f941dc5d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>ControlFadeLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a48286919bdb8fc3271d48ba9133eec2f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>ControlFadeLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac1e1aa737b881c6d48e8f835a9a38f3b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>controlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0f64496cd3f47bb86a69096984060681" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>controlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac22927946710cc0152f80ec03f2a7b19" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>controlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a41d1a0750a0ed21c56104d67e31d39b3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>Create</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a459ef963aff77bcd3b94c731580cca92" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>dwHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0594c29026ce33f93da497d4739cf2db" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>dwPosX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a082bd10bb17b2e06ba2c66e4d5c89076" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>dwPosY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a09ec4357c7696031c0dbf27dfe9a7ab3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>dwWidth</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5006d4fc03ec77770e5e06e8b112ee60" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a1324db4f6a1c923f40711344f7e208ff" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6a3989df5298f5165b59a73155bafdb1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a632ef6651d4bca79ca733cc83fec66bc" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getItemHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a7679e8634b7adbc2b932d46575c07f2d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a66c50b660da6d20bfc2b395bb14deb94" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getLabel2</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac9d7efc674bfc9117dbebdde1192837e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getListItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a929d64b1a1272e895dcc893a326efd4e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getPercent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a21a679353632887bed370b0d54c841b3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a653c8c9fe36dd8c00a9ac45da7bdd82d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getSelected</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad3f6d8dcda92b95b6a18feca695e392b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getSelectedItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac5bdfb98171294a6c23f027aca06e8a3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getSelectedPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a87a4d60def195f5f8001ef7536b2812c" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getSpace</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a83008e43ccff27c3ae1a781dce2a2934" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getSpinControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1acc6563c94e9963472005adddc8a07814" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getText</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af1b19d1516e7756e16eedfc880602243" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac72e0cadbf7a8b0ec66299085fdb8083" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aadf9649e0f9891d00bc22e7e0dda7df0" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>getY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a010243cc31f63805e840261bb06db684" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>iControlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a831f2a90cd2386d6619b8d3244f3c3c6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>iControlId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6d2c926cbf74ea3319f6751613a439d9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>iControlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab5d517c7663a4b9d974fe5abcaec8462" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>iControlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a59ac3f58260c830b0104198420157ae4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>iControlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a762cabd8a02fa224e164cd2b7e467465" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>iParentId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aa8fbf6c4d9990213c4fb684fb43b6025" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>isSelected</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a7bd60f560d45968bbe1426c263198534" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>operator&lt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a43fa362a752eef414ce817a9949a1cf1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>operator==</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac622958d57c2680ad7077bd8bf00d41e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>operator&gt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aefdaa3fba21ce3ffeb4d21268aeb947a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>pGUIControl</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a50ec01bad9593f9f995ddeb00ca0b36d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>reset</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a075261aa6c764352a50209aab4eaae72" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>scroll</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a1d4cbbd70af5ececee9819bd13b31294" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>selectItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af9d0e604ae56521b35b04acb93613f9e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setAnimations</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a18e808a6219946cb50a1282607be207e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setColorDiffuse</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a4589457684372706c7c621a5e128c758" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setDisabledColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac45a0f76e5d0605a1706abac62952df8" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setEnableCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a2741facef1d6730289d5572e256678f7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setEnabled</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a25280450c5fbf816106d82840e2b9442" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a39b855060de1b19a7b5cb2f8b9480abc" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setImage</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a01737c9ff88c99a2f6038c03ec5f733c" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setImageDimensions</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aa8e12ada769ab3e60bcbc4dbe84a1704" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setItemHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a364129c170d016cb8235922cdffdb04a" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a8f280d0ba18e1766ffdb0cec17dbc464" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setNavigation</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a74dce6add1e059a338056d648d2840b3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setPageControlVisible</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a028397ad7a0b9c0fe4192ad814a9ff93" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setPercent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a03048c7627077b3bb9c2197d6ddf8152" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab315f135a6885095c8e0feb7704b50c6" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setRadioDimension</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a9e91e948eae9f9128ab4cd34e4e04678" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setSelected</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a2bf5c2786d7ae60a9a5fde75c9ba350b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setSpace</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a43823b6dff1fc5c73809350834e16665" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setStaticContent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad03b0dc8052b287d56fa86162a1f39ea" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setText</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad9c53c325b8491abd8e9194094a5c5a5" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setTextures</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a80e809b56d258c43ea813315c15b6c81" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setVisible</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6f5b424b8bde8e4210e6e20572abf72d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setVisibleCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aaf6c51df65738d70afca44842119b360" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>setWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0145ea5b68d025f5d641c6b1bed2a1b6" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>size</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1ac5edec1448db725c1ef626da0ba10096" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>strFont</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1aed07a7c51db20b42517322da3ac8c93c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>textColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a5906d06408009046c6a388e777a0fba0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>vecLabels</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a92062437972cb63d5e3a3d7a52f5a817" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>WindowException</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab7e2e25ceebca04c0a5294a28fccf48e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>WindowException</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a76cf22380945688660f8fe9befa388ab" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlFadeLabel</scope><name>~Control</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

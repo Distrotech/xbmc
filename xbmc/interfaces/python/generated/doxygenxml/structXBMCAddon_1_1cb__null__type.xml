@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="structXBMCAddon_1_1cb__null__type" kind="struct" prot="public">
+    <compoundname>XBMCAddon::cb_null_type</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="51" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="51" bodyend="51"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

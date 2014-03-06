@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classXBMCAddon_1_1UnhandledException" kind="class" prot="public">
+    <compoundname>XBMCAddon::UnhandledException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <includes refid="Exception_8h" local="no">Exception.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1UnhandledException_1a64b731f40bae893d8ba5d981a7d87c52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::UnhandledException::UnhandledException</definition>
+        <argsstring>(const UnhandledException &amp;other)</argsstring>
+        <name>UnhandledException</name>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1UnhandledException" kindref="compound">UnhandledException</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Exception.h" line="59" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Exception.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1UnhandledException_1a750b54395b433d913676b62e61acd3d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::UnhandledException::UnhandledException</definition>
+        <argsstring>(const char *_message,...)</argsstring>
+        <name>UnhandledException</name>
+        <param>
+          <type>const char *</type>
+          <declname>_message</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Exception.h" line="60" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Exception.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is what callback exceptions from the scripting language are translated to. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="422">
+        <label>XBMCAddon::UnhandledException</label>
+        <link refid="classXBMCAddon_1_1UnhandledException"/>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>XbmcCommons::Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="424">
+        <label>XBMCAddon::UnhandledException</label>
+        <link refid="classXBMCAddon_1_1UnhandledException"/>
+        <childnode refid="425" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>XbmcCommons::Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Exception.h" line="57" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Exception.h" bodystart="56" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1UnhandledException_1a64b731f40bae893d8ba5d981a7d87c52" prot="public" virt="non-virtual"><scope>XBMCAddon::UnhandledException</scope><name>UnhandledException</name></member>
+      <member refid="classXBMCAddon_1_1UnhandledException_1a750b54395b433d913676b62e61acd3d2" prot="public" virt="non-virtual"><scope>XBMCAddon::UnhandledException</scope><name>UnhandledException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

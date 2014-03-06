@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classCGUIMediaWindow" kind="class" prot="public">
+    <compoundname>CGUIMediaWindow</compoundname>
+    <derivedcompoundref refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::Interceptor&lt; CGUIMediaWindow &gt;</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="134">
+        <label>CGUIMediaWindow</label>
+        <link refid="classCGUIMediaWindow"/>
+      </node>
+      <node id="136">
+        <label>XBMCAddon::xbmcgui::InterceptorDialog&lt; CGUIMediaWindow &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>XBMCAddon::xbmcgui::Interceptor&lt; CGUIMediaWindow &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>XBMCAddon::xbmcgui::WindowXMLInterceptor</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor"/>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="118"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classXBMCAddon_1_1Tuple" kind="class" prot="public">
+    <compoundname>XBMCAddon::Tuple</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T1</type>
+        <defval><ref refid="structXBMCAddon_1_1tuple__null__type" kindref="compound">tuple_null_type</ref></defval>
+      </param>
+      <param>
+        <type>typename T2</type>
+        <defval><ref refid="structXBMCAddon_1_1tuple__null__type" kindref="compound">tuple_null_type</ref></defval>
+      </param>
+      <param>
+        <type>typename T3</type>
+        <defval><ref refid="structXBMCAddon_1_1tuple__null__type" kindref="compound">tuple_null_type</ref></defval>
+      </param>
+      <param>
+        <type>typename T4</type>
+        <defval><ref refid="structXBMCAddon_1_1tuple__null__type" kindref="compound">tuple_null_type</ref></defval>
+      </param>
+      <param>
+        <type>typename Extraneous</type>
+        <defval><ref refid="structXBMCAddon_1_1tuple__null__type" kindref="compound">tuple_null_type</ref></defval>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/Tuple.h" line="46" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/Tuple.h" bodystart="46" bodyend="46"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

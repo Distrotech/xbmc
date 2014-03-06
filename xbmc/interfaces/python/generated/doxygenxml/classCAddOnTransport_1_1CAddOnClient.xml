@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="classCAddOnTransport_1_1CAddOnClient" kind="class" prot="public">
+    <compoundname>CAddOnTransport::CAddOnClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IClient</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCAddOnTransport_1_1CAddOnClient_1a0a2c1c5751376a80f3c9d74be77ff83e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int CAddOnTransport::CAddOnClient::GetPermissionFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetPermissionFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" line="37" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classCAddOnTransport_1_1CAddOnClient_1aea109cb2b35268a2c69b4be6e4c5928e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int CAddOnTransport::CAddOnClient::GetAnnouncementFlags</definition>
+        <argsstring>()</argsstring>
+        <name>GetAnnouncementFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" line="38" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classCAddOnTransport_1_1CAddOnClient_1a8b4ede0ae7838c683bfb0e593f4faca2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CAddOnTransport::CAddOnClient::SetAnnouncementFlags</definition>
+        <argsstring>(int flags)</argsstring>
+        <name>SetAnnouncementFlags</name>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" line="39" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="79">
+        <label>JSONRPC::IClient</label>
+      </node>
+      <node id="78">
+        <label>CAddOnTransport::CAddOnClient</label>
+        <link refid="classCAddOnTransport_1_1CAddOnClient"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="81">
+        <label>JSONRPC::IClient</label>
+      </node>
+      <node id="80">
+        <label>CAddOnTransport::CAddOnClient</label>
+        <link refid="classCAddOnTransport_1_1CAddOnClient"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/src/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" line="35" bodyfile="/usr/src/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" bodystart="34" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classCAddOnTransport_1_1CAddOnClient_1aea109cb2b35268a2c69b4be6e4c5928e" prot="public" virt="virtual"><scope>CAddOnTransport::CAddOnClient</scope><name>GetAnnouncementFlags</name></member>
+      <member refid="classCAddOnTransport_1_1CAddOnClient_1a0a2c1c5751376a80f3c9d74be77ff83e" prot="public" virt="virtual"><scope>CAddOnTransport::CAddOnClient</scope><name>GetPermissionFlags</name></member>
+      <member refid="classCAddOnTransport_1_1CAddOnClient_1a8b4ede0ae7838c683bfb0e593f4faca2" prot="public" virt="virtual"><scope>CAddOnTransport::CAddOnClient</scope><name>SetAnnouncementFlags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
