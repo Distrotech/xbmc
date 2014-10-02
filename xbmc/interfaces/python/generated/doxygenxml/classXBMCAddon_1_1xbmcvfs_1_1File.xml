@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcvfs_1_1File" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcvfs::File</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <includes refid="File_8h" local="no">File.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcvfs_1_1File_1a545d1e680fade18d44739b5bcc6dadc0" prot="private" static="no" mutable="no">
+        <type>XFILE::CFile *</type>
+        <definition>XFILE::CFile* XBMCAddon::xbmcvfs::File::file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="46" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcvfs_1_1File_1a536468053281cb7fc89c6c235dcb9830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcvfs::File::File</definition>
+        <argsstring>(const String &amp;filepath, const char *mode=NULL)</argsstring>
+        <name>File</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>filepath</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>mode</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="48" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.h" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcvfs_1_1File_1a12538d94535ca47230a4766f4b07b163" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcvfs::File::~File</definition>
+        <argsstring>()</argsstring>
+        <name>~File</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="57" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcvfs_1_1File_1a35d6120334ffd3e4fbdd5a2ae42bcff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcvfs::File::read</definition>
+        <argsstring>(unsigned long numBytes=0)</argsstring>
+        <name>read</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>numBytes</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>read(bytes)<linebreak/>
+ <linebreak/>
+ bytes : how many bytes to read [opt]- if not set it will read the whole file<linebreak/>
+<linebreak/>
+ returns: string<linebreak/>
+ <linebreak/>
+ example:<linebreak/>
+ f = xbmcvfs.File(file)<linebreak/>
+ b = f.read()<linebreak/>
+ f.close()<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="71" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.h" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcvfs_1_1File_1abc962e9235893121d2938409e05bedf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XbmcCommons::Buffer</type>
+        <definition>XbmcCommons::Buffer XBMCAddon::xbmcvfs::File::readBytes</definition>
+        <argsstring>(unsigned long numBytes=0)</argsstring>
+        <name>readBytes</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>numBytes</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>readBytes(numbytes)<linebreak/>
+ <linebreak/>
+ numbytes : how many bytes to read [opt]- if not set it will read the whole file<linebreak/>
+<linebreak/>
+ returns: bytearray<linebreak/>
+ <linebreak/>
+ example:<linebreak/>
+ f = xbmcvfs.File(file)<linebreak/>
+ b = f.read()<linebreak/>
+ f.close()<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="89" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.cpp" bodystart="27" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcvfs_1_1File_1a570f6ecfa3d3c7bb7f41cb17766ac9bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcvfs::File::write</definition>
+        <argsstring>(XbmcCommons::Buffer &amp;buffer)</argsstring>
+        <name>write</name>
+        <param>
+          <type>XbmcCommons::Buffer &amp;</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>write(buffer)<linebreak/>
+ <linebreak/>
+ buffer : buffer to write to file<linebreak/>
+<linebreak/>
+ returns: true on success.<linebreak/>
+ <linebreak/>
+ example:<linebreak/>
+ f = <ref refid="classXBMCAddon_1_1xbmcvfs_1_1File" kindref="compound">xbmcvfs.File</ref>(file, &apos;w&apos;, True)<linebreak/>
+ result = f.write(buffer)<linebreak/>
+ f.close()<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="103" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.cpp" bodystart="54" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcvfs_1_1File_1ad74bac7bdd2eabdcb88a80d60a0ccfa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long long</type>
+        <definition>long long XBMCAddon::xbmcvfs::File::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcvfs_1_1File_1ad74bac7bdd2eabdcb88a80d60a0ccfa9" kindref="member">size()</ref><linebreak/>
+<linebreak/>
+example:<linebreak/>
+ f = xbmcvfs.File(file)<linebreak/>
+ s = f.size()<linebreak/>
+ f.close()<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="113" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcvfs_1_1File_1a447f9cb9f5114dc467bf4a5db30f257a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long long</type>
+        <definition>long long XBMCAddon::xbmcvfs::File::seek</definition>
+        <argsstring>(long long seekBytes, int iWhence)</argsstring>
+        <name>seek</name>
+        <param>
+          <type>long long</type>
+          <declname>seekBytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iWhence</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a447f9cb9f5114dc467bf4a5db30f257a" kindref="member">seek()</ref><linebreak/>
+<linebreak/>
+FilePosition : position in the file<linebreak/>
+Whence : where in a file to seek from[0 begining, 1 current , 2 end possition]<linebreak/>
+example:<linebreak/>
+ f = xbmcvfs.File(file)<linebreak/>
+ result = f.seek(8129, 0)<linebreak/>
+ f.close()<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="125" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcvfs_1_1File_1a7821702886269db7be17ef87e5252ff0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcvfs::File::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a7821702886269db7be17ef87e5252ff0" kindref="member">close()</ref><linebreak/>
+<linebreak/>
+example:<linebreak/>
+ f = xbmcvfs.File(file)<linebreak/>
+ f.close()<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="134" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcvfs_1_1File_1a519d534294fc21eeceacb1c07b88530f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const XFILE::CFile *</type>
+        <definition>const XFILE::CFile* XBMCAddon::xbmcvfs::File::getFile</definition>
+        <argsstring>() const </argsstring>
+        <name>getFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="137" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.h" bodystart="137" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcvfs_1_1File" kindref="compound">File</ref> class.<linebreak/>
+<linebreak/>
+&apos;w&apos; - opt open for write<linebreak/>
+example:<linebreak/>
+ f = <ref refid="classXBMCAddon_1_1xbmcvfs_1_1File" kindref="compound">xbmcvfs.File</ref>(file, [&apos;w&apos;])<linebreak/>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="334">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="335" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="333">
+        <label>XBMCAddon::xbmcvfs::File</label>
+        <link refid="classXBMCAddon_1_1xbmcvfs_1_1File"/>
+        <childnode refid="334" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="337">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="338" relation="public-inheritance">
+        </childnode>
+        <childnode refid="339" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="338">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="336">
+        <label>XBMCAddon::xbmcvfs::File</label>
+        <link refid="classXBMCAddon_1_1xbmcvfs_1_1File"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="339">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/File.h" line="45" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/File.h" bodystart="44" bodyend="140"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a7821702886269db7be17ef87e5252ff0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>close</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a545d1e680fade18d44739b5bcc6dadc0" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>file</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a536468053281cb7fc89c6c235dcb9830" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>File</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a519d534294fc21eeceacb1c07b88530f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>getFile</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a35d6120334ffd3e4fbdd5a2ae42bcff4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>read</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1abc962e9235893121d2938409e05bedf0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>readBytes</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a447f9cb9f5114dc467bf4a5db30f257a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>seek</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1ad74bac7bdd2eabdcb88a80d60a0ccfa9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>size</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a570f6ecfa3d3c7bb7f41cb17766ac9bb" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>write</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a12538d94535ca47230a4766f4b07b163" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcvfs::File</scope><name>~File</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

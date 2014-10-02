@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceXBMCAddon_1_1xbmcgui" kind="namespace">
+    <compoundname>XBMCAddon::xbmcgui</compoundname>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1Control" prot="public">XBMCAddon::xbmcgui::Control</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin" prot="public">XBMCAddon::xbmcgui::ControlSpin</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel" prot="public">XBMCAddon::xbmcgui::ControlLabel</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit" prot="public">XBMCAddon::xbmcgui::ControlEdit</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlList" prot="public">XBMCAddon::xbmcgui::ControlList</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel" prot="public">XBMCAddon::xbmcgui::ControlFadeLabel</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox" prot="public">XBMCAddon::xbmcgui::ControlTextBox</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage" prot="public">XBMCAddon::xbmcgui::ControlImage</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress" prot="public">XBMCAddon::xbmcgui::ControlProgress</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton" prot="public">XBMCAddon::xbmcgui::ControlButton</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark" prot="public">XBMCAddon::xbmcgui::ControlCheckMark</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlGroup" prot="public">XBMCAddon::xbmcgui::ControlGroup</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton" prot="public">XBMCAddon::xbmcgui::ControlRadioButton</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider" prot="public">XBMCAddon::xbmcgui::ControlSlider</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1Dialog" prot="public">XBMCAddon::xbmcgui::Dialog</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress" prot="public">XBMCAddon::xbmcgui::DialogProgress</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG" prot="public">XBMCAddon::xbmcgui::DialogProgressBG</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" prot="public">XBMCAddon::xbmcgui::ListItem</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1MaybeLock" prot="public">XBMCAddon::xbmcgui::MaybeLock</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1SingleLockWithDelayGuard" prot="public">XBMCAddon::xbmcgui::SingleLockWithDelayGuard</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ProxyExistingWindowInterceptor" prot="public">XBMCAddon::xbmcgui::ProxyExistingWindowInterceptor</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1Action" prot="public">XBMCAddon::xbmcgui::Action</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1Window" prot="public">XBMCAddon::xbmcgui::Window</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog" prot="public">XBMCAddon::xbmcgui::WindowDialog</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin" prot="public">XBMCAddon::xbmcgui::WindowDialogMixin</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase" prot="public">XBMCAddon::xbmcgui::InterceptorBase</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1ref" prot="public">XBMCAddon::xbmcgui::ref</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor" prot="public">XBMCAddon::xbmcgui::Interceptor</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog" prot="public">XBMCAddon::xbmcgui::InterceptorDialog</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor" prot="public">XBMCAddon::xbmcgui::WindowXMLInterceptor</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML" prot="public">XBMCAddon::xbmcgui::WindowXML</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog" prot="public">XBMCAddon::xbmcgui::WindowXMLDialog</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1_1xbmcgui_1a39b53b01156642854b09cdc9f401bff4" prot="public" static="no">
+        <type><ref refid="classXBMCAddon_1_1Alternative" kindref="compound">Alternative</ref>&lt; StringOrInt, <ref refid="classXBMCAddon_1_1Tuple" kindref="compound">Tuple</ref>&lt; String, StringOrInt &gt; &gt;</type>
+        <definition>typedef Alternative&lt;StringOrInt,Tuple&lt;String, StringOrInt&gt; &gt; XBMCAddon::xbmcgui::InfoLabelStringOrTuple</definition>
+        <argsstring></argsstring>
+        <name>InfoLabelStringOrTuple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ListItem.h" line="48" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ListItem.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1_1xbmcgui_1a7306ecdf4c6ccc889917e1f0251ad962" prot="public" static="no">
+        <type><ref refid="classXBMCAddon_1_1Alternative" kindref="compound">Alternative</ref>&lt; StringOrInt, std::vector&lt; <ref refid="classXBMCAddon_1_1Alternative" kindref="compound">InfoLabelStringOrTuple</ref> &gt; &gt;</type>
+        <definition>typedef Alternative&lt;StringOrInt, std::vector&lt;InfoLabelStringOrTuple&gt; &gt; XBMCAddon::xbmcgui::InfoLabelValue</definition>
+        <argsstring></argsstring>
+        <name>InfoLabelValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ListItem.h" line="51" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ListItem.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1_1xbmcgui_1a669fb471601b1306d9233ed25441363a" prot="public" static="no">
+        <type><ref refid="classXBMCAddon_1_1Dictionary" kindref="compound">Dictionary</ref>&lt; <ref refid="classXBMCAddon_1_1Alternative" kindref="compound">InfoLabelValue</ref> &gt;</type>
+        <definition>typedef Dictionary&lt;InfoLabelValue&gt; XBMCAddon::xbmcgui::InfoLabelDict</definition>
+        <argsstring></argsstring>
+        <name>InfoLabelDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ListItem.h" line="56" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ListItem.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1_1xbmcgui_1a9610ccdbce943dcce343a2decd76bdfc" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">ListItem</ref> * &gt;</type>
+        <definition>typedef std::vector&lt;ListItem*&gt; XBMCAddon::xbmcgui::ListItemList</definition>
+        <argsstring></argsstring>
+        <name>ListItemList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ListItem.h" line="383" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ListItem.h" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a25e32b33366e236e7129356fbc9f2671" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void XBMCAddon::xbmcgui::XBMCWaitForThreadMessage</definition>
+        <argsstring>(int message, int param1, int param2)</argsstring>
+        <name>XBMCWaitForThreadMessage</name>
+        <param>
+          <type>int</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>param1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>param2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" line="40" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1ac2cc0c8eae96e045a82e9b8c7c652fda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::XBMCCOMMONS_STANDARD_EXCEPTION</definition>
+        <argsstring>(ListItemException)</argsstring>
+        <name>XBMCCOMMONS_STANDARD_EXCEPTION</name>
+        <param>
+          <type>ListItemException</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ListItem.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1acc571d588f5981311b392265d549dd30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::lock</definition>
+        <argsstring>()</argsstring>
+        <name>lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>lock() <ndash/> Lock the gui until xbmcgui.unlock() is called.<linebreak/>
+<linebreak/>
+*Note, This will improve performance when doing a lot of gui manipulation at once.<linebreak/>
+ The main program (xbmc itself) will freeze until xbmcgui.unlock() is called.<linebreak/>
+ example:<itemizedlist>
+<listitem><para>xbmcgui.lock() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" line="35" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a61e2a0dfbcb0d2fbd2337f381c2f78a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::unlock</definition>
+        <argsstring>()</argsstring>
+        <name>unlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>unlock() <ndash/> Unlock the gui from a lock() call.</para><para>example:<itemizedlist>
+<listitem><para>xbmcgui.unlock() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" line="40" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a5f34276d53953b62cadb1a178c0633f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmcgui::getCurrentWindowId</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentWindowId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getCurrentWindowId() <ndash/> Returns the id for the current &apos;active&apos; window as an integer.</para><para>example:<itemizedlist>
+<listitem><para>wid = xbmcgui.getCurrentWindowId() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" line="45" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1ad6c56aaae462e9b71305afbbee7870ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmcgui::getCurrentWindowDialogId</definition>
+        <argsstring>()</argsstring>
+        <name>getCurrentWindowDialogId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getCurrentWindowDialogId() <ndash/> Returns the id for the current &apos;active&apos; dialog as an integer.</para><para>example:<itemizedlist>
+<listitem><para>wid = xbmcgui.getCurrentWindowDialogId() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" line="52" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a345011d0352300fad5607461c4ec557b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* XBMCAddon::xbmcgui::getNOTIFICATION_INFO</definition>
+        <argsstring>()</argsstring>
+        <name>getNOTIFICATION_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" line="59" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1ae62d0643ba6c5b1d21e556cad312ece1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* XBMCAddon::xbmcgui::getNOTIFICATION_WARNING</definition>
+        <argsstring>()</argsstring>
+        <name>getNOTIFICATION_WARNING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" line="60" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1abb536f894e8483a6c37e78e2291f71f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* XBMCAddon::xbmcgui::getNOTIFICATION_ERROR</definition>
+        <argsstring>()</argsstring>
+        <name>getNOTIFICATION_ERROR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" line="61" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.cpp" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a3916adb97d8120fabdcff087f33ad516" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT2</definition>
+        <argsstring>(int, ICON_OVERLAY_NONE, CGUIListItem::ICON_OVERLAY_NONE)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ICON_OVERLAY_NONE</type>
+        </param>
+        <param>
+          <type>CGUIListItem::ICON_OVERLAY_NONE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a23baa6c2e2a8cee0447b33851964893b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT2</definition>
+        <argsstring>(int, ICON_OVERLAY_RAR, CGUIListItem::ICON_OVERLAY_RAR)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ICON_OVERLAY_RAR</type>
+        </param>
+        <param>
+          <type>CGUIListItem::ICON_OVERLAY_RAR</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1acb86bb81a65522469ba6ce1f7c3f1171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT2</definition>
+        <argsstring>(int, ICON_OVERLAY_ZIP, CGUIListItem::ICON_OVERLAY_ZIP)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ICON_OVERLAY_ZIP</type>
+        </param>
+        <param>
+          <type>CGUIListItem::ICON_OVERLAY_ZIP</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a139dcdac14fa2d5870eac18a95739f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT2</definition>
+        <argsstring>(int, ICON_OVERLAY_LOCKED, CGUIListItem::ICON_OVERLAY_LOCKED)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ICON_OVERLAY_LOCKED</type>
+        </param>
+        <param>
+          <type>CGUIListItem::ICON_OVERLAY_LOCKED</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a1201ded496bc5619ca6b3fc9fdafc522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT2</definition>
+        <argsstring>(int, ICON_OVERLAY_HAS_TRAINER, CGUIListItem::ICON_OVERLAY_HAS_TRAINER)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ICON_OVERLAY_HAS_TRAINER</type>
+        </param>
+        <param>
+          <type>CGUIListItem::ICON_OVERLAY_HAS_TRAINER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a7d56b6ba68fa70ae3ce23c3143e91f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT2</definition>
+        <argsstring>(int, ICON_OVERLAY_TRAINED, CGUIListItem::ICON_OVERLAY_TRAINED)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ICON_OVERLAY_TRAINED</type>
+        </param>
+        <param>
+          <type>CGUIListItem::ICON_OVERLAY_TRAINED</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1ad5f16041233827a20276e6a0f85f5290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT2</definition>
+        <argsstring>(int, ICON_OVERLAY_UNWATCHED, CGUIListItem::ICON_OVERLAY_UNWATCHED)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ICON_OVERLAY_UNWATCHED</type>
+        </param>
+        <param>
+          <type>CGUIListItem::ICON_OVERLAY_UNWATCHED</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a08d25714aa4ced0b6ba1798dfd21beba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT2</definition>
+        <argsstring>(int, ICON_OVERLAY_WATCHED, CGUIListItem::ICON_OVERLAY_WATCHED)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ICON_OVERLAY_WATCHED</type>
+        </param>
+        <param>
+          <type>CGUIListItem::ICON_OVERLAY_WATCHED</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a3da6735870895ea35e00b4dc29ed23ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT2</definition>
+        <argsstring>(int, ICON_OVERLAY_HD, CGUIListItem::ICON_OVERLAY_HD)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ICON_OVERLAY_HD</type>
+        </param>
+        <param>
+          <type>CGUIListItem::ICON_OVERLAY_HD</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1ae1e0a97a15b25ffc0b7897660ff5609a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(const char *, NOTIFICATION_INFO)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>NOTIFICATION_INFO</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a158db267e828f81dbaf0eeb5c9ce1c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(const char *, NOTIFICATION_WARNING)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>NOTIFICATION_WARNING</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a6216a21c4c199a56466204363ea0982d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(const char *, NOTIFICATION_ERROR)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>NOTIFICATION_ERROR</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1ae8b60f3cefa748011bda078483b789f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT</definition>
+        <argsstring>(int, INPUT_ALPHANUM)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>INPUT_ALPHANUM</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a2464558696da786e91b72f93153b8404" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT</definition>
+        <argsstring>(int, INPUT_NUMERIC)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>INPUT_NUMERIC</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a713f67e8635073d1bbb2266da7252dc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT</definition>
+        <argsstring>(int, INPUT_DATE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>INPUT_DATE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a6ab2cad9deea76200a22a523bc327e4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT</definition>
+        <argsstring>(int, INPUT_TIME)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>INPUT_TIME</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a4efa3796b07e842270aefba41e2c7585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT</definition>
+        <argsstring>(int, INPUT_IPADDRESS)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>INPUT_IPADDRESS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a54bc8b772330fb594d01b33d3df76599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT</definition>
+        <argsstring>(int, INPUT_PASSWORD)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>INPUT_PASSWORD</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a5f9b0df847067ec6d33b5b628da2f111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT</definition>
+        <argsstring>(int, PASSWORD_VERIFY)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>PASSWORD_VERIFY</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1ac7c873069b93fce942b5fc453a59c92c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::SWIG_CONSTANT</definition>
+        <argsstring>(int, ALPHANUM_HIDE_INPUT)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ALPHANUM_HIDE_INPUT</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcgui.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcgui_1a27062d00be2f83b259ba59f7b3989372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::XBMCCOMMONS_STANDARD_EXCEPTION</definition>
+        <argsstring>(WindowException)</argsstring>
+        <name>XBMCCOMMONS_STANDARD_EXCEPTION</name>
+        <param>
+          <type>WindowException</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowException.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" line="49" column="1"/>
+  </compounddef>
+</doxygen>

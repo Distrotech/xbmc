@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1UnimplementedException" kind="class" prot="public">
+    <compoundname>XBMCAddon::UnimplementedException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <includes refid="Exception_8h" local="no">Exception.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1UnimplementedException_1af7d04647810376b8c117431165dc0b99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::UnimplementedException::UnimplementedException</definition>
+        <argsstring>(const UnimplementedException &amp;other)</argsstring>
+        <name>UnimplementedException</name>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Exception.h" line="45" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Exception.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1UnimplementedException_1ac9988b3e558f2cac97592ec005bebd45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::UnimplementedException::UnimplementedException</definition>
+        <argsstring>(const char *classname, const char *methodname)</argsstring>
+        <name>UnimplementedException</name>
+        <param>
+          <type>const char *</type>
+          <declname>classname</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>methodname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Exception.h" line="46" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Exception.h" bodystart="46" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref> Can be used in places like the Control hierarchy where the requirements of dynamic language usage force us to add unimplmenented methods to a class hierarchy. See the detailed explanation on the class Control for more. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="506">
+        <label>Exception</label>
+      </node>
+      <node id="505">
+        <label>XBMCAddon::UnimplementedException</label>
+        <link refid="classXBMCAddon_1_1UnimplementedException"/>
+        <childnode refid="506" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="508">
+        <label>Exception</label>
+      </node>
+      <node id="507">
+        <label>XBMCAddon::UnimplementedException</label>
+        <link refid="classXBMCAddon_1_1UnimplementedException"/>
+        <childnode refid="508" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Exception.h" line="43" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Exception.h" bodystart="42" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1UnimplementedException_1af7d04647810376b8c117431165dc0b99" prot="public" virt="non-virtual"><scope>XBMCAddon::UnimplementedException</scope><name>UnimplementedException</name></member>
+      <member refid="classXBMCAddon_1_1UnimplementedException_1ac9988b3e558f2cac97592ec005bebd45" prot="public" virt="non-virtual"><scope>XBMCAddon::UnimplementedException</scope><name>UnimplementedException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

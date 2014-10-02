@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1Dictionary" kind="class" prot="public">
+    <compoundname>XBMCAddon::Dictionary</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::map&lt; String, T &gt;</basecompoundref>
+    <includes refid="Dictionary_8h" local="no">Dictionary.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is a bit of a hack for dynamically typed languages. In somce cases python addon api calls handle dictionaries with variable value types. In this case we coerce all of these types into strings and then convert them back in the api. Yes, this is messy and maybe we should use the CVariant here. But for now the native api handles these calls by converting the string to the appropriate types. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="329">
+        <label>XBMCAddon::Dictionary&lt; T &gt;</label>
+        <link refid="classXBMCAddon_1_1Dictionary"/>
+        <childnode refid="330" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>std::map&lt; String, T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="331">
+        <label>XBMCAddon::Dictionary&lt; T &gt;</label>
+        <link refid="classXBMCAddon_1_1Dictionary"/>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="332">
+        <label>std::map&lt; String, T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Dictionary.h" line="42" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dictionary.h" bodystart="42" bodyend="42"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

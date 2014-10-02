@@ -1,0 +1,1151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceXBMCAddon_1_1xbmcplugin" kind="namespace">
+    <compoundname>XBMCAddon::xbmcplugin</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a68fcd2369fc94b35fac8f2a24b0d6950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcplugin::addDirectoryItem</definition>
+        <argsstring>(int handle, const String &amp;url, const xbmcgui::ListItem *listItem, bool isFolder, int totalItems)</argsstring>
+        <name>addDirectoryItem</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *</type>
+          <declname>listitem</declname>
+          <defname>listItem</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isFolder</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>totalItems</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addDirectoryItem(handle, url, listitem [,isFolder, totalItems]) <ndash/> <ref refid="classXBMCAddon_1_1Callback" kindref="compound">Callback</ref> function to pass directory contents back to XBMC.<itemizedlist>
+<listitem><para>Returns a bool for successful completion.</para></listitem></itemizedlist>
+</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+url : string - url of the entry. would be plugin:// for another virtual directory<linebreak/>
+listitem : ListItem - item to add.<linebreak/>
+isFolder : [opt] bool - True=folder / False=not a folder(default).<linebreak/>
+totalItems : [opt] integer - total number of items that will be passed.(used for progressbar)<linebreak/>
+ *Note, You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.<linebreak/>
+ example:<itemizedlist>
+<listitem><para>if not xbmcplugin.addDirectoryItem(int(sys.argv[1]), &apos;F:\Trailers\300.mov&apos;, listitem, totalItems=50): break </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="31" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="31" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a7f8a1d4aba668c698eaa2d2baff1dc34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcplugin::addDirectoryItems</definition>
+        <argsstring>(int handle, const std::vector&lt; Tuple&lt; String, const XBMCAddon::xbmcgui::ListItem *, bool &gt; &gt; &amp;items, int totalItems)</argsstring>
+        <name>addDirectoryItems</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="classXBMCAddon_1_1Tuple" kindref="compound">Tuple</ref>&lt; String, const <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *, bool &gt; &gt; &amp;</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>totalItems</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addDirectoryItems(handle, items [,totalItems]) <ndash/> <ref refid="classXBMCAddon_1_1Callback" kindref="compound">Callback</ref> function to pass directory contents back to XBMC as a list.<itemizedlist>
+<listitem><para>Returns a bool for successful completion.</para></listitem></itemizedlist>
+</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+items : <ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> - list of (url, listitem[, isFolder]) as a tuple to add.<linebreak/>
+totalItems : [opt] integer - total number of items that will be passed.(used for progressbar)<linebreak/>
+<verbatim>   Large lists benefit over using the standard addDirectoryItem()
+   You may call this more than once to add items in chunks
+</verbatim></para><para>example:<itemizedlist>
+<listitem><para>if not xbmcplugin.addDirectoryItems(int(sys.argv[1]), [(url, listitem, False,)]: raise </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="42" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="42" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a1c7d36eba94c2d1f2ea60808e999a271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcplugin::endOfDirectory</definition>
+        <argsstring>(int handle, bool succeeded, bool updateListing, bool cacheToDisc)</argsstring>
+        <name>endOfDirectory</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>succeeded</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateListing</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cacheToDisc</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>endOfDirectory(handle[, succeeded, updateListing, cacheToDisc]) <ndash/> <ref refid="classXBMCAddon_1_1Callback" kindref="compound">Callback</ref> function to tell XBMC that the end of the directory listing in a virtualPythonFolder module is reached.</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+succeeded : [opt] bool - True=script completed successfully(Default)/False=Script did not.<linebreak/>
+updateListing : [opt] bool - True=this folder should update the current listing/False=Folder is a subfolder(Default).<linebreak/>
+cacheToDisc : [opt] bool - True=Folder will cache if extended time(default)/False=this folder will never cache to disc.</para><para>example:<itemizedlist>
+<listitem><para>xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="63" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a08293cf1c6b760f9a822529eb0ac7010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcplugin::setResolvedUrl</definition>
+        <argsstring>(int handle, bool succeeded, const xbmcgui::ListItem *listItem)</argsstring>
+        <name>setResolvedUrl</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>succeeded</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *</type>
+          <declname>listitem</declname>
+          <defname>listItem</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setResolvedUrl(handle, succeeded, listitem) <ndash/> <ref refid="classXBMCAddon_1_1Callback" kindref="compound">Callback</ref> function to tell XBMC that the file plugin has been resolved to a url</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+succeeded : bool - True=script completed successfully/False=Script did not.<linebreak/>
+listitem : ListItem - item the file plugin resolved to for playback.</para><para>example:<itemizedlist>
+<listitem><para>xbmcplugin.setResolvedUrl(int(sys.argv[1]), True, listitem) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="70" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="70" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a8a1c497426b3d816139f732ef0343e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcplugin::addSortMethod</definition>
+        <argsstring>(int handle, int sortMethod, const String &amp;clabel2Mask)</argsstring>
+        <name>addSortMethod</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sortMethod</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label2Mask</declname>
+          <defval>emptyString</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addSortMethod(handle, sortMethod, label2Mask) <ndash/> Adds a sorting method for the media list.</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+sortMethod : integer - number for sortmethod see SortFileItem.h.<linebreak/>
+label2Mask : [opt] string - the label mask to use for the second label. Defaults to &apos;D&apos;<itemizedlist>
+<listitem><para>applies to:<itemizedlist>
+<listitem><para>SORT_METHOD_NONE, SORT_METHOD_UNSORTED, SORT_METHOD_VIDEO_TITLE,</para></listitem><listitem><para>SORT_METHOD_TRACKNUM, SORT_METHOD_FILE, SORT_METHOD_TITLE,</para></listitem><listitem><para>SORT_METHOD_TITLE_IGNORE_THE, SORT_METHOD_LABEL,</para></listitem><listitem><para>SORT_METHOD_LABEL_IGNORE_THE, SORT_METHOD_VIDEO_SORT_TITLE,</para></listitem><listitem><para>SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE, SORT_METHOD_FULLPATH,</para></listitem><listitem><para>SORT_METHOD_LABEL_IGNORE_FOLDERS, SORT_METHOD_CHANNEL</para></listitem></itemizedlist>
+</para></listitem></itemizedlist>
+</para><para>example:<itemizedlist>
+<listitem><para>xbmcplugin.addSortMethod(int(sys.argv[1]), 1) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="76" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="76" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a82b5a22fcadd66135b49926db905e5b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcplugin::getSetting</definition>
+        <argsstring>(int handle, const char *id)</argsstring>
+        <name>getSetting</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getSetting(handle, id) <ndash/> Returns the value of a setting as a string.</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+id : string - id of the setting that the module needs to access.</para><para>*Note, You can use the above as a keyword.</para><para>example:<itemizedlist>
+<listitem><para>apikey = xbmcplugin.getSetting(int(sys.argv[1]), &apos;apikey&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="86" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a07c614fd70d7863944968597558b0b0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcplugin::setSetting</definition>
+        <argsstring>(int handle, const String &amp;id, const String &amp;value)</argsstring>
+        <name>setSetting</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setSetting(handle, id, value) <ndash/> Sets a plugin setting for the current running plugin.</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+id : string - id of the setting that the module needs to access.<linebreak/>
+value : string or unicode - value of the setting.</para><para>example:<itemizedlist>
+<listitem><para>xbmcplugin.setSetting(int(sys.argv[1]), id=&apos;username&apos;, value=&apos;teamxbmc&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="91" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a47fba0c7d6242ca85d4d72c6574841d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcplugin::setContent</definition>
+        <argsstring>(int handle, const char *content)</argsstring>
+        <name>setContent</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setContent(handle, content) <ndash/> Sets the plugins content.</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+content : string - content type (eg. movies)</para><para>*Note: content: files, songs, artists, albums, movies, tvshows, episodes, musicvideos</para><para>example:<itemizedlist>
+<listitem><para>xbmcplugin.setContent(int(sys.argv[1]), &apos;movies&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="96" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a9e568ddd9ac1abd54a013210ba6eaa55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcplugin::setPluginCategory</definition>
+        <argsstring>(int handle, const String &amp;category)</argsstring>
+        <name>setPluginCategory</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>category</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setPluginCategory(handle, category) <ndash/> Sets the plugins name for skins to display.</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+category : string or unicode - plugins sub category.</para><para>example:<itemizedlist>
+<listitem><para>xbmcplugin.setPluginCategory(int(sys.argv[1]), &apos;Comedy&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="101" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a795e513a4b2e417816ea056fbe827802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcplugin::setPluginFanart</definition>
+        <argsstring>(int handle, const char *image, const char *color1, const char *color2, const char *color3)</argsstring>
+        <name>setPluginFanart</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>image</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>color1</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>color2</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>color3</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setPluginFanart(handle, image, color1, color2, color3) <ndash/> Sets the plugins fanart and color for skins to display.</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+image : [opt] string - path to fanart image.<linebreak/>
+color1 : [opt] hexstring - color1. (e.g. &apos;0xFFFFFFFF&apos;)<linebreak/>
+color2 : [opt] hexstring - color2. (e.g. &apos;0xFFFF3300&apos;)<linebreak/>
+color3 : [opt] hexstring - color3. (e.g. &apos;0xFF000000&apos;)</para><para>example:<itemizedlist>
+<listitem><para>xbmcplugin.setPluginFanart(int(sys.argv[1]), &apos;special://home/addons/plugins/video/Apple movie trailers II/fanart.png&apos;, color2=&apos;0xFFFF3300&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="106" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="106" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1acfa9e12b0f5dc7a414cedfe6b9174a88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcplugin::setProperty</definition>
+        <argsstring>(int handle, const char *key, const String &amp;value)</argsstring>
+        <name>setProperty</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setProperty(handle, key, value) <ndash/> Sets a container property for this plugin.</para><para>handle : integer - handle the plugin was started with.<linebreak/>
+key : string - property name.<linebreak/>
+value : string or unicode - value of property.</para><para>*Note, Key is NOT case sensitive.</para><para>example:<itemizedlist>
+<listitem><para>xbmcplugin.setProperty(int(sys.argv[1]), &apos;Emulator&apos;, &apos;M.A.M.E.&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="121" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a6a1f5fce47b26a3cbc9139e74c453c52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_NONE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_NONE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="197" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a46f1365f8e1dd62119ca6e03dba19154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_LABEL)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_LABEL</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="198" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a2ca990303abde8ead13202c599584cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_LABEL_IGNORE_THE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_LABEL_IGNORE_THE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a93b8842117d729066b0d35c4392d8899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_DATE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_DATE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="200" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a002eaa198f5d37d4a0864bfe8983733e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_SIZE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_SIZE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="201" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1aa462014e1af1fee9e95d9881e5aa0696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_FILE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_FILE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="202" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a4c0e511be39007b19e34a765609295bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_DRIVE_TYPE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_DRIVE_TYPE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="203" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a9cd108bd9987f25ed3265138928a73c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_TRACKNUM)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_TRACKNUM</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="204" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1af58c397c8067a7428572d2f3efbdb9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_DURATION)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_DURATION</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="205" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a91076f1fa8927507d475942fcd5cff16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_TITLE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_TITLE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="206" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1aff6ac53acfbeb040e74f44d3b0116c03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_TITLE_IGNORE_THE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_TITLE_IGNORE_THE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="207" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1acfb55ab52d915ac9c2736901cdae1f36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_ARTIST)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_ARTIST</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="208" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a865939b5382e94a74a96bb6e296bf981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_ARTIST_IGNORE_THE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_ARTIST_IGNORE_THE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="209" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a3762dbe1cf52f6f4b222a784b2a40d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_ALBUM)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_ALBUM</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="210" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a1c29b3da9cc9601f8f174573d94511b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_ALBUM_IGNORE_THE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_ALBUM_IGNORE_THE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="211" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1abc359f27a8ccdaa12038670a3a3427fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_GENRE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_GENRE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="212" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a92848deb7517106dd906670b9cc2a8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT2</definition>
+        <argsstring>(int, SORT_METHOD_VIDEO_YEAR, SORT_METHOD_YEAR)</argsstring>
+        <name>SWIG_CONSTANT2</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_VIDEO_YEAR</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_YEAR</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="213" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a036c704b481899610e1237edb641806c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_VIDEO_RATING)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_VIDEO_RATING</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="214" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a4086b4155329876674613b69c4f54e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_PROGRAM_COUNT)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_PROGRAM_COUNT</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="215" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1ae6fdf15788c87a625c988505dc1d4b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_PLAYLIST_ORDER)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_PLAYLIST_ORDER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="216" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a2d497ca432579a9a3b09daa4544fbc9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_EPISODE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_EPISODE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="217" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a0f629d753a77a8709bd1c50a2493af8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_VIDEO_TITLE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_VIDEO_TITLE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="218" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a1a2a0c650cc35f4291f732e67194e889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_VIDEO_SORT_TITLE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_VIDEO_SORT_TITLE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="219" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a28df72c99b2def17d5891bb89d4f3732" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="220" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a2cfc6220b08b65f911e23955e33aa6ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_PRODUCTIONCODE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_PRODUCTIONCODE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="221" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1ab4b1d2aca8276cd6bcaf14e17c0b6052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_SONG_RATING)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_SONG_RATING</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="222" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1ab93aa64ad33c3040cfdbc6c2d5fb695d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_MPAA_RATING)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_MPAA_RATING</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="223" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1ac9fe7a957aa2d37325156300894ee1d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_VIDEO_RUNTIME)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_VIDEO_RUNTIME</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="224" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1aec64bd04527bf181e3ce35a9c65257c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_STUDIO)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_STUDIO</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="225" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a7fd944fec6beb793541e21b2096f9eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_STUDIO_IGNORE_THE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_STUDIO_IGNORE_THE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="226" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a6670badae2207966f87332db3536a88f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_UNSORTED)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_UNSORTED</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="227" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a0ebdb5489d46fd0dba5052c0540e0a40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_BITRATE)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_BITRATE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="228" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a38631c17ad4ce5be50de8928f6d65c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_LISTENERS)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_LISTENERS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="229" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a885ee1fa337b494834ea83d8bfbfd41d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_COUNTRY)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_COUNTRY</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="230" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a64ad79ebc0fa3ac5f661e1d6904fbabc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_DATEADDED)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_DATEADDED</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="231" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1ac4374112532abf73c0e4c510c9771a9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_FULLPATH)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_FULLPATH</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="232" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1adce1244eee5229df1bbccda5ae44e075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_LABEL_IGNORE_FOLDERS)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_LABEL_IGNORE_FOLDERS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="233" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1ab5f17998d3ff487854ca98c725b96e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_LASTPLAYED)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_LASTPLAYED</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="234" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a5133c0f5a73ac667504eddf4cd35d298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_PLAYCOUNT)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_PLAYCOUNT</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="235" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1af1a407cd9b30bfe9f2b3aee159ebe225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_CHANNEL)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_CHANNEL</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="236" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcplugin_1a8a5b65ae845d04e17b22622d61b92e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcplugin::SWIG_CONSTANT</definition>
+        <argsstring>(int, SORT_METHOD_DATE_TAKEN)</argsstring>
+        <name>SWIG_CONSTANT</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SORT_METHOD_DATE_TAKEN</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h" line="237" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.cpp" line="30" column="1"/>
+  </compounddef>
+</doxygen>

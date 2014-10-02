@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1ControlButton" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::ControlButton</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1Control" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::Control</basecompoundref>
+    <includes refid="Control_8h" local="no">Control.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a483bb9bae9e190db2bf26c4729fee131" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlButton::textOffsetX</definition>
+        <argsstring></argsstring>
+        <name>textOffsetX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1141" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a4117e7cddaf28a889a9fb2c58e739d7b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlButton::textOffsetY</definition>
+        <argsstring></argsstring>
+        <name>textOffsetY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1142" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a3c7856ae535fd34ec180f42c524eaff5" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlButton::align</definition>
+        <argsstring></argsstring>
+        <name>align</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1143" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a5e36eda2a5f766744e4ea8dbedbd8010" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlButton::strFont</definition>
+        <argsstring></argsstring>
+        <name>strFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1144" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a4bc81ade781d3ae848d1fe4cc262caab" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlButton::textColor</definition>
+        <argsstring></argsstring>
+        <name>textColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1145" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a17d91a233da57e01500087a44976a9e0" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlButton::disabledColor</definition>
+        <argsstring></argsstring>
+        <name>disabledColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1146" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a3d29b8b5cafc06ac3217d81888ad45a2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlButton::iAngle</definition>
+        <argsstring></argsstring>
+        <name>iAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1147" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1aae471460a0a0a86d4dce96ccb729ae15" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlButton::shadowColor</definition>
+        <argsstring></argsstring>
+        <name>shadowColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1148" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a9029fe0848b9eb1e987440229cdff97a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlButton::focusedColor</definition>
+        <argsstring></argsstring>
+        <name>focusedColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1149" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1adc21b12622e1c83295390d93deb67b9c" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlButton::strText</definition>
+        <argsstring></argsstring>
+        <name>strText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1150" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1af5e15fd6271320146966371ff3262c38" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlButton::strText2</definition>
+        <argsstring></argsstring>
+        <name>strText2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1151" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a07a0f12e01f1723a69e739a9f483ec72" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlButton::strTextureFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1152" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a8a6f0b110ed0d7bfdc72877282e80a4a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlButton::strTextureNoFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureNoFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1153" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1153" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a28e13f75b27378b4a896bafc4d842797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlButton::ControlButton</definition>
+        <argsstring>(long x, long y, long width, long height, const String &amp;label, const char *focusTexture=NULL, const char *noFocusTexture=NULL, long textOffsetX=CONTROL_TEXT_OFFSET_X, long textOffsetY=CONTROL_TEXT_OFFSET_Y, long alignment=(XBFONT_LEFT|XBFONT_CENTER_Y), const char *font=NULL, const char *textColor=NULL, const char *disabledColor=NULL, long angle=0, const char *shadowColor=NULL, const char *focusedColor=NULL)</argsstring>
+        <name>ControlButton</name>
+        <param>
+          <type>long</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>noFocusTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>textOffsetX</declname>
+          <defval>CONTROL_TEXT_OFFSET_X</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>textOffsetY</declname>
+          <defval>CONTROL_TEXT_OFFSET_Y</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>alignment</declname>
+          <defval>(XBFONT_LEFT|XBFONT_CENTER_Y)</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>disabledColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>angle</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>shadowColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusedColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1075" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="186" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a4f1f42892de3c95a4a6fb0df0437166d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlButton::setLabel</definition>
+        <argsstring>(const String &amp;label=emptyString, const char *font=NULL, const char *textColor=NULL, const char *disabledColor=NULL, const char *shadowColor=NULL, const char *focusedColor=NULL, const String &amp;label2=emptyString)</argsstring>
+        <name>setLabel</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>disabledColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>shadowColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusedColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label2</declname>
+          <defval>emptyString</defval>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setLabel([label, font, textColor, disabledColor, shadowColor, focusedColor]) <ndash/> Set&apos;s this buttons text attributes.</para><para>label : [opt] string or unicode - text string.<linebreak/>
+font : [opt] string - font used for label text. (e.g. &apos;font13&apos;)<linebreak/>
+textColor : [opt] hexstring - color of enabled button&apos;s label. (e.g. &apos;0xFFFFFFFF&apos;)<linebreak/>
+disabledColor : [opt] hexstring - color of disabled button&apos;s label. (e.g. &apos;0xFFFF3300&apos;)<linebreak/>
+shadowColor : [opt] hexstring - color of button&apos;s label&apos;s shadow. (e.g. &apos;0xFF000000&apos;)<linebreak/>
+focusedColor : [opt] hexstring - color of focused button&apos;s label. (e.g. &apos;0xFFFFFF00&apos;)<linebreak/>
+label2 : [opt] string or unicode - text string.</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>self.button.setLabel(&apos;Status&apos;, &apos;font14&apos;, &apos;0xFFFFFFFF&apos;, &apos;0xFFFF3300&apos;, &apos;0xFF000000&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1102" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="216" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1abd1e34c72b881d1aa3a76a64313b42f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlButton::setDisabledColor</definition>
+        <argsstring>(const char *color)</argsstring>
+        <name>setDisabledColor</name>
+        <param>
+          <type>const char *</type>
+          <declname>color</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setDisabledColor(disabledColor) <ndash/> Set&apos;s this buttons disabled color.</para><para>disabledColor : hexstring - color of disabled button&apos;s label. (e.g. &apos;0xFFFF3300&apos;)</para><para>example:<itemizedlist>
+<listitem><para>self.button.setDisabledColor(&apos;0xFFFF3300&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1119" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="241" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a999508fa488472d84371bcd05ea5e44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::ControlButton::getLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getLabel</name>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a999508fa488472d84371bcd05ea5e44b" kindref="member">getLabel()</ref> <ndash/> Returns the buttons label as a unicode string.</para><para>example:<itemizedlist>
+<listitem><para>label = self.button.getLabel() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1128" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="252" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1abc101db9e84b0b835c71098f02c80dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::ControlButton::getLabel2</definition>
+        <argsstring>()</argsstring>
+        <name>getLabel2</name>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1abc101db9e84b0b835c71098f02c80dc1" kindref="member">getLabel2()</ref> <ndash/> Returns the buttons label2 as a unicode string.</para><para>example:<itemizedlist>
+<listitem><para>label = self.button.getLabel2() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1137" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="260" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1aa6a25ce99a398c9fe91362dee1e566eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::ControlButton::canAcceptMessages</definition>
+        <argsstring>(int actionId)</argsstring>
+        <name>canAcceptMessages</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad44fc311107f120e1bf5f9e0c1814211">canAcceptMessages</reimplements>
+        <param>
+          <type>int</type>
+          <declname>actionId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1139" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1139" bodyend="1139"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a78d164656f7dd4f3d04f656874d87129" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL CGUIControl *</type>
+        <definition>CGUIControl * XBMCAddon::xbmcgui::ControlButton::Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a90551421a79adc25f50592d0d0043e89">Create</reimplements>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1155" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="268" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1aac87661ee4dcc3cceaeedcdc2c62dc11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlButton::ControlButton</definition>
+        <argsstring>()</argsstring>
+        <name>ControlButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1157" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1157" bodyend="1163"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton" kindref="compound">ControlButton</ref> class.</para><para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton" kindref="compound">ControlButton</ref>(x, y, width, height, label[, focusTexture, noFocusTexture, textOffsetX, textOffsetY, alignment, font, textColor, disabledColor, angle, shadowColor, focusedColor])</para><para>x : integer - x coordinate of control.<linebreak/>
+y : integer - y coordinate of control.<linebreak/>
+width : integer - width of control.<linebreak/>
+height : integer - height of control.<linebreak/>
+label : string or unicode - text string.<linebreak/>
+focusTexture : [opt] string - filename for focus texture.<linebreak/>
+noFocusTexture : [opt] string - filename for no focus texture.<linebreak/>
+textOffsetX : [opt] integer - x offset of label.<linebreak/>
+textOffsetY : [opt] integer - y offset of label.<linebreak/>
+alignment : [opt] integer - alignment of label - *Note, see xbfont.h<linebreak/>
+font : [opt] string - font used for label text. (e.g. &apos;font13&apos;)<linebreak/>
+textColor : [opt] hexstring - color of enabled button&apos;s label. (e.g. &apos;0xFFFFFFFF&apos;)<linebreak/>
+disabledColor : [opt] hexstring - color of disabled button&apos;s label. (e.g. &apos;0xFFFF3300&apos;)<linebreak/>
+angle : [opt] integer - angle of control. (+ rotates CCW, - rotates CW)<linebreak/>
+shadowColor : [opt] hexstring - color of button&apos;s label&apos;s shadow. (e.g. &apos;0xFF000000&apos;)<linebreak/>
+focusedColor : [opt] hexstring - color of focused button&apos;s label. (e.g. &apos;0xFF00FFFF&apos;)</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.<linebreak/>
+ After you create the control, you need to add it to the window with addControl().</para><para>example:<itemizedlist>
+<listitem><para>self.button = <ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton" kindref="compound">xbmcgui.ControlButton</ref>(100, 250, 200, 50, &apos;Status&apos;, font=&apos;font14&apos;) </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="190">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="189">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>XBMCAddon::xbmcgui::ControlButton</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="194">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+        <childnode refid="196" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="195">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="193">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>XBMCAddon::xbmcgui::ControlButton</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton"/>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="196">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1073" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1072" bodyend="1165"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a3c7856ae535fd34ec180f42c524eaff5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>align</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1aa6a25ce99a398c9fe91362dee1e566eb" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>canAcceptMessages</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aba01bf41b2e134c5b6c56c645773111e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>Control</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a28e13f75b27378b4a896bafc4d842797" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>ControlButton</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1aac87661ee4dcc3cceaeedcdc2c62dc11" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>ControlButton</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a4337ab7595b7cc6aca2eb7510067c728" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>controlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac1e1aa737b881c6d48e8f835a9a38f3b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>controlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0f64496cd3f47bb86a69096984060681" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>controlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac22927946710cc0152f80ec03f2a7b19" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>controlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a78d164656f7dd4f3d04f656874d87129" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>Create</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a17d91a233da57e01500087a44976a9e0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>disabledColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a459ef963aff77bcd3b94c731580cca92" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>dwHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0594c29026ce33f93da497d4739cf2db" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>dwPosX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a082bd10bb17b2e06ba2c66e4d5c89076" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>dwPosY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a09ec4357c7696031c0dbf27dfe9a7ab3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>dwWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a9029fe0848b9eb1e987440229cdff97a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>focusedColor</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a1324db4f6a1c923f40711344f7e208ff" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6a3989df5298f5165b59a73155bafdb1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a999508fa488472d84371bcd05ea5e44b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1abc101db9e84b0b835c71098f02c80dc1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getLabel2</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a21a679353632887bed370b0d54c841b3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af1b19d1516e7756e16eedfc880602243" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac72e0cadbf7a8b0ec66299085fdb8083" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aadf9649e0f9891d00bc22e7e0dda7df0" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>getY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a3d29b8b5cafc06ac3217d81888ad45a2" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>iAngle</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a010243cc31f63805e840261bb06db684" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>iControlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a831f2a90cd2386d6619b8d3244f3c3c6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>iControlId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6d2c926cbf74ea3319f6751613a439d9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>iControlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab5d517c7663a4b9d974fe5abcaec8462" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>iControlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a59ac3f58260c830b0104198420157ae4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>iControlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a762cabd8a02fa224e164cd2b7e467465" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>iParentId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a7bd60f560d45968bbe1426c263198534" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>operator&lt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a43fa362a752eef414ce817a9949a1cf1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>operator==</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac622958d57c2680ad7077bd8bf00d41e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>operator&gt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aefdaa3fba21ce3ffeb4d21268aeb947a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>pGUIControl</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af9d0e604ae56521b35b04acb93613f9e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setAnimations</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1abd1e34c72b881d1aa3a76a64313b42f3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setDisabledColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac45a0f76e5d0605a1706abac62952df8" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setEnableCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a2741facef1d6730289d5572e256678f7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setEnabled</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a25280450c5fbf816106d82840e2b9442" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a4f1f42892de3c95a4a6fb0df0437166d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a8f280d0ba18e1766ffdb0cec17dbc464" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setNavigation</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a03048c7627077b3bb9c2197d6ddf8152" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a80e809b56d258c43ea813315c15b6c81" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setVisible</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6f5b424b8bde8e4210e6e20572abf72d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setVisibleCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aaf6c51df65738d70afca44842119b360" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>setWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1aae471460a0a0a86d4dce96ccb729ae15" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>shadowColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a5e36eda2a5f766744e4ea8dbedbd8010" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>strFont</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1adc21b12622e1c83295390d93deb67b9c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>strText</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1af5e15fd6271320146966371ff3262c38" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>strText2</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a07a0f12e01f1723a69e739a9f483ec72" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>strTextureFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a8a6f0b110ed0d7bfdc72877282e80a4a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>strTextureNoFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a4bc81ade781d3ae848d1fe4cc262caab" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>textColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a483bb9bae9e190db2bf26c4729fee131" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>textOffsetX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a4117e7cddaf28a889a9fb2c58e739d7b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>textOffsetY</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a76cf22380945688660f8fe9befa388ab" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlButton</scope><name>~Control</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

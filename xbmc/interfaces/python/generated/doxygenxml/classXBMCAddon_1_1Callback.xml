@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1Callback" kind="class" prot="public" abstract="yes">
+    <compoundname>XBMCAddon::Callback</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96" prot="public" virt="non-virtual">XBMCAddon::CallbackFunction&lt; M, AddonClass::Ref&lt; P1 &gt;, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0" prot="public" virt="non-virtual">XBMCAddon::CallbackFunction&lt; M, cb_null_type, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755" prot="public" virt="non-virtual">XBMCAddon::CallbackFunction&lt; M, P1, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4" prot="public" virt="non-virtual">XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4" prot="public" virt="non-virtual">XBMCAddon::CallbackFunction&lt; M, P1, P2, P3, cb_null_type, cb_null_type &gt;</derivedcompoundref>
+    <includes refid="CallbackFunction_8h" local="no">CallbackFunction.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1Callback_1a120182bc7ec61c5c730d7113d95829f5" prot="protected" static="no" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1AddonClass" kindref="compound">AddonClass</ref> *</type>
+        <definition>AddonClass* XBMCAddon::Callback::addonClassObject</definition>
+        <argsstring></argsstring>
+        <name>addonClassObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="40" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1Callback_1af186cfa79924ddba24975767cdbf0ce7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Callback::Callback</definition>
+        <argsstring>(AddonClass *_object)</argsstring>
+        <name>Callback</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1AddonClass" kindref="compound">AddonClass</ref> *</type>
+          <declname>_object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="41" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1Callback_1a4b84d03ca3eb70ef585fdf52caea3a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::Callback::executeCallback</definition>
+        <argsstring>()=0</argsstring>
+        <name>executeCallback</name>
+        <reimplementedby refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0_1a1bd91033fa48f23afb858d0fc94b0185">executeCallback</reimplementedby>
+        <reimplementedby refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755_1af6f163e665b4d08a4471b492a31770a0">executeCallback</reimplementedby>
+        <reimplementedby refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96_1a86eddb9f87a92a37c0f53befb3c56932">executeCallback</reimplementedby>
+        <reimplementedby refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a355dcca1f1f554d01862f859b78e98e2">executeCallback</reimplementedby>
+        <reimplementedby refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1a30105a488df74a21c16aa0ae8decea08">executeCallback</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Callback_1a6e17b8c848886bcf463f85bbb99267a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::Callback::~Callback</definition>
+        <argsstring>()</argsstring>
+        <name>~Callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="45" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.cpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Callback_1a2513dca76e7e0aaad5104290fb3402f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1AddonClass" kindref="compound">AddonClass</ref> *</type>
+        <definition>AddonClass* XBMCAddon::Callback::getObject</definition>
+        <argsstring>()</argsstring>
+        <name>getObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="47" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the parent class for the class templates that hold a callback. A callback is essentially a templatized functor (functoid?) for a call to a member function.</para><para>This class combined with the attending CallbackHandlers should make sure that the <ref refid="classXBMCAddon_1_1AddonClass" kindref="compound">AddonClass</ref> isn&apos;t in the midst of deallocating when the callback executes. In this way the <ref refid="classXBMCAddon_1_1Callback" kindref="compound">Callback</ref> class acts as a weak reference.</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="103">
+        <label>XBMCAddon::CallbackFunction&lt; M, P1, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</label>
+        <link refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>XBMCAddon::CallbackFunction&lt; M, P1, P2, P3, cb_null_type, cb_null_type &gt;</label>
+        <link refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>XBMCAddon::CallbackFunction&lt; M, AddonClass::Ref&lt; P1 &gt;, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</label>
+        <link refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="102">
+        <label>XBMCAddon::CallbackFunction&lt; M, cb_null_type, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</label>
+        <link refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</label>
+        <link refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>XBMCAddon::Callback</label>
+        <link refid="classXBMCAddon_1_1Callback"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="107">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+        <childnode refid="109" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="108">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="109">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>XBMCAddon::Callback</label>
+        <link refid="classXBMCAddon_1_1Callback"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>addonClassObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="38" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="37" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::Callback</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1Callback_1a120182bc7ec61c5c730d7113d95829f5" prot="protected" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>addonClassObject</name></member>
+      <member refid="classXBMCAddon_1_1Callback_1af186cfa79924ddba24975767cdbf0ce7" prot="protected" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>Callback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::Callback</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1Callback_1a4b84d03ca3eb70ef585fdf52caea3a97" prot="public" virt="pure-virtual"><scope>XBMCAddon::Callback</scope><name>executeCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1Callback_1a2513dca76e7e0aaad5104290fb3402f5" prot="public" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>getObject</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::Callback</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::Callback</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::Callback</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1Callback_1a6e17b8c848886bcf463f85bbb99267a9" prot="public" virt="virtual"><scope>XBMCAddon::Callback</scope><name>~Callback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

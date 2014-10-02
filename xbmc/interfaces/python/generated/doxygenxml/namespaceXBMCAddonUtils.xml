@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceXBMCAddonUtils" kind="namespace">
+    <compoundname>XBMCAddonUtils</compoundname>
+    <innerclass refid="classXBMCAddonUtils_1_1GuiLock" prot="public">XBMCAddonUtils::GuiLock</innerclass>
+    <innerclass refid="classXBMCAddonUtils_1_1InvertSingleLockGuard" prot="public">XBMCAddonUtils::InvertSingleLockGuard</innerclass>
+    <innerclass refid="classXBMCAddonUtils_1_1TraceGuard" prot="public">XBMCAddonUtils::TraceGuard</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceXBMCAddonUtils_1a7666eebaff8e2e98d412c229b2886ce7" prot="public" static="yes" mutable="no">
+        <type>char</type>
+        <definition>char XBMCAddonUtils::defaultImage[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>defaultImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" line="44" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceXBMCAddonUtils_1a1807a942059f5312bc2be163b4c5537f" prot="public" static="yes" mutable="no">
+        <type>XbmcThreads::ThreadLocal&lt; <ref refid="classXBMCAddonUtils_1_1TraceGuard" kindref="compound">TraceGuard</ref> &gt;</type>
+        <definition>XbmcThreads::ThreadLocal&lt;TraceGuard&gt; XBMCAddonUtils::tlParent</definition>
+        <argsstring></argsstring>
+        <name>tlParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" line="75" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceXBMCAddonUtils_1addf750574600b9aba66a3072b1dd7099" prot="public" static="yes" mutable="no">
+        <type>char **</type>
+        <definition>char** XBMCAddonUtils::spaces</definition>
+        <argsstring></argsstring>
+        <name>spaces</name>
+        <initializer>= getSpacesArray(256)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" line="92" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceXBMCAddonUtils_1af0dce983acd7ecc08be9f49effbf4840" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddonUtils::guiLock</definition>
+        <argsstring>()</argsstring>
+        <name>guiLock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" line="33" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddonUtils_1ab20ebbf004382671d7f7f42bd4d6e269" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddonUtils::guiUnlock</definition>
+        <argsstring>()</argsstring>
+        <name>guiUnlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" line="38" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddonUtils_1aa62dfc87dd738bddc7f5f317be886b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * XBMCAddonUtils::getDefaultImage</definition>
+        <argsstring>(char *cControlType, char *cTextureType, char *cDefault)</argsstring>
+        <name>getDefaultImage</name>
+        <param>
+          <type>char *</type>
+          <declname>cControlType</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>cTextureType</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>cDefault</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" line="46" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="46" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddonUtils_1a6c161711189c49c99a0bc742e50f9b1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char **</type>
+        <definition>static char** XBMCAddonUtils::getSpacesArray</definition>
+        <argsstring>(int size)</argsstring>
+        <name>getSpacesArray</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" line="77" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="77" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This file contains the public definitions for the Addon api. It&apos;s meant to be used by those writing language bindings. </para>    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" line="30" column="1"/>
+  </compounddef>
+</doxygen>

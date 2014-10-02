@@ -1,0 +1,1170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1Window" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::Window</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonCallback" prot="public" virt="non-virtual">XBMCAddon::AddonCallback</basecompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::WindowDialog</derivedcompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::WindowXML</derivedcompoundref>
+    <includes refid="Window_8h" local="no">Window.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ac9c910d78c40fbe5d80606bf053be5a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class WindowDialogMixin</definition>
+        <argsstring></argsstring>
+        <name>WindowDialogMixin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="114" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a13146b49b3ed9039ebd868565f3ff78c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Window::isDisposed</definition>
+        <argsstring></argsstring>
+        <name>isDisposed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="115" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a9e1755d7a28604a034a15789af2b276b" prot="protected" static="no" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase" kindref="compound">InterceptorBase</ref> *</type>
+        <definition>InterceptorBase* XBMCAddon::xbmcgui::Window::window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="122" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ab49bd375ba8fc177567e72024ecb966d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::Window::iWindowId</definition>
+        <argsstring></argsstring>
+        <name>iWindowId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="123" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a2ffacafc1bab4ac54114c3439081dad2" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classXBMCAddon_1_1AddonClass_1_1Ref" kindref="compound">AddonClass::Ref</ref>&lt; <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;AddonClass::Ref&lt;Control&gt; &gt; XBMCAddon::xbmcgui::Window::vecControls</definition>
+        <argsstring></argsstring>
+        <name>vecControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="125" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a8dbb74d5eff0aa5cb5fe70510548c791" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::Window::iOldWindowId</definition>
+        <argsstring></argsstring>
+        <name>iOldWindowId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="126" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a1fb1877e27bae3f18051fc9216eb34a4" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::Window::iCurrentControlId</definition>
+        <argsstring></argsstring>
+        <name>iCurrentControlId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="127" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a1105bd05add238555d75628c7f27dec9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Window::bModal</definition>
+        <argsstring></argsstring>
+        <name>bModal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="128" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a4181db9de2c0774be121f86994d02f3d" prot="protected" static="no" mutable="no">
+        <type>CEvent</type>
+        <definition>CEvent XBMCAddon::xbmcgui::Window::m_actionEvent</definition>
+        <argsstring></argsstring>
+        <name>m_actionEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="129" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a6bae6f8e84ae4196455db2b54ba6f271" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Window::canPulse</definition>
+        <argsstring></argsstring>
+        <name>canPulse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="131" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a879b9d20f920ce9a9fecbeddb8317bd8" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Window::existingWindow</definition>
+        <argsstring></argsstring>
+        <name>existingWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="134" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a90083df4cec6cfe075565150e31f5a00" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Window::destroyAfterDeInit</definition>
+        <argsstring></argsstring>
+        <name>destroyAfterDeInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="135" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ad421d56b101ef8d290b54b889c74f1b4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::doAddControl</definition>
+        <argsstring>(Control *pControl, CCriticalSection *gcontext, bool wait)</argsstring>
+        <name>doAddControl</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+          <declname>pControl</declname>
+        </param>
+        <param>
+          <type>CCriticalSection *</type>
+          <declname>gcontext</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="117" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="738" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ae5fe0ef45ebeba7651eada8a86d333b2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::doRemoveControl</definition>
+        <argsstring>(Control *pControl, CCriticalSection *gcontext, bool wait)</argsstring>
+        <name>doRemoveControl</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+          <declname>pControl</declname>
+        </param>
+        <param>
+          <type>CCriticalSection *</type>
+          <declname>gcontext</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="118" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="568" bodyend="600"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ad73df64d260195d618d8f816832b2f58" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::Window::Window</definition>
+        <argsstring>(bool discrim)</argsstring>
+        <name>Window</name>
+        <param>
+          <type>bool</type>
+          <declname>discrim</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="140" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="86" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1aac27de847b2e0fd720ad96e205a0273c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::deallocating</definition>
+        <argsstring>()</argsstring>
+        <name>deallocating</name>
+        <reimplements refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0">deallocating</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is meant to be called from the destructor of the lowest level class.</para><para>It&apos;s virtual because it&apos;s a conveinent place to receive messages that we&apos;re about to go be deleted but prior to any real tear-down.</para><para>Any overloading classes need to remember to pass the call up the chain. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="142" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="132" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a8df22dbb571d4fa361446087f05988cb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::setWindow</definition>
+        <argsstring>(InterceptorBase *_window)</argsstring>
+        <name>setWindow</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase" kindref="compound">InterceptorBase</ref> *</type>
+          <declname>_window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Child classes MUST call this in their constructors. It should be an instance of Interceptor&lt;P extends CGUIWindow&gt;. <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> of memory managment for this class is then given to the <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="156" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="207" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a3d5dda9dc7d1b2e324483db3180f1a23" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::popActiveWindowId</definition>
+        <argsstring>()</argsstring>
+        <name>popActiveWindowId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is a helper method since poping the previous window id is a common function </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="162" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="231" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ae0d0ee6db059b8a1e4085074c8052278" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+        <definition>Control * XBMCAddon::xbmcgui::Window::GetControlById</definition>
+        <argsstring>(int iControlId, CCriticalSection *gc)</argsstring>
+        <name>GetControlById</name>
+        <param>
+          <type>int</type>
+          <declname>iControlId</declname>
+        </param>
+        <param>
+          <type>CCriticalSection *</type>
+          <declname>gc</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is a helper method since getting a control by it&apos;s id is a common function </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="168" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="244" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a047f7b45164555405874d4fc7d3d2540" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::PulseActionEvent</definition>
+        <argsstring>()</argsstring>
+        <name>PulseActionEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="170" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="389" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a5b0e5b84d8dc08486858790f16c3d54f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Window::WaitForActionEvent</definition>
+        <argsstring>(unsigned int milliseconds)</argsstring>
+        <name>WaitForActionEvent</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="171" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="396" bodyend="404"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1af60643bd00a72583825eca1ae0b7addd" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::Window::getNextAvailalbeWindowId</definition>
+        <argsstring>()</argsstring>
+        <name>getNextAvailalbeWindowId</name>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This helper retrieves the next available id. It is assumed that the global lock is already being held. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="148" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="217" bodyend="229"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1abff8d21afb8fbbfad7be106fdf1a636e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::Window::Window</definition>
+        <argsstring>(int existingWindowId=-1)</argsstring>
+        <name>Window</name>
+        <param>
+          <type>int</type>
+          <declname>existingWindowId</declname>
+          <defval>-1</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This just creates a default window. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="175" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="97" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a6d7cec5f4b04dfcaba81269cd42c2910" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::Window::~Window</definition>
+        <argsstring>()</argsstring>
+        <name>~Window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="177" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="125" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ae467ce813e82ce53d6378a223596042e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Window::OnMessage</definition>
+        <argsstring>(CGUIMessage &amp;message)</argsstring>
+        <name>OnMessage</name>
+        <param>
+          <type>CGUIMessage &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="180" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="449" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a7e9072c53af0a2e19b6fc66a7e7ee1f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Window::OnAction</definition>
+        <argsstring>(const CAction &amp;action)</argsstring>
+        <name>OnAction</name>
+        <param>
+          <type>const CAction &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="181" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="406" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1af34410cd66f209889e7c2dc7ffbc6d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Window::OnBack</definition>
+        <argsstring>(int actionId)</argsstring>
+        <name>OnBack</name>
+        <param>
+          <type>int</type>
+          <declname>actionId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="182" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="425" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a6b45c21abee13bae06b340f9272a0b1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::OnDeinitWindow</definition>
+        <argsstring>(int nextWindowID)</argsstring>
+        <name>OnDeinitWindow</name>
+        <param>
+          <type>int</type>
+          <declname>nextWindowID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="183" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="431" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1aa5a3d49b88c72d0ab99c0358860b452d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::Window::IsDialogRunning</definition>
+        <argsstring>() const </argsstring>
+        <name>IsDialogRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="185" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="185" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a573dcf6b86a118499351eedf618fa0b3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::Window::IsDialog</definition>
+        <argsstring>() const </argsstring>
+        <name>IsDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="186" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="186" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ae5c6b71b997f50793d7d7fbb9b1658f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::Window::IsModalDialog</definition>
+        <argsstring>() const </argsstring>
+        <name>IsModalDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="187" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="187" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a2d46d095e5ef1b698c81c8ae17a8f644" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::Window::IsMediaWindow</definition>
+        <argsstring>() const </argsstring>
+        <name>IsMediaWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="188" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1abc39b4be5c735645d5efbeb6fcfaae0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::dispose</definition>
+        <argsstring>()</argsstring>
+        <name>dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="189" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="139" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ab4b6dd44f4542dad54c355df7956c14c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::interceptorClear</definition>
+        <argsstring>()</argsstring>
+        <name>interceptorClear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="193" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="193" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1aaa7f9d2e616b4effad2e6b272417e5fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::onAction</definition>
+        <argsstring>(Action *action)</argsstring>
+        <name>onAction</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Action" kindref="compound">Action</ref> *</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onAction(self, Action action) <ndash/> onAction method.</para><para>This method will recieve all actions that the main program will send to this window.</para><para>Notes:<itemizedlist>
+<listitem><para>By default, only the PREVIOUS_MENU and NAV_BACK actions are handled.</para></listitem><listitem><para>Overwrite this method to let your script handle all actions.</para></listitem><listitem><para>Don&apos;t forget to capture ACTION_PREVIOUS_MENU or ACTION_NAV_BACK, else the user can&apos;t close this window. </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="208" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="441" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a7f3ac65dbe314adaca4b58e8ea475ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::onControl</definition>
+        <argsstring>(Control *control)</argsstring>
+        <name>onControl</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onControl(self, Control control) <ndash/> onClick method.</para><para>This method will recieve all click events on owned and selected controls when<linebreak/>
+the control itself doesn&apos;t handle the message. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="218" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="506" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a829ded957a0340060cf3b782c8a4a833" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::onClick</definition>
+        <argsstring>(int controlId)</argsstring>
+        <name>onClick</name>
+        <param>
+          <type>int</type>
+          <declname>controlId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onClick(self, int controlId) <ndash/> onClick method.</para><para>This method will recieve all click events that the main program will send<linebreak/>
+to this window. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="226" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="507" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1add29fd37875689b1ce68977a7268f7e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::onDoubleClick</definition>
+        <argsstring>(int controlId)</argsstring>
+        <name>onDoubleClick</name>
+        <param>
+          <type>int</type>
+          <declname>controlId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onDoubleClick(self, int controlId) <ndash/> onClick method.</para><para>This method will recieve all double click events that the main program will send<linebreak/>
+to this window. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="234" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="508" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a55b808cf3e06b8131d3884a89cffad1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::onFocus</definition>
+        <argsstring>(int controlId)</argsstring>
+        <name>onFocus</name>
+        <param>
+          <type>int</type>
+          <declname>controlId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onFocus(self, int controlId) <ndash/> onFocus method.</para><para>This method will recieve all focus events that the main program will send<linebreak/>
+to this window. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="242" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="509" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1aa73727c09801ce36d22f9eab742b9344" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::onInit</definition>
+        <argsstring>()</argsstring>
+        <name>onInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onInit(self) <ndash/> onInit method.</para><para>This method will be called to initialize the window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="249" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="510" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a051a2bdfbd8f003c55144e5347fbd3a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::show</definition>
+        <argsstring>()</argsstring>
+        <name>show</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>show(self) <ndash/> Show this window.</para><para>Shows this window by activating it, calling <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a31593581f2a7448724855c2b20f9902e" kindref="member">close()</ref> after it wil activate the current window again.</para><para>Note, if your script ends this window will be closed to. To show it forever, make a loop at the end of your script ar use <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af4931216b8c7b4b2a0f2e99821a1913a" kindref="member">doModal()</ref> instead </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="260" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="512" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a369563fb5f07eff48baa378aa1cbb4f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::setFocus</definition>
+        <argsstring>(Control *pControl)</argsstring>
+        <name>setFocus</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+          <declname>pControl</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setFocus(self, Control) <ndash/> Give the supplied control focus.</para><para>Throws:<itemizedlist>
+<listitem><para>TypeError, if supplied argument is not a <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> type</para></listitem><listitem><para>SystemError, on Internal error</para></listitem><listitem><para>RuntimeError, if control is not added to a window </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="270" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="522" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ae2e74366babaea15de95eec3a3ee63d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::setFocusId</definition>
+        <argsstring>(int iControlId)</argsstring>
+        <name>setFocusId</name>
+        <param>
+          <type>int</type>
+          <declname>iControlId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setFocusId(self, int) <ndash/> Gives the control with the supplied focus.</para><para>Throws:<itemizedlist>
+<listitem><para>SystemError, on Internal error</para></listitem><listitem><para>RuntimeError, if control is not added to a window </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="279" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="532" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ae3e1020717eeb8f9bcaeff0aa48ccd82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+        <definition>Control * XBMCAddon::xbmcgui::Window::getFocus</definition>
+        <argsstring>()</argsstring>
+        <name>getFocus</name>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getFocus(self, Control) <ndash/> returns the control which is focused.</para><para>Throws:<itemizedlist>
+<listitem><para>SystemError, on Internal error</para></listitem><listitem><para>RuntimeError, if no control has focus </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="288" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="539" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1acee08d82016440b945efabbbb7366bcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL long</type>
+        <definition>long XBMCAddon::xbmcgui::Window::getFocusId</definition>
+        <argsstring>()</argsstring>
+        <name>getFocusId</name>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getFocusId(self, int) <ndash/> returns the id of the control which is focused. Throws:<itemizedlist>
+<listitem><para>SystemError, on Internal error</para></listitem><listitem><para>RuntimeError, if no control has focus </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="296" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="551" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a3163d48ed6c7675a6d78c13802ce1f62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::removeControl</definition>
+        <argsstring>(Control *pControl)</argsstring>
+        <name>removeControl</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+          <declname>pControl</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removeControl(self, Control) <ndash/> Removes the control from this window.</para><para>Throws:<itemizedlist>
+<listitem><para>TypeError, if supplied argument is not a <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> type</para></listitem><listitem><para>RuntimeError, if control is not added to this window</para></listitem></itemizedlist>
+</para><para>This will not delete the control. It is only removed from the window. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="307" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="561" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a5ddfc60a786c7b0d365dca08e3fa2e30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::removeControls</definition>
+        <argsstring>(std::vector&lt; Control * &gt; pControls)</argsstring>
+        <name>removeControls</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> * &gt;</type>
+          <declname>pControls</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>removeControls(self, List) <ndash/> Removes a list of controls from this window.</para><para>Throws:<itemizedlist>
+<listitem><para>TypeError, if supplied argument is not a <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> type</para></listitem><listitem><para>RuntimeError, if control is not added to this window</para></listitem></itemizedlist>
+</para><para>This will not delete the controls. They are only removed from the window. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="318" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="602" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a72f819ba4a2652b27872a044d7472bf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL long</type>
+        <definition>long XBMCAddon::xbmcgui::Window::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getHeight(self) <ndash/> Returns the height of this screen. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="323" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="611" bodyend="615"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a5eaa7131456d10ec60f5e32f7786fec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL long</type>
+        <definition>long XBMCAddon::xbmcgui::Window::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getWidth(self) <ndash/> Returns the width of this screen. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="328" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="617" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1af8fec980ffb89d6afa45de91c294d9e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL long</type>
+        <definition>long XBMCAddon::xbmcgui::Window::getResolution</definition>
+        <argsstring>()</argsstring>
+        <name>getResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getResolution(self) <ndash/> Returns the resolution of the scree The returned value is one of the following:<itemizedlist>
+<listitem><para>0 - 1080i (1920x1080)</para></listitem><listitem><para>1 - 720p (1280x720)</para></listitem><listitem><para>2 - 480p 4:3 (720x480)</para></listitem><listitem><para>3 - 480p 16:9 (720x480)</para></listitem><listitem><para>4 - NTSC 4:3 (720x480)</para></listitem><listitem><para>5 - NTSC 16:9 (720x480)</para></listitem><listitem><para>6 - PAL 4:3 (720x576)</para></listitem><listitem><para>7 - PAL 16:9 (720x576)</para></listitem><listitem><para>8 - PAL60 4:3 (720x480)</para></listitem><listitem><para>9 - PAL60 16:9 (720x480)n </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="344" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="623" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a50b3e8032db7c118e81cb27100bbc021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::setCoordinateResolution</definition>
+        <argsstring>(long res)</argsstring>
+        <name>setCoordinateResolution</name>
+        <param>
+          <type>long</type>
+          <declname>res</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setCoordinateResolution(self, int resolution) <ndash/> Sets the resolution that the coordinates of all controls are defined in. Allows XBMC to scale control positions and width/heights to whatever resolution XBMC is currently using.</para><para>resolution is one of the following:<itemizedlist>
+<listitem><para>0 - 1080i (1920x1080)</para></listitem><listitem><para>1 - 720p (1280x720)</para></listitem><listitem><para>2 - 480p 4:3 (720x480)</para></listitem><listitem><para>3 - 480p 16:9 (720x480)</para></listitem><listitem><para>4 - NTSC 4:3 (720x480)</para></listitem><listitem><para>5 - NTSC 16:9 (720x480)</para></listitem><listitem><para>6 - PAL 4:3 (720x576)</para></listitem><listitem><para>7 - PAL 16:9 (720x576)</para></listitem><listitem><para>8 - PAL60 4:3 (720x480)</para></listitem><listitem><para>9 - PAL60 16:9 (720x480)n </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="364" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="629" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1aea68bd42d906ea94d17c51c5d890607f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::setProperty</definition>
+        <argsstring>(const char *key, const String &amp;value)</argsstring>
+        <name>setProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setProperty(key, value) <ndash/> Sets a window property, similar to an infolabel.</para><para>key : string - property name.<linebreak/>
+value : string or unicode - value of property.</para><para>*Note, key is NOT case sensitive. Setting value to an empty string is equivalent to clearProperty(key) You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>win = <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">xbmcgui.Window</ref>(xbmcgui.getCurrentWindowId())</para></listitem><listitem><para>win.setProperty(&apos;Category&apos;, &apos;Newest&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="380" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="639" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a69a8746ded1af13db1023fd3fd9e8e4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL String</type>
+        <definition>String XBMCAddon::xbmcgui::Window::getProperty</definition>
+        <argsstring>(const char *key)</argsstring>
+        <name>getProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getProperty(key) <ndash/> Returns a window property as a string, similar to an infolabel.</para><para>key : string - property name.</para><para>*Note, key is NOT case sensitive. You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>win = <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">xbmcgui.Window</ref>(xbmcgui.getCurrentWindowId())</para></listitem><listitem><para>category = win.getProperty(&apos;Category&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="395" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="649" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1acd2c8bc6fb18732261b27dc6fa2c376f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::clearProperty</definition>
+        <argsstring>(const char *key)</argsstring>
+        <name>clearProperty</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clearProperty(key) <ndash/> Clears the specific window property.</para><para>key : string - property name.</para><para>*Note, key is NOT case sensitive. Equivalent to setProperty(key,&apos;&apos;) You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>win = <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">xbmcgui.Window</ref>(xbmcgui.getCurrentWindowId())</para></listitem><listitem><para>win.clearProperty(&apos;Category&apos;)n </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="410" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="659" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ab5a2b89782763e03bf6c097314e97de3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::clearProperties</definition>
+        <argsstring>()</argsstring>
+        <name>clearProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab5a2b89782763e03bf6c097314e97de3" kindref="member">clearProperties()</ref> <ndash/> Clears all window properties.</para><para>example:<itemizedlist>
+<listitem><para>win = <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">xbmcgui.Window</ref>(xbmcgui.getCurrentWindowId())</para></listitem><listitem><para>win.clearProperties()n </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="419" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="670" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a31593581f2a7448724855c2b20f9902e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>close(self) <ndash/> Closes this window.</para><para>Closes this window by activating the old window. The window is not deleted with this method. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="427" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="677" bodyend="692"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1af4931216b8c7b4b2a0f2e99821a1913a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::doModal</definition>
+        <argsstring>()</argsstring>
+        <name>doModal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>doModal(self) <ndash/> Display this window until <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a31593581f2a7448724855c2b20f9902e" kindref="member">close()</ref> is called. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="432" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="694" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1a00fa298d76a5656ad033850b6e51ad15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::addControl</definition>
+        <argsstring>(Control *pControl)</argsstring>
+        <name>addControl</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+          <declname>pControl</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addControl(self, Control) <ndash/> Add a <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> to this window.</para><para>Throws:<itemizedlist>
+<listitem><para>TypeError, if supplied argument is not a <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> type</para></listitem><listitem><para>ReferenceError, if control is already used in another window</para></listitem><listitem><para>RuntimeError, should not happen :-)</para></listitem></itemizedlist>
+</para><para>The next controls can be added to a window atm</para><para>-ControlLabel -ControlFadeLabel -ControlTextBox -ControlButton -ControlCheckMark -ControlList -ControlGroup -ControlImage -ControlRadioButton -ControlProgressn </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="455" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="731" bodyend="736"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1aa9e5db6c471399ad641097bd1f9427e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::Window::addControls</definition>
+        <argsstring>(std::vector&lt; Control * &gt; pControls)</argsstring>
+        <name>addControls</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> * &gt;</type>
+          <declname>pControls</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>addControls(self, List) <ndash/> Add a list of Controls to this window.</para><para>Throws:<itemizedlist>
+<listitem><para>TypeError, if supplied argument is not of <ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> type, or a control is not of <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> type</para></listitem><listitem><para>ReferenceError, if control is already used in another window</para></listitem><listitem><para>RuntimeError, should not happen :-) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="465" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="778" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Window_1ad0f8592f46a8c65f8efa5f88b52e6d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> *</type>
+        <definition>Control * XBMCAddon::xbmcgui::Window::getControl</definition>
+        <argsstring>(int iControlId)</argsstring>
+        <name>getControl</name>
+        <param>
+          <type>int</type>
+          <declname>iControlId</declname>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getControl(self, int controlId) <ndash/> Get&apos;s the control from this window.</para><para>Throws: Exception, if <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> doesn&apos;t exist</para><para>controlId doesn&apos;t have to be a python control, it can be a control id from a xbmc window too (you can find id&apos;s in the xml files</para><para>Note, not python controls are not completely usable yet You can only use the <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="478" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="787" bodyend="792"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> class.</para><para>Window(self[, int windowId):<itemizedlist>
+<listitem><para>Create a new <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> to draw on.</para></listitem><listitem><para>Specify an id to use an existing window.</para></listitem></itemizedlist>
+</para><para>Throws:<itemizedlist>
+<listitem><para>ValueError, if supplied window Id does not exist.</para></listitem><listitem><para>Exception, if more then 200 windows are created.</para></listitem></itemizedlist>
+</para><para>Deleting this window will activate the old window that was active<linebreak/>
+and resets (not delete) all controls that are associated with this window. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="511">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="512" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="512">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="514">
+        <label>XBMCAddon::xbmcgui::WindowXML</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML"/>
+        <childnode refid="509" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="513">
+        <label>XBMCAddon::xbmcgui::WindowDialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog"/>
+        <childnode refid="509" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="515">
+        <label>XBMCAddon::xbmcgui::WindowXMLDialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="509">
+        <label>XBMCAddon::xbmcgui::Window</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Window"/>
+        <childnode refid="510" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="510">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="511" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="518">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="519" relation="public-inheritance">
+        </childnode>
+        <childnode refid="520" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="521">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::CallbackHandler &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="519">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="523">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::xbmcgui::Window &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="522">
+        <label>XBMCAddon::xbmcgui::InterceptorBase</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase"/>
+        <childnode refid="523" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="520">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="518" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="516">
+        <label>XBMCAddon::xbmcgui::Window</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Window"/>
+        <childnode refid="517" relation="public-inheritance">
+        </childnode>
+        <childnode refid="522" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="517">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="518" relation="public-inheritance">
+        </childnode>
+        <childnode refid="521" relation="usage">
+          <edgelabel>handler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="113" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="112" bodyend="479"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a00fa298d76a5656ad033850b6e51ad15" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>addControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aa9e5db6c471399ad641097bd1f9427e1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>addControls</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1af8df138f0052acf6a7eaf5fd08db5e1c" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a1105bd05add238555d75628c7f27dec9" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>bModal</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a6bae6f8e84ae4196455db2b54ba6f271" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>canPulse</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab5a2b89782763e03bf6c097314e97de3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>clearProperties</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1acd2c8bc6fb18732261b27dc6fa2c376f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>clearProperty</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a31593581f2a7448724855c2b20f9902e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>close</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aac27de847b2e0fd720ad96e205a0273c" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a90083df4cec6cfe075565150e31f5a00" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>destroyAfterDeInit</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1abc39b4be5c735645d5efbeb6fcfaae0f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>dispose</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ad421d56b101ef8d290b54b889c74f1b4" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>doAddControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af4931216b8c7b4b2a0f2e99821a1913a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>doModal</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae5fe0ef45ebeba7651eada8a86d333b2" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>doRemoveControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a879b9d20f920ce9a9fecbeddb8317bd8" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>existingWindow</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ad0f8592f46a8c65f8efa5f88b52e6d79" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae0d0ee6db059b8a1e4085074c8052278" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>GetControlById</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae3e1020717eeb8f9bcaeff0aa48ccd82" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1acee08d82016440b945efabbbb7366bcc" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getFocusId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a72f819ba4a2652b27872a044d7472bf7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getHeight</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af60643bd00a72583825eca1ae0b7addd" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getNextAvailalbeWindowId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a69a8746ded1af13db1023fd3fd9e8e4f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getProperty</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af8fec980ffb89d6afa45de91c294d9e1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getResolution</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a5eaa7131456d10ec60f5e32f7786fec9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>getWidth</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1ad4fc1fc86c9c648108acccfd6ad15f94" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>handler</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a8edad836d7559ad1536469c68be57254" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>hasHandler</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a1fb1877e27bae3f18051fc9216eb34a4" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>iCurrentControlId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab4b6dd44f4542dad54c355df7956c14c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>interceptorClear</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a6891140d172d754c95d2412cfbc7b211" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>invokeCallback</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a8dbb74d5eff0aa5cb5fe70510548c791" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>iOldWindowId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a573dcf6b86a118499351eedf618fa0b3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>IsDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aa5a3d49b88c72d0ab99c0358860b452d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>IsDialogRunning</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a13146b49b3ed9039ebd868565f3ff78c" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>isDisposed</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a2d46d095e5ef1b698c81c8ae17a8f644" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>IsMediaWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae5c6b71b997f50793d7d7fbb9b1658f5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>IsModalDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab49bd375ba8fc177567e72024ecb966d" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>iWindowId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a4181db9de2c0774be121f86994d02f3d" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>m_actionEvent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a7e9072c53af0a2e19b6fc66a7e7ee1f6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>OnAction</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aaa7f9d2e616b4effad2e6b272417e5fb" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>onAction</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af34410cd66f209889e7c2dc7ffbc6d64" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>OnBack</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a829ded957a0340060cf3b782c8a4a833" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>onClick</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a7f3ac65dbe314adaca4b58e8ea475ec1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>onControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a6b45c21abee13bae06b340f9272a0b1c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>OnDeinitWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1add29fd37875689b1ce68977a7268f7e3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>onDoubleClick</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a55b808cf3e06b8131d3884a89cffad1e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>onFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aa73727c09801ce36d22f9eab742b9344" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>onInit</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae467ce813e82ce53d6378a223596042e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>OnMessage</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a3d5dda9dc7d1b2e324483db3180f1a23" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>popActiveWindowId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a047f7b45164555405874d4fc7d3d2540" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>PulseActionEvent</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a3163d48ed6c7675a6d78c13802ce1f62" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>removeControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a5ddfc60a786c7b0d365dca08e3fa2e30" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>removeControls</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a50b3e8032db7c118e81cb27100bbc021" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>setCoordinateResolution</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a369563fb5f07eff48baa378aa1cbb4f9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>setFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae2e74366babaea15de95eec3a3ee63d8" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>setFocusId</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a863529cf2b2849d2ce2f86737cd2826d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>setHandler</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aea68bd42d906ea94d17c51c5d890607f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>setProperty</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a8df22dbb571d4fa361446087f05988cb" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>setWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a051a2bdfbd8f003c55144e5347fbd3a4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>show</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a2ffacafc1bab4ac54114c3439081dad2" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>vecControls</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a5b0e5b84d8dc08486858790f16c3d54f" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>WaitForActionEvent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ad73df64d260195d618d8f816832b2f58" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>Window</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1abff8d21afb8fbbfad7be106fdf1a636e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>Window</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a9e1755d7a28604a034a15789af2b276b" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>window</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ac9c910d78c40fbe5d80606bf053be5a9" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>WindowDialogMixin</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a5f55e978e7785c907d7f30ec08f37324" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>~AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a6d7cec5f4b04dfcaba81269cd42c2910" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Window</scope><name>~Window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

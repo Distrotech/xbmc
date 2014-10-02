@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::ControlCheckMark</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1Control" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::Control</basecompoundref>
+    <includes refid="Control_8h" local="no">Control.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ac541b546f86a980b6334e16d06844bf9" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlCheckMark::strFont</definition>
+        <argsstring></argsstring>
+        <name>strFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1259" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a4260d5694656a2c5ffa55869e95e1066" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlCheckMark::checkWidth</definition>
+        <argsstring></argsstring>
+        <name>checkWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1260" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a4ae77d498ad65d612c3b5623062a40fa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlCheckMark::checkHeight</definition>
+        <argsstring></argsstring>
+        <name>checkHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1261" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a562d24368f0d4628e4622b6a1ea66f86" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t XBMCAddon::xbmcgui::ControlCheckMark::align</definition>
+        <argsstring></argsstring>
+        <name>align</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1262" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ab0466a581359794ced5f10beca0389d6" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlCheckMark::textColor</definition>
+        <argsstring></argsstring>
+        <name>textColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1263" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a9b4f924522bc49acaa227702a45f38be" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlCheckMark::disabledColor</definition>
+        <argsstring></argsstring>
+        <name>disabledColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1264" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a4c8d1d31b7dbfa2acb73d5ede5a7cd24" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlCheckMark::strTextureFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1265" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a3daf4e33eb5ac8cdea1fd02c76ce3602" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlCheckMark::strTextureNoFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureNoFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1266" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ad598f45803bd3d07a29596193c6074c9" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlCheckMark::strText</definition>
+        <argsstring></argsstring>
+        <name>strText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1267" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1267" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ac53afaeba9f42e8c46a48d5510336fbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlCheckMark::ControlCheckMark</definition>
+        <argsstring>(long x, long y, long width, long height, const String &amp;label, const char *focusTexture=NULL, const char *noFocusTexture=NULL, long checkWidth=30, long checkHeight=30, long _alignment=XBFONT_RIGHT, const char *font=NULL, const char *textColor=NULL, const char *disabledColor=NULL)</argsstring>
+        <name>ControlCheckMark</name>
+        <param>
+          <type>long</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>noFocusTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>checkWidth</declname>
+          <defval>30</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>checkHeight</declname>
+          <defval>30</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_alignment</declname>
+          <defval>XBFONT_RIGHT</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>disabledColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1199" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="304" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ab08562d2fd9307a9203f004d589ce1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::ControlCheckMark::getSelected</definition>
+        <argsstring>()</argsstring>
+        <name>getSelected</name>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ab08562d2fd9307a9203f004d589ce1a2" kindref="member">getSelected()</ref> <ndash/> Returns the selected status for this checkmark as a bool.</para><para>example:<itemizedlist>
+<listitem><para>selected = self.checkmark.getSelected() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1212" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="328" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ae057ada9e069c83bba340cbb482e1b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlCheckMark::setSelected</definition>
+        <argsstring>(bool selected)</argsstring>
+        <name>setSelected</name>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setSelected(isOn) <ndash/> Sets this checkmark status to on or off.</para><para>isOn : bool - True=selected (on) / False=not selected (off)</para><para>example:<itemizedlist>
+<listitem><para>self.checkmark.setSelected(True) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1223" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="341" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1acdd8ad41a42534a725ec0b4151db497a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlCheckMark::setLabel</definition>
+        <argsstring>(const String &amp;label=emptyString, const char *font=NULL, const char *textColor=NULL, const char *disabledColor=NULL, const char *shadowColor=NULL, const char *focusedColor=NULL, const String &amp;label2=emptyString)</argsstring>
+        <name>setLabel</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>disabledColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>shadowColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusedColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label2</declname>
+          <defval>emptyString</defval>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setLabel(label[, font, textColor, disabledColor]) <ndash/> Set&apos;s this controls text attributes.</para><para>label : string or unicode - text string.<linebreak/>
+font : [opt] string - font used for label text. (e.g. &apos;font13&apos;)<linebreak/>
+textColor : [opt] hexstring - color of enabled checkmark&apos;s label. (e.g. &apos;0xFFFFFFFF&apos;)<linebreak/>
+disabledColor : [opt] hexstring - color of disabled checkmark&apos;s label. (e.g. &apos;0xFFFF3300&apos;)</para><para>example:<itemizedlist>
+<listitem><para>self.checkmark.setLabel(&apos;Status&apos;, &apos;font14&apos;, &apos;0xFFFFFFFF&apos;, &apos;0xFFFF3300&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1237" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="350" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ad5384afdd35d5211ea0a2c5fad1a5ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlCheckMark::setDisabledColor</definition>
+        <argsstring>(const char *color)</argsstring>
+        <name>setDisabledColor</name>
+        <param>
+          <type>const char *</type>
+          <declname>color</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setDisabledColor(disabledColor) <ndash/> Set&apos;s this controls disabled color.</para><para>disabledColor : hexstring - color of disabled checkmark&apos;s label. (e.g. &apos;0xFFFF3300&apos;)</para><para>example:<itemizedlist>
+<listitem><para>self.checkmark.setDisabledColor(&apos;0xFFFF3300&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1254" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="371" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a17cfa5363a4afdf367b2aa64059a31a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::ControlCheckMark::canAcceptMessages</definition>
+        <argsstring>(int actionId)</argsstring>
+        <name>canAcceptMessages</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad44fc311107f120e1bf5f9e0c1814211">canAcceptMessages</reimplements>
+        <param>
+          <type>int</type>
+          <declname>actionId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1257" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1257" bodyend="1257"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a74e7dd98d7c6eb4effe0d8a974214112" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL CGUIControl *</type>
+        <definition>CGUIControl * XBMCAddon::xbmcgui::ControlCheckMark::Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a90551421a79adc25f50592d0d0043e89">Create</reimplements>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1269" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="382" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a41a9dc21b57388436eed27d91b429611" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlCheckMark::ControlCheckMark</definition>
+        <argsstring>()</argsstring>
+        <name>ControlCheckMark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1271" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1271" bodyend="1274"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark" kindref="compound">ControlCheckMark</ref> class.</para><para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark" kindref="compound">ControlCheckMark</ref>(x, y, width, height, label[, focusTexture, noFocusTexture, checkWidth, checkHeight, alignment, font, textColor, disabledColor])</para><para>x : integer - x coordinate of control.<linebreak/>
+y : integer - y coordinate of control.<linebreak/>
+width : integer - width of control.<linebreak/>
+height : integer - height of control.<linebreak/>
+label : string or unicode - text string.<linebreak/>
+focusTexture : [opt] string - filename for focus texture.<linebreak/>
+noFocusTexture : [opt] string - filename for no focus texture.<linebreak/>
+checkWidth : [opt] integer - width of checkmark.<linebreak/>
+checkHeight : [opt] integer - height of checkmark.<linebreak/>
+alignment : [opt] integer - alignment of label - *Note, see xbfont.h<linebreak/>
+font : [opt] string - font used for label text. (e.g. &apos;font13&apos;)<linebreak/>
+textColor : [opt] hexstring - color of enabled checkmark&apos;s label. (e.g. &apos;0xFFFFFFFF&apos;)<linebreak/>
+disabledColor : [opt] hexstring - color of disabled checkmark&apos;s label. (e.g. &apos;0xFFFF3300&apos;)</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.<linebreak/>
+ After you create the control, you need to add it to the window with addControl().</para><para>example:<itemizedlist>
+<listitem><para>self.checkmark = <ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark" kindref="compound">xbmcgui.ControlCheckMark</ref>(100, 250, 200, 50, &apos;Status&apos;, font=&apos;font14&apos;) </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="199">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="200">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="198">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="197">
+        <label>XBMCAddon::xbmcgui::ControlCheckMark</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="203">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="204" relation="public-inheritance">
+        </childnode>
+        <childnode refid="205" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="204">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="202">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>XBMCAddon::xbmcgui::ControlCheckMark</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1196" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1195" bodyend="1276"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a562d24368f0d4628e4622b6a1ea66f86" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>align</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a17cfa5363a4afdf367b2aa64059a31a5" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>canAcceptMessages</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a4ae77d498ad65d612c3b5623062a40fa" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>checkHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a4260d5694656a2c5ffa55869e95e1066" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>checkWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aba01bf41b2e134c5b6c56c645773111e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>Control</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ac53afaeba9f42e8c46a48d5510336fbb" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>ControlCheckMark</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a41a9dc21b57388436eed27d91b429611" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>ControlCheckMark</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a4337ab7595b7cc6aca2eb7510067c728" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>controlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac1e1aa737b881c6d48e8f835a9a38f3b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>controlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0f64496cd3f47bb86a69096984060681" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>controlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac22927946710cc0152f80ec03f2a7b19" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>controlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a74e7dd98d7c6eb4effe0d8a974214112" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>Create</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a9b4f924522bc49acaa227702a45f38be" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>disabledColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a459ef963aff77bcd3b94c731580cca92" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>dwHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0594c29026ce33f93da497d4739cf2db" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>dwPosX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a082bd10bb17b2e06ba2c66e4d5c89076" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>dwPosY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a09ec4357c7696031c0dbf27dfe9a7ab3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>dwWidth</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a1324db4f6a1c923f40711344f7e208ff" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>getHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6a3989df5298f5165b59a73155bafdb1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>getId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a21a679353632887bed370b0d54c841b3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>getPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ab08562d2fd9307a9203f004d589ce1a2" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>getSelected</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af1b19d1516e7756e16eedfc880602243" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>getWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac72e0cadbf7a8b0ec66299085fdb8083" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>getX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aadf9649e0f9891d00bc22e7e0dda7df0" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>getY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a010243cc31f63805e840261bb06db684" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>iControlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a831f2a90cd2386d6619b8d3244f3c3c6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>iControlId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6d2c926cbf74ea3319f6751613a439d9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>iControlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab5d517c7663a4b9d974fe5abcaec8462" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>iControlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a59ac3f58260c830b0104198420157ae4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>iControlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a762cabd8a02fa224e164cd2b7e467465" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>iParentId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a7bd60f560d45968bbe1426c263198534" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>operator&lt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a43fa362a752eef414ce817a9949a1cf1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>operator==</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac622958d57c2680ad7077bd8bf00d41e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>operator&gt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aefdaa3fba21ce3ffeb4d21268aeb947a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>pGUIControl</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af9d0e604ae56521b35b04acb93613f9e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setAnimations</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ad5384afdd35d5211ea0a2c5fad1a5ed4" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setDisabledColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac45a0f76e5d0605a1706abac62952df8" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setEnableCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a2741facef1d6730289d5572e256678f7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setEnabled</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a25280450c5fbf816106d82840e2b9442" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1acdd8ad41a42534a725ec0b4151db497a" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a8f280d0ba18e1766ffdb0cec17dbc464" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setNavigation</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a03048c7627077b3bb9c2197d6ddf8152" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ae057ada9e069c83bba340cbb482e1b3c" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setSelected</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a80e809b56d258c43ea813315c15b6c81" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setVisible</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6f5b424b8bde8e4210e6e20572abf72d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setVisibleCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aaf6c51df65738d70afca44842119b360" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>setWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ac541b546f86a980b6334e16d06844bf9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>strFont</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ad598f45803bd3d07a29596193c6074c9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>strText</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a4c8d1d31b7dbfa2acb73d5ede5a7cd24" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>strTextureFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a3daf4e33eb5ac8cdea1fd02c76ce3602" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>strTextureNoFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ab0466a581359794ced5f10beca0389d6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>textColor</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a76cf22380945688660f8fe9befa388ab" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlCheckMark</scope><name>~Control</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

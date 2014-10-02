@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::ControlLabel</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1Control" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::Control</basecompoundref>
+    <includes refid="Control_8h" local="no">Control.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1ae605fa8e8ef44c3801df2d96b1fbebe9" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlLabel::strFont</definition>
+        <argsstring></argsstring>
+        <name>strFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="411" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a4a452bfe9242eeddf18b527951989a8a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlLabel::strText</definition>
+        <argsstring></argsstring>
+        <name>strText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="412" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a0f454bcbe6c6ccd943d27e25a6f61dcd" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlLabel::textColor</definition>
+        <argsstring></argsstring>
+        <name>textColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="413" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a5acb325435087ad243ac25d8f11be858" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlLabel::disabledColor</definition>
+        <argsstring></argsstring>
+        <name>disabledColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="414" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a44c9753f9b1af430c8175aa18938f078" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t XBMCAddon::xbmcgui::ControlLabel::align</definition>
+        <argsstring></argsstring>
+        <name>align</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="415" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a80f1fd7688a83f533abfcd1b3eb78576" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::ControlLabel::bHasPath</definition>
+        <argsstring></argsstring>
+        <name>bHasPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="416" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a47aff584ed233fa2557de910bfce50c6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlLabel::iAngle</definition>
+        <argsstring></argsstring>
+        <name>iAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="417" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a6d2a3520521a6ceebffa93fcb9f3f33a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlLabel::ControlLabel</definition>
+        <argsstring>(long x, long y, long width, long height, const String &amp;label, const char *font=NULL, const char *textColor=NULL, const char *disabledColor=NULL, long alignment=XBFONT_LEFT, bool hasPath=false, long angle=0)</argsstring>
+        <name>ControlLabel</name>
+        <param>
+          <type>long</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>disabledColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>alignment</declname>
+          <defval>XBFONT_LEFT</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hasPath</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>angle</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="374" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="975" bodyend="999"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a9adf4dc8d131cca8fcae1f713c7a3c1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlLabel::~ControlLabel</definition>
+        <argsstring>()</argsstring>
+        <name>~ControlLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="380" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1001" bodyend="1001"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a16a01435804701a8e5859527b22dfe8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::ControlLabel::getLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getLabel</name>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a16a01435804701a8e5859527b22dfe8b" kindref="member">getLabel()</ref> <ndash/> Returns the text value for this label.</para><para>example:<itemizedlist>
+<listitem><para>label = self.label.getLabel() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="388" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1036" bodyend="1041"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a8a7ba300b344f460dc88eb3cf273e7e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlLabel::setLabel</definition>
+        <argsstring>(const String &amp;label=emptyString, const char *font=NULL, const char *textColor=NULL, const char *disabledColor=NULL, const char *shadowColor=NULL, const char *focusedColor=NULL, const String &amp;label2=emptyString)</argsstring>
+        <name>setLabel</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>disabledColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>shadowColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusedColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label2</declname>
+          <defval>emptyString</defval>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setLabel(label) <ndash/> Set&apos;s text for this label.</para><para>label : string or unicode - text string.</para><para>example:<itemizedlist>
+<listitem><para>self.label.setLabel(&apos;Status&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="398" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1025" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1acfc89bc0f7945e317c87e84310200ccf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlLabel::ControlLabel</definition>
+        <argsstring>()</argsstring>
+        <name>ControlLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="406" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="406" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a798ce986db087e15a588f078a5b1b7ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL CGUIControl *</type>
+        <definition>CGUIControl * XBMCAddon::xbmcgui::ControlLabel::Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a90551421a79adc25f50592d0d0043e89">Create</reimplements>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="419" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="1003" bodyend="1023"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel" kindref="compound">ControlLabel</ref> class.</para><para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel" kindref="compound">ControlLabel</ref>(x, y, width, height, label[, font, textColor, disabledColor, alignment, hasPath, angle])</para><para>x : integer - x coordinate of control.<linebreak/>
+y : integer - y coordinate of control.<linebreak/>
+width : integer - width of control.<linebreak/>
+height : integer - height of control.<linebreak/>
+label : string or unicode - text string.<linebreak/>
+font : [opt] string - font used for label text. (e.g. &apos;font13&apos;)<linebreak/>
+textColor : [opt] hexstring - color of enabled label&apos;s label. (e.g. &apos;0xFFFFFFFF&apos;)<linebreak/>
+disabledColor : [opt] hexstring - color of disabled label&apos;s label. (e.g. &apos;0xFFFF3300&apos;)<linebreak/>
+alignment : [opt] integer - alignment of label - *Note, see xbfont.h<linebreak/>
+hasPath : [opt] bool - True=stores a path / False=no path.<linebreak/>
+angle : [opt] integer - angle of control. (+ rotates CCW, - rotates C<linebreak/>
+ example:<itemizedlist>
+<listitem><para>self.label = <ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel" kindref="compound">xbmcgui.ControlLabel</ref>(100, 250, 125, 75, &apos;Status&apos;, angle=45) </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="244">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="243">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="242">
+        <label>XBMCAddon::xbmcgui::ControlLabel</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="248">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="249">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="247">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="248" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="246">
+        <label>XBMCAddon::xbmcgui::ControlLabel</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="248" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="372" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="371" bodyend="422"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a44c9753f9b1af430c8175aa18938f078" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>align</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a80f1fd7688a83f533abfcd1b3eb78576" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>bHasPath</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad44fc311107f120e1bf5f9e0c1814211" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>canAcceptMessages</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aba01bf41b2e134c5b6c56c645773111e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>Control</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a4337ab7595b7cc6aca2eb7510067c728" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>controlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a6d2a3520521a6ceebffa93fcb9f3f33a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>ControlLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1acfc89bc0f7945e317c87e84310200ccf" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>ControlLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac1e1aa737b881c6d48e8f835a9a38f3b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>controlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0f64496cd3f47bb86a69096984060681" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>controlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac22927946710cc0152f80ec03f2a7b19" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>controlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a798ce986db087e15a588f078a5b1b7ce" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>Create</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a5acb325435087ad243ac25d8f11be858" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>disabledColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a459ef963aff77bcd3b94c731580cca92" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>dwHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0594c29026ce33f93da497d4739cf2db" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>dwPosX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a082bd10bb17b2e06ba2c66e4d5c89076" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>dwPosY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a09ec4357c7696031c0dbf27dfe9a7ab3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>dwWidth</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a1324db4f6a1c923f40711344f7e208ff" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>getHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6a3989df5298f5165b59a73155bafdb1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>getId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a16a01435804701a8e5859527b22dfe8b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>getLabel</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a21a679353632887bed370b0d54c841b3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>getPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af1b19d1516e7756e16eedfc880602243" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>getWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac72e0cadbf7a8b0ec66299085fdb8083" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>getX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aadf9649e0f9891d00bc22e7e0dda7df0" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>getY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a47aff584ed233fa2557de910bfce50c6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>iAngle</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a010243cc31f63805e840261bb06db684" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>iControlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a831f2a90cd2386d6619b8d3244f3c3c6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>iControlId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6d2c926cbf74ea3319f6751613a439d9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>iControlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab5d517c7663a4b9d974fe5abcaec8462" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>iControlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a59ac3f58260c830b0104198420157ae4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>iControlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a762cabd8a02fa224e164cd2b7e467465" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>iParentId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a7bd60f560d45968bbe1426c263198534" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>operator&lt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a43fa362a752eef414ce817a9949a1cf1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>operator==</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac622958d57c2680ad7077bd8bf00d41e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>operator&gt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aefdaa3fba21ce3ffeb4d21268aeb947a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>pGUIControl</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af9d0e604ae56521b35b04acb93613f9e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setAnimations</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac45a0f76e5d0605a1706abac62952df8" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setEnableCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a2741facef1d6730289d5572e256678f7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setEnabled</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a25280450c5fbf816106d82840e2b9442" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a8a7ba300b344f460dc88eb3cf273e7e3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a8f280d0ba18e1766ffdb0cec17dbc464" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setNavigation</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a03048c7627077b3bb9c2197d6ddf8152" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a80e809b56d258c43ea813315c15b6c81" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setVisible</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6f5b424b8bde8e4210e6e20572abf72d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setVisibleCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aaf6c51df65738d70afca44842119b360" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>setWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1ae605fa8e8ef44c3801df2d96b1fbebe9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>strFont</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a4a452bfe9242eeddf18b527951989a8a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>strText</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a0f454bcbe6c6ccd943d27e25a6f61dcd" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>textColor</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a76cf22380945688660f8fe9befa388ab" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>~Control</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a9adf4dc8d131cca8fcae1f713c7a3c1e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlLabel</scope><name>~ControlLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

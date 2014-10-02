@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmc::InfoTagVideo</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1aaa0dcca057e4aa33ed6e83bcd348a318" prot="private" static="no" mutable="no">
+        <type>CVideoInfoTag *</type>
+        <definition>CVideoInfoTag* XBMCAddon::xbmc::InfoTagVideo::infoTag</definition>
+        <argsstring></argsstring>
+        <name>infoTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="33" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a06159dd4b5d0518475da4fb87e6ca518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::InfoTagVideo::InfoTagVideo</definition>
+        <argsstring>(const CVideoInfoTag &amp;tag)</argsstring>
+        <name>InfoTagVideo</name>
+        <param>
+          <type>const CVideoInfoTag &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="37" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a662cd824b4ea3f441b8720b55c45e667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::InfoTagVideo::InfoTagVideo</definition>
+        <argsstring>()</argsstring>
+        <name>InfoTagVideo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="39" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a2de8e52d83e763e3c2c2edba0e94e357" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::InfoTagVideo::~InfoTagVideo</definition>
+        <argsstring>()</argsstring>
+        <name>~InfoTagVideo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="40" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1af1bd9636f2ec0c906a6f83e15667c626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getDirector</definition>
+        <argsstring>()</argsstring>
+        <name>getDirector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1af1bd9636f2ec0c906a6f83e15667c626" kindref="member">getDirector()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="45" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a5ad569e123fdc769bffb10747d54e680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getWritingCredits</definition>
+        <argsstring>()</argsstring>
+        <name>getWritingCredits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a5ad569e123fdc769bffb10747d54e680" kindref="member">getWritingCredits()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="49" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ae11f5974612de16f056fa05cd72b5f7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getGenre</definition>
+        <argsstring>()</argsstring>
+        <name>getGenre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ae11f5974612de16f056fa05cd72b5f7c" kindref="member">getGenre()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="53" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a488131946afa1550106712a1bf9b97cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getTagLine</definition>
+        <argsstring>()</argsstring>
+        <name>getTagLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a488131946afa1550106712a1bf9b97cd" kindref="member">getTagLine()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="57" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ac8025ae38a652eb6ad244069efafb4a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getPlotOutline</definition>
+        <argsstring>()</argsstring>
+        <name>getPlotOutline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ac8025ae38a652eb6ad244069efafb4a7" kindref="member">getPlotOutline()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="61" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a5472876ac8913f451c6fb0cc832f2575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getPlot</definition>
+        <argsstring>()</argsstring>
+        <name>getPlot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a5472876ac8913f451c6fb0cc832f2575" kindref="member">getPlot()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="65" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a35d528aa63c669047ab2c8bdd1958de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getPictureURL</definition>
+        <argsstring>()</argsstring>
+        <name>getPictureURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a35d528aa63c669047ab2c8bdd1958de2" kindref="member">getPictureURL()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="69" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1af3652bbfe8006bfbdea22b57b8884f80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1af3652bbfe8006bfbdea22b57b8884f80" kindref="member">getTitle()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="73" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a547c9bae9f1d0226a01350d25ae0f85d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getVotes</definition>
+        <argsstring>()</argsstring>
+        <name>getVotes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a547c9bae9f1d0226a01350d25ae0f85d" kindref="member">getVotes()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="77" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ad700d818305e0b07acea6169b88b6456" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getCast</definition>
+        <argsstring>()</argsstring>
+        <name>getCast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ad700d818305e0b07acea6169b88b6456" kindref="member">getCast()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="81" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a35a70607d8af7b93ebd9cf3d28f97179" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getFile</definition>
+        <argsstring>()</argsstring>
+        <name>getFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a35a70607d8af7b93ebd9cf3d28f97179" kindref="member">getFile()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="85" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1abdf315f1d331c56d23a31c1cd208d19e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getPath</definition>
+        <argsstring>()</argsstring>
+        <name>getPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1abdf315f1d331c56d23a31c1cd208d19e" kindref="member">getPath()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="89" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ad9faa6aeb8e828f397f8302a876db72d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getIMDBNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getIMDBNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ad9faa6aeb8e828f397f8302a876db72d" kindref="member">getIMDBNumber()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="93" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ae36a04e3e739381d9edc9a5b8eb0888d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::InfoTagVideo::getYear</definition>
+        <argsstring>()</argsstring>
+        <name>getYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ae36a04e3e739381d9edc9a5b8eb0888d" kindref="member">getYear()</ref> - returns an integer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="97" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a355f56ccc18c7282c91ab7d7698e9e19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double XBMCAddon::xbmc::InfoTagVideo::getRating</definition>
+        <argsstring>()</argsstring>
+        <name>getRating</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a355f56ccc18c7282c91ab7d7698e9e19" kindref="member">getRating()</ref> - returns a float (double where supported) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="101" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a54a325f492d1418b0fe6d4be92485473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::InfoTagVideo::getPlayCount</definition>
+        <argsstring>()</argsstring>
+        <name>getPlayCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a54a325f492d1418b0fe6d4be92485473" kindref="member">getPlayCount()</ref> <ndash/> returns a integer.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="106" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a32ad93d6eb9ca07cf8ab47d6f4d4e9c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getLastPlayed</definition>
+        <argsstring>()</argsstring>
+        <name>getLastPlayed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a32ad93d6eb9ca07cf8ab47d6f4d4e9c1" kindref="member">getLastPlayed()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="111" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a38f5c028f25e37353593e06a4868d95f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getOriginalTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getOriginalTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a38f5c028f25e37353593e06a4868d95f" kindref="member">getOriginalTitle()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="115" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="130" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a73d3621d42edbd9084f184f0514ef566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getPremiered</definition>
+        <argsstring>()</argsstring>
+        <name>getPremiered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a73d3621d42edbd9084f184f0514ef566" kindref="member">getPremiered()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="119" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="135" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a915d12808c44d6090628f6189cba5fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagVideo::getFirstAired</definition>
+        <argsstring>()</argsstring>
+        <name>getFirstAired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a915d12808c44d6090628f6189cba5fbf" kindref="member">getFirstAired()</ref> - returns a string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="123" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.cpp" bodystart="140" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="350">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="349">
+        <label>XBMCAddon::xbmc::InfoTagVideo</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="353">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+        <childnode refid="355" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="354">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="355">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>XBMCAddon::xbmc::InfoTagVideo</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" line="31" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagVideo.h" bodystart="30" bodyend="124"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ad700d818305e0b07acea6169b88b6456" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getCast</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1af1bd9636f2ec0c906a6f83e15667c626" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getDirector</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a35a70607d8af7b93ebd9cf3d28f97179" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getFile</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a915d12808c44d6090628f6189cba5fbf" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getFirstAired</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ae11f5974612de16f056fa05cd72b5f7c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getGenre</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ad9faa6aeb8e828f397f8302a876db72d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getIMDBNumber</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a32ad93d6eb9ca07cf8ab47d6f4d4e9c1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getLastPlayed</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a38f5c028f25e37353593e06a4868d95f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getOriginalTitle</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1abdf315f1d331c56d23a31c1cd208d19e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getPath</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a35d528aa63c669047ab2c8bdd1958de2" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getPictureURL</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a54a325f492d1418b0fe6d4be92485473" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getPlayCount</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a5472876ac8913f451c6fb0cc832f2575" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getPlot</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ac8025ae38a652eb6ad244069efafb4a7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getPlotOutline</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a73d3621d42edbd9084f184f0514ef566" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getPremiered</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a355f56ccc18c7282c91ab7d7698e9e19" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getRating</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a488131946afa1550106712a1bf9b97cd" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getTagLine</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1af3652bbfe8006bfbdea22b57b8884f80" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getTitle</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a547c9bae9f1d0226a01350d25ae0f85d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getVotes</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a5ad569e123fdc769bffb10747d54e680" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getWritingCredits</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ae36a04e3e739381d9edc9a5b8eb0888d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>getYear</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1aaa0dcca057e4aa33ed6e83bcd348a318" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>infoTag</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a06159dd4b5d0518475da4fb87e6ca518" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>InfoTagVideo</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a662cd824b4ea3f441b8720b55c45e667" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>InfoTagVideo</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a2de8e52d83e763e3c2c2edba0e94e357" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagVideo</scope><name>~InfoTagVideo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

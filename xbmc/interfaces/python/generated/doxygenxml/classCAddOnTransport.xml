@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classCAddOnTransport" kind="class" prot="public">
+    <compoundname>CAddOnTransport</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ITransportLayer</basecompoundref>
+    <innerclass refid="classCAddOnTransport_1_1CAddOnClient" prot="public">CAddOnTransport::CAddOnClient</innerclass>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCAddOnTransport_1a1db25cc2a6f26152e09d83fd88c7ae3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CAddOnTransport::PrepareDownload</definition>
+        <argsstring>(const char *path, CVariant &amp;details, std::string &amp;protocol)</argsstring>
+        <name>PrepareDownload</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>CVariant &amp;</type>
+          <declname>details</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>protocol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" line="29" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classCAddOnTransport_1a04815716383afa05992ec123c2b6fdac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CAddOnTransport::Download</definition>
+        <argsstring>(const char *path, CVariant &amp;result)</argsstring>
+        <name>Download</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>CVariant &amp;</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" line="30" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classCAddOnTransport_1a198ceef53dd405d978b6075fff2ecc1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int CAddOnTransport::GetCapabilities</definition>
+        <argsstring>()</argsstring>
+        <name>GetCapabilities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" line="31" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="95">
+        <label>JSONRPC::ITransportLayer</label>
+      </node>
+      <node id="94">
+        <label>CAddOnTransport</label>
+        <link refid="classCAddOnTransport"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="97">
+        <label>JSONRPC::ITransportLayer</label>
+      </node>
+      <node id="96">
+        <label>CAddOnTransport</label>
+        <link refid="classCAddOnTransport"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" line="27" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/aojsonrpc.h" bodystart="26" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classCAddOnTransport_1a04815716383afa05992ec123c2b6fdac" prot="public" virt="virtual"><scope>CAddOnTransport</scope><name>Download</name></member>
+      <member refid="classCAddOnTransport_1a198ceef53dd405d978b6075fff2ecc1c" prot="public" virt="virtual"><scope>CAddOnTransport</scope><name>GetCapabilities</name></member>
+      <member refid="classCAddOnTransport_1a1db25cc2a6f26152e09d83fd88c7ae3b" prot="public" virt="virtual"><scope>CAddOnTransport</scope><name>PrepareDownload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

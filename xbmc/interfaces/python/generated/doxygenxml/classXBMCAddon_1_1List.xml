@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1List" kind="class" prot="public">
+    <compoundname>XBMCAddon::List</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::list&lt; T &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1List_1aaaac6f49004171e2b0d9d445053e6db8" prot="public" static="yes" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref>&lt; T &gt;</type>
+        <definition>List&lt;T&gt; XBMCAddon::List&lt; T &gt;::nullList</definition>
+        <argsstring></argsstring>
+        <name>nullList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/List.h" line="30" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/List.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="398">
+        <label>std::list&lt; T &gt;</label>
+      </node>
+      <node id="397">
+        <label>XBMCAddon::List&lt; T &gt;</label>
+        <link refid="classXBMCAddon_1_1List"/>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="400">
+        <label>std::list&lt; T &gt;</label>
+      </node>
+      <node id="399">
+        <label>XBMCAddon::List&lt; T &gt;</label>
+        <link refid="classXBMCAddon_1_1List"/>
+        <childnode refid="400" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/List.h" line="28" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/List.h" bodystart="27" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1List_1aaaac6f49004171e2b0d9d445053e6db8" prot="public" virt="non-virtual"><scope>XBMCAddon::List</scope><name>nullList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

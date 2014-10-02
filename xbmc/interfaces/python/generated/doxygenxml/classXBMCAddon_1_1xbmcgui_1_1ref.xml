@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1ref" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::ref</compoundname>
+    <includes refid="WindowInterceptor_8h" local="no">WindowInterceptor.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ref_1af0775f11db782a113511285404274445" prot="private" static="no" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase" kindref="compound">InterceptorBase</ref> *</type>
+        <definition>InterceptorBase* XBMCAddon::xbmcgui::ref::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="88" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ref_1a9451bea6c4eeff7db3ab45e1c2ca1706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ref::ref</definition>
+        <argsstring>(InterceptorBase *b)</argsstring>
+        <name>ref</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase" kindref="compound">InterceptorBase</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="90" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ref_1a97c6f3fa98f2ce50df03ce520c243872" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ref::~ref</definition>
+        <argsstring>()</argsstring>
+        <name>~ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="91" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ref_1a15609b54f53967ddfeec6beed861eef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CGUIWindow *</type>
+        <definition>CGUIWindow* XBMCAddon::xbmcgui::ref::operator-&gt;</definition>
+        <argsstring>()</argsstring>
+        <name>operator-&gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="92" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ref_1a4a3fbac3c199d93298fc97bb23711ba1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CGUIWindow *</type>
+        <definition>CGUIWindow* XBMCAddon::xbmcgui::ref::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="93" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Guard class. But instead of managing memory or thread resources, any call made using the operator-&gt; results in an &apos;upcall.&apos; That is, it expects the call about to be made to have come from the <ref refid="namespaceXBMCAddon" kindref="compound">XBMCAddon</ref> xbmcgui <ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> API and not from either the scripting language or the XBMC core Windowing system.</para><para>This class is meant to hold references to instances of <ref refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor" kindref="compound">Interceptor</ref></para><para>. see that template definition below. </para>    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="87" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="86" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1a4a3fbac3c199d93298fc97bb23711ba1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ref</scope><name>get</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1a15609b54f53967ddfeec6beed861eef9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ref</scope><name>operator-&gt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1a9451bea6c4eeff7db3ab45e1c2ca1706" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ref</scope><name>ref</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1af0775f11db782a113511285404274445" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ref</scope><name>w</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1a97c6f3fa98f2ce50df03ce520c243872" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ref</scope><name>~ref</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

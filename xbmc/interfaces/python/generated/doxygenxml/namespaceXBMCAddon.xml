@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceXBMCAddon" kind="namespace">
+    <compoundname>XBMCAddon</compoundname>
+    <innerclass refid="classXBMCAddon_1_1AddonCallback" prot="public">XBMCAddon::AddonCallback</innerclass>
+    <innerclass refid="classXBMCAddon_1_1AddonClass" prot="public">XBMCAddon::AddonClass</innerclass>
+    <innerclass refid="classXBMCAddon_1_1Alternative" prot="public">XBMCAddon::Alternative</innerclass>
+    <innerclass refid="classXBMCAddon_1_1Callback" prot="public">XBMCAddon::Callback</innerclass>
+    <innerclass refid="structXBMCAddon_1_1cb__null__type" prot="public">XBMCAddon::cb_null_type</innerclass>
+    <innerclass refid="classXBMCAddon_1_1CallbackFunction" prot="public">XBMCAddon::CallbackFunction</innerclass>
+    <innerclass refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0" prot="public">XBMCAddon::CallbackFunction&lt; M, cb_null_type, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</innerclass>
+    <innerclass refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755" prot="public">XBMCAddon::CallbackFunction&lt; M, P1, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</innerclass>
+    <innerclass refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96" prot="public">XBMCAddon::CallbackFunction&lt; M, AddonClass::Ref&lt; P1 &gt;, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</innerclass>
+    <innerclass refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4" prot="public">XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</innerclass>
+    <innerclass refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4" prot="public">XBMCAddon::CallbackFunction&lt; M, P1, P2, P3, cb_null_type, cb_null_type &gt;</innerclass>
+    <innerclass refid="classXBMCAddon_1_1AsynchCallbackMessage" prot="public">XBMCAddon::AsynchCallbackMessage</innerclass>
+    <innerclass refid="classXBMCAddon_1_1CallbackHandler" prot="public">XBMCAddon::CallbackHandler</innerclass>
+    <innerclass refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler" prot="public">XBMCAddon::RetardedAsynchCallbackHandler</innerclass>
+    <innerclass refid="classXBMCAddon_1_1Dictionary" prot="public">XBMCAddon::Dictionary</innerclass>
+    <innerclass refid="classXBMCAddon_1_1UnimplementedException" prot="public">XBMCAddon::UnimplementedException</innerclass>
+    <innerclass refid="classXBMCAddon_1_1UnhandledException" prot="public">XBMCAddon::UnhandledException</innerclass>
+    <innerclass refid="classXBMCAddon_1_1LanguageHook" prot="public">XBMCAddon::LanguageHook</innerclass>
+    <innerclass refid="classXBMCAddon_1_1DelayedCallGuard" prot="public">XBMCAddon::DelayedCallGuard</innerclass>
+    <innerclass refid="classXBMCAddon_1_1SetLanguageHookGuard" prot="public">XBMCAddon::SetLanguageHookGuard</innerclass>
+    <innerclass refid="classXBMCAddon_1_1List" prot="public">XBMCAddon::List</innerclass>
+    <innerclass refid="structXBMCAddon_1_1tuple__null__type" prot="public">XBMCAddon::tuple_null_type</innerclass>
+    <innerclass refid="classXBMCAddon_1_1TupleBase" prot="public">XBMCAddon::TupleBase</innerclass>
+    <innerclass refid="classXBMCAddon_1_1Tuple" prot="public">XBMCAddon::Tuple</innerclass>
+    <innerclass refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4" prot="public">XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</innerclass>
+    <innerclass refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4" prot="public">XBMCAddon::Tuple&lt; T1, T2, tuple_null_type, tuple_null_type, tuple_null_type &gt;</innerclass>
+    <innerclass refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4" prot="public">XBMCAddon::Tuple&lt; T1, T2, T3, tuple_null_type, tuple_null_type &gt;</innerclass>
+    <innerclass refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4" prot="public">XBMCAddon::Tuple&lt; T1, T2, T3, T4, tuple_null_type &gt;</innerclass>
+    <innernamespace refid="namespaceXBMCAddon_1_1xbmc">XBMCAddon::xbmc</innernamespace>
+    <innernamespace refid="namespaceXBMCAddon_1_1xbmcaddon">XBMCAddon::xbmcaddon</innernamespace>
+    <innernamespace refid="namespaceXBMCAddon_1_1xbmcgui">XBMCAddon::xbmcgui</innernamespace>
+    <innernamespace refid="namespaceXBMCAddon_1_1xbmcplugin">XBMCAddon::xbmcplugin</innernamespace>
+    <innernamespace refid="namespaceXBMCAddon_1_1xbmcvfs">XBMCAddon::xbmcvfs</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceXBMCAddon_1a0977dfbb4d26e82fa8d5bd53d4cfed9d" prot="public" static="no">
+        <name>WhichAlternative</name>
+        <enumvalue id="namespaceXBMCAddon_1a0977dfbb4d26e82fa8d5bd53d4cfed9dab35724de7b9f45ff39afa519112df400" prot="public">
+          <name>none</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceXBMCAddon_1a0977dfbb4d26e82fa8d5bd53d4cfed9da8aeb11cc20528f5d7a69331f45258af7" prot="public">
+          <name>first</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceXBMCAddon_1a0977dfbb4d26e82fa8d5bd53d4cfed9dac03eaba30c0bfaac4b6d306e5b2368a8" prot="public">
+          <name>second</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="27" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1a5b94a9de1e8ec1ad257fc88bcf9834e1" prot="public" static="no">
+        <type>std::basic_string&lt; wchar_t &gt;</type>
+        <definition>typedef std::string XBMCAddon::String</definition>
+        <argsstring></argsstring>
+        <name>String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonString.h" line="32" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonString.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1ac6f77a39880a62227e54783ba9b33b64" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classXBMCAddon_1_1AddonClass_1_1Ref" kindref="compound">AddonClass::Ref</ref>&lt; <ref refid="classXBMCAddon_1_1AsynchCallbackMessage" kindref="compound">AsynchCallbackMessage</ref> &gt; &gt;</type>
+        <definition>typedef std::vector&lt;AddonClass::Ref&lt;AsynchCallbackMessage&gt; &gt; XBMCAddon::CallbackQueue</definition>
+        <argsstring></argsstring>
+        <name>CallbackQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.cpp" line="41" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.cpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1ac533cb966a54b62f9d35489ccc927b9b" prot="public" static="no">
+        <type>String</type>
+        <definition>typedef String XBMCAddon::StringOrInt</definition>
+        <argsstring></argsstring>
+        <name>StringOrInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dictionary.h" line="31" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dictionary.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1a6c47e8baf53d6a3cd5f4ebcbaa3e0abd" prot="public" static="no">
+        <type><ref refid="classXBMCAddon_1_1Dictionary" kindref="compound">Dictionary</ref>&lt; StringOrInt &gt;</type>
+        <definition>typedef Dictionary&lt;StringOrInt&gt; XBMCAddon::Properties</definition>
+        <argsstring></argsstring>
+        <name>Properties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dictionary.h" line="44" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dictionary.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceXBMCAddon_1a6494217d072073edce453604369d68b2" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String XBMCAddon::emptyString</definition>
+        <argsstring></argsstring>
+        <name>emptyString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonString.h" line="37" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/String.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceXBMCAddon_1a1d0701e39d0a328340c0ac752c21f1ed" prot="public" static="yes" mutable="no">
+        <type>CCriticalSection</type>
+        <definition>CCriticalSection XBMCAddon::critSection</definition>
+        <argsstring></argsstring>
+        <name>critSection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.cpp" line="44" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceXBMCAddon_1a26318d46bf04acf4733732da81e37747" prot="public" static="yes" mutable="no">
+        <type>CallbackQueue</type>
+        <definition>CallbackQueue XBMCAddon::g_callQueue</definition>
+        <argsstring></argsstring>
+        <name>g_callQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.cpp" line="45" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.cpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceXBMCAddon_1a574430b36d79505ac7cec962a391431a" prot="public" static="yes" mutable="no">
+        <type>XbmcThreads::ThreadLocal&lt; <ref refid="classXBMCAddon_1_1LanguageHook" kindref="compound">LanguageHook</ref> &gt;</type>
+        <definition>XbmcThreads::ThreadLocal&lt;LanguageHook&gt; XBMCAddon::addonLanguageHookTls</definition>
+        <argsstring></argsstring>
+        <name>addonLanguageHookTls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.cpp" line="31" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.cpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceXBMCAddon_1ac52960be79b938af9d6345dce6261046" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::threadLocalInitilialized</definition>
+        <argsstring></argsstring>
+        <name>threadLocalInitilialized</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.cpp" line="32" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceXBMCAddon_1af656396d47bc55ec29ba2ed51a641133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::XBMCCOMMONS_STANDARD_EXCEPTION</definition>
+        <argsstring>(WrongTypeException)</argsstring>
+        <name>XBMCCOMMONS_STANDARD_EXCEPTION</name>
+        <param>
+          <type>WrongTypeException</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Exception.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1a5f991eff496dd54a3d0445dae71cc4a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>xbmcutil::InitFlag</type>
+        <definition>static xbmcutil::InitFlag XBMCAddon::initer</definition>
+        <argsstring>(threadLocalInitilialized)</argsstring>
+        <name>initer</name>
+        <param>
+          <type>threadLocalInitilialized</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.cpp" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Defining LOG_LIFECYCLE_EVENTS will log all instantiations, deletions and also reference countings (increments and decrements) that take place on any Addon* class.</para><para>Comment out (or uncomment out) to change the setting. Defining XBMC_ADDON_DEBUG_MEMORY will make the Acquire and Release methods virtual allow the developer to overload them in a sub-class and set breakpoints to aid in debugging. It will also cause the reference counting mechanism to never actually delete any <ref refid="classXBMCAddon_1_1AddonClass" kindref="compound">AddonClass</ref> instance allowing for the tracking of more references to (supposedly) deallocated classes.</para><para>Comment out (or uncomment out) to change the setting.</para><para>This file contains a few templates to define various length Tuples. </para>    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Addon.cpp" line="33" column="1"/>
+  </compounddef>
+</doxygen>

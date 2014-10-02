@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1Interceptor" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::Interceptor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">P</basecompoundref>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::InterceptorBase</basecompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::InterceptorDialog&lt; P &gt;</derivedcompoundref>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>P</declname>
+        <defname>P</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1ad447972c58744f4fdb851c26a384d227" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::classname</definition>
+        <argsstring></argsstring>
+        <name>classname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="118" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a9b5a1834ce19ad1084a2d184254a4dee" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>CGUIWindow *</type>
+        <definition>virtual CGUIWindow* XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1abd198aea34b1019dc7da7c82258796fb">get</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="120" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a8aa462a3fbb9a7d1bf11c57185248e94" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::Update</definition>
+        <argsstring>(const String &amp;strPath)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>strPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="123" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a3c34e21c534c8f9a3aab284b1370ccbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::Interceptor</definition>
+        <argsstring>(const char *specializedName, Window *_window, int windowid)</argsstring>
+        <name>Interceptor</name>
+        <param>
+          <type>const char *</type>
+          <declname>specializedName</declname>
+        </param>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> *</type>
+          <declname>_window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="126" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="126" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a990a7851f40a95c3f1912eafb132e14d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::Interceptor</definition>
+        <argsstring>(const char *specializedName, Window *_window, int windowid, const char *xmlfile)</argsstring>
+        <name>Interceptor</name>
+        <param>
+          <type>const char *</type>
+          <declname>specializedName</declname>
+        </param>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> *</type>
+          <declname>_window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowid</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>xmlfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="138" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="138" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a7e099124da8e815d1914d8bece90f1ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::~Interceptor</definition>
+        <argsstring>()</argsstring>
+        <name>~Interceptor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="151" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="151" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1adce8b3e94b355bfe003a324d5f72c79e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::OnMessage</definition>
+        <argsstring>(CGUIMessage &amp;message)</argsstring>
+        <name>OnMessage</name>
+        <param>
+          <type>CGUIMessage &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="159" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="159" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a94619a1347754e90ea40410fa85f8233" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::OnAction</definition>
+        <argsstring>(const CAction &amp;action)</argsstring>
+        <name>OnAction</name>
+        <reimplementedby refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a81b07928760b10bad02a6b016a7e36d2">OnAction</reimplementedby>
+        <param>
+          <type>const CAction &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="161" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="161" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a2e0d382318804e74a254747a278fe8ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::OnBack</definition>
+        <argsstring>(int actionId)</argsstring>
+        <name>OnBack</name>
+        <param>
+          <type>int</type>
+          <declname>actionId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="165" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="165" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1aacb92742158ca58d6dc866fd06651fcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::OnDeinitWindow</definition>
+        <argsstring>(int nextWindowID)</argsstring>
+        <name>OnDeinitWindow</name>
+        <param>
+          <type>int</type>
+          <declname>nextWindowID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="168" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="168" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1abfbcbba312ff25ffbef6c5ab5a1023cf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::IsModalDialog</definition>
+        <argsstring>() const </argsstring>
+        <name>IsModalDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="171" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1acd4ed09937085d391b8af5044f073c83" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::IsDialogRunning</definition>
+        <argsstring>() const </argsstring>
+        <name>IsDialogRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="173" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="173" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1adf297a31e92dcd5cd50f3022bfae08a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::IsDialog</definition>
+        <argsstring>() const </argsstring>
+        <name>IsDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="174" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a1972b60e46b4b4d3719687d50a858857" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::IsMediaWindow</definition>
+        <argsstring>() const </argsstring>
+        <name>IsMediaWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="175" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a3dd9d8d1e1d049e74bd2903a8b6a4619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::setActive</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>setActive</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1afee0a99fbf6a00a1d23c01f2e442d524">setActive</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="177" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a8b798474d74ad26a96bbbe7ff878075e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool XBMCAddon::xbmcgui::Interceptor&lt; P &gt;::isActive</definition>
+        <argsstring>()</argsstring>
+        <name>isActive</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1ae3bb37d9c039b1b325b0a1b5dd10a172">isActive</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="178" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="178" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="357">
+        <label>P</label>
+      </node>
+      <node id="356">
+        <label>XBMCAddon::xbmcgui::Interceptor&lt; P &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor"/>
+        <childnode refid="357" relation="public-inheritance">
+        </childnode>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="359">
+        <label>XBMCAddon::xbmcgui::InterceptorDialog&lt; P &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog"/>
+        <childnode refid="356" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="358">
+        <label>XBMCAddon::xbmcgui::InterceptorBase</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="361">
+        <label>P</label>
+      </node>
+      <node id="360">
+        <label>XBMCAddon::xbmcgui::Interceptor&lt; P &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor"/>
+        <childnode refid="361" relation="public-inheritance">
+        </childnode>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="363">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::xbmcgui::Window &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="362">
+        <label>XBMCAddon::xbmcgui::InterceptorBase</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase"/>
+        <childnode refid="363" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="117" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="115" bodyend="179"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1ad447972c58744f4fdb851c26a384d227" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>classname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a9b5a1834ce19ad1084a2d184254a4dee" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>get</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a3c34e21c534c8f9a3aab284b1370ccbc" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>Interceptor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a990a7851f40a95c3f1912eafb132e14d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>Interceptor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1a42045b88449f788c3a974a4447033852" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>InterceptorBase</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a8b798474d74ad26a96bbbe7ff878075e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>isActive</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1adf297a31e92dcd5cd50f3022bfae08a3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>IsDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1acd4ed09937085d391b8af5044f073c83" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>IsDialogRunning</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a1972b60e46b4b4d3719687d50a858857" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>IsMediaWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1abfbcbba312ff25ffbef6c5ab5a1023cf" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>IsModalDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a94619a1347754e90ea40410fa85f8233" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>OnAction</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a2e0d382318804e74a254747a278fe8ef" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>OnBack</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1aacb92742158ca58d6dc866fd06651fcf" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>OnDeinitWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1adce8b3e94b355bfe003a324d5f72c79e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>OnMessage</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a3dd9d8d1e1d049e74bd2903a8b6a4619" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>setActive</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1a5291d7dc2bf20597ba5ad71ba08f5693" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>up</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1ad1758bcb44481aed7d1a51020e43742c" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>upcallTls</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a8aa462a3fbb9a7d1bf11c57185248e94" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>Update</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1aeb1faee88b8f61aac8a2e8575dd9b6fe" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>window</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a7e099124da8e815d1914d8bece90f1ba" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>~Interceptor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1a443c63ae366a532b63545010290118f0" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Interceptor</scope><name>~InterceptorBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

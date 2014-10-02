@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmc_1_1Keyboard" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmc::Keyboard</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <includes refid="Keyboard_8h" local="no">Keyboard.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1a6b28a7ac040b324d33d427bb0b3cbeb5" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::Keyboard::strDefault</definition>
+        <argsstring></argsstring>
+        <name>strDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="58" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1af2a4505fb6ffc24a3ed91cdda7b5b4e6" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::Keyboard::strHeading</definition>
+        <argsstring></argsstring>
+        <name>strHeading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="59" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1a033f8760837bfd648f46b9b69591c8a0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::Keyboard::bHidden</definition>
+        <argsstring></argsstring>
+        <name>bHidden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="60" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1aa3fbb3be2a4e36d8d10e505c341ead1a" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::Keyboard::strText</definition>
+        <argsstring></argsstring>
+        <name>strText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="61" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1a040236a8db897592da658d9c6f7da8ac" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::Keyboard::bConfirmed</definition>
+        <argsstring></argsstring>
+        <name>bConfirmed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="62" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1a7c9a8212df8cb117d4f3ccf2eb60f18b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::Keyboard::Keyboard</definition>
+        <argsstring>(const String &amp;line=emptyString, const String &amp;heading=emptyString, bool hidden=false)</argsstring>
+        <name>Keyboard</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hidden</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="65" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1af7504ca39caa7c12f7a40ddbd4e8e029" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::Keyboard::~Keyboard</definition>
+        <argsstring>()</argsstring>
+        <name>~Keyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="66" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.cpp" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1a45303a73fb0952d4f2426a2f61796bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Keyboard::doModal</definition>
+        <argsstring>(int autoclose=0)</argsstring>
+        <name>doModal</name>
+        <param>
+          <type>int</type>
+          <declname>autoclose</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>doModal([autoclose]) <ndash/> Show keyboard and wait for user action.<linebreak/>
+<linebreak/>
+autoclose : [opt] integer - milliseconds to autoclose dialog. (default=do not autoclose)<linebreak/>
+<linebreak/>
+example:<itemizedlist>
+<listitem><para>kb.doModal(30000) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="76" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.cpp" bodystart="41" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1aa4c6d508ba6d377c53944af290c3aed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Keyboard::setDefault</definition>
+        <argsstring>(const String &amp;line=emptyString)</argsstring>
+        <name>setDefault</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line</declname>
+          <defval>emptyString</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setDefault(default) <ndash/> Set the default text entry.<linebreak/>
+<linebreak/>
+default : string - default text entry.<linebreak/>
+<linebreak/>
+example:<itemizedlist>
+<listitem><para>kb.setDefault(&apos;password&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="87" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1aeaf753a01a55bb8e94e3ab583dcba582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Keyboard::setHiddenInput</definition>
+        <argsstring>(bool hidden=false)</argsstring>
+        <name>setHiddenInput</name>
+        <param>
+          <type>bool</type>
+          <declname>hidden</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setHiddenInput(hidden) <ndash/> Allows hidden text entry.<linebreak/>
+<linebreak/>
+hidden : boolean - True for hidden text entry.<linebreak/>
+example:<itemizedlist>
+<listitem><para>kb.setHiddenInput(True) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="96" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.cpp" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1a7ab383816763b5b80a4d4d0ae9edd79e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Keyboard::setHeading</definition>
+        <argsstring>(const String &amp;heading)</argsstring>
+        <name>setHeading</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setHeading(heading) <ndash/> Set the keyboard heading.<linebreak/>
+<linebreak/>
+heading : string - keyboard heading.<linebreak/>
+<linebreak/>
+example:<itemizedlist>
+<listitem><para>kb.setHeading(&apos;Enter password&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="107" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1ab69be090bb621e1d9d6445f525e7b7d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::Keyboard::getText</definition>
+        <argsstring>()</argsstring>
+        <name>getText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1ab69be090bb621e1d9d6445f525e7b7d9" kindref="member">getText()</ref> <ndash/> Returns the user input as a string.<linebreak/>
+<linebreak/>
+*Note, This will always return the text entry even if you cancel the keyboard.<linebreak/>
+ Use the <ref refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a8efc83b3d107f124e860963fa600eb9e" kindref="member">isConfirmed()</ref> method to check if user cancelled the keyboard.<linebreak/>
+<linebreak/>
+example:<itemizedlist>
+<listitem><para>text = kb.getText() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="119" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Keyboard_1a8efc83b3d107f124e860963fa600eb9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::Keyboard::isConfirmed</definition>
+        <argsstring>()</argsstring>
+        <name>isConfirmed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a8efc83b3d107f124e860963fa600eb9e" kindref="member">isConfirmed()</ref> <ndash/> Returns False if the user cancelled the input.<linebreak/>
+<linebreak/>
+example:<itemizedlist>
+<listitem><para>if (kb.isConfirmed()): </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="128" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Keyboard" kindref="compound">Keyboard</ref> class.<linebreak/>
+<linebreak/>
+Keyboard([default, heading, hidden]) <ndash/> Creates a new <ref refid="classXBMCAddon_1_1xbmc_1_1Keyboard" kindref="compound">Keyboard</ref> object with default text<linebreak/>
+ heading and hidden input flag if supplied.<linebreak/>
+<linebreak/>
+default : [opt] string - default text entry.<linebreak/>
+heading : [opt] string - keyboard heading.<linebreak/>
+hidden : [opt] boolean - True for hidden text entry.<linebreak/>
+<linebreak/>
+example:<linebreak/>
+<itemizedlist>
+<listitem><para>kb = <ref refid="classXBMCAddon_1_1xbmc_1_1Keyboard" kindref="compound">xbmc.Keyboard</ref>(&apos;default&apos;, &apos;heading&apos;, True)</para></listitem><listitem><para>kb.setDefault(&apos;password&apos;) # optional</para></listitem><listitem><para>kb.setHeading(&apos;Enter password&apos;) # optional</para></listitem><listitem><para>kb.setHiddenInput(True) # optional</para></listitem><listitem><para>kb.doModal()</para></listitem><listitem><para>if (kb.isConfirmed()):</para></listitem><listitem><para>text = kb.getText() </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="385">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="386" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>XBMCAddon::xbmc::Keyboard</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1Keyboard"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="386">
+        <label>CCriticalSection</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="388">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="389" relation="public-inheritance">
+        </childnode>
+        <childnode refid="390" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="387">
+        <label>XBMCAddon::xbmc::Keyboard</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1Keyboard"/>
+        <childnode refid="388" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="390">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="388" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="55" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" bodystart="54" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a040236a8db897592da658d9c6f7da8ac" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>bConfirmed</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a033f8760837bfd648f46b9b69591c8a0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>bHidden</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a45303a73fb0952d4f2426a2f61796bd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>doModal</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1ab69be090bb621e1d9d6445f525e7b7d9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>getText</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a8efc83b3d107f124e860963fa600eb9e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>isConfirmed</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a7c9a8212df8cb117d4f3ccf2eb60f18b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>Keyboard</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1aa4c6d508ba6d377c53944af290c3aed8" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>setDefault</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a7ab383816763b5b80a4d4d0ae9edd79e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>setHeading</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1aeaf753a01a55bb8e94e3ab583dcba582" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>setHiddenInput</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a6b28a7ac040b324d33d427bb0b3cbeb5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>strDefault</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1af2a4505fb6ffc24a3ed91cdda7b5b4e6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>strHeading</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1aa3fbb3be2a4e36d8d10e505c341ead1a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>strText</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1af7504ca39caa7c12f7a40ddbd4e8e029" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Keyboard</scope><name>~Keyboard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

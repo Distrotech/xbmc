@@ -1,0 +1,611 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1Dialog" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::Dialog</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <includes refid="Dialog_8h" local="no">Dialog.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a743361915295da2dbf45a05988ff7e7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::Dialog::Dialog</definition>
+        <argsstring>()</argsstring>
+        <name>Dialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="54" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1aea14f8a132db6f09a14812eb43e9d1eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::Dialog::~Dialog</definition>
+        <argsstring>()</argsstring>
+        <name>~Dialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="55" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a0778bc7e48c1e1d0f1f6fb891b16c9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Dialog::yesno</definition>
+        <argsstring>(const String &amp;heading, const String &amp;line1, const String &amp;line2=emptyString, const String &amp;line3=emptyString, const String &amp;nolabel=emptyString, const String &amp;yeslabel=emptyString, int autoclose=0)</argsstring>
+        <name>yesno</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line1</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line2</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line3</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>nolabel</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>yeslabel</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>autoclose</declname>
+          <defval>0</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>yesno(heading, line1[, line2, line3]) <ndash/> Show a dialog &apos;YES/NO&apos;.<linebreak/>
+<linebreak/>
+heading : string or unicode - dialog heading.<linebreak/>
+line1 : string or unicode - line #1 text.<linebreak/>
+line2 : [opt] string or unicode - line #2 text.<linebreak/>
+line3 : [opt] string or unicode - line #3 text.<linebreak/>
+nolabel : [opt] label to put on the no button.<linebreak/>
+yeslabel : [opt] label to put on the yes button.<linebreak/>
+autoclose : [opt] integer - milliseconds to autoclose dialog. (default=do not autoclose)<linebreak/>
+<linebreak/>
+*Note, Returns True if &apos;Yes&apos; was pressed, else False.<linebreak/>
+*Note, Optionally line1 can be sent as multi-line text. In this case line2 and line3 must be omitted.<linebreak/>
+<linebreak/>
+example:<linebreak/>
+<itemizedlist>
+<listitem><para>dialog = xbmcgui.Dialog()<linebreak/>
+</para></listitem><listitem><para>ret = dialog.yesno(&apos;XBMC&apos;, &apos;Do you want to exit this script?&apos;)n<linebreak/>
+</para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="75" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="48" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a5c0e07ed2288f907a6a006bb498abe11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::Dialog::select</definition>
+        <argsstring>(const String &amp;heading, const std::vector&lt; String &gt; &amp;list, int autoclose=0)</argsstring>
+        <name>select</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; String &gt; &amp;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>autoclose</declname>
+          <defval>0</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>select(heading, list) <ndash/> Show a select dialog.<linebreak/>
+<linebreak/>
+heading : string or unicode - dialog heading.<linebreak/>
+list : string list - list of items.<linebreak/>
+autoclose : [opt] integer - milliseconds to autoclose dialog. (default=do not autoclose)<linebreak/>
+<linebreak/>
+*Note, Returns the position of the highlighted item as an integer.<linebreak/>
+<linebreak/>
+example:<linebreak/>
+<itemizedlist>
+<listitem><para>dialog = xbmcgui.Dialog()<linebreak/>
+</para></listitem><listitem><para>ret = dialog.select(&apos;Choose a playlist&apos;, [&apos;Playlist #1&apos;, &apos;Playlist #2, &apos;Playlist #3&apos;])n<linebreak/>
+</para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="95" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="85" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ad06502ada19626b307a8af40a60e4be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::Dialog::ok</definition>
+        <argsstring>(const String &amp;heading, const String &amp;line1, const String &amp;line2=emptyString, const String &amp;line3=emptyString)</argsstring>
+        <name>ok</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line1</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line2</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line3</declname>
+          <defval>emptyString</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ok(heading, line1[, line2, line3]) <ndash/> Show a dialog &apos;OK&apos;.<linebreak/>
+<linebreak/>
+heading : string or unicode - dialog heading.<linebreak/>
+line1 : string or unicode - line #1 text.<linebreak/>
+line2 : [opt] string or unicode - line #2 text.<linebreak/>
+line3 : [opt] string or unicode - line #3 text.<linebreak/>
+<linebreak/>
+*Note, Returns True if &apos;Ok&apos; was pressed, else False.<linebreak/>
+*Note: Optionally line1 can be sent as multi-line text. In this case line2 and line3 must be omitted.<linebreak/>
+<linebreak/>
+example:<linebreak/>
+<itemizedlist>
+<listitem><para>dialog = xbmcgui.Dialog()<linebreak/>
+</para></listitem><listitem><para>ok = dialog.ok(&apos;XBMC&apos;, &apos;There was an error.&apos;)n<linebreak/>
+</para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="112" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="112" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1aa55c461be7f7a183e97f66d97b032abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1Alternative" kindref="compound">Alternative</ref>&lt; String, std::vector&lt; String &gt; &gt;</type>
+        <definition>Alternative&lt; String, std::vector&lt; String &gt; &gt; XBMCAddon::xbmcgui::Dialog::browse</definition>
+        <argsstring>(int type, const String &amp;heading, const String &amp;s_shares, const String &amp;mask=emptyString, bool useThumbs=false, bool treatAsFolder=false, const String &amp;defaultt=emptyString, bool enableMultiple=false)</argsstring>
+        <name>browse</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>s_shares</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>mask</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useThumbs</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>treatAsFolder</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>defaultt</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enableMultiple</declname>
+          <defval>false</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>browse(type, heading, shares[, mask, useThumbs, treatAsFolder, default, enableMultiple]) <ndash/> Show a &apos;Browse&apos; dialog.<linebreak/>
+<linebreak/>
+type : integer - the type of browse dialog.<linebreak/>
+heading : string or unicode - dialog heading.<linebreak/>
+shares : string or unicode - from sources.xml. (i.e. &apos;myprograms&apos;)<linebreak/>
+mask : [opt] string or unicode - &apos;|&apos; separated file mask. (i.e. &apos;.jpg|.png&apos;)<linebreak/>
+useThumbs : [opt] boolean - if True autoswitch to Thumb view if files exist.<linebreak/>
+treatAsFolder : [opt] boolean - if True playlists and archives act as folders.<linebreak/>
+default : [opt] string - default path or file.<linebreak/>
+ enableMultiple : [opt] boolean - if True multiple file selection is enabled.</para><para>Types:<itemizedlist>
+<listitem><para>0 : ShowAndGetDirectory</para></listitem><listitem><para>1 : ShowAndGetFile</para></listitem><listitem><para>2 : ShowAndGetImage</para></listitem><listitem><para>3 : ShowAndGetWriteableDirectory</para></listitem></itemizedlist>
+</para><para>*Note, If enableMultiple is False (default): returns filename and/or path as a string<linebreak/>
+ to the location of the highlighted item, if user pressed &apos;Ok&apos; or a masked item<linebreak/>
+ was selected. Returns the default value if dialog was canceled.<linebreak/>
+ If enableMultiple is True: returns tuple of marked filenames as a strin<linebreak/>
+ if user pressed &apos;Ok&apos; or a masked item was selected. Returns empty tuple if dialog was canceled.<linebreak/>
+<linebreak/>
+ If type is 0 or 3 the enableMultiple parameter is ignore<linebreak/>
+<linebreak/>
+example:<linebreak/>
+<itemizedlist>
+<listitem><para>dialog = xbmcgui.Dialog()<linebreak/>
+</para></listitem><listitem><para>fn = dialog.browse(3, &apos;XBMC&apos;, &apos;files&apos;, &apos;&apos;, False, False, False, &apos;special://masterprofile/script_data/XBMC Lyrics&apos;)<linebreak/>
+</para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="147" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="138" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a00787656fd82414b71c43bde966fd042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::Dialog::browseSingle</definition>
+        <argsstring>(int type, const String &amp;heading, const String &amp;shares, const String &amp;mask=emptyString, bool useThumbs=false, bool treatAsFolder=false, const String &amp;defaultt=emptyString)</argsstring>
+        <name>browseSingle</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>shares</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>mask</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useThumbs</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>treatAsFolder</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>defaultt</declname>
+          <defval>emptyString</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>browse(type, heading, shares[, mask, useThumbs, treatAsFolder, default]) <ndash/> Show a &apos;Browse&apos; dialog.<linebreak/>
+<linebreak/>
+type : integer - the type of browse dialog.<linebreak/>
+heading : string or unicode - dialog heading.<linebreak/>
+shares : string or unicode - from sources.xml. (i.e. &apos;myprograms&apos;)<linebreak/>
+mask : [opt] string or unicode - &apos;|&apos; separated file mask. (i.e. &apos;.jpg|.png&apos;)<linebreak/>
+useThumbs : [opt] boolean - if True autoswitch to Thumb view if files exist (default=false).<linebreak/>
+treatAsFolder : [opt] boolean - if True playlists and archives act as folders (default=false).<linebreak/>
+default : [opt] string - default path or file.<linebreak/>
+<linebreak/>
+Types:<linebreak/>
+<itemizedlist>
+<listitem><para>0 : ShowAndGetDirectory</para></listitem><listitem><para>1 : ShowAndGetFile</para></listitem><listitem><para>2 : ShowAndGetImage</para></listitem><listitem><para>3 : ShowAndGetWriteableDirectory <linebreak/>
+*Note, Returns filename and/or path as a string to the location of the highlighted item,<linebreak/>
+ if user pressed &apos;Ok&apos; or a masked item was selected.<linebreak/>
+ Returns the default value if dialog was canceled.<linebreak/>
+<linebreak/>
+example:<linebreak/>
+</para></listitem><listitem><para>dialog = xbmcgui.Dialog()</para></listitem><listitem><para>fn = dialog.browse(3, &apos;XBMC&apos;, &apos;files&apos;, &apos;&apos;, False, False, &apos;special://masterprofile/script_data/XBMC Lyrics&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="177" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="151" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ab429653c457367d3f67b6fc76a4eea34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; String &gt;</type>
+        <definition>std::vector&lt; String &gt; XBMCAddon::xbmcgui::Dialog::browseMultiple</definition>
+        <argsstring>(int type, const String &amp;heading, const String &amp;shares, const String &amp;mask=emptyString, bool useThumbs=false, bool treatAsFolder=false, const String &amp;defaultt=emptyString)</argsstring>
+        <name>browseMultiple</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>shares</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>mask</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useThumbs</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>treatAsFolder</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>defaultt</declname>
+          <defval>emptyString</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>browse(type, heading, shares[, mask, useThumbs, treatAsFolder, default]) <ndash/> Show a &apos;Browse&apos; dialog.<linebreak/>
+<linebreak/>
+type : integer - the type of browse dialog.<linebreak/>
+heading : string or unicode - dialog heading.<linebreak/>
+shares : string or unicode - from sources.xml. (i.e. &apos;myprograms&apos;)<linebreak/>
+mask : [opt] string or unicode - &apos;|&apos; separated file mask. (i.e. &apos;.jpg|.png&apos;)<linebreak/>
+useThumbs : [opt] boolean - if True autoswitch to Thumb view if files exist (default=false).<linebreak/>
+treatAsFolder : [opt] boolean - if True playlists and archives act as folders (default=false).<linebreak/>
+default : [opt] string - default path or file.<linebreak/>
+<linebreak/>
+Types:<itemizedlist>
+<listitem><para>1 : ShowAndGetFile</para></listitem><listitem><para>2 : ShowAndGetImage</para></listitem></itemizedlist>
+</para><para>*Note, <linebreak/>
+ returns tuple of marked filenames as a string,"<linebreak/>
+ if user pressed &apos;Ok&apos; or a masked item was selected. Returns empty tuple if dialog was canceled.<linebreak/>
+<linebreak/>
+example:<linebreak/>
+<itemizedlist>
+<listitem><para>dialog = xbmcgui.Dialog()</para></listitem><listitem><para>fn = dialog.browseMultiple(2, &apos;XBMC&apos;, &apos;files&apos;, &apos;&apos;, False, False, &apos;special://masterprofile/script_data/XBMC Lyrics&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="205" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="176" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ad63ecd042f6d0643767010743720b9c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::Dialog::numeric</definition>
+        <argsstring>(int type, const String &amp;heading, const String &amp;defaultt=emptyString)</argsstring>
+        <name>numeric</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>defaultt</declname>
+          <defval>emptyString</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>numeric(type, heading[, default]) <ndash/> Show a &apos;Numeric&apos; dialog.<linebreak/>
+<linebreak/>
+type : integer - the type of numeric dialog.<linebreak/>
+heading : string or unicode - dialog heading.<linebreak/>
+default : [opt] string - default value.<linebreak/>
+<linebreak/>
+Types:<itemizedlist>
+<listitem><para>0 : ShowAndGetNumber (default format: #)</para></listitem><listitem><para>1 : ShowAndGetDate (default format: DD/MM/YYYY)</para></listitem><listitem><para>2 : ShowAndGetTime (default format: HH:MM)</para></listitem><listitem><para>3 : ShowAndGetIPAddress (default format: #.#.#.#)</para></listitem></itemizedlist>
+</para><para>*Note, Returns the entered data as a string.<linebreak/>
+ Returns the default value if dialog was canceled.<linebreak/>
+<linebreak/>
+example:<linebreak/>
+<itemizedlist>
+<listitem><para>dialog = xbmcgui.Dialog()</para></listitem><listitem><para>d = dialog.numeric(1, &apos;Enter date of birth&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="231" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="205" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ac207ff8a9757f948627cfa330f341b0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Dialog::notification</definition>
+        <argsstring>(const String &amp;heading, const String &amp;message, const String &amp;icon=emptyString, int time=0, bool sound=true)</argsstring>
+        <name>notification</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>icon</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>time</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sound</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>notification(heading, message[, icon, time, sound]) <ndash/> Show a Notification alert.<linebreak/>
+<linebreak/>
+heading : string - dialog heading.<linebreak/>
+message : string - dialog message.<linebreak/>
+icon : [opt] string - icon to use. (default xbmcgui.NOTIFICATION_INFO)<linebreak/>
+time : [opt] integer - time in milliseconds (default 5000)<linebreak/>
+sound : [opt] bool - play notification sound (default True)<linebreak/>
+<linebreak/>
+Builtin Icons:<linebreak/>
+<itemizedlist>
+<listitem><para>xbmcgui.NOTIFICATION_INFO</para></listitem><listitem><para>xbmcgui.NOTIFICATION_WARNING</para></listitem><listitem><para>xbmcgui.NOTIFICATION_ERROR <linebreak/>
+example:</para></listitem><listitem><para>dialog = xbmcgui.Dialog()</para></listitem><listitem><para>dialog.notification(&apos;Movie Trailers&apos;, &apos;Finding Nemo download finished.&apos;, xbmcgui.NOTIFICATION_INFO, 5000) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="251" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="257" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ae951dc6478a426123cbdc3f09522ee46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmcgui::Dialog::input</definition>
+        <argsstring>(const String &amp;heading, const String &amp;defaultt=emptyString, int type=INPUT_ALPHANUM, int option=0, int autoclose=0)</argsstring>
+        <name>input</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>defaultt</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+          <defval>INPUT_ALPHANUM</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>option</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>autoclose</declname>
+          <defval>0</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>input(heading[, default, type, option, autoclose]) <ndash/> Show an Input dialog.<linebreak/>
+<linebreak/>
+ heading : string - dialog heading.<linebreak/>
+ default : [opt] string - default value. (default=empty string)<linebreak/>
+ type : [opt] integer - the type of keyboard dialog. (default=xbmcgui.INPUT_ALPHANUM)<linebreak/>
+ option : [opt] integer - option for the dialog. (see Options below)<linebreak/>
+ autoclose : [opt] integer - milliseconds to autoclose dialog. (default=do not autoclose)<linebreak/>
+<linebreak/>
+ Types:<itemizedlist>
+<listitem><para>xbmcgui.INPUT_ALPHANUM (standard keyboard)</para></listitem><listitem><para>xbmcgui.INPUT_NUMERIC (format: #)</para></listitem><listitem><para>xbmcgui.INPUT_DATE (format: DD/MM/YYYY)</para></listitem><listitem><para>xbmcgui.INPUT_TIME (format: HH:MM)</para></listitem><listitem><para>xbmcgui.INPUT_IPADDRESS (format: #.#.#.#)</para></listitem><listitem><para>xbmcgui.INPUT_PASSWORD (return md5 hash of input, input is masked)</para></listitem></itemizedlist>
+</para><para>Options Password <ref refid="classXBMCAddon_1_1xbmcgui_1_1Dialog" kindref="compound">Dialog</ref>:<linebreak/>
+<itemizedlist>
+<listitem><para>xbmcgui.PASSWORD_VERIFY (verifies an existing (default) md5 hashed password) <linebreak/>
+ Options Alphanum <ref refid="classXBMCAddon_1_1xbmcgui_1_1Dialog" kindref="compound">Dialog</ref>:<linebreak/>
+</para></listitem><listitem><para>xbmcgui.ALPHANUM_HIDE_INPUT (masks input) <linebreak/>
+ *Note, Returns the entered data as a string.<linebreak/>
+ Returns an empty string if dialog was canceled.<linebreak/>
+<linebreak/>
+ example:</para></listitem><listitem><para>dialog = xbmcgui.Dialog()</para></listitem><listitem><para>d = dialog.input(&apos;Enter secret code&apos;, type=xbmcgui.INPUT_ALPHANUM, option=xbmcgui.ALPHANUM_HIDE_INPUT)n </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="283" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="279" bodyend="355"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1Dialog" kindref="compound">Dialog</ref> class (Duh!)<linebreak/>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="309">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="308">
+        <label>XBMCAddon::xbmcgui::Dialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Dialog"/>
+        <childnode refid="309" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>CCriticalSection</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="312">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="313" relation="public-inheritance">
+        </childnode>
+        <childnode refid="314" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="311">
+        <label>XBMCAddon::xbmcgui::Dialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Dialog"/>
+        <childnode refid="312" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="314">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="312" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="51" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" bodystart="50" bodyend="288"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1aa55c461be7f7a183e97f66d97b032abb" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>browse</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ab429653c457367d3f67b6fc76a4eea34" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>browseMultiple</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a00787656fd82414b71c43bde966fd042" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>browseSingle</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a743361915295da2dbf45a05988ff7e7b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>Dialog</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ae951dc6478a426123cbdc3f09522ee46" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>input</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ac207ff8a9757f948627cfa330f341b0c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>notification</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ad63ecd042f6d0643767010743720b9c4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>numeric</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ad06502ada19626b307a8af40a60e4be7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>ok</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a5c0e07ed2288f907a6a006bb498abe11" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>select</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a0778bc7e48c1e1d0f1f6fb891b16c9c3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>yesno</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1aea14f8a132db6f09a14812eb43e9d1eb" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Dialog</scope><name>~Dialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1874 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceXBMCAddon_1_1xbmc" kind="namespace">
+    <compoundname>XBMCAddon::xbmc</compoundname>
+    <innerclass refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic" prot="public">XBMCAddon::xbmc::InfoTagMusic</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo" prot="public">XBMCAddon::xbmc::InfoTagVideo</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmc_1_1Keyboard" prot="public">XBMCAddon::xbmc::Keyboard</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmc_1_1Monitor" prot="public">XBMCAddon::xbmc::Monitor</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmc_1_1Player" prot="public">XBMCAddon::xbmc::Player</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmc_1_1PlayList" prot="public">XBMCAddon::xbmc::PlayList</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmc_1_1RenderCapture" prot="public">XBMCAddon::xbmc::RenderCapture</innerclass>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a12a215c993686bf67133ef37bc77eefb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::getLocalizedString</definition>
+        <argsstring>(int id)</argsstring>
+        <name>getLocalizedString</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getLocalizedString(id) <ndash/> Returns a localized &apos;unicode string&apos;.</para><para>id : integer - id# for string you want to localize.</para><para>*Note, See strings.xml in }\ for which id<linebreak/>
+ you need for a string.</para><para>example:<itemizedlist>
+<listitem><para>locstr = xbmc.getLocalizedString(6) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="164" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="164" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a5d296a03cf2c759b8f32636d1da216d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::getSkinDir</definition>
+        <argsstring>()</argsstring>
+        <name>getSkinDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getSkinDir() <ndash/> Returns the active skin directory as a string.</para><para>*Note, This is not the full path like &apos;special://home/addons/MediaCenter&apos;, but only &apos;MediaCenter&apos;.</para><para>example:<itemizedlist>
+<listitem><para>skindir = xbmc.getSkinDir() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="178" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="178" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aa128f8c0a6f52e81659499bd39c645e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::getLanguage</definition>
+        <argsstring>(int format, bool region)</argsstring>
+        <name>getLanguage</name>
+        <param>
+          <type>int</type>
+          <declname>format</declname>
+          <defval>CLangCodeExpander::ENGLISH_NAME</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>region</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getLanguage([format], [region]) <ndash/> Returns the active language as a string.</para><para>format: [opt] format of the returned language string<itemizedlist>
+<listitem><para>xbmc.ISO_639_1: two letter code as defined in ISO 639-1</para></listitem><listitem><para>xbmc.ISO_639_2: three letter code as defined in ISO 639-2/T or ISO 639-2/B</para></listitem><listitem><para>xbmc.ENGLISH_NAME: full language name in English (default)</para></listitem></itemizedlist>
+</para><para>region: [opt] append the region delimited by &quot;-&quot; of the language (setting) to the returned language string</para><para>example:<itemizedlist>
+<listitem><para>language = xbmc.getLanguage(xbmc.ENGLISH_NAME) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="184" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="184" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a3043b214aa9aa0e48a682af77fd8b558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::getIPAddress</definition>
+        <argsstring>()</argsstring>
+        <name>getIPAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getIPAddress() <ndash/> Returns the current ip address as a string.</para><para>example:<itemizedlist>
+<listitem><para>ip = xbmc.getIPAddress() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="234" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="234" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aa60e3b10162318da0fb814273449f30a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmc::getDVDState</definition>
+        <argsstring>()</argsstring>
+        <name>getDVDState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getDVDState() <ndash/> Returns the dvd state as an integer.</para><para>return values are:<itemizedlist>
+<listitem><para>1 : xbmc.DRIVE_NOT_READY</para></listitem><listitem><para>16 : xbmc.TRAY_OPEN</para></listitem><listitem><para>64 : xbmc.TRAY_CLOSED_NO_MEDIA</para></listitem><listitem><para>96 : xbmc.TRAY_CLOSED_MEDIA_PRESENT</para></listitem></itemizedlist>
+</para><para>example:<itemizedlist>
+<listitem><para>dvdstate = xbmc.getDVDState() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="246" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="246" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aa64bc386fa5440b79c4f1dfafac0c8eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmc::getFreeMem</definition>
+        <argsstring>()</argsstring>
+        <name>getFreeMem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getFreeMem() <ndash/> Returns the amount of free memory in MB as an integer.</para><para>example:<itemizedlist>
+<listitem><para>freemem = xbmc.getFreeMem() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="252" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="252" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a7ea9737d2f9fd40dd7e1cff070092e6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::getInfoLabel</definition>
+        <argsstring>(const char *cLine)</argsstring>
+        <name>getInfoLabel</name>
+        <param>
+          <type>const char *</type>
+          <declname>cLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getInfoLabel(infotag) <ndash/> Returns an InfoLabel as a string.</para><para>infotag : string - infoTag for value you want returned.</para><para><ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> of InfoTags - <ulink url="http://wiki.xbmc.org/?title=InfoLabels">http://wiki.xbmc.org/?title=InfoLabels</ulink></para><para>example:<itemizedlist>
+<listitem><para>label = xbmc.getInfoLabel(&apos;Weather.Conditions&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="294" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="294" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a7a8e124cc67b013164aeaec46ed8a12d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::getInfoImage</definition>
+        <argsstring>(const char *infotag)</argsstring>
+        <name>getInfoImage</name>
+        <param>
+          <type>const char *</type>
+          <declname>infotag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getInfoImage(infotag) <ndash/> Returns a filename including path to the InfoImage&apos;s thumbnail as a string.</para><para>infotag : string - infotag for value you want returned.</para><para><ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> of InfoTags - <ulink url="http://wiki.xbmc.org/?title=InfoLabels">http://wiki.xbmc.org/?title=InfoLabels</ulink></para><para>example:<itemizedlist>
+<listitem><para>filename = xbmc.getInfoImage(&apos;Weather.Conditions&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="315" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="315" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a0f909f30ad6b6c45527c07034d579670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::playSFX</definition>
+        <argsstring>(const char *filename, bool useCached)</argsstring>
+        <name>playSFX</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useCached</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>playSFX(filename,[useCached]) <ndash/> Plays a wav file by filename</para><para>filename : string - filename of the wav file to play. useCached : [opt] bool - False = Dump any previously cached wav associated with filename</para><para>example:<itemizedlist>
+<listitem><para>xbmc.playSFX(&apos;special://xbmc/scripts/dingdong.wav&apos;)<linebreak/>
+</para></listitem><listitem><para>xbmc.playSFX(&apos;special://xbmc/scripts/dingdong.wav&apos;,False) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="328" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="328" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a0f676582d82344b2bded2b405b01d3e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::stopSFX</definition>
+        <argsstring>()</argsstring>
+        <name>stopSFX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stopSFX() <ndash/> Stops wav file</para><para>example:<itemizedlist>
+<listitem><para>xbmc.stopSFX() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="340" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="340" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a177fe8158b20c11a7e651c02fba57174" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::enableNavSounds</definition>
+        <argsstring>(bool yesNo)</argsstring>
+        <name>enableNavSounds</name>
+        <param>
+          <type>bool</type>
+          <declname>yesNo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>enableNavSounds(yesNo) <ndash/> Enables/Disables nav sounds</para><para>yesNo : integer - enable (True) or disable (False) nav sounds</para><para>example:<itemizedlist>
+<listitem><para>xbmc.enableNavSounds(True) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="347" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="347" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1abe08e413e5a9642bef4fef90ea866261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::getCondVisibility</definition>
+        <argsstring>(const char *condition)</argsstring>
+        <name>getCondVisibility</name>
+        <param>
+          <type>const char *</type>
+          <declname>condition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getCondVisibility(condition) <ndash/> Returns True (1) or False (0) as a bool.</para><para>condition : string - condition to check.</para><para><ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> of Conditions - <ulink url="http://wiki.xbmc.org/?title=List_of_Boolean_Conditions">http://wiki.xbmc.org/?title=List_of_Boolean_Conditions</ulink></para><para>*Note, You can combine two (or more) of the above settings by using &quot;+&quot; as an AND operator,<linebreak/>
+&quot;|&quot; as an OR operator, &quot;!&quot; as a NOT operator, and &quot;[&quot; and &quot;]&quot; to bracket expressions.<linebreak/>
+ example:<itemizedlist>
+<listitem><para>visible = xbmc.getCondVisibility(&apos;[Control.IsVisible(41) + !Control.IsVisible(12)]&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="353" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="353" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a2558ae7b4bce64e1c0635f9661c139fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getGlobalIdleTime</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalIdleTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getGlobalIdleTime() <ndash/> Returns the elapsed idle time in seconds as an integer.</para><para>example:<itemizedlist>
+<listitem><para>t = xbmc.getGlobalIdleTime() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="371" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="371" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a395cecf86357c89be2e004aa6f0b0a24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::getCacheThumbName</definition>
+        <argsstring>(const String &amp;path)</argsstring>
+        <name>getCacheThumbName</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getCacheThumbName(path) <ndash/> Returns a thumb cache filename.</para><para>path : string or unicode - path to file</para><para>example:<itemizedlist>
+<listitem><para>thumb = xbmc.getCacheThumbName(&apos;f:\videos\movie.avi&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="377" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="377" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ac9f3b77691ce88a8a30fe417b22ef2a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::makeLegalFilename</definition>
+        <argsstring>(const String &amp;filename, bool fatX)</argsstring>
+        <name>makeLegalFilename</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fatX</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>makeLegalFilename(filename[, fatX]) <ndash/> Returns a legal filename or path as a string.</para><para>filename : string or unicode - filename/path to make legal<linebreak/>
+fatX : [opt] bool - True=Xbox file system(Default)<linebreak/>
+ *Note, If fatX is true you should pass a full path. If fatX is false only pass the basename of the path.</para><para>You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>filename = xbmc.makeLegalFilename(&apos;F: Age: The Meltdown.avi&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="385" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="385" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aa96b7d144f157db186db339367f3b66b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::translatePath</definition>
+        <argsstring>(const String &amp;path)</argsstring>
+        <name>translatePath</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>translatePath(path) <ndash/> Returns the translated path.</para><para>path : string or unicode - Path to format</para><para>*Note, Only useful if you are coding for both Linux and Windows.<linebreak/>
+ e.g. Converts &apos;special://masterprofile/script_data&apos; -&gt; &apos;/home/user/XBMC/UserData/script_data&apos; on Linux.</para><para>example:<itemizedlist>
+<listitem><para>fpath = xbmc.translatePath(&apos;special://masterprofile/script_data&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="391" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="391" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a83e523e3430315ab217e547ec6203697" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1Tuple" kindref="compound">Tuple</ref>&lt; String, String &gt;</type>
+        <definition>Tuple&lt; String, String &gt; XBMCAddon::xbmc::getCleanMovieTitle</definition>
+        <argsstring>(const String &amp;path, bool usefoldername)</argsstring>
+        <name>getCleanMovieTitle</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>usefoldername</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getCleanMovieTitle(path[, usefoldername]) <ndash/> Returns a clean movie title and year string if available.</para><para>path : string or unicode - String to clean<linebreak/>
+bool : [opt] bool - use folder names (defaults to false)</para><para>example:<itemizedlist>
+<listitem><para>title, year = xbmc.getCleanMovieTitle(&apos;/path/to/moviefolder/test.avi&apos;, True) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="397" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="397" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ad593f876f0d6d8aa55d15c82bfce733e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::validatePath</definition>
+        <argsstring>(const String &amp;path)</argsstring>
+        <name>validatePath</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>validatePath(path) <ndash/> Returns the validated path.</para><para>path : string or unicode - Path to format</para><para>*Note, Only useful if you are coding for both Linux and Windows for fixing slash problems.<linebreak/>
+ e.g. Corrects &apos;Z://something&apos; -&gt; &apos;Z:&apos;<linebreak/>
+ example:<itemizedlist>
+<listitem><para>fpath = xbmc.validatePath(somepath) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="410" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="410" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1abc813a394fb9678e9b2709a119154d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::getRegion</definition>
+        <argsstring>(const char *id)</argsstring>
+        <name>getRegion</name>
+        <param>
+          <type>const char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getRegion(id) <ndash/> Returns your regions setting as a string for the specified id.</para><para>id : string - id of setting to return</para><para>*Note, choices are (dateshort, datelong, time, meridiem, tempunit, speedunit) <verbatim>   You can use the above as keywords for arguments.
+</verbatim></para><para>example:<itemizedlist>
+<listitem><para>date_long_format = xbmc.getRegion(&apos;datelong&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="416" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="416" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a388c182804b1550edbf62fbb4a2b10c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::getSupportedMedia</definition>
+        <argsstring>(const char *mediaType)</argsstring>
+        <name>getSupportedMedia</name>
+        <param>
+          <type>const char *</type>
+          <declname>mediaType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getSupportedMedia(media) <ndash/> Returns the supported file types for the specific media as a string.</para><para>media : string - media type</para><para>*Note, media type can be (video, music, picture). <verbatim>   The return value is a pipe separated string of filetypes (eg. &apos;.mov|.avi&apos;).
+
+   You can use the above as keywords for arguments.
+</verbatim></para><para>example:<itemizedlist>
+<listitem><para>mTypes = xbmc.getSupportedMedia(&apos;video&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="458" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="458" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a2b7142b4bba546de7940584ab1fef445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::skinHasImage</definition>
+        <argsstring>(const char *image)</argsstring>
+        <name>skinHasImage</name>
+        <param>
+          <type>const char *</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>skinHasImage(image) <ndash/> Returns True if the image file exists in the skin.</para><para>image : string - image filename</para><para>*Note, If the media resides in a subfolder include it. (eg. home-myfiles\home-myfiles2.png) <verbatim>   You can use the above as keywords for arguments.
+</verbatim></para><para>example:<itemizedlist>
+<listitem><para>exists = xbmc.skinHasImage(&apos;ButtonFocusedTexture.png&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="476" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="476" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a311efa1aed9a67738f3a52376256e135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::startServer</definition>
+        <argsstring>(int iTyp, bool bStart, bool bWait)</argsstring>
+        <name>startServer</name>
+        <param>
+          <type>int</type>
+          <declname>iTyp</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bStart</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bWait</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>startServer(typ, bStart, bWait) <ndash/> start or stop a server.</para><para>typ : integer - use SERVER_* constants<linebreak/>
+bStart : bool - start (True) or stop (False) a server<linebreak/>
+bWait : [opt] bool - wait on stop before returning (not supported by all servers)<linebreak/>
+returnValue : bool - True or False<linebreak/>
+ example:<itemizedlist>
+<listitem><para>xbmc.startServer(xbmc.SERVER_AIRPLAYSERVER, False) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="483" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="483" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a6b83d7172ae26f6a6538b4e90e27fcab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::audioSuspend</definition>
+        <argsstring>()</argsstring>
+        <name>audioSuspend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>audioSuspend() <ndash/> Suspend Audio engine.</para><para>example:<itemizedlist>
+<listitem><para>xbmc.audioSuspend() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="490" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="490" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a6a8d195347ea97063a480e853ff110f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::audioResume</definition>
+        <argsstring>()</argsstring>
+        <name>audioResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>audioResume() <ndash/> Resume Audio engine.</para><para>example: xbmc.audioResume() </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="495" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="495" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ada19ca26883aec9dff86ad2b0949d9a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::convertLanguage</definition>
+        <argsstring>(const char *language, int format)</argsstring>
+        <name>convertLanguage</name>
+        <param>
+          <type>const char *</type>
+          <declname>language</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convertLanguage(language, format) <ndash/> Returns the given language converted to the given format as a string.</para><para>language: string either as name in English, two letter code (ISO 639-1), or three letter code (ISO 639-2/T(B)</para><para>format: format of the returned language string<linebreak/>
+ xbmc.ISO_639_1: two letter code as defined in ISO 639-1<linebreak/>
+ xbmc.ISO_639_2: three letter code as defined in ISO 639-2/T or ISO 639-2/B<linebreak/>
+ xbmc.ENGLISH_NAME: full language name in English (default)<linebreak/>
+ example:<itemizedlist>
+<listitem><para>language = xbmc.convertLanguage(English, xbmc.ISO_639_2) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="500" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="500" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a6808ec728dd76495bcfab98077e33ef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, SERVER_WEBSERVER)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SERVER_WEBSERVER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="429" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a652c48f6999ff3ae35be6e3dee6b2582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, SERVER_AIRPLAYSERVER)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SERVER_AIRPLAYSERVER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="430" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a5fc262f649b6ab77a3fe9a8b437098eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, SERVER_UPNPSERVER)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SERVER_UPNPSERVER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="431" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a4faa80ba2942a904601ecdcf102fee2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, SERVER_UPNPRENDERER)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SERVER_UPNPRENDERER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="432" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a57a67ea65c22f1fb16aa0a62ba9e97e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, SERVER_EVENTSERVER)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SERVER_EVENTSERVER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="433" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aab96da62aec650d98422ff47e5f608b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, SERVER_JSONRPCSERVER)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SERVER_JSONRPCSERVER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="434" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ac2c25a5c2ad13853b474ea725f60d4de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, SERVER_ZEROCONF)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>SERVER_ZEROCONF</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="435" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a50eed9ef114819f350b3207ee9cf175a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, PLAYLIST_MUSIC)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>PLAYLIST_MUSIC</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="437" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a3549e1d03a8bef5216574a82aa0f05b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, PLAYLIST_VIDEO)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>PLAYLIST_VIDEO</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="438" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a2d4795f9190fc5e47a5d681140446210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, PLAYER_CORE_AUTO)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>PLAYER_CORE_AUTO</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="439" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a4970d7d531264da9dc80f14f16c7af2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, PLAYER_CORE_DVDPLAYER)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>PLAYER_CORE_DVDPLAYER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="440" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a38bf418ac666f20db083cb4b7b110a8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, PLAYER_CORE_MPLAYER)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>PLAYER_CORE_MPLAYER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="441" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a1da63c761d027b63292892420b89f997" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, PLAYER_CORE_PAPLAYER)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>PLAYER_CORE_PAPLAYER</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="442" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1af8a08ff9fe3cecf2c34fe290348d07cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, TRAY_OPEN)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>TRAY_OPEN</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="443" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a707d2d017b5ce3b342db8a7856011734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, DRIVE_NOT_READY)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>DRIVE_NOT_READY</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="444" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a23f3e723e7cd090e787481157e86f38f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, TRAY_CLOSED_NO_MEDIA)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>TRAY_CLOSED_NO_MEDIA</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="445" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a08df2b361710688cc62fa01c6e8f6ab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, TRAY_CLOSED_MEDIA_PRESENT)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>TRAY_CLOSED_MEDIA_PRESENT</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="446" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a4c608b342ea4f351fc124dd58b16435b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, LOGDEBUG)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>LOGDEBUG</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="447" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1adef01ebbdb17868b5c6cd91da5b28b8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, LOGINFO)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>LOGINFO</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="448" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a6239cdde6e56938dbc1453f25177e44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, LOGNOTICE)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>LOGNOTICE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="449" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a9605ee70ba248d76a2e3049114259972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, LOGWARNING)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>LOGWARNING</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="450" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a33a825fc2410cf7ce72bf636474081d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, LOGERROR)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>LOGERROR</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="451" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aba1c505f11bfdc257ef82fc8edc5a0cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, LOGSEVERE)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>LOGSEVERE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="452" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a2f44b8198a802fd653ca5f67edd02604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, LOGFATAL)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>LOGFATAL</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="453" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a78b7580fe8a1a8e7f94110ea1c6f4952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, LOGNONE)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>LOGNONE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="454" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ae2bbe0e3988094da3af053de16255e27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, CAPTURE_STATE_WORKING)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>CAPTURE_STATE_WORKING</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="457" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1accac00eb1db4c1f94bb805e46bafbdce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, CAPTURE_STATE_DONE)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>CAPTURE_STATE_DONE</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="458" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ac7bb0501a8340be1babd92edaba9ae93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, CAPTURE_STATE_FAILED)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>CAPTURE_STATE_FAILED</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="459" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a58f2e2aef352fc3cde307c689738b0a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, CAPTURE_FLAG_CONTINUOUS)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>CAPTURE_FLAG_CONTINUOUS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="461" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1abfc8ef6ba49da18894cafa2cb0eaf378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, CAPTURE_FLAG_IMMEDIATELY)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>CAPTURE_FLAG_IMMEDIATELY</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="462" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a8e84e53a2570535df36c39ececf3de61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, ISO_639_1)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ISO_639_1</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="463" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a0407ba2729945e75480fe8f121b2837c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, ISO_639_2)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ISO_639_2</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="464" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a838dbc0b5dab74c138afee4ebb56416e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::SWIG_CONSTANT_FROM_GETTER</definition>
+        <argsstring>(int, ENGLISH_NAME)</argsstring>
+        <name>SWIG_CONSTANT_FROM_GETTER</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>ENGLISH_NAME</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="465" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ae30ca5655cf3540339e2b6478a4663d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::registerMonitor</definition>
+        <argsstring>(Monitor *monitor)</argsstring>
+        <name>registerMonitor</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmc_1_1Monitor" kindref="compound">Monitor</ref> *</type>
+          <declname>monitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="467" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aac764ab830f2473b2aa6a4f412e21dcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::unregisterMonitor</definition>
+        <argsstring>(Monitor *monitor)</argsstring>
+        <name>unregisterMonitor</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmc_1_1Monitor" kindref="compound">Monitor</ref> *</type>
+          <declname>monitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.h" line="468" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1_1xbmc_1a959ba27013e8460fe9789e030176a9b6" prot="public" static="no">
+        <type><ref refid="classXBMCAddon_1_1Alternative" kindref="compound">Alternative</ref>&lt; String, const <ref refid="classXBMCAddon_1_1xbmc_1_1PlayList" kindref="compound">PlayList</ref> * &gt;</type>
+        <definition>typedef Alternative&lt;String, const PlayList* &gt; XBMCAddon::xbmc::PlayParameter</definition>
+        <argsstring></argsstring>
+        <name>PlayParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="43" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceXBMCAddon_1_1xbmc_1a6657da5d6f8fe04730c5d3f0a81761a1" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int XBMCAddon::xbmc::lLOGNOTICE</definition>
+        <argsstring></argsstring>
+        <name>lLOGNOTICE</name>
+        <initializer>= LOGNOTICE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="569" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1af3c0375d913f3a660121fd1153f93059" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::XBMCCOMMONS_STANDARD_EXCEPTION</definition>
+        <argsstring>(KeyboardException)</argsstring>
+        <name>XBMCCOMMONS_STANDARD_EXCEPTION</name>
+        <param>
+          <type>KeyboardException</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Keyboard.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ae3e43efdeb190d64dae5a5c5aa3d0fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::log</definition>
+        <argsstring>(const char *msg, int level)</argsstring>
+        <name>log</name>
+        <param>
+          <type>const char *</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+          <defval>lLOGNOTICE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>log(msg[, level]) <ndash/> Write a string to XBMC&apos;s log file and the debug window.<linebreak/>
+ msg : string - text to output.<linebreak/>
+ level : [opt] integer - log level to ouput at. (default=LOGNOTICE)<linebreak/>
+ <linebreak/>
+*Note, You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.<linebreak/>
+<linebreak/>
+Text is written to the log for the following conditions.<linebreak/>
+ XBMC loglevel == -1 (NONE, nothing at all is logged)<linebreak/>
+ XBMC loglevel == 0 (NORMAL, shows LOGNOTICE, LOGERROR, LOGSEVERE and LOGFATAL) XBMC loglevel == 1 (DEBUG, shows all)<linebreak/>
+ See pydocs for valid values for level.<linebreak/>
+ example:<itemizedlist>
+<listitem><para>xbmc.log(msg=&apos;This is a test string.&apos;, level=xbmc.LOGDEBUG)); </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="75" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a9441712b19113e1a8fd0d8916ca85d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>shutdown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shutdown() <ndash/> Shutdown the htpc.</para><para>example:<itemizedlist>
+<listitem><para>xbmc.shutdown() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="83" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a05635fb4caf587fb9d13fdfae2b88585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::restart</definition>
+        <argsstring>()</argsstring>
+        <name>restart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>restart() <ndash/> Restart the htpc. example:<itemizedlist>
+<listitem><para>xbmc.restart() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="90" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="90" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a8eaa3a339ca5df98591c48ea10ededf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::executescript</definition>
+        <argsstring>(const char *script)</argsstring>
+        <name>executescript</name>
+        <param>
+          <type>const char *</type>
+          <declname>script</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executescript(script) <ndash/> Execute a python script.</para><para>script : string - script filename to execute.</para><para>example:<itemizedlist>
+<listitem><para>xbmc.executescript(&apos;special://home/scripts/update.py&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="97" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="97" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ae296508094d9fad7d94d3cd830471d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::executebuiltin</definition>
+        <argsstring>(const char *function, bool wait)</argsstring>
+        <name>executebuiltin</name>
+        <param>
+          <type>const char *</type>
+          <declname>function</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executebuiltin(function) <ndash/> Execute a built in XBMC function.</para><para>function : string - builtin function to execute.</para><para><ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> of functions - <ulink url="http://wiki.xbmc.org/?title=List_of_Built_In_Functions">http://wiki.xbmc.org/?title=List_of_Built_In_Functions</ulink></para><para>example:<itemizedlist>
+<listitem><para>xbmc.executebuiltin(&apos;XBMC.RunXBE(c:\avalaunch.xbe)&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="108" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="108" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a2a72bc612d5a671afea9999a5f80ef49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::executehttpapi</definition>
+        <argsstring>(const char *httpcommand)</argsstring>
+        <name>executehttpapi</name>
+        <param>
+          <type>const char *</type>
+          <declname>httpcommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executehttpapi(httpcommand) <ndash/> Not implemented anymore. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="116" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="116" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a9279811ba3f4f013c8318034bd345a32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::executeJSONRPC</definition>
+        <argsstring>(const char *jsonrpccommand)</argsstring>
+        <name>executeJSONRPC</name>
+        <param>
+          <type>const char *</type>
+          <declname>jsonrpccommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>executeJSONRPC(jsonrpccommand) <ndash/> Execute an JSONRPC command.</para><para>jsonrpccommand : string - jsonrpc command to execute.</para><para><ref refid="classXBMCAddon_1_1List" kindref="compound">List</ref> of commands -</para><para>example:<itemizedlist>
+<listitem><para>response = xbmc.executeJSONRPC(&apos;{ &quot;jsonrpc&quot;: &quot;2.0&quot;, &quot;method&quot;: &quot;JSONRPC.Introspect&quot;, &quot;id&quot;: 1 }&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="122" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="122" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a97e1a7fc141ca3086ac90500608fb428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::sleep</definition>
+        <argsstring>(long timemillis)</argsstring>
+        <name>sleep</name>
+        <param>
+          <type>long</type>
+          <declname>timemillis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sleep(time) <ndash/> Sleeps for &apos;time&apos; msec.</para><para>time : integer - number of msec to sleep.</para><para>*Note, This is useful if you have for example a <ref refid="classXBMCAddon_1_1xbmc_1_1Player" kindref="compound">Player</ref> class that is waiting<linebreak/>
+ for onPlayBackEnded() calls.<linebreak/>
+ Throws: PyExc_TypeError, if time is not an integer.</para><para>example:<itemizedlist>
+<listitem><para>xbmc.sleep(2000) # sleeps for 2 seconds </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="143" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="143" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aae983e635df57f8e6fc036133aa4a2b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getSERVER_WEBSERVER</definition>
+        <argsstring>()</argsstring>
+        <name>getSERVER_WEBSERVER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="528" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="528" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a4ff9b4b3f07644324d4b362bbcf8d964" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getSERVER_AIRPLAYSERVER</definition>
+        <argsstring>()</argsstring>
+        <name>getSERVER_AIRPLAYSERVER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="529" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="529" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a53dea9132f5644bef9aa04445087099a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getSERVER_UPNPSERVER</definition>
+        <argsstring>()</argsstring>
+        <name>getSERVER_UPNPSERVER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="530" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="530" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a49ba0b622a5abe9fc5283f71722b685f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getSERVER_UPNPRENDERER</definition>
+        <argsstring>()</argsstring>
+        <name>getSERVER_UPNPRENDERER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="531" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="531" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aa92ae4269c44cbe1d7c786f494c48885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getSERVER_EVENTSERVER</definition>
+        <argsstring>()</argsstring>
+        <name>getSERVER_EVENTSERVER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="532" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="532" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ae60dba6df0282d5ed79bd5da80c52e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getSERVER_JSONRPCSERVER</definition>
+        <argsstring>()</argsstring>
+        <name>getSERVER_JSONRPCSERVER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="533" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="533" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aa0702ecf3fc8ebe6c83c16b9de6b5647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getSERVER_ZEROCONF</definition>
+        <argsstring>()</argsstring>
+        <name>getSERVER_ZEROCONF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="534" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="534" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aec385de795b899d20acefad1e239fd32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getPLAYLIST_MUSIC</definition>
+        <argsstring>()</argsstring>
+        <name>getPLAYLIST_MUSIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="536" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="536" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a4141991670d44626841d8c226c6459c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getPLAYLIST_VIDEO</definition>
+        <argsstring>()</argsstring>
+        <name>getPLAYLIST_VIDEO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="537" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="537" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a372c09ba9506a7e1041cf10f2c2bb054" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getPLAYER_CORE_AUTO</definition>
+        <argsstring>()</argsstring>
+        <name>getPLAYER_CORE_AUTO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="538" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="538" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a3a861cb74381afb3d21d4db352f81481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getPLAYER_CORE_DVDPLAYER</definition>
+        <argsstring>()</argsstring>
+        <name>getPLAYER_CORE_DVDPLAYER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="539" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="539" bodyend="539"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a17c299cd1c60b885c24f1e62acf7dd0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getPLAYER_CORE_MPLAYER</definition>
+        <argsstring>()</argsstring>
+        <name>getPLAYER_CORE_MPLAYER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="540" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="540" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a825b04a6beacbf8231581d8329d84809" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getPLAYER_CORE_PAPLAYER</definition>
+        <argsstring>()</argsstring>
+        <name>getPLAYER_CORE_PAPLAYER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="541" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="541" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1afd23fb071ef9c4856c5faffd911dad60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getTRAY_OPEN</definition>
+        <argsstring>()</argsstring>
+        <name>getTRAY_OPEN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="542" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="542" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ab2962f2f7b83b58a31dde471892946a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getDRIVE_NOT_READY</definition>
+        <argsstring>()</argsstring>
+        <name>getDRIVE_NOT_READY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="543" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="543" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a3bdfc62989957538eaa419b71cc8c6d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getTRAY_CLOSED_NO_MEDIA</definition>
+        <argsstring>()</argsstring>
+        <name>getTRAY_CLOSED_NO_MEDIA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="544" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="544" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a4dc0620273b42d3bcb9fba3420519747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getTRAY_CLOSED_MEDIA_PRESENT</definition>
+        <argsstring>()</argsstring>
+        <name>getTRAY_CLOSED_MEDIA_PRESENT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="545" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="545" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a13fcc1096ae5158974251cc1d496c9e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getLOGDEBUG</definition>
+        <argsstring>()</argsstring>
+        <name>getLOGDEBUG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="546" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="546" bodyend="546"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ad7aecd8d0a5e418ffd3bd91e3b93e62a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getLOGINFO</definition>
+        <argsstring>()</argsstring>
+        <name>getLOGINFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="547" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="547" bodyend="547"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1af3fb5284dafe3a8045ccf30e4670183a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getLOGNOTICE</definition>
+        <argsstring>()</argsstring>
+        <name>getLOGNOTICE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="548" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="548" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a198dfb213ad58f1f2fbfa3afd89e450e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getLOGWARNING</definition>
+        <argsstring>()</argsstring>
+        <name>getLOGWARNING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="549" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="549" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ad5f168b53feca7dd94b60ba2a2f9ad96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getLOGERROR</definition>
+        <argsstring>()</argsstring>
+        <name>getLOGERROR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="550" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="550" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ad8478e835ec7d27a603312ae73f546d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getLOGSEVERE</definition>
+        <argsstring>()</argsstring>
+        <name>getLOGSEVERE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="551" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="551" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1aa9affef5f76df1e040bcdf67a15bb350" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getLOGFATAL</definition>
+        <argsstring>()</argsstring>
+        <name>getLOGFATAL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="552" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="552" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a68d4b49c11b1f6ace41ed6c123c94ede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getLOGNONE</definition>
+        <argsstring>()</argsstring>
+        <name>getLOGNONE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="553" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="553" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a9df8b179339fe654338fea0127fd7def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getCAPTURE_STATE_WORKING</definition>
+        <argsstring>()</argsstring>
+        <name>getCAPTURE_STATE_WORKING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="556" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="556" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a506cef870882358661e0f749e62ce1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getCAPTURE_STATE_DONE</definition>
+        <argsstring>()</argsstring>
+        <name>getCAPTURE_STATE_DONE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="557" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="557" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a97b661e31cfbc2eabdbf70ff0c85c5c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getCAPTURE_STATE_FAILED</definition>
+        <argsstring>()</argsstring>
+        <name>getCAPTURE_STATE_FAILED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="558" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="558" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a904d33d96fc216d77da8d8ef43bf49ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getCAPTURE_FLAG_CONTINUOUS</definition>
+        <argsstring>()</argsstring>
+        <name>getCAPTURE_FLAG_CONTINUOUS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="561" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="561" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ac1c8cf88664f57ce6dae6f3d87598ae2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getCAPTURE_FLAG_IMMEDIATELY</definition>
+        <argsstring>()</argsstring>
+        <name>getCAPTURE_FLAG_IMMEDIATELY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="562" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="562" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1afd625a59e17897e3e9d7cb1bce3b11cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getISO_639_1</definition>
+        <argsstring>()</argsstring>
+        <name>getISO_639_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="565" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="565" bodyend="565"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a589193fc09155e1cf628c9275671fe78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getISO_639_2</definition>
+        <argsstring>()</argsstring>
+        <name>getISO_639_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="566" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="566" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a0bd1481cf8183fb7cd1eab62b05ef3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::getENGLISH_NAME</definition>
+        <argsstring>()</argsstring>
+        <name>getENGLISH_NAME</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" line="567" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmc.cpp" bodystart="567" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a7d8b7a6322ce17ac4ef2b97b72a26aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::XBMCCOMMONS_STANDARD_EXCEPTION</definition>
+        <argsstring>(PlayerException)</argsstring>
+        <name>XBMCCOMMONS_STANDARD_EXCEPTION</name>
+        <param>
+          <type>PlayerException</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1ae1b28003e67eb6eba65883a8f8702895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::XBMCCOMMONS_STANDARD_EXCEPTION</definition>
+        <argsstring>(PlayListException)</argsstring>
+        <name>XBMCCOMMONS_STANDARD_EXCEPTION</name>
+        <param>
+          <type>PlayListException</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmc_1a67a923f6908b846604d50c880348f6e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::XBMCCOMMONS_STANDARD_EXCEPTION</definition>
+        <argsstring>(RenderCaptureException)</argsstring>
+        <name>XBMCCOMMONS_STANDARD_EXCEPTION</name>
+        <param>
+          <type>RenderCaptureException</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" line="28" column="1"/>
+  </compounddef>
+</doxygen>

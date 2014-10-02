@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1DelayedCallGuard" kind="class" prot="public">
+    <compoundname>XBMCAddon::DelayedCallGuard</compoundname>
+    <includes refid="LanguageHook_8h" local="no">LanguageHook.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1DelayedCallGuard_1a2941af7e2c4bd0cd02d737e62ff826b3" prot="private" static="no" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1LanguageHook" kindref="compound">LanguageHook</ref> *</type>
+        <definition>LanguageHook* XBMCAddon::DelayedCallGuard::languageHook</definition>
+        <argsstring></argsstring>
+        <name>languageHook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="136" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1DelayedCallGuard_1ae807007b72013f599291d2a4646315c5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::DelayedCallGuard::clearOnExit</definition>
+        <argsstring></argsstring>
+        <name>clearOnExit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="137" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1DelayedCallGuard_1af89910257ecac15c8bfd570b48d7c8be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::DelayedCallGuard::DelayedCallGuard</definition>
+        <argsstring>(LanguageHook *languageHook_)</argsstring>
+        <name>DelayedCallGuard</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1LanguageHook" kindref="compound">LanguageHook</ref> *</type>
+          <declname>languageHook_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="140" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="140" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1DelayedCallGuard_1af1fdedb53dc2a48249c23d418de19112" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::DelayedCallGuard::DelayedCallGuard</definition>
+        <argsstring>()</argsstring>
+        <name>DelayedCallGuard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="143" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="143" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1DelayedCallGuard_1a2aaecbde019149f0233b6a73e7b25310" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::DelayedCallGuard::~DelayedCallGuard</definition>
+        <argsstring>()</argsstring>
+        <name>~DelayedCallGuard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="146" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="146" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1DelayedCallGuard_1aa8ab7d7f4a8939613a73562d1f5bc265" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1LanguageHook" kindref="compound">LanguageHook</ref> *</type>
+        <definition>LanguageHook* XBMCAddon::DelayedCallGuard::getLanguageHook</definition>
+        <argsstring>()</argsstring>
+        <name>getLanguageHook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="152" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="152" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class can be used to access the language hook&apos;s DelayedCallOpen and DelayedCallClose. It should be used whenever an API method is written such that it can block for an indefinite amount of time since certain scripting languages (like Python) need to do extra work for delayed calls (like free the python locks and handle callbacks). </para>    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" line="135" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/LanguageHook.h" bodystart="134" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1DelayedCallGuard_1ae807007b72013f599291d2a4646315c5" prot="private" virt="non-virtual"><scope>XBMCAddon::DelayedCallGuard</scope><name>clearOnExit</name></member>
+      <member refid="classXBMCAddon_1_1DelayedCallGuard_1af89910257ecac15c8bfd570b48d7c8be" prot="public" virt="non-virtual"><scope>XBMCAddon::DelayedCallGuard</scope><name>DelayedCallGuard</name></member>
+      <member refid="classXBMCAddon_1_1DelayedCallGuard_1af1fdedb53dc2a48249c23d418de19112" prot="public" virt="non-virtual"><scope>XBMCAddon::DelayedCallGuard</scope><name>DelayedCallGuard</name></member>
+      <member refid="classXBMCAddon_1_1DelayedCallGuard_1aa8ab7d7f4a8939613a73562d1f5bc265" prot="public" virt="non-virtual"><scope>XBMCAddon::DelayedCallGuard</scope><name>getLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1DelayedCallGuard_1a2941af7e2c4bd0cd02d737e62ff826b3" prot="private" virt="non-virtual"><scope>XBMCAddon::DelayedCallGuard</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1DelayedCallGuard_1a2aaecbde019149f0233b6a73e7b25310" prot="public" virt="non-virtual"><scope>XBMCAddon::DelayedCallGuard</scope><name>~DelayedCallGuard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

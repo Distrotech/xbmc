@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="Player_8h" kind="file">
+    <compoundname>Player.h</compoundname>
+    <innerclass refid="classXBMCAddon_1_1xbmc_1_1Player" prot="public">XBMCAddon::xbmc::Player</innerclass>
+    <innernamespace refid="namespaceXBMCAddon">XBMCAddon</innernamespace>
+    <innernamespace refid="namespaceXBMCAddon_1_1xbmc">XBMCAddon::xbmc</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005-2013<sp/>Team<sp/>XBMC</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>http://xbmc.org</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>This<sp/>Program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/>This<sp/>Program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/>along<sp/>with<sp/>XBMC;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>see</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;cores/playercorefactory/PlayerCoreFactory.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ListItem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;PlayList.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;InfoTagVideo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Exception.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;music/tags/MusicInfoTag.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;AddonString.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;InfoTagMusic.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;AddonCallback.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Alternative.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;swighelper.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">XBMCAddon</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">xbmc</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>XBMCCOMMONS_STANDARD_EXCEPTION(PlayerException);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>Alternative&lt;String,<sp/>const<sp/>PlayList*<sp/>&gt;<sp/>PlayParameter;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>class<sp/>is<sp/>a<sp/>merge<sp/>of<sp/>what<sp/>was<sp/>previously<sp/>in<sp/>xbmcmodule/player.h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>and<sp/>xbmcmodule/PythonPlayer.h<sp/>without<sp/>the<sp/>python<sp/>references.<sp/>The</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>queuing<sp/>and<sp/>handling<sp/>of<sp/>asynchronous<sp/>callbacks<sp/>is<sp/>done<sp/>internal<sp/>to</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>this<sp/>class.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classXBMCAddon_1_1xbmc_1_1Player" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classXBMCAddon_1_1xbmc_1_1Player" kindref="compound">Player</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1AddonCallback" kindref="compound">AddonCallback</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IPlayerCallback</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iPlayList;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>EPLAYERCORES<sp/>playerCore;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>playStream(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String&amp;<sp/>item<sp/>=<sp/>emptyString,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref>*<sp/>listitem<sp/>=<sp/>NULL,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>windowed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>playPlaylist(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1PlayList" kindref="compound">PlayList</ref>*<sp/>playlist<sp/>=<sp/>NULL,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>windowed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>startpos=-1);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>playCurrent(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>windowed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SWIG</highlight></codeline>
+<codeline lineno="68"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1Alternative" kindref="compound">PlayParameter</ref><sp/>defaultPlayParameter;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="70"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Construct<sp/>a<sp/>Player<sp/>proxying<sp/>the<sp/>given<sp/>generated<sp/>binding.<sp/>The<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>construction<sp/>of<sp/>a<sp/>Player<sp/>needs<sp/>to<sp/>identify<sp/>whether<sp/>or<sp/>not<sp/>any<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>callbacks<sp/>will<sp/>be<sp/>executed<sp/>asynchronously<sp/>or<sp/>not.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player" kindref="compound">Player</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>playerCore<sp/>=<sp/>EPC_NONE);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classXBMCAddon_1_1xbmc_1_1Player" kindref="compound">Player</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a178d4318eb1e7e41c7f79fd0f1ac7dd1" kindref="member">play</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1Alternative" kindref="compound">PlayParameter</ref>&amp;<sp/>item<sp/>=<sp/>Player::defaultPlayParameter,<sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref>*<sp/>listitem<sp/>=<sp/>NULL,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>windowed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>startpos<sp/>=<sp/>-1);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a38fd67b138549f331adbc8460054445f" kindref="member">stop</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1abb09ad22abb0e98eb334793c0013e39b" kindref="member">pause</ref>();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a7c6e8d7ad526ca9732cca80fd03eceb7" kindref="member">playnext</ref>();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ad260b0016ce5bc8c31243cb065dd6774" kindref="member">playprevious</ref>();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a9e84214919b459053d009e9c520b0738" kindref="member">playselected</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>selected);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_OnPlayBackStarted</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a7e02a58e7121c0c4cf36935fa963b266" kindref="member">onPlayBackStarted</ref>();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_OnPlayBackEnded</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ad6ea73a615e765f22ef984725698fcdb" kindref="member">onPlayBackEnded</ref>();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_OnPlayBackStopped</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ad377d165fe0bbb8186a478f4ddbccdc3" kindref="member">onPlayBackStopped</ref>();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_OnPlayBackPaused</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1af584e2a791441d507680a4c4e1f5326c" kindref="member">onPlayBackPaused</ref>();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_OnPlayBackResumed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a4ee6689735727bb8fb654f877e084233" kindref="member">onPlayBackResumed</ref>();</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1aa24c24f76002dce160a7be2c6765d26a" kindref="member">onQueueNextItem</ref>();</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a05845b1a8a4a195656311ea6a4b4e38c" kindref="member">onPlayBackSpeedChanged</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>speed);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a9e3e67565072c0826971002e60903fe1" kindref="member">onPlayBackSeek</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>time,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seekOffset);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a9c03c8bd24195f284322de340cb9c029" kindref="member">onPlayBackSeekChapter</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>chapter);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_IsPlaying</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ab91e4694ba0dfe3487850741ef7b2239" kindref="member">isPlaying</ref>();</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_IsPlayingAudio</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a11fa246b6eec213c97fa6ec16f4fd189" kindref="member">isPlayingAudio</ref>();</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_IsPlayingVideo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a00f58bc7e17813954c35e9ea480ed28b" kindref="member">isPlayingVideo</ref>();</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_GetPlayingFile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a90a093c13cf8a18f65fbf284381d7414" kindref="member">getPlayingFile</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>(PlayerException);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_GetTime</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a487f3e98ff5530d8292f70067fac91fe" kindref="member">getTime</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(PlayerException);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_SeekTime</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a6f60b33fa67e22dcf5795156d99313b0" kindref="member">seekTime</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a6f60b33fa67e22dcf5795156d99313b0" kindref="member">seekTime</ref>)<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal">(PlayerException);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_SetSubtitles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a952d4555c064aa37f1ea111f44e081d0" kindref="member">setSubtitles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>subtitleFile);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_ShowSubtitles</highlight></codeline>
+<codeline lineno="262"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a85434e8738909497c85ff0957ca57935" kindref="member">showSubtitles</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bVisible);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_GetSubtitles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ab2b9d2081c8d8f1e5b5dc2eabb241497" kindref="member">getSubtitles</ref>();</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_DisableSubtitles</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a7fe9e40dd20b4d513b4630ed8bf57a4a" kindref="member">disableSubtitles</ref>();</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_getAvailableSubtitleStreams</highlight></codeline>
+<codeline lineno="280"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;String&gt;*<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a27735faa05279e41b1869a7773da9463" kindref="member">getAvailableSubtitleStreams</ref>();</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_setSubtitleStream</highlight></codeline>
+<codeline lineno="291"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1aad0ad9dba3ea09bc201f39026f5a4e29" kindref="member">setSubtitleStream</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iStream);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo" kindref="compound">InfoTagVideo</ref>*<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a7d7284635371ad79b153f9ea0ef3beb0" kindref="member">getVideoInfoTag</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>(PlayerException);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_GetMusicInfoTag</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic" kindref="compound">InfoTagMusic</ref>*<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a5c4411d7d6a666c2af50bb8e44b213a8" kindref="member">getMusicInfoTag</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>(PlayerException);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a1770985204bb62d2dadb9d44e7cc44be" kindref="member">getTotalTime</ref>()<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>(PlayerException);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player_getAvailableAudioStreams</highlight></codeline>
+<codeline lineno="320"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;String&gt;*<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ae3671991ab82fda045f7091df48f3b68" kindref="member">getAvailableAudioStreams</ref>();</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a8af6b071cff08a644ab253c586918ad4" kindref="member">setAudioStream</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iStream);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SWIG</highlight></codeline>
+<codeline lineno="334"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SWIGHIDDENVIRTUAL<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnPlayBackStarted();</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SWIGHIDDENVIRTUAL<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnPlayBackEnded();</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SWIGHIDDENVIRTUAL<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnPlayBackStopped();</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SWIGHIDDENVIRTUAL<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnPlayBackPaused();</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SWIGHIDDENVIRTUAL<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnPlayBackResumed();</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SWIGHIDDENVIRTUAL<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnQueueNextItem();</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SWIGHIDDENVIRTUAL<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>OnPlayBackSpeedChanged(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iSpeed);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SWIGHIDDENVIRTUAL<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>OnPlayBackSeek(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iTime,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seekOffset);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SWIGHIDDENVIRTUAL<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>OnPlayBackSeekChapter(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iChapter);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="344"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="348"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h"/>
+  </compounddef>
+</doxygen>

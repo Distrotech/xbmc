@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1AddonCallback" kind="class" prot="public">
+    <compoundname>XBMCAddon::AddonCallback</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1xbmc_1_1Monitor" prot="public" virt="non-virtual">XBMCAddon::xbmc::Monitor</derivedcompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1xbmc_1_1Player" prot="public" virt="non-virtual">XBMCAddon::xbmc::Player</derivedcompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1xbmcgui_1_1Window" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::Window</derivedcompoundref>
+    <includes refid="AddonCallback_8h" local="no">AddonCallback.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1AddonCallback_1ad4fc1fc86c9c648108acccfd6ad15f94" prot="protected" static="no" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1AddonClass_1_1Ref" kindref="compound">AddonClass::Ref</ref>&lt; <ref refid="classXBMCAddon_1_1CallbackHandler" kindref="compound">CallbackHandler</ref> &gt;</type>
+        <definition>AddonClass::Ref&lt;CallbackHandler&gt; XBMCAddon::AddonCallback::handler</definition>
+        <argsstring></argsstring>
+        <name>handler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" line="38" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1AddonCallback_1a8edad836d7559ad1536469c68be57254" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::AddonCallback::hasHandler</definition>
+        <argsstring>()</argsstring>
+        <name>hasHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" line="40" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1AddonCallback_1af8df138f0052acf6a7eaf5fd08db5e1c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::AddonCallback::AddonCallback</definition>
+        <argsstring>()</argsstring>
+        <name>AddonCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" line="42" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" bodystart="42" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1AddonCallback_1a5f55e978e7785c907d7f30ec08f37324" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::AddonCallback::~AddonCallback</definition>
+        <argsstring>()</argsstring>
+        <name>~AddonCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" line="50" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.cpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1AddonCallback_1a863529cf2b2849d2ce2f86737cd2826d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::AddonCallback::setHandler</definition>
+        <argsstring>(CallbackHandler *_handler)</argsstring>
+        <name>setHandler</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1CallbackHandler" kindref="compound">CallbackHandler</ref> *</type>
+          <declname>_handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" line="52" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1AddonCallback_1a6891140d172d754c95d2412cfbc7b211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::AddonCallback::invokeCallback</definition>
+        <argsstring>(Callback *callback)</argsstring>
+        <name>invokeCallback</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1Callback" kindref="compound">Callback</ref> *</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" line="53" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.cpp" bodystart="29" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is the superclass for all API classes that are expected to be able to handle cross-language polymorphism. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>XBMCAddon::xbmc::Player</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1Player"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>XBMCAddon::xbmc::Monitor</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1Monitor"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="22">
+        <label>XBMCAddon::xbmcgui::WindowXML</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>XBMCAddon::xbmcgui::WindowDialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>XBMCAddon::xbmcgui::WindowXMLDialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>XBMCAddon::xbmcgui::Window</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Window"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="25">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="28">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::CallbackHandler &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="26">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="27">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="28" relation="usage">
+          <edgelabel>handler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" line="36" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonCallback.h" bodystart="35" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::AddonCallback</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1af8df138f0052acf6a7eaf5fd08db5e1c" prot="protected" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::AddonCallback</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1ad4fc1fc86c9c648108acccfd6ad15f94" prot="protected" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>handler</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a8edad836d7559ad1536469c68be57254" prot="protected" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>hasHandler</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a6891140d172d754c95d2412cfbc7b211" prot="public" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>invokeCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::AddonCallback</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a863529cf2b2849d2ce2f86737cd2826d" prot="public" virt="non-virtual"><scope>XBMCAddon::AddonCallback</scope><name>setHandler</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a5f55e978e7785c907d7f30ec08f37324" prot="public" virt="virtual"><scope>XBMCAddon::AddonCallback</scope><name>~AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::AddonCallback</scope><name>~AddonClass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

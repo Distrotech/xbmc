@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structXBMCAddon_1_1tuple__null__type" kind="struct" prot="public">
+    <compoundname>XBMCAddon::tuple_null_type</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" line="29" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" bodystart="29" bodyend="29"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

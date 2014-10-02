@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="ModuleXbmcplugin_8h" kind="file">
+    <compoundname>ModuleXbmcplugin.h</compoundname>
+    <innernamespace refid="namespaceXBMCAddon">XBMCAddon</innernamespace>
+    <innernamespace refid="namespaceXBMCAddon_1_1xbmcplugin">XBMCAddon::xbmcplugin</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005-2013<sp/>Team<sp/>XBMC</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>http://xbmc.org</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>This<sp/>Program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/>This<sp/>Program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/>along<sp/>with<sp/>XBMC;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>see</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Tuple.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;AddonString.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ListItem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/log.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SortFileItem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;swighelper.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">XBMCAddon</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">xbmcplugin</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>addDirectoryItem(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String&amp;<sp/>url,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref>*<sp/>listitem,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isFolder<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>totalItems<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>addDirectoryItems(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Tuple&lt;String,const<sp/>XBMCAddon::xbmcgui::ListItem*,bool&gt;<sp/>&gt;&amp;<sp/>items,<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>totalItems<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>endOfDirectory(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>succeeded<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateListing<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>cacheToDisc<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setResolvedUrl(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>succeeded,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref>*<sp/>listitem);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addSortMethod(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sortMethod,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String&amp;<sp/>label2Mask<sp/>=<sp/>emptyString);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>getSetting(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setSetting(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String&amp;<sp/>value);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setContent(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>content);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setPluginCategory(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String&amp;<sp/>category);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setPluginFanart(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>image<sp/>=<sp/>NULL,<sp/></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>color1<sp/>=<sp/>NULL,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>color2<sp/>=<sp/>NULL,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>color3<sp/>=<sp/>NULL);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setProperty(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>handle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>String&amp;<sp/>value);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_NONE);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_LABEL);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_LABEL_IGNORE_THE);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_DATE);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_SIZE);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_FILE);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_DRIVE_TYPE);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_TRACKNUM);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_DURATION);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_TITLE);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_TITLE_IGNORE_THE);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_ARTIST);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_ARTIST_IGNORE_THE);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_ALBUM);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_ALBUM_IGNORE_THE);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_GENRE);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT2(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_VIDEO_YEAR,SORT_METHOD_YEAR);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_VIDEO_RATING);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_PROGRAM_COUNT);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_PLAYLIST_ORDER);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_EPISODE);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_VIDEO_TITLE);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_VIDEO_SORT_TITLE);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_VIDEO_SORT_TITLE_IGNORE_THE);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_PRODUCTIONCODE);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_SONG_RATING);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_MPAA_RATING);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_VIDEO_RUNTIME);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_STUDIO);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_STUDIO_IGNORE_THE);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_UNSORTED);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_BITRATE);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_LISTENERS);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_COUNTRY);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_DATEADDED);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_FULLPATH);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_LABEL_IGNORE_FOLDERS);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_LASTPLAYED);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_PLAYCOUNT);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_CHANNEL);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>SWIG_CONSTANT(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,SORT_METHOD_DATE_TAKEN);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcplugin.h"/>
+  </compounddef>
+</doxygen>

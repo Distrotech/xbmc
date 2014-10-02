@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1Action" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::Action</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <includes refid="Window_8h" local="no">Window.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Action_1a31349e7772ae8e518cc4a9a76f51e9d6" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmcgui::Action::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="62" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Action_1a523e575125686b0c15daeb602a0a89be" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float XBMCAddon::xbmcgui::Action::fAmount1</definition>
+        <argsstring></argsstring>
+        <name>fAmount1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="63" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Action_1a2d313e5c7428a7aaca508757642f0ff6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float XBMCAddon::xbmcgui::Action::fAmount2</definition>
+        <argsstring></argsstring>
+        <name>fAmount2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="64" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Action_1aadbf3097139c2c63e2eea38b395a9546" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float XBMCAddon::xbmcgui::Action::fRepeat</definition>
+        <argsstring></argsstring>
+        <name>fRepeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="65" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Action_1a08efc57bfa44607c3c432662932e266c" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long XBMCAddon::xbmcgui::Action::buttonCode</definition>
+        <argsstring></argsstring>
+        <name>buttonCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="66" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Action_1aadfcbda9fdd2ef265e0507e5f9f89f49" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::Action::strAction</definition>
+        <argsstring></argsstring>
+        <name>strAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="67" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1Action_1a85ce72dd7978551df4c1ec3963ca4181" prot="public" static="no" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1AddonClass_1_1Ref" kindref="compound">AddonClass::Ref</ref>&lt; <ref refid="classXBMCAddon_1_1xbmcgui_1_1Control" kindref="compound">Control</ref> &gt;</type>
+        <definition>AddonClass::Ref&lt;Control&gt; XBMCAddon::xbmcgui::Action::control</definition>
+        <argsstring></argsstring>
+        <name>control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="70" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Action_1ae68b59de30d2fb7df748e801551060ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::Action::Action</definition>
+        <argsstring>()</argsstring>
+        <name>Action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="53" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Action_1a88442a3d196fbd627a1123b9df3e623f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::Action::Action</definition>
+        <argsstring>(const CAction &amp;caction)</argsstring>
+        <name>Action</name>
+        <param>
+          <type>const CAction &amp;</type>
+          <declname>caction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="58" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Action_1ada880776ba368f0114c04ca27c5a456c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::Action::setFromCAction</definition>
+        <argsstring>(const CAction &amp;caction)</argsstring>
+        <name>setFromCAction</name>
+        <param>
+          <type>const CAction &amp;</type>
+          <declname>caction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="60" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.cpp" bodystart="794" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Action_1a31b1c17fdd878aa5afe059f72f4560f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmcgui::Action::getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a31b1c17fdd878aa5afe059f72f4560f6" kindref="member">getId()</ref> <ndash/> Returns the action&apos;s current id as a long or 0 if no action is mapped in the xml&apos;s. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="76" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Action_1a27617e235b6fca108f2de601dd9ad1b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmcgui::Action::getButtonCode</definition>
+        <argsstring>()</argsstring>
+        <name>getButtonCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a27617e235b6fca108f2de601dd9ad1b0" kindref="member">getButtonCode()</ref> <ndash/> Returns the button code for this action. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="81" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Action_1ab290a64e31c5ea9b01a1f452c6cf27b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float XBMCAddon::xbmcgui::Action::getAmount1</definition>
+        <argsstring>()</argsstring>
+        <name>getAmount1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1Action_1ab290a64e31c5ea9b01a1f452c6cf27b6" kindref="member">getAmount1()</ref> <ndash/> Returns the first amount of force applied to the thumbstick n. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="86" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1Action_1a17bbc3dd7f1ef1287d9a2a89c12191f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float XBMCAddon::xbmcgui::Action::getAmount2</definition>
+        <argsstring>()</argsstring>
+        <name>getAmount2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a17bbc3dd7f1ef1287d9a2a89c12191f9" kindref="member">getAmount2()</ref> <ndash/> Returns the second amount of force applied to the thumbstick n. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="91" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1Action" kindref="compound">Action</ref> class.</para><para>For backwards compatibility reasons the == operator is extended so that it<linebreak/>
+can compare an action with other actions and action.GetID() with numbers<itemizedlist>
+<listitem><para>example: (action == ACTION_MOVE_LEFT) </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="0">
+        <label>XBMCAddon::xbmcgui::Action</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Action"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="3">
+        <label>XBMCAddon::xbmcgui::Action</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Action"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>control</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::xbmcgui::Control &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Window.h" line="51" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Window.h" bodystart="50" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1ae68b59de30d2fb7df748e801551060ab" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>Action</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a88442a3d196fbd627a1123b9df3e623f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>Action</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a08efc57bfa44607c3c432662932e266c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>buttonCode</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a85ce72dd7978551df4c1ec3963ca4181" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>control</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a523e575125686b0c15daeb602a0a89be" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>fAmount1</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a2d313e5c7428a7aaca508757642f0ff6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>fAmount2</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1aadbf3097139c2c63e2eea38b395a9546" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>fRepeat</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1ab290a64e31c5ea9b01a1f452c6cf27b6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>getAmount1</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a17bbc3dd7f1ef1287d9a2a89c12191f9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>getAmount2</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a27617e235b6fca108f2de601dd9ad1b0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>getButtonCode</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a31b1c17fdd878aa5afe059f72f4560f6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>getId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a31349e7772ae8e518cc4a9a76f51e9d6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>id</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1ada880776ba368f0114c04ca27c5a456c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>setFromCAction</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1aadfcbda9fdd2ef265e0507e5f9f89f49" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>strAction</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::Action</scope><name>~AddonClass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

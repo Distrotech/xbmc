@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4" kind="class" prot="public">
+    <compoundname>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1Callback" prot="public" virt="non-virtual">XBMCAddon::Callback</basecompoundref>
+    <includes refid="CallbackFunction_8h" local="no">CallbackFunction.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class M</type>
+      </param>
+      <param>
+        <type>typename P1</type>
+      </param>
+      <param>
+        <type>typename P2</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a42b785967a151cd4b77c14e1d980b5d2" prot="public" static="no">
+        <type>void(M::*</type>
+        <definition>typedef void(M::* XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;::MemberFunction)(P1, P2)</definition>
+        <argsstring>)(P1, P2)</argsstring>
+        <name>MemberFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="137" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a166a412ffb09595f2084055d2b8cb696" prot="protected" static="no" mutable="no">
+        <type>MemberFunction</type>
+        <definition>MemberFunction XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;::meth</definition>
+        <argsstring></argsstring>
+        <name>meth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="140" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a1da6b6a120cb367b70d82a158be2b83f" prot="protected" static="no" mutable="no">
+        <type>M *</type>
+        <definition>M* XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;::obj</definition>
+        <argsstring></argsstring>
+        <name>obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="141" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a6458b49c4aa8567fea1138d7adde1843" prot="protected" static="no" mutable="no">
+        <type>P1</type>
+        <definition>P1 XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;::param1</definition>
+        <argsstring></argsstring>
+        <name>param1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="142" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1ac8a5a2411aa69924f387b7b5badfd10a" prot="protected" static="no" mutable="no">
+        <type>P2</type>
+        <definition>P2 XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;::param2</definition>
+        <argsstring></argsstring>
+        <name>param2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="143" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a9efb3a3ef80d1496e414655a173e9fc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;::CallbackFunction</definition>
+        <argsstring>(M *object, MemberFunction method, P1 parameter, P2 parameter2)</argsstring>
+        <name>CallbackFunction</name>
+        <param>
+          <type>M *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>MemberFunction</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>P1</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>P2</type>
+          <declname>parameter2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="146" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1af7c967d1abef55fcb978e13474b9cd7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;::~CallbackFunction</definition>
+        <argsstring>()</argsstring>
+        <name>~CallbackFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="150" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a355dcca1f1f554d01862f859b78e98e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;::executeCallback</definition>
+        <argsstring>()</argsstring>
+        <name>executeCallback</name>
+        <reimplements refid="classXBMCAddon_1_1Callback_1a4b84d03ca3eb70ef585fdf52caea3a97">executeCallback</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="152" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="152" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the template to carry a callback to a member function that returns &apos;void&apos; (has no return) and takes two parameters. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="142">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="140">
+        <label>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</label>
+        <link refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>XBMCAddon::Callback</label>
+        <link refid="classXBMCAddon_1_1Callback"/>
+        <childnode refid="142" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="146">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+        <childnode refid="148" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="147">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="144">
+        <label>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</label>
+        <link refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>XBMCAddon::Callback</label>
+        <link refid="classXBMCAddon_1_1Callback"/>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+        <childnode refid="146" relation="usage">
+          <edgelabel>addonClassObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" line="135" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackFunction.h" bodystart="134" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1Callback_1a120182bc7ec61c5c730d7113d95829f5" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>addonClassObject</name></member>
+      <member refid="classXBMCAddon_1_1Callback_1af186cfa79924ddba24975767cdbf0ce7" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>Callback</name></member>
+      <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a9efb3a3ef80d1496e414655a173e9fc8" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>CallbackFunction</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a355dcca1f1f554d01862f859b78e98e2" prot="public" virt="virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>executeCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1Callback_1a2513dca76e7e0aaad5104290fb3402f5" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>getObject</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a42b785967a151cd4b77c14e1d980b5d2" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>MemberFunction</name></member>
+      <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a166a412ffb09595f2084055d2b8cb696" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>meth</name></member>
+      <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a1da6b6a120cb367b70d82a158be2b83f" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>obj</name></member>
+      <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a6458b49c4aa8567fea1138d7adde1843" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>param1</name></member>
+      <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1ac8a5a2411aa69924f387b7b5badfd10a" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>param2</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1Callback_1a6e17b8c848886bcf463f85bbb99267a9" prot="public" virt="virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>~Callback</name></member>
+      <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1af7c967d1abef55fcb978e13474b9cd7c" prot="public" virt="virtual"><scope>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</scope><name>~CallbackFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

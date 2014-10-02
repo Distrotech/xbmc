@@ -1,0 +1,1363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1Action" kind="class"><name>XBMCAddon::xbmcgui::Action</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a31349e7772ae8e518cc4a9a76f51e9d6" kind="variable"><name>id</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a523e575125686b0c15daeb602a0a89be" kind="variable"><name>fAmount1</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a2d313e5c7428a7aaca508757642f0ff6" kind="variable"><name>fAmount2</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1aadbf3097139c2c63e2eea38b395a9546" kind="variable"><name>fRepeat</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a08efc57bfa44607c3c432662932e266c" kind="variable"><name>buttonCode</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1aadfcbda9fdd2ef265e0507e5f9f89f49" kind="variable"><name>strAction</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a85ce72dd7978551df4c1ec3963ca4181" kind="variable"><name>control</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1ae68b59de30d2fb7df748e801551060ab" kind="function"><name>Action</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a88442a3d196fbd627a1123b9df3e623f" kind="function"><name>Action</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1ada880776ba368f0114c04ca27c5a456c" kind="function"><name>setFromCAction</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a31b1c17fdd878aa5afe059f72f4560f6" kind="function"><name>getId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a27617e235b6fca108f2de601dd9ad1b0" kind="function"><name>getButtonCode</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1ab290a64e31c5ea9b01a1f452c6cf27b6" kind="function"><name>getAmount1</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Action_1a17bbc3dd7f1ef1287d9a2a89c12191f9" kind="function"><name>getAmount2</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcaddon_1_1Addon" kind="class"><name>XBMCAddon::xbmcaddon::Addon</name>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1a35819fa4077fe906852810c2e6f13378" kind="variable"><name>pAddon</name></member>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1a87a86d2605a977110aa26a35b964c065" kind="function"><name>getDefaultId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1a17a6801e1b23f1b375231f94b3a17f4d" kind="function"><name>getAddonVersion</name></member>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1a2d966feaa0a60148231bc3dbbcd15d6f" kind="function"><name>Addon</name></member>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1aa2da0222eb71dfc5816ecb1031edca68" kind="function"><name>~Addon</name></member>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1ad71eb7d9fb09b9f598f51d41684eb7b2" kind="function"><name>getLocalizedString</name></member>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1af5f9d34edde325b181c73296549cf4f7" kind="function"><name>getSetting</name></member>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1ab2360178f9b5ed6aa962c050ee2b28aa" kind="function"><name>setSetting</name></member>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1a54738130dcd49aa5029c05ae52954c23" kind="function"><name>openSettings</name></member>
+    <member refid="classXBMCAddon_1_1xbmcaddon_1_1Addon_1a38b04545f72570c0273c9c6be0083c79" kind="function"><name>getAddonInfo</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1AddonCallback" kind="class"><name>XBMCAddon::AddonCallback</name>
+    <member refid="classXBMCAddon_1_1AddonCallback_1ad4fc1fc86c9c648108acccfd6ad15f94" kind="variable"><name>handler</name></member>
+    <member refid="classXBMCAddon_1_1AddonCallback_1a8edad836d7559ad1536469c68be57254" kind="function"><name>hasHandler</name></member>
+    <member refid="classXBMCAddon_1_1AddonCallback_1af8df138f0052acf6a7eaf5fd08db5e1c" kind="function"><name>AddonCallback</name></member>
+    <member refid="classXBMCAddon_1_1AddonCallback_1a5f55e978e7785c907d7f30ec08f37324" kind="function"><name>~AddonCallback</name></member>
+    <member refid="classXBMCAddon_1_1AddonCallback_1a863529cf2b2849d2ce2f86737cd2826d" kind="function"><name>setHandler</name></member>
+    <member refid="classXBMCAddon_1_1AddonCallback_1a6891140d172d754c95d2412cfbc7b211" kind="function"><name>invokeCallback</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1AddonClass" kind="class"><name>XBMCAddon::AddonClass</name>
+    <member refid="classXBMCAddon_1_1AddonClass_1ae2292a06871525a20f5bc5c4ac128335" kind="variable"><name>refs</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1a8d7836e38169b41fa25d82295784782c" kind="variable"><name>m_isDeallocating</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1a6dc35122b64af81999245ac2ca5b6aa7" kind="variable"><name>isDeleted</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" kind="variable"><name>languageHook</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1a3db8543678c134e4f131e98402efb20d" kind="function"><name>AddonClass</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" kind="function"><name>deallocating</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" kind="function"><name>getNextClassIndex</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" kind="function"><name>AddonClass</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" kind="function"><name>~AddonClass</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" kind="function"><name>GetClassname</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" kind="function"><name>GetLanguageHook</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" kind="function"><name>isDeallocating</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" kind="function"><name>Release</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" kind="function"><name>Acquire</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" kind="function"><name>getNumAddonClasses</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1Alternative" kind="class"><name>XBMCAddon::Alternative</name>
+    <member refid="classXBMCAddon_1_1Alternative_1a1121c0bab5112abac970a3566cd64a6c" kind="variable"><name>pos</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1ac8a78b878f2cc9c8a99f7ee9027c2534" kind="variable"><name>m_data</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1ae18cf9fd4580f7bd968b665acdc9fc10" kind="function"><name>Alternative</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1af4bdecaad3d495b10fa75d412210c1fe" kind="function"><name>Alternative</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1afa35d37586923b3048231ca611b58a1c" kind="function"><name>which</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1aa89b25a38e87687c3dec77d2f71e0338" kind="function"><name>former</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1a1f2b44eae7e3328a0ad25449b414049b" kind="function"><name>former</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1a4b09082e2d9e25ebd884a0743ba6cecb" kind="function"><name>later</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1a1c03c070d7c1f056f817fce7c3f274dc" kind="function"><name>later</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1a593c2b9737a659c0687455445a6a42f3" kind="function"><name>operator T1 &amp;</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1a0af04fd470d3f000e4497878ff03e461" kind="function"><name>operator const T1 &amp;</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1a75a93bdb344b21ffaddc74a7a23e2200" kind="function"><name>operator T2 &amp;</name></member>
+    <member refid="classXBMCAddon_1_1Alternative_1ac2aff89914811c170ed7b61b18cbef08" kind="function"><name>operator const T2 &amp;</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1AsynchCallbackMessage" kind="class"><name>XBMCAddon::AsynchCallbackMessage</name>
+    <member refid="classXBMCAddon_1_1AsynchCallbackMessage_1a8f64e0a3e70fa011ae5d1da42e8b83be" kind="variable"><name>cb</name></member>
+    <member refid="classXBMCAddon_1_1AsynchCallbackMessage_1a50cb818aa7237d4037300f3a1b40122f" kind="variable"><name>handler</name></member>
+    <member refid="classXBMCAddon_1_1AsynchCallbackMessage_1aacaabb2be8db5bc1c2e888433b2155d5" kind="function"><name>AsynchCallbackMessage</name></member>
+  </compound>
+  <compound refid="classCAddOnTransport_1_1CAddOnClient" kind="class"><name>CAddOnTransport::CAddOnClient</name>
+    <member refid="classCAddOnTransport_1_1CAddOnClient_1a0a2c1c5751376a80f3c9d74be77ff83e" kind="function"><name>GetPermissionFlags</name></member>
+    <member refid="classCAddOnTransport_1_1CAddOnClient_1aea109cb2b35268a2c69b4be6e4c5928e" kind="function"><name>GetAnnouncementFlags</name></member>
+    <member refid="classCAddOnTransport_1_1CAddOnClient_1a8b4ede0ae7838c683bfb0e593f4faca2" kind="function"><name>SetAnnouncementFlags</name></member>
+  </compound>
+  <compound refid="classCAddOnTransport" kind="class"><name>CAddOnTransport</name>
+    <member refid="classCAddOnTransport_1a1db25cc2a6f26152e09d83fd88c7ae3b" kind="function"><name>PrepareDownload</name></member>
+    <member refid="classCAddOnTransport_1a04815716383afa05992ec123c2b6fdac" kind="function"><name>Download</name></member>
+    <member refid="classCAddOnTransport_1a198ceef53dd405d978b6075fff2ecc1c" kind="function"><name>GetCapabilities</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1Callback" kind="class"><name>XBMCAddon::Callback</name>
+    <member refid="classXBMCAddon_1_1Callback_1a120182bc7ec61c5c730d7113d95829f5" kind="variable"><name>addonClassObject</name></member>
+    <member refid="classXBMCAddon_1_1Callback_1af186cfa79924ddba24975767cdbf0ce7" kind="function"><name>Callback</name></member>
+    <member refid="classXBMCAddon_1_1Callback_1a4b84d03ca3eb70ef585fdf52caea3a97" kind="function"><name>executeCallback</name></member>
+    <member refid="classXBMCAddon_1_1Callback_1a6e17b8c848886bcf463f85bbb99267a9" kind="function"><name>~Callback</name></member>
+    <member refid="classXBMCAddon_1_1Callback_1a2513dca76e7e0aaad5104290fb3402f5" kind="function"><name>getObject</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1CallbackFunction" kind="class"><name>XBMCAddon::CallbackFunction</name>
+  </compound>
+  <compound refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96" kind="class"><name>XBMCAddon::CallbackFunction&lt; M, AddonClass::Ref&lt; P1 &gt;, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</name>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96_1a3d0411d1a976456e7cdbc63e6eee200c" kind="typedef"><name>MemberFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96_1aee6943768faa67c40b730be71cdad908" kind="variable"><name>meth</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96_1aef72ea5c2a95d156a6a069a660a0a01f" kind="variable"><name>obj</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96_1abd9f36edb77503802c1b58376dc940a5" kind="variable"><name>param</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96_1a3c92f44ab86bc6254c420267cde1f1aa" kind="function"><name>CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96_1a261a50f3407e5ff8cdabfe1e667505f6" kind="function"><name>~CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01AddonClass_1_1Ref_3_01P1_01_4_00_01cb__null__type_cea2675cc112c7c3f12b441c83b73b96_1a86eddb9f87a92a37c0f53befb3c56932" kind="function"><name>executeCallback</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0" kind="class"><name>XBMCAddon::CallbackFunction&lt; M, cb_null_type, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</name>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0_1a2420f7b7211c07682de68a91e0befaef" kind="typedef"><name>MemberFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0_1a397881a598c707d80344463f358b541c" kind="variable"><name>meth</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0_1ad71bd61f8571ed661024325011e40fef" kind="variable"><name>obj</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0_1a51b619d84d1439519561f9141e452ade" kind="function"><name>CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0_1ae9a09996714f19f6ade3a4212329c551" kind="function"><name>~CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01cb__null__type_00_01cb__null__type_00_01cb__null__50be70f50824efae8e98316de92b03e0_1a1bd91033fa48f23afb858d0fc94b0185" kind="function"><name>executeCallback</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755" kind="class"><name>XBMCAddon::CallbackFunction&lt; M, P1, cb_null_type, cb_null_type, cb_null_type, cb_null_type &gt;</name>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755_1a7c349c8aa70bc8d248323ac496eb7f54" kind="typedef"><name>MemberFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755_1a4aa5c00206f4c74368d4310ab8489c0d" kind="variable"><name>meth</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755_1a5956902697c7735e48e662f66dfafcdf" kind="variable"><name>obj</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755_1a61676ff5c06f2c5e344e94ca1aba1a25" kind="variable"><name>param</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755_1ad6036574f9b283374f7dcdf143527e9b" kind="function"><name>CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755_1ad7bad73ebbf37f9cb0da7aa719b162d9" kind="function"><name>~CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01cb__null__type_00_01cb__null__type_00_01cb58cdce7686d6c3bfd8224ef116555755_1af6f163e665b4d08a4471b492a31770a0" kind="function"><name>executeCallback</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4" kind="class"><name>XBMCAddon::CallbackFunction&lt; M, P1, P2, cb_null_type, cb_null_type, cb_null_type &gt;</name>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a42b785967a151cd4b77c14e1d980b5d2" kind="typedef"><name>MemberFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a166a412ffb09595f2084055d2b8cb696" kind="variable"><name>meth</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a1da6b6a120cb367b70d82a158be2b83f" kind="variable"><name>obj</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a6458b49c4aa8567fea1138d7adde1843" kind="variable"><name>param1</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1ac8a5a2411aa69924f387b7b5badfd10a" kind="variable"><name>param2</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a9efb3a3ef80d1496e414655a173e9fc8" kind="function"><name>CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1af7c967d1abef55fcb978e13474b9cd7c" kind="function"><name>~CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01cb__null__type_00_01cb__null__type_00_01cb__null__type_01_4_1a355dcca1f1f554d01862f859b78e98e2" kind="function"><name>executeCallback</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4" kind="class"><name>XBMCAddon::CallbackFunction&lt; M, P1, P2, P3, cb_null_type, cb_null_type &gt;</name>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1a819bc45c401d8ddd803244f9c9717191" kind="typedef"><name>MemberFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1ab253cc2ec6c24673ae29416023bdf724" kind="variable"><name>meth</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1a3b1b3f52c528a7fec73da36dcd9ac697" kind="variable"><name>obj</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1a38c6d60baa3d5b78cf9058f45c6796fa" kind="variable"><name>param1</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1a0b6f5af9b8890cbd8654dc5195809175" kind="variable"><name>param2</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1ab59fbe71b038df998e1cc7cd12d0cb87" kind="variable"><name>param3</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1ae01bcf5958df5a8745a039fa79554c80" kind="function"><name>CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1ad7c5c9ada3d4e94bbc3e92914ded161b" kind="function"><name>~CallbackFunction</name></member>
+    <member refid="classXBMCAddon_1_1CallbackFunction_3_01M_00_01P1_00_01P2_00_01P3_00_01cb__null__type_00_01cb__null__type_01_4_1a30105a488df74a21c16aa0ae8decea08" kind="function"><name>executeCallback</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1CallbackHandler" kind="class"><name>XBMCAddon::CallbackHandler</name>
+    <member refid="classXBMCAddon_1_1CallbackHandler_1abb6d9feeb024900932b7ae88b43bba36" kind="function"><name>CallbackHandler</name></member>
+    <member refid="classXBMCAddon_1_1CallbackHandler_1a39aa4770396b7e381bc2b0f4dd739d07" kind="function"><name>invokeCallback</name></member>
+  </compound>
+  <compound refid="structXBMCAddon_1_1cb__null__type" kind="struct"><name>XBMCAddon::cb_null_type</name>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1Control" kind="class"><name>XBMCAddon::xbmcgui::Control</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a831f2a90cd2386d6619b8d3244f3c3c6" kind="variable"><name>iControlId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a762cabd8a02fa224e164cd2b7e467465" kind="variable"><name>iParentId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0594c29026ce33f93da497d4739cf2db" kind="variable"><name>dwPosX</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a082bd10bb17b2e06ba2c66e4d5c89076" kind="variable"><name>dwPosY</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a09ec4357c7696031c0dbf27dfe9a7ab3" kind="variable"><name>dwWidth</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a459ef963aff77bcd3b94c731580cca92" kind="variable"><name>dwHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a59ac3f58260c830b0104198420157ae4" kind="variable"><name>iControlUp</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a010243cc31f63805e840261bb06db684" kind="variable"><name>iControlDown</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6d2c926cbf74ea3319f6751613a439d9" kind="variable"><name>iControlLeft</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab5d517c7663a4b9d974fe5abcaec8462" kind="variable"><name>iControlRight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aefdaa3fba21ce3ffeb4d21268aeb947a" kind="variable"><name>pGUIControl</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aba01bf41b2e134c5b6c56c645773111e" kind="function"><name>Control</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a76cf22380945688660f8fe9befa388ab" kind="function"><name>~Control</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a90551421a79adc25f50592d0d0043e89" kind="function"><name>Create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad44fc311107f120e1bf5f9e0c1814211" kind="function"><name>canAcceptMessages</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6a3989df5298f5165b59a73155bafdb1" kind="function"><name>getId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a43fa362a752eef414ce817a9949a1cf1" kind="function"><name>operator==</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac622958d57c2680ad7077bd8bf00d41e" kind="function"><name>operator&gt;</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a7bd60f560d45968bbe1426c263198534" kind="function"><name>operator&lt;</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a21a679353632887bed370b0d54c841b3" kind="function"><name>getPosition</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac72e0cadbf7a8b0ec66299085fdb8083" kind="function"><name>getX</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aadf9649e0f9891d00bc22e7e0dda7df0" kind="function"><name>getY</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a1324db4f6a1c923f40711344f7e208ff" kind="function"><name>getHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af1b19d1516e7756e16eedfc880602243" kind="function"><name>getWidth</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a2741facef1d6730289d5572e256678f7" kind="function"><name>setEnabled</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a80e809b56d258c43ea813315c15b6c81" kind="function"><name>setVisible</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6f5b424b8bde8e4210e6e20572abf72d" kind="function"><name>setVisibleCondition</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac45a0f76e5d0605a1706abac62952df8" kind="function"><name>setEnableCondition</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af9d0e604ae56521b35b04acb93613f9e" kind="function"><name>setAnimations</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a03048c7627077b3bb9c2197d6ddf8152" kind="function"><name>setPosition</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aaf6c51df65738d70afca44842119b360" kind="function"><name>setWidth</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a25280450c5fbf816106d82840e2b9442" kind="function"><name>setHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a8f280d0ba18e1766ffdb0cec17dbc464" kind="function"><name>setNavigation</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac22927946710cc0152f80ec03f2a7b19" kind="function"><name>controlUp</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a4337ab7595b7cc6aca2eb7510067c728" kind="function"><name>controlDown</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac1e1aa737b881c6d48e8f835a9a38f3b" kind="function"><name>controlLeft</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0f64496cd3f47bb86a69096984060681" kind="function"><name>controlRight</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton" kind="class"><name>XBMCAddon::xbmcgui::ControlButton</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a483bb9bae9e190db2bf26c4729fee131" kind="variable"><name>textOffsetX</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a4117e7cddaf28a889a9fb2c58e739d7b" kind="variable"><name>textOffsetY</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a3c7856ae535fd34ec180f42c524eaff5" kind="variable"><name>align</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a5e36eda2a5f766744e4ea8dbedbd8010" kind="variable"><name>strFont</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a4bc81ade781d3ae848d1fe4cc262caab" kind="variable"><name>textColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a17d91a233da57e01500087a44976a9e0" kind="variable"><name>disabledColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a3d29b8b5cafc06ac3217d81888ad45a2" kind="variable"><name>iAngle</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1aae471460a0a0a86d4dce96ccb729ae15" kind="variable"><name>shadowColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a9029fe0848b9eb1e987440229cdff97a" kind="variable"><name>focusedColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1adc21b12622e1c83295390d93deb67b9c" kind="variable"><name>strText</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1af5e15fd6271320146966371ff3262c38" kind="variable"><name>strText2</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a07a0f12e01f1723a69e739a9f483ec72" kind="variable"><name>strTextureFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a8a6f0b110ed0d7bfdc72877282e80a4a" kind="variable"><name>strTextureNoFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a28e13f75b27378b4a896bafc4d842797" kind="function"><name>ControlButton</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a4f1f42892de3c95a4a6fb0df0437166d" kind="function"><name>setLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1abd1e34c72b881d1aa3a76a64313b42f3" kind="function"><name>setDisabledColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a999508fa488472d84371bcd05ea5e44b" kind="function"><name>getLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1abc101db9e84b0b835c71098f02c80dc1" kind="function"><name>getLabel2</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1aa6a25ce99a398c9fe91362dee1e566eb" kind="function"><name>canAcceptMessages</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1a78d164656f7dd4f3d04f656874d87129" kind="function"><name>Create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlButton_1aac87661ee4dcc3cceaeedcdc2c62dc11" kind="function"><name>ControlButton</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark" kind="class"><name>XBMCAddon::xbmcgui::ControlCheckMark</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ac541b546f86a980b6334e16d06844bf9" kind="variable"><name>strFont</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a4260d5694656a2c5ffa55869e95e1066" kind="variable"><name>checkWidth</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a4ae77d498ad65d612c3b5623062a40fa" kind="variable"><name>checkHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a562d24368f0d4628e4622b6a1ea66f86" kind="variable"><name>align</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ab0466a581359794ced5f10beca0389d6" kind="variable"><name>textColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a9b4f924522bc49acaa227702a45f38be" kind="variable"><name>disabledColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a4c8d1d31b7dbfa2acb73d5ede5a7cd24" kind="variable"><name>strTextureFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a3daf4e33eb5ac8cdea1fd02c76ce3602" kind="variable"><name>strTextureNoFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ad598f45803bd3d07a29596193c6074c9" kind="variable"><name>strText</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ac53afaeba9f42e8c46a48d5510336fbb" kind="function"><name>ControlCheckMark</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ab08562d2fd9307a9203f004d589ce1a2" kind="function"><name>getSelected</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ae057ada9e069c83bba340cbb482e1b3c" kind="function"><name>setSelected</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1acdd8ad41a42534a725ec0b4151db497a" kind="function"><name>setLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1ad5384afdd35d5211ea0a2c5fad1a5ed4" kind="function"><name>setDisabledColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a17cfa5363a4afdf367b2aa64059a31a5" kind="function"><name>canAcceptMessages</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a74e7dd98d7c6eb4effe0d8a974214112" kind="function"><name>Create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlCheckMark_1a41a9dc21b57388436eed27d91b429611" kind="function"><name>ControlCheckMark</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit" kind="class"><name>XBMCAddon::xbmcgui::ControlEdit</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1ac7476a195fee0c9da6e6fbf7c85c8e5c" kind="variable"><name>strFont</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a97169a278a6b81428122f5c85fa7641c" kind="variable"><name>strText</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a3ab28ad76be54b42a2dc9396b631fe76" kind="variable"><name>strTextureFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a5cb82459a7e4dc21d43a5b6bd2b951be" kind="variable"><name>strTextureNoFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1adf73f69297b3b154dfc31745c7ceddee" kind="variable"><name>textColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1ac6cb4f2bd78f893517d133a9116ac0db" kind="variable"><name>disabledColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a5c28d10ff9fd2dea607f0a5315822833" kind="variable"><name>align</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a17f6bf658ba7e87930f720a2e74c72b5" kind="variable"><name>bIsPassword</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a5d351ddfc878ffed60c1a8bd5158ce45" kind="function"><name>ControlEdit</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a39f2c4f1e7a29f70cda6afb8848665f5" kind="function"><name>setLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a60600ebdcf42b892e476950c75d8d5c7" kind="function"><name>getLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a4a24c610ad372844c2d69c554bfee256" kind="function"><name>setText</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a0258b06554923fc4e686229f9e58f755" kind="function"><name>getText</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1a4fe112ccbe2a13bcda9e0808188284e7" kind="function"><name>ControlEdit</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlEdit_1af1127b234a20c6da60f162f90ff812ca" kind="function"><name>Create</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel" kind="class"><name>XBMCAddon::xbmcgui::ControlFadeLabel</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1ac5edec1448db725c1ef626da0ba10096" kind="variable"><name>strFont</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1aed07a7c51db20b42517322da3ac8c93c" kind="variable"><name>textColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a5906d06408009046c6a388e777a0fba0" kind="variable"><name>vecLabels</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a5720d489c5c55d8606ec82bd85a85f10" kind="variable"><name>align</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1ab4169c9ca04626b824767282f941dc5d" kind="function"><name>ControlFadeLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1ae036164ad82e3489912b70c4287203ed" kind="function"><name>addLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a50ec01bad9593f9f995ddeb00ca0b36d" kind="function"><name>reset</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a41d1a0750a0ed21c56104d67e31d39b3" kind="function"><name>Create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlFadeLabel_1a48286919bdb8fc3271d48ba9133eec2f" kind="function"><name>ControlFadeLabel</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlGroup" kind="class"><name>XBMCAddon::xbmcgui::ControlGroup</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlGroup_1a78c0d02543aa2c25d5e25aa287393543" kind="function"><name>ControlGroup</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlGroup_1a6344bf2066cd6d9e915089b69de409fa" kind="function"><name>Create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlGroup_1a30c06da1e38652c7cd72514cff17a44c" kind="function"><name>ControlGroup</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage" kind="class"><name>XBMCAddon::xbmcgui::ControlImage</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage_1ae6985b371cfa7334ab161d9b22ca498c" kind="variable"><name>strFileName</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage_1abf663029dabb0234f8977877ebed31c2" kind="variable"><name>aspectRatio</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage_1a21865cbd297fb24157f668ab24105cc4" kind="variable"><name>colorDiffuse</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage_1ab3dcc1fc5b8177a2752782650c9d0f31" kind="function"><name>ControlImage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage_1ae1976373cc125e95a5844a968dcb800c" kind="function"><name>setImage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage_1a26d41bdda29041ed28b0288c88661450" kind="function"><name>setColorDiffuse</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage_1adf15044ac8e4f41f5e8845bcd792aa56" kind="function"><name>ControlImage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlImage_1a87821707dd487bf4a50ddff264ac5524" kind="function"><name>Create</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel" kind="class"><name>XBMCAddon::xbmcgui::ControlLabel</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1ae605fa8e8ef44c3801df2d96b1fbebe9" kind="variable"><name>strFont</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a4a452bfe9242eeddf18b527951989a8a" kind="variable"><name>strText</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a0f454bcbe6c6ccd943d27e25a6f61dcd" kind="variable"><name>textColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a5acb325435087ad243ac25d8f11be858" kind="variable"><name>disabledColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a44c9753f9b1af430c8175aa18938f078" kind="variable"><name>align</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a80f1fd7688a83f533abfcd1b3eb78576" kind="variable"><name>bHasPath</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a47aff584ed233fa2557de910bfce50c6" kind="variable"><name>iAngle</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a6d2a3520521a6ceebffa93fcb9f3f33a" kind="function"><name>ControlLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a9adf4dc8d131cca8fcae1f713c7a3c1e" kind="function"><name>~ControlLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a16a01435804701a8e5859527b22dfe8b" kind="function"><name>getLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a8a7ba300b344f460dc88eb3cf273e7e3" kind="function"><name>setLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1acfc89bc0f7945e317c87e84310200ccf" kind="function"><name>ControlLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlLabel_1a798ce986db087e15a588f078a5b1b7ce" kind="function"><name>Create</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlList" kind="class"><name>XBMCAddon::xbmcgui::ControlList</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1af662eb159c4ba85d7186a0909a2c282a" kind="variable"><name>vecItems</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3a3d431ce16c1b3c958a0ae600483faa" kind="variable"><name>strFont</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aa9362f33ed16d0b16eca5dabc3ea4cbe" kind="variable"><name>pControlSpin</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aa8b81632342b42d507e384637f2b3a9b" kind="variable"><name>textColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a0ad056a5d2d57065d7e365472c9bfe5f" kind="variable"><name>selectedColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a08cd1e63b7a13817a23d4dea4d3e7649" kind="variable"><name>strTextureButton</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1afe2b91555708d00ac3c3dc10ba0a9ef1" kind="variable"><name>strTextureButtonFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a877713453d448642580b6a257c6bfa40" kind="variable"><name>imageHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a8415d6764d707d566bb0303afd5cf388" kind="variable"><name>imageWidth</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1af378466c75175d77f56f60f7732d13f1" kind="variable"><name>itemHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1aa92e817bd8ca0c93323fe846e032fbb4" kind="variable"><name>space</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a7e205f0113aaabe1381eccdd36a148bc" kind="variable"><name>itemTextOffsetX</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a5049c5f791ccfeaec780d9012803475b" kind="variable"><name>itemTextOffsetY</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3f3cd81d6ec257569ae8636e965ba3b4" kind="variable"><name>alignmentY</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a99224662e0fa4966a084db7693c841fd" kind="function"><name>internAddListItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a7398995e1dbd8a504548147a3b5aa4c5" kind="function"><name>ControlList</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae69e7d04683fdbf32e681b59be236a24" kind="function"><name>~ControlList</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a0851b4b1bbe594dc58a58bfe2303310f" kind="function"><name>addItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3772146b6de94dc7009ad6239bbd9984" kind="function"><name>addItems</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a7b6b5f6552f9802ff076f541f81a8bc8" kind="function"><name>selectItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a81d64811a9f55bf762eb56eecce156fb" kind="function"><name>removeItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3c23efa49b0e70915f410e0c12747d6e" kind="function"><name>reset</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a9b9ac0cd03a6d14c732050f707943d42" kind="function"><name>getSpinControl</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a6ddf11d3b177ccbb130b0dc8405b42e5" kind="function"><name>getSelectedPosition</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a178d1efd7e16d9fa4af74c03c0d91c06" kind="function"><name>getSelectedItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1afcdcdf22056586f12eeac0c57756b899" kind="function"><name>setImageDimensions</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a2264e4af27e7fab9345db925543a896d" kind="function"><name>setItemHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1add4d7ad57e17c4e08ab81c4cdfe035d1" kind="function"><name>setSpace</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a3f6538400fd26b44ce76b3e9973225e3" kind="function"><name>setPageControlVisible</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a64756cbabc1bddc6e0e1ec8fccf83303" kind="function"><name>size</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ad3b89116d0fe64b377088f44c879ab73" kind="function"><name>getItemHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae3e5f54ecf25888322473a94e8208625" kind="function"><name>getSpace</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ab004e7197c849f2b42e7d378a5eb3216" kind="function"><name>getListItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ac9a64be324db472c2d17ac7301e632f3" kind="function"><name>setStaticContent</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1abdd4d6ecd86e66978853159753bd5686" kind="function"><name>sendLabelBind</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a69c70e0b9e0797b234a771b3cac360f2" kind="function"><name>canAcceptMessages</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1ae08d29c43d6c2122e7dc4b84a109fb1c" kind="function"><name>ControlList</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlList_1a99141f59333f35004865b44d715aa11d" kind="function"><name>Create</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress" kind="class"><name>XBMCAddon::xbmcgui::ControlProgress</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1afcf8ff35a1e71c9bfc20f894c09aba62" kind="variable"><name>strTextureLeft</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1aec42804a222236a13986fdacc426e0e0" kind="variable"><name>strTextureMid</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1af93f39fc8b1c702e974d5567470c0db8" kind="variable"><name>strTextureRight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1a37d570847ce5540f898bc65c98fd089a" kind="variable"><name>strTextureBg</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1a79433f39061977f98a73ccca4f54f9f9" kind="variable"><name>strTextureOverlay</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1ae58712652a3ad9e8887c7914239ba31d" kind="variable"><name>aspectRatio</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1a7caa283904fe02fc3b3bacc960942b26" kind="variable"><name>colorDiffuse</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1ab3f5fe7b1a03ecce3882b9130779661d" kind="function"><name>ControlProgress</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1a4b3661f8b16ac948b1e98c4619384598" kind="function"><name>setPercent</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1a0df686b8fabecab02a083a9784164a81" kind="function"><name>getPercent</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1a9dc9e4474bfc05b171b1bedce1cc316d" kind="function"><name>Create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlProgress_1ad580d4510a1c0ca55290bfa9376bcd20" kind="function"><name>ControlProgress</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton" kind="class"><name>XBMCAddon::xbmcgui::ControlRadioButton</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1adbf0f1ab66c0303317d0b0c6c121adfc" kind="variable"><name>strFont</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1ae4303924e87d1b4512e329f955bc2bb0" kind="variable"><name>strText</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a1541bb8d84022868cf07826cbd464e2a" kind="variable"><name>strTextureFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1abf9d73c575e54f364a682f1072487248" kind="variable"><name>strTextureNoFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a32d8b7a9287c215453542df824976fda" kind="variable"><name>strTextureRadioOnFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1aeb91741560df40d5ecf7b3967069a8ed" kind="variable"><name>strTextureRadioOnNoFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a1b0b8474651f9212d89be21c350dd26c" kind="variable"><name>strTextureRadioOffFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1ac8b107e0baa54bdf855a3c109640122a" kind="variable"><name>strTextureRadioOffNoFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a071f239395f429b6f33f5ac5238d5226" kind="variable"><name>textColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a9c755f4c123d7144b1658d54c0001a3b" kind="variable"><name>disabledColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a5eb5526f49806f70d631c2a378fc35e4" kind="variable"><name>textOffsetX</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a37c169a7dad1cb4225213e260b3c0d05" kind="variable"><name>textOffsetY</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1abe89023b95f9080a7b37d320c0ef8578" kind="variable"><name>align</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a456365f7c0cf3e7502fc493c9721e37b" kind="variable"><name>iAngle</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a85ba20213aa4037d7e827785a4e2a01a" kind="variable"><name>shadowColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a47f0cd0ad39fa73e352750e97b07781a" kind="variable"><name>focusedColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a68b7112735b775649502a0df7be653a6" kind="function"><name>ControlRadioButton</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a983182bbd5077a9478c73e43e65dc8e1" kind="function"><name>setSelected</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1acea559151b6565aa0277580100c924ca" kind="function"><name>isSelected</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1adb18213b0a7854920e3196f0eff5fb04" kind="function"><name>setLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1aa99d0ef641490547fb4ce32c3e2b56cf" kind="function"><name>setRadioDimension</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1af7b397c6d34b891cc575979545a480f4" kind="function"><name>canAcceptMessages</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1acf3c98d5304ffb3cdcc0aef7b63da8b7" kind="function"><name>Create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a85969577577b370d6383bc1b7a020f5a" kind="function"><name>ControlRadioButton</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider" kind="class"><name>XBMCAddon::xbmcgui::ControlSlider</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider_1a60aae2a138a0494b437929347aaa5c25" kind="variable"><name>strTextureBack</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider_1a7b43d6c3e7232f47c24d7cd74915833c" kind="variable"><name>strTexture</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider_1a5de9d1f367ebe179acccf622451df082" kind="variable"><name>strTextureFoc</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider_1a34e4f6ca14e4f91c974c2376f82d736d" kind="function"><name>ControlSlider</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider_1aa890e916a1068c34f65813cd05e2f7c3" kind="function"><name>getPercent</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider_1acb910c2710322f0f9fc0b66d1b8b29b2" kind="function"><name>setPercent</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider_1add7f26159a3d8397d0e69d915f349ebe" kind="function"><name>Create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSlider_1a853cfa0fb6b937c916fb64a9ade23f08" kind="function"><name>ControlSlider</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin" kind="class"><name>XBMCAddon::xbmcgui::ControlSpin</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1aa18dbc365c87b8ea73baad84ae3c07c3" kind="variable"><name>color</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1a2071b88c445378d093268a4b635657eb" kind="variable"><name>strTextureUp</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1a390ab9bfee48305296731a15c794cec9" kind="variable"><name>strTextureDown</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1a2a0151ac59c378726fbced6789273d82" kind="variable"><name>strTextureUpFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1af8f5b4853cb3c0265916b80fe13a1187" kind="variable"><name>strTextureDownFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1a553f958a25683445088050a69d3de8e9" kind="friend"><name>Window</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1aefefb9f1f364ffc1c55ba12feaebf444" kind="friend"><name>ControlList</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1ab5fcf2aa1e3c784ad9d51a9056e6e6c7" kind="function"><name>~ControlSpin</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1ab025f17f3eadf73085d0a081e404e53d" kind="function"><name>setTextures</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlSpin_1a08f6af5cdbd51625e11f6e0ccb8d8812" kind="function"><name>ControlSpin</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox" kind="class"><name>XBMCAddon::xbmcgui::ControlTextBox</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox_1a955d69031858b2eeb6901e34f8ae95d2" kind="variable"><name>strFont</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox_1a47fa8f59ece29d1f3368e18ba6d883d2" kind="variable"><name>textColor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox_1ad964bbe2908ff4676900fcede737979b" kind="function"><name>ControlTextBox</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox_1ade3c9e9d712380f902ba77fb1820fd16" kind="function"><name>setText</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox_1ae4c1d93c4f796a6099c473814ed34986" kind="function"><name>getText</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox_1a2e527a38b68c62aa00746eeacf4579cc" kind="function"><name>reset</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox_1ad44faeac395c8f160e9a50cd44aa26db" kind="function"><name>scroll</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox_1adb09d302171c2c62d8db71963ed46668" kind="function"><name>Create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlTextBox_1a6c798d291dfcdde58ff3471c2899673c" kind="function"><name>ControlTextBox</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1DelayedCallGuard" kind="class"><name>XBMCAddon::DelayedCallGuard</name>
+    <member refid="classXBMCAddon_1_1DelayedCallGuard_1a2941af7e2c4bd0cd02d737e62ff826b3" kind="variable"><name>languageHook</name></member>
+    <member refid="classXBMCAddon_1_1DelayedCallGuard_1ae807007b72013f599291d2a4646315c5" kind="variable"><name>clearOnExit</name></member>
+    <member refid="classXBMCAddon_1_1DelayedCallGuard_1af89910257ecac15c8bfd570b48d7c8be" kind="function"><name>DelayedCallGuard</name></member>
+    <member refid="classXBMCAddon_1_1DelayedCallGuard_1af1fdedb53dc2a48249c23d418de19112" kind="function"><name>DelayedCallGuard</name></member>
+    <member refid="classXBMCAddon_1_1DelayedCallGuard_1a2aaecbde019149f0233b6a73e7b25310" kind="function"><name>~DelayedCallGuard</name></member>
+    <member refid="classXBMCAddon_1_1DelayedCallGuard_1aa8ab7d7f4a8939613a73562d1f5bc265" kind="function"><name>getLanguageHook</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1Dialog" kind="class"><name>XBMCAddon::xbmcgui::Dialog</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a743361915295da2dbf45a05988ff7e7b" kind="function"><name>Dialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1aea14f8a132db6f09a14812eb43e9d1eb" kind="function"><name>~Dialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a0778bc7e48c1e1d0f1f6fb891b16c9c3" kind="function"><name>yesno</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a5c0e07ed2288f907a6a006bb498abe11" kind="function"><name>select</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ad06502ada19626b307a8af40a60e4be7" kind="function"><name>ok</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1aa55c461be7f7a183e97f66d97b032abb" kind="function"><name>browse</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1a00787656fd82414b71c43bde966fd042" kind="function"><name>browseSingle</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ab429653c457367d3f67b6fc76a4eea34" kind="function"><name>browseMultiple</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ad63ecd042f6d0643767010743720b9c4" kind="function"><name>numeric</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ac207ff8a9757f948627cfa330f341b0c" kind="function"><name>notification</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Dialog_1ae951dc6478a426123cbdc3f09522ee46" kind="function"><name>input</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress" kind="class"><name>XBMCAddon::xbmcgui::DialogProgress</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1acab59d328374ecc76f03a459c5346e9b" kind="variable"><name>dlg</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a400c119456ea90fcb18140bd8b6d5eb3" kind="variable"><name>open</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ae1b1ad0bd313aa6cbade996aea9b824f" kind="function"><name>deallocating</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1af9ddd777dfcbd6b7ff67581593f38646" kind="function"><name>DialogProgress</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a03858a18ae2bd290d5b448f38258c1e4" kind="function"><name>~DialogProgress</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ae5d256efc8377b1dd2f23a5331b879c9" kind="function"><name>create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a8f9e46fa078ebff44a9747b0fedbb452" kind="function"><name>update</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a797d1e95c7c7c757878d9972d54eced7" kind="function"><name>close</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ac596fc83abd070fef512c9ecd2ffaaaa" kind="function"><name>iscanceled</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG" kind="class"><name>XBMCAddon::xbmcgui::DialogProgressBG</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1aee00d347b54adcf9442224a444f7a869" kind="variable"><name>dlg</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1afbe7b52b3678265b247e3b015c6d15f2" kind="variable"><name>handle</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1a05ed40254755caff8557a7d9b72fc418" kind="variable"><name>open</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1a835ff98f1bcdee08710ae221a15396c0" kind="function"><name>deallocating</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1a43d627514d43c74d9b9a0b06c828d88a" kind="function"><name>DialogProgressBG</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1a1f3bd37a519a7bf26859efd6b6f874e2" kind="function"><name>~DialogProgressBG</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1af6487401fe925eb36ce7ceff013f2de0" kind="function"><name>create</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1a218c88ee408fe9f044dc36804ae5f815" kind="function"><name>update</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1ace26e998b8b238f538c279824d4feb12" kind="function"><name>close</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgressBG_1afbc6e94bd4d748dbacc2596d9e1a8136" kind="function"><name>isFinished</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1Dictionary" kind="class"><name>XBMCAddon::Dictionary</name>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcvfs_1_1File" kind="class"><name>XBMCAddon::xbmcvfs::File</name>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a545d1e680fade18d44739b5bcc6dadc0" kind="variable"><name>file</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a536468053281cb7fc89c6c235dcb9830" kind="function"><name>File</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a12538d94535ca47230a4766f4b07b163" kind="function"><name>~File</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a35d6120334ffd3e4fbdd5a2ae42bcff4" kind="function"><name>read</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1abc962e9235893121d2938409e05bedf0" kind="function"><name>readBytes</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a570f6ecfa3d3c7bb7f41cb17766ac9bb" kind="function"><name>write</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1ad74bac7bdd2eabdcb88a80d60a0ccfa9" kind="function"><name>size</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a447f9cb9f5114dc467bf4a5db30f257a" kind="function"><name>seek</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a7821702886269db7be17ef87e5252ff0" kind="function"><name>close</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1File_1a519d534294fc21eeceacb1c07b88530f" kind="function"><name>getFile</name></member>
+  </compound>
+  <compound refid="classXBMCAddonUtils_1_1GuiLock" kind="class"><name>XBMCAddonUtils::GuiLock</name>
+    <member refid="classXBMCAddonUtils_1_1GuiLock_1a9b873efa8df4f3f30dd183db356d3e0e" kind="function"><name>GuiLock</name></member>
+    <member refid="classXBMCAddonUtils_1_1GuiLock_1ab723a5bf67d909942680953ac48f1dfd" kind="function"><name>~GuiLock</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic" kind="class"><name>XBMCAddon::xbmc::InfoTagMusic</name>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a88ab733cf33857393f71bbc6c1201981" kind="variable"><name>infoTag</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a627900dc3cfb4218f47b57174d2f8cab" kind="function"><name>InfoTagMusic</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1aaf11481508dae9b6e1f0db5b9fa0f9dd" kind="function"><name>InfoTagMusic</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a25f621df913f365ab1ecc01d7db13ef1" kind="function"><name>~InfoTagMusic</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a1e9304322bf006864bf1041756e9a655" kind="function"><name>getURL</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1aa489d1eae006db4773ca7b284f0e670e" kind="function"><name>getTitle</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a966d21b8414ac69774cd13b1066796b4" kind="function"><name>getArtist</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1ae158009fa0f9b7e908d2a0dd5132ddd7" kind="function"><name>getAlbum</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a13c4a40ed8b84da9796cddf3aa6da495" kind="function"><name>getAlbumArtist</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a90c7c8357176aead68e3ccf972a4e252" kind="function"><name>getGenre</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a0e4fe09390215c26267696f093c48e70" kind="function"><name>getDuration</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1af67917954114bc1f5c3c6958b9c5904d" kind="function"><name>getTrack</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a9a5d57677f5cdad30f6b2b07b4c9abbc" kind="function"><name>getDisc</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a13f9b6ac310c7d4031179c1164b437b7" kind="function"><name>getReleaseDate</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a7f7f6e7f52851b043572988349de06ae" kind="function"><name>getListeners</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1acf95fc6a989b7ebf49ae7952fef78b2b" kind="function"><name>getPlayCount</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a17ec759df2a573113ad2a634c0575f7b" kind="function"><name>getLastPlayed</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a7ff6719e7892036879b58cc0fa384206" kind="function"><name>getComment</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a73340e49d7595d2c7ba7bf74d3c7031d" kind="function"><name>getLyrics</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo" kind="class"><name>XBMCAddon::xbmc::InfoTagVideo</name>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1aaa0dcca057e4aa33ed6e83bcd348a318" kind="variable"><name>infoTag</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a06159dd4b5d0518475da4fb87e6ca518" kind="function"><name>InfoTagVideo</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a662cd824b4ea3f441b8720b55c45e667" kind="function"><name>InfoTagVideo</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a2de8e52d83e763e3c2c2edba0e94e357" kind="function"><name>~InfoTagVideo</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1af1bd9636f2ec0c906a6f83e15667c626" kind="function"><name>getDirector</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a5ad569e123fdc769bffb10747d54e680" kind="function"><name>getWritingCredits</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ae11f5974612de16f056fa05cd72b5f7c" kind="function"><name>getGenre</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a488131946afa1550106712a1bf9b97cd" kind="function"><name>getTagLine</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ac8025ae38a652eb6ad244069efafb4a7" kind="function"><name>getPlotOutline</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a5472876ac8913f451c6fb0cc832f2575" kind="function"><name>getPlot</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a35d528aa63c669047ab2c8bdd1958de2" kind="function"><name>getPictureURL</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1af3652bbfe8006bfbdea22b57b8884f80" kind="function"><name>getTitle</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a547c9bae9f1d0226a01350d25ae0f85d" kind="function"><name>getVotes</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ad700d818305e0b07acea6169b88b6456" kind="function"><name>getCast</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a35a70607d8af7b93ebd9cf3d28f97179" kind="function"><name>getFile</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1abdf315f1d331c56d23a31c1cd208d19e" kind="function"><name>getPath</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ad9faa6aeb8e828f397f8302a876db72d" kind="function"><name>getIMDBNumber</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1ae36a04e3e739381d9edc9a5b8eb0888d" kind="function"><name>getYear</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a355f56ccc18c7282c91ab7d7698e9e19" kind="function"><name>getRating</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a54a325f492d1418b0fe6d4be92485473" kind="function"><name>getPlayCount</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a32ad93d6eb9ca07cf8ab47d6f4d4e9c1" kind="function"><name>getLastPlayed</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a38f5c028f25e37353593e06a4868d95f" kind="function"><name>getOriginalTitle</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a73d3621d42edbd9084f184f0514ef566" kind="function"><name>getPremiered</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo_1a915d12808c44d6090628f6189cba5fbf" kind="function"><name>getFirstAired</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor" kind="class"><name>XBMCAddon::xbmcgui::Interceptor</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1ad447972c58744f4fdb851c26a384d227" kind="variable"><name>classname</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a9b5a1834ce19ad1084a2d184254a4dee" kind="function"><name>get</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a8aa462a3fbb9a7d1bf11c57185248e94" kind="function"><name>Update</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a3c34e21c534c8f9a3aab284b1370ccbc" kind="function"><name>Interceptor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a990a7851f40a95c3f1912eafb132e14d" kind="function"><name>Interceptor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a7e099124da8e815d1914d8bece90f1ba" kind="function"><name>~Interceptor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1adce8b3e94b355bfe003a324d5f72c79e" kind="function"><name>OnMessage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a94619a1347754e90ea40410fa85f8233" kind="function"><name>OnAction</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a2e0d382318804e74a254747a278fe8ef" kind="function"><name>OnBack</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1aacb92742158ca58d6dc866fd06651fcf" kind="function"><name>OnDeinitWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1abfbcbba312ff25ffbef6c5ab5a1023cf" kind="function"><name>IsModalDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1acd4ed09937085d391b8af5044f073c83" kind="function"><name>IsDialogRunning</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1adf297a31e92dcd5cd50f3022bfae08a3" kind="function"><name>IsDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a1972b60e46b4b4d3719687d50a858857" kind="function"><name>IsMediaWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a3dd9d8d1e1d049e74bd2903a8b6a4619" kind="function"><name>setActive</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a8b798474d74ad26a96bbbe7ff878075e" kind="function"><name>isActive</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase" kind="class"><name>XBMCAddon::xbmcgui::InterceptorBase</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1aeb1faee88b8f61aac8a2e8575dd9b6fe" kind="variable"><name>window</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1ad1758bcb44481aed7d1a51020e43742c" kind="variable"><name>upcallTls</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1aa3d603af636458056061ae4b08fe9c18" kind="friend"><name>ref</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1a42045b88449f788c3a974a4447033852" kind="function"><name>InterceptorBase</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1a5291d7dc2bf20597ba5ad71ba08f5693" kind="function"><name>up</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1a443c63ae366a532b63545010290118f0" kind="function"><name>~InterceptorBase</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1abd198aea34b1019dc7da7c82258796fb" kind="function"><name>get</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1afee0a99fbf6a00a1d23c01f2e442d524" kind="function"><name>setActive</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1ae3bb37d9c039b1b325b0a1b5dd10a172" kind="function"><name>isActive</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog" kind="class"><name>XBMCAddon::xbmcgui::InterceptorDialog</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog_1a18d56b74633931358813d0dccafa8654" kind="function"><name>InterceptorDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog_1ae755a9186ea8a3f50aba96577bd40c40" kind="function"><name>InterceptorDialog</name></member>
+  </compound>
+  <compound refid="classXBMCAddonUtils_1_1InvertSingleLockGuard" kind="class"><name>XBMCAddonUtils::InvertSingleLockGuard</name>
+    <member refid="classXBMCAddonUtils_1_1InvertSingleLockGuard_1a009b7fd5350f755f392dc095e97cf5fa" kind="variable"><name>lock</name></member>
+    <member refid="classXBMCAddonUtils_1_1InvertSingleLockGuard_1a2b8ebbba8561ca194b8beac707b181e6" kind="function"><name>InvertSingleLockGuard</name></member>
+    <member refid="classXBMCAddonUtils_1_1InvertSingleLockGuard_1aa366b57e7568704a7f5b53265840ac0b" kind="function"><name>~InvertSingleLockGuard</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmc_1_1Keyboard" kind="class"><name>XBMCAddon::xbmc::Keyboard</name>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a6b28a7ac040b324d33d427bb0b3cbeb5" kind="variable"><name>strDefault</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1af2a4505fb6ffc24a3ed91cdda7b5b4e6" kind="variable"><name>strHeading</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a033f8760837bfd648f46b9b69591c8a0" kind="variable"><name>bHidden</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1aa3fbb3be2a4e36d8d10e505c341ead1a" kind="variable"><name>strText</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a040236a8db897592da658d9c6f7da8ac" kind="variable"><name>bConfirmed</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a7c9a8212df8cb117d4f3ccf2eb60f18b" kind="function"><name>Keyboard</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1af7504ca39caa7c12f7a40ddbd4e8e029" kind="function"><name>~Keyboard</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a45303a73fb0952d4f2426a2f61796bd0" kind="function"><name>doModal</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1aa4c6d508ba6d377c53944af290c3aed8" kind="function"><name>setDefault</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1aeaf753a01a55bb8e94e3ab583dcba582" kind="function"><name>setHiddenInput</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a7ab383816763b5b80a4d4d0ae9edd79e" kind="function"><name>setHeading</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1ab69be090bb621e1d9d6445f525e7b7d9" kind="function"><name>getText</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Keyboard_1a8efc83b3d107f124e860963fa600eb9e" kind="function"><name>isConfirmed</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1LanguageHook" kind="class"><name>XBMCAddon::LanguageHook</name>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a1b97ba6a7e8788880bffb3395d48ae4c" kind="function"><name>LanguageHook</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a09863e584d25483d5d19ce5cc7584df9" kind="function"><name>~LanguageHook</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a3edd048f08daaa87a67575fd01a94f80" kind="function"><name>DelayedCallOpen</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a439036971813dcd9eff9aaa817c483e0" kind="function"><name>DelayedCallClose</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a79650091ce0a5d953e222fb365fa6a9d" kind="function"><name>MakePendingCalls</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a950013b7896d99a0301b01c8bdef5648" kind="function"><name>GetCallbackHandler</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a5d905698a17f8b97501bf845af0e3c0a" kind="function"><name>Constructing</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a719f1ecc3be19a31497474b84bb8a512" kind="function"><name>Destructing</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a2e8621a73e0f74a1d277b01c28307670" kind="function"><name>GetAddonId</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1ad1aa8f2d06a9a14002f805d0f21f6732" kind="function"><name>GetAddonVersion</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a6ab6dff84387d2c0c5657b056933fa9b" kind="function"><name>RegisterPlayerCallback</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a136c78ee96de7b248e4b061f460a8310" kind="function"><name>UnregisterPlayerCallback</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a78a95f133d0c09b26e275f9f07918527" kind="function"><name>RegisterMonitorCallback</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a709f18ae44d2232ef4150a29afc2c1be" kind="function"><name>UnregisterMonitorCallback</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a534c93da86e33c093e26ab4525bdd0e0" kind="function"><name>WaitForEvent</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1ab3dd5ccc8c85f2fadea367bb8c89c5d3" kind="function"><name>SetLanguageHook</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1aa8c6b6712160f9e809f6946b159e2173" kind="function"><name>GetLanguageHook</name></member>
+    <member refid="classXBMCAddon_1_1LanguageHook_1a74340258219d94d49f607662f983b190" kind="function"><name>ClearLanguageHook</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1List" kind="class"><name>XBMCAddon::List</name>
+    <member refid="classXBMCAddon_1_1List_1aaaac6f49004171e2b0d9d445053e6db8" kind="variable"><name>nullList</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kind="class"><name>XBMCAddon::xbmcgui::ListItem</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a0db07e3f57afef1779abb31b234cd398" kind="variable"><name>item</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a74c1764c92146ff0656919334ae2825a" kind="function"><name>ListItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a41f23eda94371cedb8b48179784412b6" kind="function"><name>ListItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a3da249755c793457a791d01ed9ed899d" kind="function"><name>~ListItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ab4547bdd034353f97065364c7f630d0c" kind="function"><name>getLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a92ce089328a670d985b76cf455760ae1" kind="function"><name>getLabel2</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a39b578b0d2bcaf3539ef51e818daa118" kind="function"><name>setLabel</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9062cf9d34e22e05d6c0fe73b604dee0" kind="function"><name>setLabel2</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a30cfd4ff45973c8548fbfdab7789708f" kind="function"><name>setIconImage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a39a5cbe9ce5d46a88538f2a190e96b8f" kind="function"><name>setThumbnailImage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1accc35c58f91d385a292cd7053e1fca3b" kind="function"><name>setArt</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a3a43d35d83d82035344361c8db8bad18" kind="function"><name>select</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9ad24c75f897563c30e29b703aa483a0" kind="function"><name>isSelected</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1acfb3092da8aa1858602464070f668b4e" kind="function"><name>setInfo</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ad5c6a4540a9037468418a47239f78451" kind="function"><name>addStreamInfo</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ad99b8ae5f9de9844a3bdd852cbdff7ec" kind="function"><name>addContextMenuItems</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a721ed1e674e1fea198d5fa5400833001" kind="function"><name>setProperty</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ad08713603e1e8728cd63734bc5891070" kind="function"><name>getProperty</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1af7feacf87c7f01af9e241d1070da10f1" kind="function"><name>setPath</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a2da86c4897416439a14f606e85bc10f6" kind="function"><name>setMimeType</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a9b2c004551016d5f3aad2db97f88e3e2" kind="function"><name>getdescription</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1abee751b5140549cd25e55a3d6d6a5b0e" kind="function"><name>getduration</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1ab3321f9b46d6b6b66f466ac2d8a2adf3" kind="function"><name>getfilename</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ListItem_1a3dcc3339497986459166c03e6a097bd6" kind="function"><name>fromString</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1MaybeLock" kind="class"><name>XBMCAddon::xbmcgui::MaybeLock</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1MaybeLock_1aa258db10363d27fa85efb5d5501a6732" kind="variable"><name>lock</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1MaybeLock_1ae3de0ee11b1b88929dfdadd2ebf1a9c6" kind="function"><name>MaybeLock</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1MaybeLock_1a941d5b32c17f164f4db8326e1866c523" kind="function"><name>~MaybeLock</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmc_1_1Monitor" kind="class"><name>XBMCAddon::xbmc::Monitor</name>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a20f69fee3a0f3cea33473aea5c1a2eaf" kind="variable"><name>Id</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a3c9a59e3131585e7b88c1a95c961320d" kind="function"><name>Monitor</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1aabe15bb12a07d878a3f7e7aa687be154" kind="function"><name>OnSettingsChanged</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a6410fc19a8b26c509b5d5b8d51066fc7" kind="function"><name>OnScreensaverActivated</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1adab4061e457748d6d55bc02a9e47e106" kind="function"><name>OnScreensaverDeactivated</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a4fac9c29f24a06fab1e7a08a8b71bd8f" kind="function"><name>OnDatabaseUpdated</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a2cae608ecd954beab791bae7ee31bed5" kind="function"><name>OnDatabaseScanStarted</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a2a6be8c9450242f587f6b544b35b5e5e" kind="function"><name>OnAbortRequested</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1ae026787d0fce1b19519245cceb1d397a" kind="function"><name>OnNotification</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1ad47cd83215b30bd830aad64f6db6cb1b" kind="function"><name>GetId</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a4a1b533f5d4b6ce6ef114ebbb8882347" kind="function"><name>onSettingsChanged</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a2ee80f0044e05f3e498d333454644de4" kind="function"><name>onScreensaverActivated</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a28518626e8dd4ac7e9137642efba4e12" kind="function"><name>onScreensaverDeactivated</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1aa63bd4cbcd475d268d6dcc3a9a45b208" kind="function"><name>onDatabaseUpdated</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a5e6d5a601271ef6e05e0489fe63d1522" kind="function"><name>onDatabaseScanStarted</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a4337b3a6e652ee8bdc14266a4c0277e8" kind="function"><name>onAbortRequested</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a1062028b4b8529340f500e0f24e41802" kind="function"><name>onNotification</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1ad2b707bb99d0917d9c44696ab800f927" kind="function"><name>~Monitor</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmc_1_1Player" kind="class"><name>XBMCAddon::xbmc::Player</name>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a907757f2c5e08fd47c8c30bbcc1bffbe" kind="variable"><name>iPlayList</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab4681aa4e0e783555b44fe0b1e8f85a6" kind="variable"><name>playerCore</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ade01cc9d40787f8447c657da90690ec9" kind="variable"><name>defaultPlayParameter</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a598fe54a30dfd8a122053c06d243b1bd" kind="function"><name>playStream</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a75156267bd18f5650dab2e11bda55421" kind="function"><name>playPlaylist</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab524923ef0738de1e77bc9c343143c0e" kind="function"><name>playCurrent</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a5d59b017dc5a0e12933bab1a04ce4619" kind="function"><name>Player</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a23a5fa2f929537c588e1473104a9dc56" kind="function"><name>~Player</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a178d4318eb1e7e41c7f79fd0f1ac7dd1" kind="function"><name>play</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a38fd67b138549f331adbc8460054445f" kind="function"><name>stop</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1abb09ad22abb0e98eb334793c0013e39b" kind="function"><name>pause</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7c6e8d7ad526ca9732cca80fd03eceb7" kind="function"><name>playnext</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ad260b0016ce5bc8c31243cb065dd6774" kind="function"><name>playprevious</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a9e84214919b459053d009e9c520b0738" kind="function"><name>playselected</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7e02a58e7121c0c4cf36935fa963b266" kind="function"><name>onPlayBackStarted</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ad6ea73a615e765f22ef984725698fcdb" kind="function"><name>onPlayBackEnded</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ad377d165fe0bbb8186a478f4ddbccdc3" kind="function"><name>onPlayBackStopped</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1af584e2a791441d507680a4c4e1f5326c" kind="function"><name>onPlayBackPaused</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a4ee6689735727bb8fb654f877e084233" kind="function"><name>onPlayBackResumed</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1aa24c24f76002dce160a7be2c6765d26a" kind="function"><name>onQueueNextItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a05845b1a8a4a195656311ea6a4b4e38c" kind="function"><name>onPlayBackSpeedChanged</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a9e3e67565072c0826971002e60903fe1" kind="function"><name>onPlayBackSeek</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a9c03c8bd24195f284322de340cb9c029" kind="function"><name>onPlayBackSeekChapter</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab91e4694ba0dfe3487850741ef7b2239" kind="function"><name>isPlaying</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a11fa246b6eec213c97fa6ec16f4fd189" kind="function"><name>isPlayingAudio</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a00f58bc7e17813954c35e9ea480ed28b" kind="function"><name>isPlayingVideo</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a90a093c13cf8a18f65fbf284381d7414" kind="function"><name>getPlayingFile</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a487f3e98ff5530d8292f70067fac91fe" kind="function"><name>getTime</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a6f60b33fa67e22dcf5795156d99313b0" kind="function"><name>seekTime</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a952d4555c064aa37f1ea111f44e081d0" kind="function"><name>setSubtitles</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a85434e8738909497c85ff0957ca57935" kind="function"><name>showSubtitles</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab2b9d2081c8d8f1e5b5dc2eabb241497" kind="function"><name>getSubtitles</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7fe9e40dd20b4d513b4630ed8bf57a4a" kind="function"><name>disableSubtitles</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a27735faa05279e41b1869a7773da9463" kind="function"><name>getAvailableSubtitleStreams</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1aad0ad9dba3ea09bc201f39026f5a4e29" kind="function"><name>setSubtitleStream</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7d7284635371ad79b153f9ea0ef3beb0" kind="function"><name>getVideoInfoTag</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a5c4411d7d6a666c2af50bb8e44b213a8" kind="function"><name>getMusicInfoTag</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a1770985204bb62d2dadb9d44e7cc44be" kind="function"><name>getTotalTime</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ae3671991ab82fda045f7091df48f3b68" kind="function"><name>getAvailableAudioStreams</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a8af6b071cff08a644ab253c586918ad4" kind="function"><name>setAudioStream</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ac554bbe5d1d33cd28bb56d503559fa8f" kind="function"><name>OnPlayBackStarted</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ad86602b7033b33537b1476025d97ecb0" kind="function"><name>OnPlayBackEnded</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1aa161ebf4c831c1e8752f99df0fa2c4d7" kind="function"><name>OnPlayBackStopped</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7a4c0cfac939ae65d759c3179ea49f59" kind="function"><name>OnPlayBackPaused</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a5456bb9b3e4c8b06f519d6a837536754" kind="function"><name>OnPlayBackResumed</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab571e0e8ad23b51c75bb3361e2c95dc1" kind="function"><name>OnQueueNextItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a40deda695b9b0ed72bc98545c3c37da5" kind="function"><name>OnPlayBackSpeedChanged</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1add8d7c98b8f2cdde9a3d89309d6ef037" kind="function"><name>OnPlayBackSeek</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a0661007923c0f0b86de342789cc83933" kind="function"><name>OnPlayBackSeekChapter</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmc_1_1PlayList" kind="class"><name>XBMCAddon::xbmc::PlayList</name>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a528b8b229efc34ccbba9b241b87b8804" kind="variable"><name>refs</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a5e22704aa0f76db21154ddb0bbee0024" kind="variable"><name>iPlayList</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a592427901457a66161129c4ca19338b5" kind="variable"><name>pPlayList</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1aeef576c425f9e07b1daa5fae166efd6a" kind="function"><name>PlayList</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a355689cc50abcd46652077b5771d494f" kind="function"><name>~PlayList</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a86d8bda3c89a857b2ad643b71b0c2743" kind="function"><name>getPlayListId</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1ac98dc8da9d3e6d7a269877a90bea47ab" kind="function"><name>add</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a9a0326c942c99e72344e61fcb80b5a58" kind="function"><name>load</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1abffe226a685903cd24fe812218d93aee" kind="function"><name>remove</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a9c7677a6b46cd1f7a435e0d471aeabae" kind="function"><name>clear</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1adb8ff8c13f0e44d61a9b4a2416096472" kind="function"><name>size</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a2494b025ef07cfbb9bdbee0ff2daf332" kind="function"><name>shuffle</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a9bc72e12f38c4ab5d8b4ea116b50217b" kind="function"><name>unshuffle</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a6dbc5202b698b014242f5d301e8799b2" kind="function"><name>getposition</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1ab520bb673c8dc6d22ead8b82b98ab394" kind="function"><name>operator[]</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ProxyExistingWindowInterceptor" kind="class"><name>XBMCAddon::xbmcgui::ProxyExistingWindowInterceptor</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ProxyExistingWindowInterceptor_1ab4f9a153b2f3fd9968e75ad65287005e" kind="variable"><name>cguiwindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ProxyExistingWindowInterceptor_1a12a977b46e9c8d9e63fc2e2167eeeb64" kind="function"><name>ProxyExistingWindowInterceptor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ProxyExistingWindowInterceptor_1a4ef47dd2558b0ca229c9029b36b64806" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1ref" kind="class"><name>XBMCAddon::xbmcgui::ref</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1af0775f11db782a113511285404274445" kind="variable"><name>w</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1a9451bea6c4eeff7db3ab45e1c2ca1706" kind="function"><name>ref</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1a97c6f3fa98f2ce50df03ce520c243872" kind="function"><name>~ref</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1a15609b54f53967ddfeec6beed861eef9" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1ref_1a4a3fbac3c199d93298fc97bb23711ba1" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1AddonClass_1_1Ref" kind="class"><name>XBMCAddon::AddonClass::Ref</name>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1aa367e556160ea8223fca4751e18edbbb" kind="variable"><name>ac</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1af07400ccb00022d311eff8e21bd1a635" kind="function"><name>Ref</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1ac871e78d8d04327139f0c7f6ae3252f5" kind="function"><name>Ref</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a54c32f75950b8e034581e738bb935217" kind="function"><name>Ref</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a5226016b1245515165509f4ecffe844e" kind="function"><name>Ref</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1af417e11a8a1b4ed8fb0b046dd28e0261" kind="function"><name>operator=</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1ab32c0da6d6157f84452a3d840f985cc5" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a63d981a966d0212d633c22c1847fe39d" kind="function"><name>operator T *</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a417bbf47859e65d5dc98dcc13005e5e0" kind="function"><name>get</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a9c3a3e8a311fd97a3ebe1359c6018cbe" kind="function"><name>getRef</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a07c8e38c1026bf4c451c2f52966d34ca" kind="function"><name>~Ref</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a95e05d2bb99e9c9392d23a1c71a01262" kind="function"><name>isNull</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1ae853823c42ca9e7a77a04ffaa0f52276" kind="function"><name>isNotNull</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a2c5d6311a1d7714516e261f85d5719df" kind="function"><name>isSet</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a567224665079cf6a70c4d45b171e4dd7" kind="function"><name>operator!</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1aaf8e6c7931413a2c4dda1521014b9574" kind="function"><name>operator==</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a8e84e49b2b886b865c63caa150ddaeac" kind="function"><name>operator&lt;</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1aacc53735f1f08f2ae10449cb7b42ca3a" kind="function"><name>reset</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a0a0cb47d857223b4c4ea1626b500718b" kind="function"><name>reset</name></member>
+    <member refid="classXBMCAddon_1_1AddonClass_1_1Ref_1a208d5a257f3c020839234b906ace02ec" kind="function"><name>reset</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmc_1_1RenderCapture" kind="class"><name>XBMCAddon::xbmc::RenderCapture</name>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a8205a291ff07a980c0851c94871f8e7a" kind="variable"><name>m_capture</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a5547912072aa37c666d6dee5b9710c33" kind="function"><name>RenderCapture</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a3b24439e587078d086e503839bf86755" kind="function"><name>~RenderCapture</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a605c98c6c8022875aebc869d7cb802fa" kind="function"><name>getWidth</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1af70985a08c1871799c3b4c58c5d8fe8f" kind="function"><name>getHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a78b15e30520a5d6998f1c0a3296851c1" kind="function"><name>getCaptureState</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1ad409d64cb8fe86b2ab766a75caed5c02" kind="function"><name>getAspectRatio</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a92e27e1fa6d3798036156189e04afb30" kind="function"><name>getImageFormat</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a9d979b4cb548eadbc52dda2c6bab0366" kind="function"><name>getImage</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a858b16c43940b19695bf695f855e9667" kind="function"><name>capture</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a8ae3be71d467c86f3908ed58b79cc565" kind="function"><name>waitForCaptureStateChangeEvent</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1aaa81c514c6714aad3cf677bf4360db18" kind="function"><name>GetPixels</name></member>
+    <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a2fcebc3dc72218f12e04358c877bcc49" kind="function"><name>GetUserState</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler" kind="class"><name>XBMCAddon::RetardedAsynchCallbackHandler</name>
+    <member refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler_1aac51b2b8d6a9489917e47b00606696aa" kind="function"><name>RetardedAsynchCallbackHandler</name></member>
+    <member refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler_1a25dbf5835d2039a8ec8bf96c4f56a08d" kind="function"><name>~RetardedAsynchCallbackHandler</name></member>
+    <member refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler_1a1bea166ac0550878289f28728e508bfa" kind="function"><name>invokeCallback</name></member>
+    <member refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler_1a1194896b77ed2eb66ba50d2556c3f5a1" kind="function"><name>isStateOk</name></member>
+    <member refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler_1a242117789f56ecf11fb63e7fce4c9afe" kind="function"><name>shouldRemoveCallback</name></member>
+    <member refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler_1ab960bd7b808635bb065954525742fba2" kind="function"><name>makePendingCalls</name></member>
+    <member refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler_1afb212c39f6747257b16c912e0ce3ca09" kind="function"><name>clearPendingCalls</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1SetLanguageHookGuard" kind="class"><name>XBMCAddon::SetLanguageHookGuard</name>
+    <member refid="classXBMCAddon_1_1SetLanguageHookGuard_1a1fa15d49a5a5f3e164b18f0d655c78b1" kind="function"><name>SetLanguageHookGuard</name></member>
+    <member refid="classXBMCAddon_1_1SetLanguageHookGuard_1ae14a870307e5cf49dc9f5287643bf40f" kind="function"><name>~SetLanguageHookGuard</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1SingleLockWithDelayGuard" kind="class"><name>XBMCAddon::xbmcgui::SingleLockWithDelayGuard</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1SingleLockWithDelayGuard_1a18dd45b8f414e540a25ea65dfc5c70fe" kind="variable"><name>dcg</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1SingleLockWithDelayGuard_1aaf7ca2ffee1cdbd1dab6dbb60e8ab8ef" kind="variable"><name>lock</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1SingleLockWithDelayGuard_1ad36aa19e903e1b9620c8d4834a74aebd" kind="function"><name>SingleLockWithDelayGuard</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1SingleLockWithDelayGuard_1a96452758becf66523d9030cd2c4377bd" kind="function"><name>~SingleLockWithDelayGuard</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcvfs_1_1Stat" kind="class"><name>XBMCAddon::xbmcvfs::Stat</name>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a135b2e13bd8fba1b4988db66bc9fda4b" kind="variable"><name>st</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a9ddafb7c90739723bb6481de269be885" kind="function"><name>Stat</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a71d9cf5e9b9bea1d7db3de67d10c8d76" kind="function"><name>st_mode</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1af39d941afe6f5c4430c2442121d7ca81" kind="function"><name>st_ino</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a982c6c72fd267c5e0d073aad69b36c49" kind="function"><name>st_dev</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a10022a5073891aae5abd1a26c43684f4" kind="function"><name>st_nlink</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a71df0b2a841fddcb4be6a10a4698ba1e" kind="function"><name>st_uid</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a59adc7eeee57904e9ce23e01366d6935" kind="function"><name>st_gid</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a10f43048c41b2fbd1731d9a3eebe098f" kind="function"><name>st_size</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1ab0e9b1073931b41e99d0f1192b74b80f" kind="function"><name>atime</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a8191b50579cd7e17672b3c2242cdc4af" kind="function"><name>mtime</name></member>
+    <member refid="classXBMCAddon_1_1xbmcvfs_1_1Stat_1a25cc5f4c0368aa0e4d0729a700efbf73" kind="function"><name>ctime</name></member>
+  </compound>
+  <compound refid="classXBMCAddonUtils_1_1TraceGuard" kind="class"><name>XBMCAddonUtils::TraceGuard</name>
+    <member refid="classXBMCAddonUtils_1_1TraceGuard_1a3039f03b850523a59cd44eefaf0de877" kind="variable"><name>function</name></member>
+    <member refid="classXBMCAddonUtils_1_1TraceGuard_1ab099b5dc5c052bb0c8decb8cdc41379c" kind="variable"><name>parent</name></member>
+    <member refid="classXBMCAddonUtils_1_1TraceGuard_1a3042704ea038c9233bc820b38fdd41cb" kind="variable"><name>depth</name></member>
+    <member refid="classXBMCAddonUtils_1_1TraceGuard_1ae1cc895f294d88eadfd8e110afd46d65" kind="function"><name>getSpaces</name></member>
+    <member refid="classXBMCAddonUtils_1_1TraceGuard_1a9cc97542a37230fdd9c5a4ce88c6e822" kind="function"><name>TraceGuard</name></member>
+    <member refid="classXBMCAddonUtils_1_1TraceGuard_1a6d7d1e7af168ba1dc3d175878da2130c" kind="function"><name>TraceGuard</name></member>
+    <member refid="classXBMCAddonUtils_1_1TraceGuard_1a53100b5dd2b6afdef4ff0047bc8cab03" kind="function"><name>~TraceGuard</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1Tuple" kind="class"><name>XBMCAddon::Tuple</name>
+  </compound>
+  <compound refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4" kind="class"><name>XBMCAddon::Tuple&lt; T1, T2, T3, T4, tuple_null_type &gt;</name>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4_1a86a3e8a1cd25d5029cf4a4df73c32514" kind="variable"><name>v4</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4_1ada004e544ec3364c2bfb81be13002b3c" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4_1a84128cdde7f455a7e9d4dcb58a67723a" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4_1a7f59f3770f7ef42d5058e2816e7301c4" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4_1a9a38c5143d2dd239d8d4ddab6bd93fa3" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4_1a2f15ec94813ecbb781f1e1f8e0116f53" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4_1af2ac876dffa2414d0df2733c415ed948" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4_1acd5d6819f4387c386e827e80e5541c9c" kind="function"><name>fourth</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01T4_00_01tuple__null__type_01_4_1ab7fb03beb96a990e720be549ac37be7a" kind="function"><name>fourth</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4" kind="class"><name>XBMCAddon::Tuple&lt; T1, T2, T3, tuple_null_type, tuple_null_type &gt;</name>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4_1a5e27d06a030397e94e92d370702da5e0" kind="variable"><name>v3</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4_1ac3f54864150894c0d81e387c254e9955" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4_1aeced331c97bb1a4dcc20ab8b91a0cd1c" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4_1afae49e2e465fea9d5a20bd29f8cf2337" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4_1a5b3d109d00f9a6f9479ca80c13acd266" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4_1a5ebc31ee961b56ee82e7415d9fd9469d" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4_1aec846ad1819d17263f08219e3a27111a" kind="function"><name>third</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01T3_00_01tuple__null__type_00_01tuple__null__type_01_4_1a4d708931dc43d99144e3f545e60bcd9c" kind="function"><name>third</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4" kind="class"><name>XBMCAddon::Tuple&lt; T1, T2, tuple_null_type, tuple_null_type, tuple_null_type &gt;</name>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a3c8af273a509a64ea536321dc108d2e4" kind="variable"><name>v2</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a3ef077259def0d5c0df01cb4fe170a1e" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1ad089d43f009dfee10a1b89c070ce9d6b" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1af14602d0853544cf01a4a823bd288408" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a909f233e7e2a40a3a82a49a64c3ca50e" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a8d215d0eb81be97078409920ac40cb59" kind="function"><name>second</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01T2_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a0cf4fb3a776db4bb0aae9fb62c4358e0" kind="function"><name>second</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4" kind="class"><name>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</name>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a1b0e222a5069561e6732a72733e2651c" kind="variable"><name>v1</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1ab94017232af74815496ed490d34ec339" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1af411e149de8f881eff96764a74c1b587" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a3bca936d985b8fcced7bca0ef1cc4d40" kind="function"><name>Tuple</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a10cd77e7614b8fc17239d63dd00d4efb" kind="function"><name>first</name></member>
+    <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a28ee4052f46643c9c0eba60859355f57" kind="function"><name>first</name></member>
+  </compound>
+  <compound refid="structXBMCAddon_1_1tuple__null__type" kind="struct"><name>XBMCAddon::tuple_null_type</name>
+  </compound>
+  <compound refid="classXBMCAddon_1_1TupleBase" kind="class"><name>XBMCAddon::TupleBase</name>
+    <member refid="classXBMCAddon_1_1TupleBase_1a7d69f8356bc93fc261c955792f7bf84b" kind="variable"><name>numValuesSet</name></member>
+    <member refid="classXBMCAddon_1_1TupleBase_1af45454b95fd0918d86d1e7e3d324872a" kind="function"><name>TupleBase</name></member>
+    <member refid="classXBMCAddon_1_1TupleBase_1a5cfe9ed1e34359189f19c42695063908" kind="function"><name>TupleBase</name></member>
+    <member refid="classXBMCAddon_1_1TupleBase_1a5b4bf002c3fb2f38c856c7b4ed10b2c7" kind="function"><name>nvs</name></member>
+    <member refid="classXBMCAddon_1_1TupleBase_1a18d9ed8ce54d0571369c4a96706b5097" kind="function"><name>GetNumValuesSet</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1UnhandledException" kind="class"><name>XBMCAddon::UnhandledException</name>
+    <member refid="classXBMCAddon_1_1UnhandledException_1a64b731f40bae893d8ba5d981a7d87c52" kind="function"><name>UnhandledException</name></member>
+    <member refid="classXBMCAddon_1_1UnhandledException_1a750b54395b433d913676b62e61acd3d2" kind="function"><name>UnhandledException</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1UnimplementedException" kind="class"><name>XBMCAddon::UnimplementedException</name>
+    <member refid="classXBMCAddon_1_1UnimplementedException_1af7d04647810376b8c117431165dc0b99" kind="function"><name>UnimplementedException</name></member>
+    <member refid="classXBMCAddon_1_1UnimplementedException_1ac9988b3e558f2cac97592ec005bebd45" kind="function"><name>UnimplementedException</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1Window" kind="class"><name>XBMCAddon::xbmcgui::Window</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ac9c910d78c40fbe5d80606bf053be5a9" kind="friend"><name>WindowDialogMixin</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a13146b49b3ed9039ebd868565f3ff78c" kind="variable"><name>isDisposed</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a9e1755d7a28604a034a15789af2b276b" kind="variable"><name>window</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab49bd375ba8fc177567e72024ecb966d" kind="variable"><name>iWindowId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a2ffacafc1bab4ac54114c3439081dad2" kind="variable"><name>vecControls</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a8dbb74d5eff0aa5cb5fe70510548c791" kind="variable"><name>iOldWindowId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a1fb1877e27bae3f18051fc9216eb34a4" kind="variable"><name>iCurrentControlId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a1105bd05add238555d75628c7f27dec9" kind="variable"><name>bModal</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a4181db9de2c0774be121f86994d02f3d" kind="variable"><name>m_actionEvent</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a6bae6f8e84ae4196455db2b54ba6f271" kind="variable"><name>canPulse</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a879b9d20f920ce9a9fecbeddb8317bd8" kind="variable"><name>existingWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a90083df4cec6cfe075565150e31f5a00" kind="variable"><name>destroyAfterDeInit</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ad421d56b101ef8d290b54b889c74f1b4" kind="function"><name>doAddControl</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae5fe0ef45ebeba7651eada8a86d333b2" kind="function"><name>doRemoveControl</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ad73df64d260195d618d8f816832b2f58" kind="function"><name>Window</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aac27de847b2e0fd720ad96e205a0273c" kind="function"><name>deallocating</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a8df22dbb571d4fa361446087f05988cb" kind="function"><name>setWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a3d5dda9dc7d1b2e324483db3180f1a23" kind="function"><name>popActiveWindowId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae0d0ee6db059b8a1e4085074c8052278" kind="function"><name>GetControlById</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a047f7b45164555405874d4fc7d3d2540" kind="function"><name>PulseActionEvent</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a5b0e5b84d8dc08486858790f16c3d54f" kind="function"><name>WaitForActionEvent</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af60643bd00a72583825eca1ae0b7addd" kind="function"><name>getNextAvailalbeWindowId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1abff8d21afb8fbbfad7be106fdf1a636e" kind="function"><name>Window</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a6d7cec5f4b04dfcaba81269cd42c2910" kind="function"><name>~Window</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae467ce813e82ce53d6378a223596042e" kind="function"><name>OnMessage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a7e9072c53af0a2e19b6fc66a7e7ee1f6" kind="function"><name>OnAction</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af34410cd66f209889e7c2dc7ffbc6d64" kind="function"><name>OnBack</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a6b45c21abee13bae06b340f9272a0b1c" kind="function"><name>OnDeinitWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aa5a3d49b88c72d0ab99c0358860b452d" kind="function"><name>IsDialogRunning</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a573dcf6b86a118499351eedf618fa0b3" kind="function"><name>IsDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae5c6b71b997f50793d7d7fbb9b1658f5" kind="function"><name>IsModalDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a2d46d095e5ef1b698c81c8ae17a8f644" kind="function"><name>IsMediaWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1abc39b4be5c735645d5efbeb6fcfaae0f" kind="function"><name>dispose</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab4b6dd44f4542dad54c355df7956c14c" kind="function"><name>interceptorClear</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aaa7f9d2e616b4effad2e6b272417e5fb" kind="function"><name>onAction</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a7f3ac65dbe314adaca4b58e8ea475ec1" kind="function"><name>onControl</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a829ded957a0340060cf3b782c8a4a833" kind="function"><name>onClick</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1add29fd37875689b1ce68977a7268f7e3" kind="function"><name>onDoubleClick</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a55b808cf3e06b8131d3884a89cffad1e" kind="function"><name>onFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aa73727c09801ce36d22f9eab742b9344" kind="function"><name>onInit</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a051a2bdfbd8f003c55144e5347fbd3a4" kind="function"><name>show</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a369563fb5f07eff48baa378aa1cbb4f9" kind="function"><name>setFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae2e74366babaea15de95eec3a3ee63d8" kind="function"><name>setFocusId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae3e1020717eeb8f9bcaeff0aa48ccd82" kind="function"><name>getFocus</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1acee08d82016440b945efabbbb7366bcc" kind="function"><name>getFocusId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a3163d48ed6c7675a6d78c13802ce1f62" kind="function"><name>removeControl</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a5ddfc60a786c7b0d365dca08e3fa2e30" kind="function"><name>removeControls</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a72f819ba4a2652b27872a044d7472bf7" kind="function"><name>getHeight</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a5eaa7131456d10ec60f5e32f7786fec9" kind="function"><name>getWidth</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af8fec980ffb89d6afa45de91c294d9e1" kind="function"><name>getResolution</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a50b3e8032db7c118e81cb27100bbc021" kind="function"><name>setCoordinateResolution</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aea68bd42d906ea94d17c51c5d890607f" kind="function"><name>setProperty</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a69a8746ded1af13db1023fd3fd9e8e4f" kind="function"><name>getProperty</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1acd2c8bc6fb18732261b27dc6fa2c376f" kind="function"><name>clearProperty</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab5a2b89782763e03bf6c097314e97de3" kind="function"><name>clearProperties</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a31593581f2a7448724855c2b20f9902e" kind="function"><name>close</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af4931216b8c7b4b2a0f2e99821a1913a" kind="function"><name>doModal</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a00fa298d76a5656ad033850b6e51ad15" kind="function"><name>addControl</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aa9e5db6c471399ad641097bd1f9427e1" kind="function"><name>addControls</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ad0f8592f46a8c65f8efa5f88b52e6d79" kind="function"><name>getControl</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog" kind="class"><name>XBMCAddon::xbmcgui::WindowDialog</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1ae0b33152dd043ad0226797f2a0bb9991" kind="function"><name>WindowDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1ab7012fd0d50bbc2070574d765bfce5f8" kind="function"><name>~WindowDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1a8b90460f562704ed31e79b3093bcae2f" kind="function"><name>OnMessage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1a5fea5ae960b52a511b3111559191dffb" kind="function"><name>OnAction</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1a8d88c8270ec8efbdf2ea868f1b723c2d" kind="function"><name>OnDeinitWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1a4099179d06b4d8cedbd45f1a500710c1" kind="function"><name>IsDialogRunning</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1a5cb12d06584925a6f25f0cb10d0f2665" kind="function"><name>IsModalDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1a419e4d425d1a7a6d2835b80c2485bbcc" kind="function"><name>IsDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1a81cbf321296b31ca408f764ec1de4715" kind="function"><name>show</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog_1a594d844461eb2e58ce495525b8b82730" kind="function"><name>close</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin" kind="class"><name>XBMCAddon::xbmcgui::WindowDialogMixin</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1a29b1ca4602a10240683fff4787fcafc0" kind="variable"><name>w</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1aa83e443b7c3bd97884d0dae41ad89b1b" kind="function"><name>WindowDialogMixin</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1acc6051b2f4029ae95f335f93b42d9fb3" kind="function"><name>show</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1ad0fcf86f9482470fcd52e32f7b625fae" kind="function"><name>close</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1ae859f7f2a2fa51b89d4cb7749366ba86" kind="function"><name>IsDialogRunning</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1ab5bc9ee4ff62256d4b4fcb86a016495b" kind="function"><name>OnAction</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML" kind="class"><name>XBMCAddon::xbmcgui::WindowXML</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a12db9d30bd081987b481eff255137487" kind="variable"><name>sFallBackPath</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a48cc6975d49c52c94dca0cb41ab67d9c" kind="variable"><name>interceptor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ac1b44e3c86e3674b5349c1bcf26904b5" kind="variable"><name>m_scriptPath</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a425d218a8d217a1ea74c4b9cb61878da" kind="variable"><name>m_mediaDir</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ab3dce56f075e12824bda4a03e9c711aa" kind="friend"><name>WindowXMLInterceptor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1af8c8698cbda11af5c2a0774641724fa0" kind="function"><name>lockingGetNextAvailalbeWindowId</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a6dfa77d2b492081c9f5c1bb166d0c60b" kind="function"><name>WindowXML</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a316b39456c98f20665d7d2da4a4bb08f" kind="function"><name>~WindowXML</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a3c02637760c596daa01ca85f3a99fbdf" kind="function"><name>addItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a2492548d9a0215559ab580a112c20c7a" kind="function"><name>removeItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a7687c5515f7d6a075087344aab6f14ed" kind="function"><name>getCurrentListPosition</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a5055749534e989583a9851a91dbba5d5" kind="function"><name>setCurrentListPosition</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ad348eb34a26d08251ddfbb7c58720e26" kind="function"><name>getListItem</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1adb5adf21b94fb94f5881d8911545e695" kind="function"><name>getListSize</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ad0f029e10c3b25fb9598347c32c87902" kind="function"><name>clearList</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a444f69693fbc0375e15dff77189cafbd" kind="function"><name>setProperty</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1aea5c6a4ee531c4e5c90dc705ecf32441" kind="function"><name>OnMessage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ab10fb697046763fef9c8aee77309473c" kind="function"><name>OnAction</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a268d522c3573d3102a5da94b9064abba" kind="function"><name>AllocResources</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a9eca6a7853f66008f1cc949d1bc6766a" kind="function"><name>FreeResources</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ab513e2bcb075376ac3756e4758a2f462" kind="function"><name>OnClick</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a6177878636ea56558a95fa43ad9cf0e0" kind="function"><name>OnDoubleClick</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1abf8cc38da9f918415dda72628c99386f" kind="function"><name>Process</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a9fa5fb1ee8fd054cb21da754b6cf4519" kind="function"><name>IsMediaWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a428a89b83bad6843f66d5fa1635be99c" kind="function"><name>LoadXML</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a6a21aaab4d814ccb58f2b3513534b58a" kind="function"><name>GetContextButtons</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ace9a3187ef412f28980555bb12123030" kind="function"><name>Update</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a8695bbcd104a1c791e88a4ad8289e652" kind="function"><name>SetupShares</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog" kind="class"><name>XBMCAddon::xbmcgui::WindowXMLDialog</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a08482f1b5aa6411d68254066f6028095" kind="friend"><name>DialogJumper</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1affbbae53a356234469543af301b2a79e" kind="function"><name>WindowXMLDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a5fa32ece81e43ebf1aafe65932fdd13c" kind="function"><name>~WindowXMLDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a2ca7b5f7c8a6d0498f404c160f20918d" kind="function"><name>OnMessage</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1ab849e1642f25058171cf59358f3095ac" kind="function"><name>IsDialogRunning</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a1978eccddfc746b56a46818e075187b2" kind="function"><name>IsDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a0ce4301894922d2614ba27d387807574" kind="function"><name>IsModalDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1abc05ef5a9fc4f1ee644b26699f00e320" kind="function"><name>IsMediaWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a0c76e8882ecc281160155215fa2f1050" kind="function"><name>OnAction</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a4fcc0b9d795a39b511f49f499042a78d" kind="function"><name>OnDeinitWindow</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a0fe2d5174854825e52928762c0bf5075" kind="function"><name>show</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1acb80550ea5de70c8e8d8d44812a05bd7" kind="function"><name>close</name></member>
+  </compound>
+  <compound refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor" kind="class"><name>XBMCAddon::xbmcgui::WindowXMLInterceptor</name>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a29b54b30f02d1dc9f5c0b6d07d37daf0" kind="variable"><name>xwin</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a43c0e434765a6b47770ae2c394898ee8" kind="friend"><name>WindowXML</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a71eff4d2cd4de69e049a3bef5ae81cdf" kind="friend"><name>WindowXMLDialog</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1ab7241112bd46b48459fa3e4703baeaeb" kind="function"><name>WindowXMLInterceptor</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a3a7f84b551b7c6a38c3d2f7826847e49" kind="function"><name>AllocResources</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a637a3cfaf2130fd6a00f6f3214acb3bd" kind="function"><name>FreeResources</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1afa85ce7ef34d824cbe22a8e1305ae619" kind="function"><name>OnClick</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a3cc1b4fb7bd84fd3e998b28f7dc13bdc" kind="function"><name>Process</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a81b07928760b10bad02a6b016a7e36d2" kind="function"><name>OnAction</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a5ed3f36daba2acc9f23660d956f1e48f" kind="function"><name>LoadXML</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a12c0dfd50cc67db29644cc71120b55f0" kind="function"><name>GetContextButtons</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a082935f88a2f0efd3f9cb08f3b5d9c8c" kind="function"><name>Update</name></member>
+    <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor_1a7ac7e771f5730c965ea3a2be66c4dd6b" kind="function"><name>SetupShares</name></member>
+  </compound>
+  <compound refid="namespaceADDON" kind="namespace"><name>ADDON</name>
+  </compound>
+  <compound refid="namespacePLAYLIST" kind="namespace"><name>PLAYLIST</name>
+  </compound>
+  <compound refid="namespaceXBMCAddon" kind="namespace"><name>XBMCAddon</name>
+    <member refid="namespaceXBMCAddon_1a0977dfbb4d26e82fa8d5bd53d4cfed9d" kind="enum"><name>WhichAlternative</name></member>
+    <member refid="namespaceXBMCAddon_1a0977dfbb4d26e82fa8d5bd53d4cfed9dab35724de7b9f45ff39afa519112df400" kind="enumvalue"><name>none</name></member>
+    <member refid="namespaceXBMCAddon_1a0977dfbb4d26e82fa8d5bd53d4cfed9da8aeb11cc20528f5d7a69331f45258af7" kind="enumvalue"><name>first</name></member>
+    <member refid="namespaceXBMCAddon_1a0977dfbb4d26e82fa8d5bd53d4cfed9dac03eaba30c0bfaac4b6d306e5b2368a8" kind="enumvalue"><name>second</name></member>
+    <member refid="namespaceXBMCAddon_1a5b94a9de1e8ec1ad257fc88bcf9834e1" kind="typedef"><name>String</name></member>
+    <member refid="namespaceXBMCAddon_1ac6f77a39880a62227e54783ba9b33b64" kind="typedef"><name>CallbackQueue</name></member>
+    <member refid="namespaceXBMCAddon_1ac533cb966a54b62f9d35489ccc927b9b" kind="typedef"><name>StringOrInt</name></member>
+    <member refid="namespaceXBMCAddon_1a6c47e8baf53d6a3cd5f4ebcbaa3e0abd" kind="typedef"><name>Properties</name></member>
+    <member refid="namespaceXBMCAddon_1a6494217d072073edce453604369d68b2" kind="variable"><name>emptyString</name></member>
+    <member refid="namespaceXBMCAddon_1a1d0701e39d0a328340c0ac752c21f1ed" kind="variable"><name>critSection</name></member>
+    <member refid="namespaceXBMCAddon_1a26318d46bf04acf4733732da81e37747" kind="variable"><name>g_callQueue</name></member>
+    <member refid="namespaceXBMCAddon_1a574430b36d79505ac7cec962a391431a" kind="variable"><name>addonLanguageHookTls</name></member>
+    <member refid="namespaceXBMCAddon_1ac52960be79b938af9d6345dce6261046" kind="variable"><name>threadLocalInitilialized</name></member>
+    <member refid="namespaceXBMCAddon_1af656396d47bc55ec29ba2ed51a641133" kind="function"><name>XBMCCOMMONS_STANDARD_EXCEPTION</name></member>
+    <member refid="namespaceXBMCAddon_1a5f991eff496dd54a3d0445dae71cc4a6" kind="function"><name>initer</name></member>
+  </compound>
+  <compound refid="namespaceXBMCAddon_1_1xbmc" kind="namespace"><name>XBMCAddon::xbmc</name>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a12a215c993686bf67133ef37bc77eefb" kind="function"><name>getLocalizedString</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a5d296a03cf2c759b8f32636d1da216d9" kind="function"><name>getSkinDir</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aa128f8c0a6f52e81659499bd39c645e9" kind="function"><name>getLanguage</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a3043b214aa9aa0e48a682af77fd8b558" kind="function"><name>getIPAddress</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aa60e3b10162318da0fb814273449f30a" kind="function"><name>getDVDState</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aa64bc386fa5440b79c4f1dfafac0c8eb" kind="function"><name>getFreeMem</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a7ea9737d2f9fd40dd7e1cff070092e6e" kind="function"><name>getInfoLabel</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a7a8e124cc67b013164aeaec46ed8a12d" kind="function"><name>getInfoImage</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a0f909f30ad6b6c45527c07034d579670" kind="function"><name>playSFX</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a0f676582d82344b2bded2b405b01d3e9" kind="function"><name>stopSFX</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a177fe8158b20c11a7e651c02fba57174" kind="function"><name>enableNavSounds</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1abe08e413e5a9642bef4fef90ea866261" kind="function"><name>getCondVisibility</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a2558ae7b4bce64e1c0635f9661c139fe" kind="function"><name>getGlobalIdleTime</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a395cecf86357c89be2e004aa6f0b0a24" kind="function"><name>getCacheThumbName</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ac9f3b77691ce88a8a30fe417b22ef2a2" kind="function"><name>makeLegalFilename</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aa96b7d144f157db186db339367f3b66b" kind="function"><name>translatePath</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a83e523e3430315ab217e547ec6203697" kind="function"><name>getCleanMovieTitle</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ad593f876f0d6d8aa55d15c82bfce733e" kind="function"><name>validatePath</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1abc813a394fb9678e9b2709a119154d56" kind="function"><name>getRegion</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a388c182804b1550edbf62fbb4a2b10c5" kind="function"><name>getSupportedMedia</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a2b7142b4bba546de7940584ab1fef445" kind="function"><name>skinHasImage</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a311efa1aed9a67738f3a52376256e135" kind="function"><name>startServer</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a6b83d7172ae26f6a6538b4e90e27fcab" kind="function"><name>audioSuspend</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a6a8d195347ea97063a480e853ff110f2" kind="function"><name>audioResume</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ada19ca26883aec9dff86ad2b0949d9a6" kind="function"><name>convertLanguage</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a6808ec728dd76495bcfab98077e33ef2" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a652c48f6999ff3ae35be6e3dee6b2582" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a5fc262f649b6ab77a3fe9a8b437098eb" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a4faa80ba2942a904601ecdcf102fee2d" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a57a67ea65c22f1fb16aa0a62ba9e97e2" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aab96da62aec650d98422ff47e5f608b0" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ac2c25a5c2ad13853b474ea725f60d4de" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a50eed9ef114819f350b3207ee9cf175a" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a3549e1d03a8bef5216574a82aa0f05b2" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a2d4795f9190fc5e47a5d681140446210" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a4970d7d531264da9dc80f14f16c7af2c" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a38bf418ac666f20db083cb4b7b110a8a" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a1da63c761d027b63292892420b89f997" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1af8a08ff9fe3cecf2c34fe290348d07cc" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a707d2d017b5ce3b342db8a7856011734" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a23f3e723e7cd090e787481157e86f38f" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a08df2b361710688cc62fa01c6e8f6ab5" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a4c608b342ea4f351fc124dd58b16435b" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1adef01ebbdb17868b5c6cd91da5b28b8d" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a6239cdde6e56938dbc1453f25177e44b" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a9605ee70ba248d76a2e3049114259972" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a33a825fc2410cf7ce72bf636474081d5" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aba1c505f11bfdc257ef82fc8edc5a0cd" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a2f44b8198a802fd653ca5f67edd02604" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a78b7580fe8a1a8e7f94110ea1c6f4952" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ae2bbe0e3988094da3af053de16255e27" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1accac00eb1db4c1f94bb805e46bafbdce" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ac7bb0501a8340be1babd92edaba9ae93" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a58f2e2aef352fc3cde307c689738b0a9" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1abfc8ef6ba49da18894cafa2cb0eaf378" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a8e84e53a2570535df36c39ececf3de61" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a0407ba2729945e75480fe8f121b2837c" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a838dbc0b5dab74c138afee4ebb56416e" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ae30ca5655cf3540339e2b6478a4663d5" kind="function"><name>registerMonitor</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aac764ab830f2473b2aa6a4f412e21dcf" kind="function"><name>unregisterMonitor</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a959ba27013e8460fe9789e030176a9b6" kind="typedef"><name>PlayParameter</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a6657da5d6f8fe04730c5d3f0a81761a1" kind="variable"><name>lLOGNOTICE</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1af3c0375d913f3a660121fd1153f93059" kind="function"><name>XBMCCOMMONS_STANDARD_EXCEPTION</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ae3e43efdeb190d64dae5a5c5aa3d0fa9" kind="function"><name>log</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a9441712b19113e1a8fd0d8916ca85d36" kind="function"><name>shutdown</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a05635fb4caf587fb9d13fdfae2b88585" kind="function"><name>restart</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a8eaa3a339ca5df98591c48ea10ededf8" kind="function"><name>executescript</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ae296508094d9fad7d94d3cd830471d16" kind="function"><name>executebuiltin</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a2a72bc612d5a671afea9999a5f80ef49" kind="function"><name>executehttpapi</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a9279811ba3f4f013c8318034bd345a32" kind="function"><name>executeJSONRPC</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a97e1a7fc141ca3086ac90500608fb428" kind="function"><name>sleep</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aae983e635df57f8e6fc036133aa4a2b2" kind="function"><name>getSERVER_WEBSERVER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a4ff9b4b3f07644324d4b362bbcf8d964" kind="function"><name>getSERVER_AIRPLAYSERVER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a53dea9132f5644bef9aa04445087099a" kind="function"><name>getSERVER_UPNPSERVER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a49ba0b622a5abe9fc5283f71722b685f" kind="function"><name>getSERVER_UPNPRENDERER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aa92ae4269c44cbe1d7c786f494c48885" kind="function"><name>getSERVER_EVENTSERVER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ae60dba6df0282d5ed79bd5da80c52e3f" kind="function"><name>getSERVER_JSONRPCSERVER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aa0702ecf3fc8ebe6c83c16b9de6b5647" kind="function"><name>getSERVER_ZEROCONF</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aec385de795b899d20acefad1e239fd32" kind="function"><name>getPLAYLIST_MUSIC</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a4141991670d44626841d8c226c6459c3" kind="function"><name>getPLAYLIST_VIDEO</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a372c09ba9506a7e1041cf10f2c2bb054" kind="function"><name>getPLAYER_CORE_AUTO</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a3a861cb74381afb3d21d4db352f81481" kind="function"><name>getPLAYER_CORE_DVDPLAYER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a17c299cd1c60b885c24f1e62acf7dd0b" kind="function"><name>getPLAYER_CORE_MPLAYER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a825b04a6beacbf8231581d8329d84809" kind="function"><name>getPLAYER_CORE_PAPLAYER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1afd23fb071ef9c4856c5faffd911dad60" kind="function"><name>getTRAY_OPEN</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ab2962f2f7b83b58a31dde471892946a2" kind="function"><name>getDRIVE_NOT_READY</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a3bdfc62989957538eaa419b71cc8c6d7" kind="function"><name>getTRAY_CLOSED_NO_MEDIA</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a4dc0620273b42d3bcb9fba3420519747" kind="function"><name>getTRAY_CLOSED_MEDIA_PRESENT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a13fcc1096ae5158974251cc1d496c9e1" kind="function"><name>getLOGDEBUG</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ad7aecd8d0a5e418ffd3bd91e3b93e62a" kind="function"><name>getLOGINFO</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1af3fb5284dafe3a8045ccf30e4670183a" kind="function"><name>getLOGNOTICE</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a198dfb213ad58f1f2fbfa3afd89e450e" kind="function"><name>getLOGWARNING</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ad5f168b53feca7dd94b60ba2a2f9ad96" kind="function"><name>getLOGERROR</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ad8478e835ec7d27a603312ae73f546d0" kind="function"><name>getLOGSEVERE</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1aa9affef5f76df1e040bcdf67a15bb350" kind="function"><name>getLOGFATAL</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a68d4b49c11b1f6ace41ed6c123c94ede" kind="function"><name>getLOGNONE</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a9df8b179339fe654338fea0127fd7def" kind="function"><name>getCAPTURE_STATE_WORKING</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a506cef870882358661e0f749e62ce1cc" kind="function"><name>getCAPTURE_STATE_DONE</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a97b661e31cfbc2eabdbf70ff0c85c5c7" kind="function"><name>getCAPTURE_STATE_FAILED</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a904d33d96fc216d77da8d8ef43bf49ad" kind="function"><name>getCAPTURE_FLAG_CONTINUOUS</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ac1c8cf88664f57ce6dae6f3d87598ae2" kind="function"><name>getCAPTURE_FLAG_IMMEDIATELY</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1afd625a59e17897e3e9d7cb1bce3b11cc" kind="function"><name>getISO_639_1</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a589193fc09155e1cf628c9275671fe78" kind="function"><name>getISO_639_2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a0bd1481cf8183fb7cd1eab62b05ef3b1" kind="function"><name>getENGLISH_NAME</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a7d8b7a6322ce17ac4ef2b97b72a26aa4" kind="function"><name>XBMCCOMMONS_STANDARD_EXCEPTION</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1ae1b28003e67eb6eba65883a8f8702895" kind="function"><name>XBMCCOMMONS_STANDARD_EXCEPTION</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmc_1a67a923f6908b846604d50c880348f6e4" kind="function"><name>XBMCCOMMONS_STANDARD_EXCEPTION</name></member>
+  </compound>
+  <compound refid="namespaceXBMCAddon_1_1xbmcaddon" kind="namespace"><name>XBMCAddon::xbmcaddon</name>
+    <member refid="namespaceXBMCAddon_1_1xbmcaddon_1ac1f063aee96369fa44708f98ad303e7e" kind="function"><name>XBMCCOMMONS_STANDARD_EXCEPTION</name></member>
+  </compound>
+  <compound refid="namespaceXBMCAddon_1_1xbmcgui" kind="namespace"><name>XBMCAddon::xbmcgui</name>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a39b53b01156642854b09cdc9f401bff4" kind="typedef"><name>InfoLabelStringOrTuple</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a7306ecdf4c6ccc889917e1f0251ad962" kind="typedef"><name>InfoLabelValue</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a669fb471601b1306d9233ed25441363a" kind="typedef"><name>InfoLabelDict</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a9610ccdbce943dcce343a2decd76bdfc" kind="typedef"><name>ListItemList</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a25e32b33366e236e7129356fbc9f2671" kind="function"><name>XBMCWaitForThreadMessage</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1ac2cc0c8eae96e045a82e9b8c7c652fda" kind="function"><name>XBMCCOMMONS_STANDARD_EXCEPTION</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1acc571d588f5981311b392265d549dd30" kind="function"><name>lock</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a61e2a0dfbcb0d2fbd2337f381c2f78a7" kind="function"><name>unlock</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a5f34276d53953b62cadb1a178c0633f6" kind="function"><name>getCurrentWindowId</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1ad6c56aaae462e9b71305afbbee7870ae" kind="function"><name>getCurrentWindowDialogId</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a345011d0352300fad5607461c4ec557b" kind="function"><name>getNOTIFICATION_INFO</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1ae62d0643ba6c5b1d21e556cad312ece1" kind="function"><name>getNOTIFICATION_WARNING</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1abb536f894e8483a6c37e78e2291f71f9" kind="function"><name>getNOTIFICATION_ERROR</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a3916adb97d8120fabdcff087f33ad516" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a23baa6c2e2a8cee0447b33851964893b" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1acb86bb81a65522469ba6ce1f7c3f1171" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a139dcdac14fa2d5870eac18a95739f38" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a1201ded496bc5619ca6b3fc9fdafc522" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a7d56b6ba68fa70ae3ce23c3143e91f48" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1ad5f16041233827a20276e6a0f85f5290" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a08d25714aa4ced0b6ba1798dfd21beba" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a3da6735870895ea35e00b4dc29ed23ea" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1ae1e0a97a15b25ffc0b7897660ff5609a" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a158db267e828f81dbaf0eeb5c9ce1c0d" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a6216a21c4c199a56466204363ea0982d" kind="function"><name>SWIG_CONSTANT_FROM_GETTER</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1ae8b60f3cefa748011bda078483b789f3" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a2464558696da786e91b72f93153b8404" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a713f67e8635073d1bbb2266da7252dc6" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a6ab2cad9deea76200a22a523bc327e4d" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a4efa3796b07e842270aefba41e2c7585" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a54bc8b772330fb594d01b33d3df76599" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a5f9b0df847067ec6d33b5b628da2f111" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1ac7c873069b93fce942b5fc453a59c92c" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcgui_1a27062d00be2f83b259ba59f7b3989372" kind="function"><name>XBMCCOMMONS_STANDARD_EXCEPTION</name></member>
+  </compound>
+  <compound refid="namespaceXBMCAddon_1_1xbmcplugin" kind="namespace"><name>XBMCAddon::xbmcplugin</name>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a68fcd2369fc94b35fac8f2a24b0d6950" kind="function"><name>addDirectoryItem</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a7f8a1d4aba668c698eaa2d2baff1dc34" kind="function"><name>addDirectoryItems</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a1c7d36eba94c2d1f2ea60808e999a271" kind="function"><name>endOfDirectory</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a08293cf1c6b760f9a822529eb0ac7010" kind="function"><name>setResolvedUrl</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a8a1c497426b3d816139f732ef0343e7d" kind="function"><name>addSortMethod</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a82b5a22fcadd66135b49926db905e5b9" kind="function"><name>getSetting</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a07c614fd70d7863944968597558b0b0f" kind="function"><name>setSetting</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a47fba0c7d6242ca85d4d72c6574841d6" kind="function"><name>setContent</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a9e568ddd9ac1abd54a013210ba6eaa55" kind="function"><name>setPluginCategory</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a795e513a4b2e417816ea056fbe827802" kind="function"><name>setPluginFanart</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1acfa9e12b0f5dc7a414cedfe6b9174a88" kind="function"><name>setProperty</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a6a1f5fce47b26a3cbc9139e74c453c52" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a46f1365f8e1dd62119ca6e03dba19154" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a2ca990303abde8ead13202c599584cb3" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a93b8842117d729066b0d35c4392d8899" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a002eaa198f5d37d4a0864bfe8983733e" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1aa462014e1af1fee9e95d9881e5aa0696" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a4c0e511be39007b19e34a765609295bf" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a9cd108bd9987f25ed3265138928a73c6" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1af58c397c8067a7428572d2f3efbdb9ae" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a91076f1fa8927507d475942fcd5cff16" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1aff6ac53acfbeb040e74f44d3b0116c03" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1acfb55ab52d915ac9c2736901cdae1f36" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a865939b5382e94a74a96bb6e296bf981" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a3762dbe1cf52f6f4b222a784b2a40d88" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a1c29b3da9cc9601f8f174573d94511b1" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1abc359f27a8ccdaa12038670a3a3427fc" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a92848deb7517106dd906670b9cc2a8b8" kind="function"><name>SWIG_CONSTANT2</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a036c704b481899610e1237edb641806c" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a4086b4155329876674613b69c4f54e07" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1ae6fdf15788c87a625c988505dc1d4b1e" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a2d497ca432579a9a3b09daa4544fbc9c" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a0f629d753a77a8709bd1c50a2493af8d" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a1a2a0c650cc35f4291f732e67194e889" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a28df72c99b2def17d5891bb89d4f3732" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a2cfc6220b08b65f911e23955e33aa6ac" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1ab4b1d2aca8276cd6bcaf14e17c0b6052" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1ab93aa64ad33c3040cfdbc6c2d5fb695d" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1ac9fe7a957aa2d37325156300894ee1d5" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1aec64bd04527bf181e3ce35a9c65257c5" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a7fd944fec6beb793541e21b2096f9eb8" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a6670badae2207966f87332db3536a88f" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a0ebdb5489d46fd0dba5052c0540e0a40" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a38631c17ad4ce5be50de8928f6d65c9d" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a885ee1fa337b494834ea83d8bfbfd41d" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a64ad79ebc0fa3ac5f661e1d6904fbabc" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1ac4374112532abf73c0e4c510c9771a9c" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1adce1244eee5229df1bbccda5ae44e075" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1ab5f17998d3ff487854ca98c725b96e6f" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a5133c0f5a73ac667504eddf4cd35d298" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1af1a407cd9b30bfe9f2b3aee159ebe225" kind="function"><name>SWIG_CONSTANT</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcplugin_1a8a5b65ae845d04e17b22622d61b92e32" kind="function"><name>SWIG_CONSTANT</name></member>
+  </compound>
+  <compound refid="namespaceXBMCAddon_1_1xbmcvfs" kind="namespace"><name>XBMCAddon::xbmcvfs</name>
+    <member refid="namespaceXBMCAddon_1_1xbmcvfs_1a262e70bb7b0a8c6e72cb4f5064921518" kind="function"><name>copy</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcvfs_1ae9206752214c4c7693773dff12b522e8" kind="function"><name>deleteFile</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcvfs_1a0c61e5aa94db77b6ddbb3463bac5f84a" kind="function"><name>rename</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcvfs_1a57892d91dadea995668fca2489f9244c" kind="function"><name>exists</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcvfs_1a32b6b488c6a81a8688876d5100b43e10" kind="function"><name>mkdir</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcvfs_1a1e1d2de35b6da8d473c5b40a7758946b" kind="function"><name>mkdirs</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcvfs_1af25cf51648f1305386d8fe416dde9738" kind="function"><name>rmdir</name></member>
+    <member refid="namespaceXBMCAddon_1_1xbmcvfs_1a7698b757a1b7749c1a43cfc9a94753a2" kind="function"><name>listdir</name></member>
+  </compound>
+  <compound refid="namespaceXBMCAddonUtils" kind="namespace"><name>XBMCAddonUtils</name>
+    <member refid="namespaceXBMCAddonUtils_1a7666eebaff8e2e98d412c229b2886ce7" kind="variable"><name>defaultImage</name></member>
+    <member refid="namespaceXBMCAddonUtils_1a1807a942059f5312bc2be163b4c5537f" kind="variable"><name>tlParent</name></member>
+    <member refid="namespaceXBMCAddonUtils_1addf750574600b9aba66a3072b1dd7099" kind="variable"><name>spaces</name></member>
+    <member refid="namespaceXBMCAddonUtils_1af0dce983acd7ecc08be9f49effbf4840" kind="function"><name>guiLock</name></member>
+    <member refid="namespaceXBMCAddonUtils_1ab20ebbf004382671d7f7f42bd4d6e269" kind="function"><name>guiUnlock</name></member>
+    <member refid="namespaceXBMCAddonUtils_1aa62dfc87dd738bddc7f5f317be886b83" kind="function"><name>getDefaultImage</name></member>
+    <member refid="namespaceXBMCAddonUtils_1a6c161711189c49c99a0bc742e50f9b1e" kind="function"><name>getSpacesArray</name></member>
+  </compound>
+  <compound refid="Addon_8cpp" kind="file"><name>Addon.cpp</name>
+  </compound>
+  <compound refid="Addon_8h" kind="file"><name>Addon.h</name>
+  </compound>
+  <compound refid="AddonCallback_8cpp" kind="file"><name>AddonCallback.cpp</name>
+  </compound>
+  <compound refid="AddonCallback_8h" kind="file"><name>AddonCallback.h</name>
+  </compound>
+  <compound refid="AddonClass_8cpp" kind="file"><name>AddonClass.cpp</name>
+  </compound>
+  <compound refid="AddonClass_8h" kind="file"><name>AddonClass.h</name>
+  </compound>
+  <compound refid="AddonString_8h" kind="file"><name>AddonString.h</name>
+  </compound>
+  <compound refid="AddonUtils_8cpp" kind="file"><name>AddonUtils.cpp</name>
+  </compound>
+  <compound refid="AddonUtils_8h" kind="file"><name>AddonUtils.h</name>
+  </compound>
+  <compound refid="Alternative_8h" kind="file"><name>Alternative.h</name>
+  </compound>
+  <compound refid="aojsonrpc_8h" kind="file"><name>aojsonrpc.h</name>
+  </compound>
+  <compound refid="CallbackFunction_8cpp" kind="file"><name>CallbackFunction.cpp</name>
+  </compound>
+  <compound refid="CallbackFunction_8h" kind="file"><name>CallbackFunction.h</name>
+  </compound>
+  <compound refid="CallbackHandler_8cpp" kind="file"><name>CallbackHandler.cpp</name>
+  </compound>
+  <compound refid="CallbackHandler_8h" kind="file"><name>CallbackHandler.h</name>
+  </compound>
+  <compound refid="Control_8cpp" kind="file"><name>Control.cpp</name>
+  </compound>
+  <compound refid="Control_8h" kind="file"><name>Control.h</name>
+  </compound>
+  <compound refid="Dialog_8cpp" kind="file"><name>Dialog.cpp</name>
+  </compound>
+  <compound refid="Dialog_8h" kind="file"><name>Dialog.h</name>
+  </compound>
+  <compound refid="Dictionary_8h" kind="file"><name>Dictionary.h</name>
+  </compound>
+  <compound refid="Exception_8h" kind="file"><name>Exception.h</name>
+  </compound>
+  <compound refid="File_8cpp" kind="file"><name>File.cpp</name>
+  </compound>
+  <compound refid="File_8h" kind="file"><name>File.h</name>
+  </compound>
+  <compound refid="InfoTagMusic_8cpp" kind="file"><name>InfoTagMusic.cpp</name>
+  </compound>
+  <compound refid="InfoTagMusic_8h" kind="file"><name>InfoTagMusic.h</name>
+  </compound>
+  <compound refid="InfoTagVideo_8cpp" kind="file"><name>InfoTagVideo.cpp</name>
+  </compound>
+  <compound refid="InfoTagVideo_8h" kind="file"><name>InfoTagVideo.h</name>
+  </compound>
+  <compound refid="Keyboard_8cpp" kind="file"><name>Keyboard.cpp</name>
+  </compound>
+  <compound refid="Keyboard_8h" kind="file"><name>Keyboard.h</name>
+  </compound>
+  <compound refid="LanguageHook_8cpp" kind="file"><name>LanguageHook.cpp</name>
+  </compound>
+  <compound refid="LanguageHook_8h" kind="file"><name>LanguageHook.h</name>
+  </compound>
+  <compound refid="List_8h" kind="file"><name>List.h</name>
+  </compound>
+  <compound refid="ListItem_8cpp" kind="file"><name>ListItem.cpp</name>
+  </compound>
+  <compound refid="ListItem_8h" kind="file"><name>ListItem.h</name>
+  </compound>
+  <compound refid="ModuleXbmc_8cpp" kind="file"><name>ModuleXbmc.cpp</name>
+  </compound>
+  <compound refid="ModuleXbmc_8h" kind="file"><name>ModuleXbmc.h</name>
+  </compound>
+  <compound refid="ModuleXbmcgui_8cpp" kind="file"><name>ModuleXbmcgui.cpp</name>
+  </compound>
+  <compound refid="ModuleXbmcgui_8h" kind="file"><name>ModuleXbmcgui.h</name>
+  </compound>
+  <compound refid="ModuleXbmcplugin_8cpp" kind="file"><name>ModuleXbmcplugin.cpp</name>
+  </compound>
+  <compound refid="ModuleXbmcplugin_8h" kind="file"><name>ModuleXbmcplugin.h</name>
+  </compound>
+  <compound refid="ModuleXbmcvfs_8cpp" kind="file"><name>ModuleXbmcvfs.cpp</name>
+  </compound>
+  <compound refid="ModuleXbmcvfs_8h" kind="file"><name>ModuleXbmcvfs.h</name>
+  </compound>
+  <compound refid="Monitor_8cpp" kind="file"><name>Monitor.cpp</name>
+  </compound>
+  <compound refid="Monitor_8h" kind="file"><name>Monitor.h</name>
+  </compound>
+  <compound refid="Player_8cpp" kind="file"><name>Player.cpp</name>
+  </compound>
+  <compound refid="Player_8h" kind="file"><name>Player.h</name>
+  </compound>
+  <compound refid="PlayList_8cpp" kind="file"><name>PlayList.cpp</name>
+  </compound>
+  <compound refid="PlayList_8h" kind="file"><name>PlayList.h</name>
+  </compound>
+  <compound refid="RenderCapture_8h" kind="file"><name>RenderCapture.h</name>
+  </compound>
+  <compound refid="Stat_8h" kind="file"><name>Stat.h</name>
+  </compound>
+  <compound refid="String_8cpp" kind="file"><name>String.cpp</name>
+  </compound>
+  <compound refid="swighelper_8h" kind="file"><name>swighelper.h</name>
+  </compound>
+  <compound refid="Tuple_8h" kind="file"><name>Tuple.h</name>
+  </compound>
+  <compound refid="Window_8cpp" kind="file"><name>Window.cpp</name>
+  </compound>
+  <compound refid="Window_8h" kind="file"><name>Window.h</name>
+  </compound>
+  <compound refid="WindowDialog_8cpp" kind="file"><name>WindowDialog.cpp</name>
+  </compound>
+  <compound refid="WindowDialog_8h" kind="file"><name>WindowDialog.h</name>
+  </compound>
+  <compound refid="WindowDialogMixin_8cpp" kind="file"><name>WindowDialogMixin.cpp</name>
+  </compound>
+  <compound refid="WindowDialogMixin_8h" kind="file"><name>WindowDialogMixin.h</name>
+  </compound>
+  <compound refid="WindowException_8h" kind="file"><name>WindowException.h</name>
+  </compound>
+  <compound refid="WindowInterceptor_8h" kind="file"><name>WindowInterceptor.h</name>
+  </compound>
+  <compound refid="WindowXML_8cpp" kind="file"><name>WindowXML.cpp</name>
+  </compound>
+  <compound refid="WindowXML_8h" kind="file"><name>WindowXML.h</name>
+  </compound>
+  <compound refid="dir_8120d3f1f260a76221b2d525d3d2cd75" kind="dir"><name>/root/xbmc/xbmc/interfaces/legacy</name>
+  </compound>
+</doxygenindex>

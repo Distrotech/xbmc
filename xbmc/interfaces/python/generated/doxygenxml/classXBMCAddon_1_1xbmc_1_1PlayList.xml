@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmc_1_1PlayList" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmc::PlayList</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a528b8b229efc34ccbba9b241b87b8804" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long XBMCAddon::xbmc::PlayList::refs</definition>
+        <argsstring></argsstring>
+        <name>refs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="37" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a5e22704aa0f76db21154ddb0bbee0024" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::PlayList::iPlayList</definition>
+        <argsstring></argsstring>
+        <name>iPlayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="38" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a592427901457a66161129c4ca19338b5" prot="private" static="no" mutable="no">
+        <type>PLAYLIST::CPlayList *</type>
+        <definition>PLAYLIST::CPlayList* XBMCAddon::xbmc::PlayList::pPlayList</definition>
+        <argsstring></argsstring>
+        <name>pPlayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="39" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1aeef576c425f9e07b1daa5fae166efd6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::PlayList::PlayList</definition>
+        <argsstring>(int playList)</argsstring>
+        <name>PlayList</name>
+        <param>
+          <type>int</type>
+          <declname>playList</declname>
+        </param>
+        <exceptions> throw (PlayListException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="42" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="35" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a355689cc50abcd46652077b5771d494f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::PlayList::~PlayList</definition>
+        <argsstring>()</argsstring>
+        <name>~PlayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="43" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a86d8bda3c89a857b2ad643b71b0c2743" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::PlayList::getPlayListId</definition>
+        <argsstring>() const </argsstring>
+        <name>getPlayListId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a86d8bda3c89a857b2ad643b71b0c2743" kindref="member">getPlayListId()</ref> <ndash/> returns an integer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="48" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1ac98dc8da9d3e6d7a269877a90bea47ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::PlayList::add</definition>
+        <argsstring>(const String &amp;url, XBMCAddon::xbmcgui::ListItem *listitem=NULL, int index=-1)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *</type>
+          <declname>listitem</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>add(url[, listitem, index]) <ndash/> Adds a new file to the playlist.</para><para>url : string or unicode - filename or url to add.<linebreak/>
+listitem : [opt] listitem - used with setInfo() to set different infolabels.<linebreak/>
+index : [opt] integer - position to add playlist item. (default=end)</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments. Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>playlist = <ref refid="classXBMCAddon_1_1xbmc_1_1PlayList" kindref="compound">xbmc.PlayList</ref>(xbmc.PLAYLIST_VIDEO)</para></listitem><listitem><para>video = &apos;F:\movies\Ironman.mov&apos;</para></listitem><listitem><para>listitem = <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">xbmcgui.ListItem</ref>(&apos;Ironman&apos;, thumbnailImage=&apos;F:\movies\Ironman.tbn&apos;)</para></listitem><listitem><para>listitem.setInfo(&apos;video&apos;, {&apos;Title&apos;: &apos;Ironman&apos;, &apos;Genre&apos;: &apos;Science Fiction&apos;})</para></listitem><listitem><para>playlist.add(url=video, listitem=listitem, index=7)n </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="67" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="49" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a9a0326c942c99e72344e61fcb80b5a58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::PlayList::load</definition>
+        <argsstring>(const char *filename)</argsstring>
+        <name>load</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <exceptions> throw (PlayListException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>load(filename) <ndash/> Load a playlist.</para><para>clear current playlist and copy items from the file to this Playlist filename can be like .pls or .m3u ...<linebreak/>
+returns False if unable to load playlist </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="76" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="72" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1abffe226a685903cd24fe812218d93aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::PlayList::remove</definition>
+        <argsstring>(const char *filename)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>remove(filename) <ndash/> remove an item with this filename from the playlist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="81" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a9c7677a6b46cd1f7a435e0d471aeabae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::PlayList::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a9c7677a6b46cd1f7a435e0d471aeabae" kindref="member">clear()</ref> <ndash/> clear all items in the playlist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="86" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1adb8ff8c13f0e44d61a9b4a2416096472" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::PlayList::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1PlayList_1adb8ff8c13f0e44d61a9b4a2416096472" kindref="member">size()</ref> <ndash/> returns the total number of PlayListItems in this playlist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="91" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a2494b025ef07cfbb9bdbee0ff2daf332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::PlayList::shuffle</definition>
+        <argsstring>()</argsstring>
+        <name>shuffle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a2494b025ef07cfbb9bdbee0ff2daf332" kindref="member">shuffle()</ref> <ndash/> shuffle the playlist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="96" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a9bc72e12f38c4ab5d8b4ea116b50217b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::PlayList::unshuffle</definition>
+        <argsstring>()</argsstring>
+        <name>unshuffle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a9bc72e12f38c4ab5d8b4ea116b50217b" kindref="member">unshuffle()</ref> <ndash/> unshuffle the playlist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="101" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1a6dbc5202b698b014242f5d301e8799b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::PlayList::getposition</definition>
+        <argsstring>()</argsstring>
+        <name>getposition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a6dbc5202b698b014242f5d301e8799b2" kindref="member">getposition()</ref> <ndash/> returns the position of the current song in this playlist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="106" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1PlayList_1ab520bb673c8dc6d22ead8b82b98ab394" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *</type>
+        <definition>XBMCAddon::xbmcgui::ListItem * XBMCAddon::xbmc::PlayList::operator[]</definition>
+        <argsstring>(long i)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>long</type>
+          <declname>i</declname>
+        </param>
+        <exceptions> throw (PlayListException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>retrieve the item at the given position. A negative index means from the ending rather than from the start. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="112" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.cpp" bodystart="142" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="434">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="435" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>XBMCAddon::xbmc::PlayList</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1PlayList"/>
+        <childnode refid="434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="435">
+        <label>CCriticalSection</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="437">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="438" relation="public-inheritance">
+        </childnode>
+        <childnode refid="439" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="436">
+        <label>XBMCAddon::xbmc::PlayList</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1PlayList"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="439">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" line="36" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/PlayList.h" bodystart="35" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1ac98dc8da9d3e6d7a269877a90bea47ab" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>add</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a9c7677a6b46cd1f7a435e0d471aeabae" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>clear</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a86d8bda3c89a857b2ad643b71b0c2743" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>getPlayListId</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a6dbc5202b698b014242f5d301e8799b2" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>getposition</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a5e22704aa0f76db21154ddb0bbee0024" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>iPlayList</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a9a0326c942c99e72344e61fcb80b5a58" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>load</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1ab520bb673c8dc6d22ead8b82b98ab394" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>operator[]</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1aeef576c425f9e07b1daa5fae166efd6a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>PlayList</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a592427901457a66161129c4ca19338b5" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>pPlayList</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a528b8b229efc34ccbba9b241b87b8804" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>refs</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1abffe226a685903cd24fe812218d93aee" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>remove</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a2494b025ef07cfbb9bdbee0ff2daf332" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>shuffle</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1adb8ff8c13f0e44d61a9b4a2416096472" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>size</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a9bc72e12f38c4ab5d8b4ea116b50217b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>unshuffle</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1PlayList_1a355689cc50abcd46652077b5771d494f" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::PlayList</scope><name>~PlayList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

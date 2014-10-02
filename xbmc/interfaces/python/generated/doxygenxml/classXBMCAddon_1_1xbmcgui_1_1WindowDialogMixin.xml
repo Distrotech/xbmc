@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::WindowDialogMixin</compoundname>
+    <derivedcompoundref refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog" prot="private" virt="non-virtual">XBMCAddon::xbmcgui::WindowDialog</derivedcompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog" prot="private" virt="non-virtual">XBMCAddon::xbmcgui::WindowXMLDialog</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1a29b1ca4602a10240683fff4787fcafc0" prot="private" static="no" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> *</type>
+        <definition>Window* XBMCAddon::xbmcgui::WindowDialogMixin::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" line="38" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1aa83e443b7c3bd97884d0dae41ad89b1b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::WindowDialogMixin::WindowDialogMixin</definition>
+        <argsstring>(Window *window)</argsstring>
+        <name>WindowDialogMixin</name>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" line="41" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1acc6051b2f4029ae95f335f93b42d9fb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::WindowDialogMixin::show</definition>
+        <argsstring>()</argsstring>
+        <name>show</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" line="44" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.cpp" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1ad0fcf86f9482470fcd52e32f7b625fae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::WindowDialogMixin::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" line="45" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.cpp" bodystart="39" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1ae859f7f2a2fa51b89d4cb7749366ba86" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>bool XBMCAddon::xbmcgui::WindowDialogMixin::IsDialogRunning</definition>
+        <argsstring>() const </argsstring>
+        <name>IsDialogRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" line="48" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.cpp" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1ab5bc9ee4ff62256d4b4fcb86a016495b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>bool XBMCAddon::xbmcgui::WindowDialogMixin::OnAction</definition>
+        <argsstring>(const CAction &amp;action)</argsstring>
+        <name>OnAction</name>
+        <param>
+          <type>const CAction &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" line="49" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.cpp" bodystart="54" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="541">
+        <label>XBMCAddon::xbmcgui::WindowDialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialog"/>
+        <childnode refid="540" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="540">
+        <label>XBMCAddon::xbmcgui::WindowDialogMixin</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin"/>
+      </node>
+      <node id="542">
+        <label>XBMCAddon::xbmcgui::WindowXMLDialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog"/>
+        <childnode refid="540" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" line="36" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowDialogMixin.h" bodystart="35" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1ad0fcf86f9482470fcd52e32f7b625fae" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowDialogMixin</scope><name>close</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1ae859f7f2a2fa51b89d4cb7749366ba86" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowDialogMixin</scope><name>IsDialogRunning</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1ab5bc9ee4ff62256d4b4fcb86a016495b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowDialogMixin</scope><name>OnAction</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1acc6051b2f4029ae95f335f93b42d9fb3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowDialogMixin</scope><name>show</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1a29b1ca4602a10240683fff4787fcafc0" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowDialogMixin</scope><name>w</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1aa83e443b7c3bd97884d0dae41ad89b1b" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowDialogMixin</scope><name>WindowDialogMixin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

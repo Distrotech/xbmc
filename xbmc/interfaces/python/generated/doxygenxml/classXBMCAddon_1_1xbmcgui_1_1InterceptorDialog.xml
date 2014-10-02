@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::InterceptorDialog</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::Interceptor&lt; P &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>P</declname>
+        <defname>P</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog_1a18d56b74633931358813d0dccafa8654" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::InterceptorDialog&lt; P &gt;::InterceptorDialog</definition>
+        <argsstring>(const char *specializedName, Window *_window, int windowid)</argsstring>
+        <name>InterceptorDialog</name>
+        <param>
+          <type>const char *</type>
+          <declname>specializedName</declname>
+        </param>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> *</type>
+          <declname>_window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="185" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog_1ae755a9186ea8a3f50aba96577bd40c40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::InterceptorDialog&lt; P &gt;::InterceptorDialog</definition>
+        <argsstring>(const char *specializedName, Window *_window, int windowid, const char *xmlfile)</argsstring>
+        <name>InterceptorDialog</name>
+        <param>
+          <type>const char *</type>
+          <declname>specializedName</declname>
+        </param>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1xbmcgui_1_1Window" kindref="compound">Window</ref> *</type>
+          <declname>_window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowid</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>xmlfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="190" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="190" bodyend="194"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="375">
+        <label>P</label>
+      </node>
+      <node id="374">
+        <label>XBMCAddon::xbmcgui::Interceptor&lt; P &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor"/>
+        <childnode refid="375" relation="public-inheritance">
+        </childnode>
+        <childnode refid="376" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="373">
+        <label>XBMCAddon::xbmcgui::InterceptorDialog&lt; P &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog"/>
+        <childnode refid="374" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>XBMCAddon::xbmcgui::InterceptorBase</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="379">
+        <label>P</label>
+      </node>
+      <node id="378">
+        <label>XBMCAddon::xbmcgui::Interceptor&lt; P &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor"/>
+        <childnode refid="379" relation="public-inheritance">
+        </childnode>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>XBMCAddon::xbmcgui::InterceptorDialog&lt; P &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog"/>
+        <childnode refid="378" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="381">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::xbmcgui::Window &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="380">
+        <label>XBMCAddon::xbmcgui::InterceptorBase</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase"/>
+        <childnode refid="381" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" line="183" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowInterceptor.h" bodystart="181" bodyend="195"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a9b5a1834ce19ad1084a2d184254a4dee" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>get</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a3c34e21c534c8f9a3aab284b1370ccbc" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>Interceptor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a990a7851f40a95c3f1912eafb132e14d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>Interceptor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1a42045b88449f788c3a974a4447033852" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>InterceptorBase</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog_1a18d56b74633931358813d0dccafa8654" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>InterceptorDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog_1ae755a9186ea8a3f50aba96577bd40c40" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>InterceptorDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a8b798474d74ad26a96bbbe7ff878075e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>isActive</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1adf297a31e92dcd5cd50f3022bfae08a3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>IsDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1acd4ed09937085d391b8af5044f073c83" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>IsDialogRunning</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a1972b60e46b4b4d3719687d50a858857" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>IsMediaWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1abfbcbba312ff25ffbef6c5ab5a1023cf" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>IsModalDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a94619a1347754e90ea40410fa85f8233" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>OnAction</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a2e0d382318804e74a254747a278fe8ef" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>OnBack</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1aacb92742158ca58d6dc866fd06651fcf" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>OnDeinitWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1adce8b3e94b355bfe003a324d5f72c79e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>OnMessage</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a3dd9d8d1e1d049e74bd2903a8b6a4619" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>setActive</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1a5291d7dc2bf20597ba5ad71ba08f5693" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>up</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1ad1758bcb44481aed7d1a51020e43742c" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>upcallTls</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a8aa462a3fbb9a7d1bf11c57185248e94" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>Update</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1aeb1faee88b8f61aac8a2e8575dd9b6fe" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>window</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor_1a7e099124da8e815d1914d8bece90f1ba" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>~Interceptor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase_1a443c63ae366a532b63545010290118f0" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::InterceptorDialog</scope><name>~InterceptorBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

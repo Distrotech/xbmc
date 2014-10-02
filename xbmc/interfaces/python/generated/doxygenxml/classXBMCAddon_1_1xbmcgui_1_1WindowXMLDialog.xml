@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::WindowXMLDialog</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::WindowXML</basecompoundref>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin" prot="private" virt="non-virtual">XBMCAddon::xbmcgui::WindowDialogMixin</basecompoundref>
+    <includes refid="WindowXML_8h" local="no">WindowXML.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a08482f1b5aa6411d68254066f6028095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class DialogJumper</definition>
+        <argsstring></argsstring>
+        <name>DialogJumper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="249" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1affbbae53a356234469543af301b2a79e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::WindowXMLDialog::WindowXMLDialog</definition>
+        <argsstring>(const String &amp;xmlFilename, const String &amp;scriptPath, const String &amp;defaultSkin=&quot;Default&quot;, const String &amp;defaultRes=&quot;720p&quot;)</argsstring>
+        <name>WindowXMLDialog</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>xmlFilename</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>scriptPath</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>defaultSkin</declname>
+          <defval>&quot;Default&quot;</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>defaultRes</declname>
+          <defval>&quot;720p&quot;</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="231" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.cpp" bodystart="480" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a5fa32ece81e43ebf1aafe65932fdd13c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::WindowXMLDialog::~WindowXMLDialog</definition>
+        <argsstring>()</argsstring>
+        <name>~WindowXMLDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="235" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.cpp" bodystart="487" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a2ca7b5f7c8a6d0498f404c160f20918d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>bool XBMCAddon::xbmcgui::WindowXMLDialog::OnMessage</definition>
+        <argsstring>(CGUIMessage &amp;message)</argsstring>
+        <name>OnMessage</name>
+        <param>
+          <type>CGUIMessage &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="238" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.cpp" bodystart="489" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1ab849e1642f25058171cf59358f3095ac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::WindowXMLDialog::IsDialogRunning</definition>
+        <argsstring>() const </argsstring>
+        <name>IsDialogRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="239" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" bodystart="239" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a1978eccddfc746b56a46818e075187b2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::WindowXMLDialog::IsDialog</definition>
+        <argsstring>() const </argsstring>
+        <name>IsDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="240" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" bodystart="240" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a0ce4301894922d2614ba27d387807574" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::WindowXMLDialog::IsModalDialog</definition>
+        <argsstring>() const </argsstring>
+        <name>IsModalDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="241" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" bodystart="241" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1abc05ef5a9fc4f1ee644b26699f00e320" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::WindowXMLDialog::IsMediaWindow</definition>
+        <argsstring>() const </argsstring>
+        <name>IsMediaWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="242" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" bodystart="242" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a0c76e8882ecc281160155215fa2f1050" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>bool XBMCAddon::xbmcgui::WindowXMLDialog::OnAction</definition>
+        <argsstring>(const CAction &amp;action)</argsstring>
+        <name>OnAction</name>
+        <param>
+          <type>const CAction &amp;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="243" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.cpp" bodystart="502" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a4fcc0b9d795a39b511f49f499042a78d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmcgui::WindowXMLDialog::OnDeinitWindow</definition>
+        <argsstring>(int nextWindowID)</argsstring>
+        <name>OnDeinitWindow</name>
+        <param>
+          <type>int</type>
+          <declname>nextWindowID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="244" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.cpp" bodystart="508" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a0fe2d5174854825e52928762c0bf5075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>SWIGHIDDENVIRTUAL void XBMCAddon::xbmcgui::WindowXMLDialog::show</definition>
+        <argsstring>()</argsstring>
+        <name>show</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="246" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" bodystart="246" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1acb80550ea5de70c8e8d8d44812a05bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>SWIGHIDDENVIRTUAL void XBMCAddon::xbmcgui::WindowXMLDialog::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="247" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" bodystart="247" bodyend="247"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog" kindref="compound">WindowXMLDialog</ref> class.</para><para>WindowXMLDialog(self, xmlFilename, scriptPath[, defaultSkin, defaultRes]) <ndash/> Create a new <ref refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog" kindref="compound">WindowXMLDialog</ref> script.</para><para>xmlFilename : string - the name of the xml file to look for.<linebreak/>
+scriptPath : string - path to script. used to fallback to if the xml doesn&apos;t exist in the current skin. (eg os.getcwd())<linebreak/>
+defaultSkin : [opt] string - name of the folder in the skins path to look in for the xml. (default=&apos;Default&apos;)<linebreak/>
+defaultRes : [opt] string - default skins resolution. (default=&apos;720p&apos;)</para><para>*Note, skin folder structure is eg(resources/skins/Default/720p)</para><para>example:<itemizedlist>
+<listitem><para>ui = GUI(&apos;script-Lyrics-main.xml&apos;, os.getcwd(), &apos;LCARS&apos;, &apos;PAL&apos;)</para></listitem><listitem><para>ui.doModal()</para></listitem><listitem><para>del ui </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="567">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="568" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="568">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="564">
+        <label>XBMCAddon::xbmcgui::WindowXML</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML"/>
+        <childnode refid="565" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="569">
+        <label>XBMCAddon::xbmcgui::WindowDialogMixin</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin"/>
+      </node>
+      <node id="563">
+        <label>XBMCAddon::xbmcgui::WindowXMLDialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog"/>
+        <childnode refid="564" relation="public-inheritance">
+        </childnode>
+        <childnode refid="569" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="565">
+        <label>XBMCAddon::xbmcgui::Window</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Window"/>
+        <childnode refid="566" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="566">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="567" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="574">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="575" relation="public-inheritance">
+        </childnode>
+        <childnode refid="576" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="577">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::CallbackHandler &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="575">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="571">
+        <label>XBMCAddon::xbmcgui::WindowXML</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML"/>
+        <childnode refid="572" relation="public-inheritance">
+        </childnode>
+        <childnode refid="580" relation="usage">
+          <edgelabel>interceptor</edgelabel>
+        </childnode>
+      </node>
+      <node id="583">
+        <label>CGUIMediaWindow</label>
+      </node>
+      <node id="581">
+        <label>XBMCAddon::xbmcgui::InterceptorDialog&lt; CGUIMediaWindow &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorDialog"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="584">
+        <label>XBMCAddon::xbmcgui::WindowDialogMixin</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin"/>
+      </node>
+      <node id="579">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::xbmcgui::Window &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="582">
+        <label>XBMCAddon::xbmcgui::Interceptor&lt; CGUIMediaWindow &gt;</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Interceptor"/>
+        <childnode refid="583" relation="public-inheritance">
+        </childnode>
+        <childnode refid="578" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="578">
+        <label>XBMCAddon::xbmcgui::InterceptorBase</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1InterceptorBase"/>
+        <childnode refid="579" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="576">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="574" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="570">
+        <label>XBMCAddon::xbmcgui::WindowXMLDialog</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog"/>
+        <childnode refid="571" relation="public-inheritance">
+        </childnode>
+        <childnode refid="584" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="572">
+        <label>XBMCAddon::xbmcgui::Window</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Window"/>
+        <childnode refid="573" relation="public-inheritance">
+        </childnode>
+        <childnode refid="578" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="573">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="574" relation="public-inheritance">
+        </childnode>
+        <childnode refid="577" relation="usage">
+          <edgelabel>handler</edgelabel>
+        </childnode>
+      </node>
+      <node id="580">
+        <label>XBMCAddon::xbmcgui::WindowXMLInterceptor</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLInterceptor"/>
+        <childnode refid="581" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" line="229" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/WindowXML.h" bodystart="228" bodyend="251"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a00fa298d76a5656ad033850b6e51ad15" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>addControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aa9e5db6c471399ad641097bd1f9427e1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>addControls</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a3c02637760c596daa01ca85f3a99fbdf" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>addItem</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1af8df138f0052acf6a7eaf5fd08db5e1c" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a268d522c3573d3102a5da94b9064abba" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>AllocResources</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a1105bd05add238555d75628c7f27dec9" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>bModal</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a6bae6f8e84ae4196455db2b54ba6f271" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>canPulse</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ad0f029e10c3b25fb9598347c32c87902" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>clearList</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab5a2b89782763e03bf6c097314e97de3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>clearProperties</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1acd2c8bc6fb18732261b27dc6fa2c376f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>clearProperty</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1acb80550ea5de70c8e8d8d44812a05bd7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>close</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aac27de847b2e0fd720ad96e205a0273c" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a90083df4cec6cfe075565150e31f5a00" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>destroyAfterDeInit</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a08482f1b5aa6411d68254066f6028095" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>DialogJumper</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1abc39b4be5c735645d5efbeb6fcfaae0f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>dispose</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af4931216b8c7b4b2a0f2e99821a1913a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>doModal</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a879b9d20f920ce9a9fecbeddb8317bd8" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>existingWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a9eca6a7853f66008f1cc949d1bc6766a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>FreeResources</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a6a21aaab4d814ccb58f2b3513534b58a" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>GetContextButtons</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ad0f8592f46a8c65f8efa5f88b52e6d79" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae0d0ee6db059b8a1e4085074c8052278" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>GetControlById</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a7687c5515f7d6a075087344aab6f14ed" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getCurrentListPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae3e1020717eeb8f9bcaeff0aa48ccd82" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1acee08d82016440b945efabbbb7366bcc" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getFocusId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a72f819ba4a2652b27872a044d7472bf7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getHeight</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ad348eb34a26d08251ddfbb7c58720e26" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getListItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1adb5adf21b94fb94f5881d8911545e695" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getListSize</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af60643bd00a72583825eca1ae0b7addd" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getNextAvailalbeWindowId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a69a8746ded1af13db1023fd3fd9e8e4f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getProperty</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af8fec980ffb89d6afa45de91c294d9e1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getResolution</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a5eaa7131456d10ec60f5e32f7786fec9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>getWidth</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1ad4fc1fc86c9c648108acccfd6ad15f94" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>handler</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a8edad836d7559ad1536469c68be57254" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>hasHandler</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a1fb1877e27bae3f18051fc9216eb34a4" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>iCurrentControlId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a48cc6975d49c52c94dca0cb41ab67d9c" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>interceptor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab4b6dd44f4542dad54c355df7956c14c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>interceptorClear</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a6891140d172d754c95d2412cfbc7b211" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>invokeCallback</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a8dbb74d5eff0aa5cb5fe70510548c791" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>iOldWindowId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a1978eccddfc746b56a46818e075187b2" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>IsDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1ab849e1642f25058171cf59358f3095ac" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>IsDialogRunning</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1abc05ef5a9fc4f1ee644b26699f00e320" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>IsMediaWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a0ce4301894922d2614ba27d387807574" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>IsModalDialog</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ab49bd375ba8fc177567e72024ecb966d" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>iWindowId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a428a89b83bad6843f66d5fa1635be99c" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>LoadXML</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1af8c8698cbda11af5c2a0774641724fa0" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>lockingGetNextAvailalbeWindowId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a4181db9de2c0774be121f86994d02f3d" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>m_actionEvent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a425d218a8d217a1ea74c4b9cb61878da" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>m_mediaDir</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ac1b44e3c86e3674b5349c1bcf26904b5" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>m_scriptPath</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aaa7f9d2e616b4effad2e6b272417e5fb" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>onAction</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a0c76e8882ecc281160155215fa2f1050" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>OnAction</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1af34410cd66f209889e7c2dc7ffbc6d64" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>OnBack</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a829ded957a0340060cf3b782c8a4a833" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>onClick</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ab513e2bcb075376ac3756e4758a2f462" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>OnClick</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a7f3ac65dbe314adaca4b58e8ea475ec1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>onControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a4fcc0b9d795a39b511f49f499042a78d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>OnDeinitWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1add29fd37875689b1ce68977a7268f7e3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>onDoubleClick</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a6177878636ea56558a95fa43ad9cf0e0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>OnDoubleClick</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a55b808cf3e06b8131d3884a89cffad1e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>onFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aa73727c09801ce36d22f9eab742b9344" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>onInit</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a2ca7b5f7c8a6d0498f404c160f20918d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>OnMessage</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a3d5dda9dc7d1b2e324483db3180f1a23" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>popActiveWindowId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1abf8cc38da9f918415dda72628c99386f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>Process</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a047f7b45164555405874d4fc7d3d2540" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>PulseActionEvent</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a3163d48ed6c7675a6d78c13802ce1f62" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>removeControl</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a5ddfc60a786c7b0d365dca08e3fa2e30" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>removeControls</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a2492548d9a0215559ab580a112c20c7a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>removeItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a50b3e8032db7c118e81cb27100bbc021" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>setCoordinateResolution</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a5055749534e989583a9851a91dbba5d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>setCurrentListPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a369563fb5f07eff48baa378aa1cbb4f9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>setFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ae2e74366babaea15de95eec3a3ee63d8" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>setFocusId</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a863529cf2b2849d2ce2f86737cd2826d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>setHandler</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a444f69693fbc0375e15dff77189cafbd" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>setProperty</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1aea68bd42d906ea94d17c51c5d890607f" prot="public" virt="non-virtual" ambiguityscope="XBMCAddon::xbmcgui::Window::"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>setProperty</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a8695bbcd104a1c791e88a4ad8289e652" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>SetupShares</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a8df22dbb571d4fa361446087f05988cb" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>setWindow</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a0fe2d5174854825e52928762c0bf5075" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>show</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1ace9a3187ef412f28980555bb12123030" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>Update</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a2ffacafc1bab4ac54114c3439081dad2" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>vecControls</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a5b0e5b84d8dc08486858790f16c3d54f" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>WaitForActionEvent</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1ad73df64d260195d618d8f816832b2f58" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>Window</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1abff8d21afb8fbbfad7be106fdf1a636e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>Window</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a9e1755d7a28604a034a15789af2b276b" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>window</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowDialogMixin_1aa83e443b7c3bd97884d0dae41ad89b1b" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>WindowDialogMixin</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a6dfa77d2b492081c9f5c1bb166d0c60b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>WindowXML</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1affbbae53a356234469543af301b2a79e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>WindowXMLDialog</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a5f55e978e7785c907d7f30ec08f37324" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>~AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Window_1a6d7cec5f4b04dfcaba81269cd42c2910" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>~Window</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXML_1a316b39456c98f20665d7d2da4a4bb08f" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>~WindowXML</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1WindowXMLDialog_1a5fa32ece81e43ebf1aafe65932fdd13c" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::WindowXMLDialog</scope><name>~WindowXMLDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8120d3f1f260a76221b2d525d3d2cd75" kind="dir">
+    <compoundname>/root/xbmc/xbmc/interfaces/legacy</compoundname>
+    <innerfile refid="Addon_8cpp">Addon.cpp</innerfile>
+    <innerfile refid="Addon_8h">Addon.h</innerfile>
+    <innerfile refid="AddonCallback_8cpp">AddonCallback.cpp</innerfile>
+    <innerfile refid="AddonCallback_8h">AddonCallback.h</innerfile>
+    <innerfile refid="AddonClass_8cpp">AddonClass.cpp</innerfile>
+    <innerfile refid="AddonClass_8h">AddonClass.h</innerfile>
+    <innerfile refid="AddonString_8h">AddonString.h</innerfile>
+    <innerfile refid="AddonUtils_8cpp">AddonUtils.cpp</innerfile>
+    <innerfile refid="AddonUtils_8h">AddonUtils.h</innerfile>
+    <innerfile refid="Alternative_8h">Alternative.h</innerfile>
+    <innerfile refid="aojsonrpc_8h">aojsonrpc.h</innerfile>
+    <innerfile refid="CallbackFunction_8cpp">CallbackFunction.cpp</innerfile>
+    <innerfile refid="CallbackFunction_8h">CallbackFunction.h</innerfile>
+    <innerfile refid="CallbackHandler_8cpp">CallbackHandler.cpp</innerfile>
+    <innerfile refid="CallbackHandler_8h">CallbackHandler.h</innerfile>
+    <innerfile refid="Control_8cpp">Control.cpp</innerfile>
+    <innerfile refid="Control_8h">Control.h</innerfile>
+    <innerfile refid="Dialog_8cpp">Dialog.cpp</innerfile>
+    <innerfile refid="Dialog_8h">Dialog.h</innerfile>
+    <innerfile refid="Dictionary_8h">Dictionary.h</innerfile>
+    <innerfile refid="Exception_8h">Exception.h</innerfile>
+    <innerfile refid="File_8cpp">File.cpp</innerfile>
+    <innerfile refid="File_8h">File.h</innerfile>
+    <innerfile refid="InfoTagMusic_8cpp">InfoTagMusic.cpp</innerfile>
+    <innerfile refid="InfoTagMusic_8h">InfoTagMusic.h</innerfile>
+    <innerfile refid="InfoTagVideo_8cpp">InfoTagVideo.cpp</innerfile>
+    <innerfile refid="InfoTagVideo_8h">InfoTagVideo.h</innerfile>
+    <innerfile refid="Keyboard_8cpp">Keyboard.cpp</innerfile>
+    <innerfile refid="Keyboard_8h">Keyboard.h</innerfile>
+    <innerfile refid="LanguageHook_8cpp">LanguageHook.cpp</innerfile>
+    <innerfile refid="LanguageHook_8h">LanguageHook.h</innerfile>
+    <innerfile refid="List_8h">List.h</innerfile>
+    <innerfile refid="ListItem_8cpp">ListItem.cpp</innerfile>
+    <innerfile refid="ListItem_8h">ListItem.h</innerfile>
+    <innerfile refid="ModuleXbmc_8cpp">ModuleXbmc.cpp</innerfile>
+    <innerfile refid="ModuleXbmc_8h">ModuleXbmc.h</innerfile>
+    <innerfile refid="ModuleXbmcgui_8cpp">ModuleXbmcgui.cpp</innerfile>
+    <innerfile refid="ModuleXbmcgui_8h">ModuleXbmcgui.h</innerfile>
+    <innerfile refid="ModuleXbmcplugin_8cpp">ModuleXbmcplugin.cpp</innerfile>
+    <innerfile refid="ModuleXbmcplugin_8h">ModuleXbmcplugin.h</innerfile>
+    <innerfile refid="ModuleXbmcvfs_8cpp">ModuleXbmcvfs.cpp</innerfile>
+    <innerfile refid="ModuleXbmcvfs_8h">ModuleXbmcvfs.h</innerfile>
+    <innerfile refid="Monitor_8cpp">Monitor.cpp</innerfile>
+    <innerfile refid="Monitor_8h">Monitor.h</innerfile>
+    <innerfile refid="Player_8cpp">Player.cpp</innerfile>
+    <innerfile refid="Player_8h">Player.h</innerfile>
+    <innerfile refid="PlayList_8cpp">PlayList.cpp</innerfile>
+    <innerfile refid="PlayList_8h">PlayList.h</innerfile>
+    <innerfile refid="RenderCapture_8h">RenderCapture.h</innerfile>
+    <innerfile refid="Stat_8h">Stat.h</innerfile>
+    <innerfile refid="String_8cpp">String.cpp</innerfile>
+    <innerfile refid="swighelper_8h">swighelper.h</innerfile>
+    <innerfile refid="Tuple_8h">Tuple.h</innerfile>
+    <innerfile refid="Window_8cpp">Window.cpp</innerfile>
+    <innerfile refid="Window_8h">Window.h</innerfile>
+    <innerfile refid="WindowDialog_8cpp">WindowDialog.cpp</innerfile>
+    <innerfile refid="WindowDialog_8h">WindowDialog.h</innerfile>
+    <innerfile refid="WindowDialogMixin_8cpp">WindowDialogMixin.cpp</innerfile>
+    <innerfile refid="WindowDialogMixin_8h">WindowDialogMixin.h</innerfile>
+    <innerfile refid="WindowException_8h">WindowException.h</innerfile>
+    <innerfile refid="WindowInterceptor_8h">WindowInterceptor.h</innerfile>
+    <innerfile refid="WindowXML_8cpp">WindowXML.cpp</innerfile>
+    <innerfile refid="WindowXML_8h">WindowXML.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/"/>
+  </compounddef>
+</doxygen>

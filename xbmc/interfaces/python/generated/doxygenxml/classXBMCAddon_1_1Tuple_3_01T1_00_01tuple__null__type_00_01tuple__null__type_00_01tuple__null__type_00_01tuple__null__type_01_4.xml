@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4" kind="class" prot="public">
+    <compoundname>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1TupleBase" prot="public" virt="non-virtual">XBMCAddon::TupleBase</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename T1</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a1b0e222a5069561e6732a72733e2651c" prot="private" static="no" mutable="no">
+        <type>T1</type>
+        <definition>T1 XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;::v1</definition>
+        <argsstring></argsstring>
+        <name>v1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" line="51" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1ab94017232af74815496ed490d34ec339" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;::Tuple</definition>
+        <argsstring>(T1 p1)</argsstring>
+        <name>Tuple</name>
+        <param>
+          <type>T1</type>
+          <declname>p1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" line="53" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1af411e149de8f881eff96764a74c1b587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;::Tuple</definition>
+        <argsstring>()</argsstring>
+        <name>Tuple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" line="54" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a3bca936d985b8fcced7bca0ef1cc4d40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;::Tuple</definition>
+        <argsstring>(const Tuple&lt; T1 &gt; &amp;o)</argsstring>
+        <name>Tuple</name>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1Tuple" kindref="compound">Tuple</ref>&lt; T1 &gt; &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" line="55" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a10cd77e7614b8fc17239d63dd00d4efb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T1 &amp;</type>
+        <definition>T1&amp; XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;::first</definition>
+        <argsstring>()</argsstring>
+        <name>first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" line="57" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a28ee4052f46643c9c0eba60859355f57" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T1 &amp;</type>
+        <definition>const T1&amp; XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;::first</definition>
+        <argsstring>() const </argsstring>
+        <name>first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" line="58" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="492">
+        <label>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</label>
+        <link refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4"/>
+        <childnode refid="493" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="493">
+        <label>XBMCAddon::TupleBase</label>
+        <link refid="classXBMCAddon_1_1TupleBase"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="494">
+        <label>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</label>
+        <link refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4"/>
+        <childnode refid="495" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="495">
+        <label>XBMCAddon::TupleBase</label>
+        <link refid="classXBMCAddon_1_1TupleBase"/>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" line="49" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Tuple.h" bodystart="48" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a10cd77e7614b8fc17239d63dd00d4efb" prot="public" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>first</name></member>
+      <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a28ee4052f46643c9c0eba60859355f57" prot="public" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>first</name></member>
+      <member refid="classXBMCAddon_1_1TupleBase_1a18d9ed8ce54d0571369c4a96706b5097" prot="public" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>GetNumValuesSet</name></member>
+      <member refid="classXBMCAddon_1_1TupleBase_1a7d69f8356bc93fc261c955792f7bf84b" prot="protected" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>numValuesSet</name></member>
+      <member refid="classXBMCAddon_1_1TupleBase_1a5b4bf002c3fb2f38c856c7b4ed10b2c7" prot="protected" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>nvs</name></member>
+      <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1ab94017232af74815496ed490d34ec339" prot="public" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>Tuple</name></member>
+      <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1af411e149de8f881eff96764a74c1b587" prot="public" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>Tuple</name></member>
+      <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a3bca936d985b8fcced7bca0ef1cc4d40" prot="public" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>Tuple</name></member>
+      <member refid="classXBMCAddon_1_1TupleBase_1af45454b95fd0918d86d1e7e3d324872a" prot="protected" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>TupleBase</name></member>
+      <member refid="classXBMCAddon_1_1TupleBase_1a5cfe9ed1e34359189f19c42695063908" prot="protected" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>TupleBase</name></member>
+      <member refid="classXBMCAddon_1_1Tuple_3_01T1_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_00_01tuple__null__type_01_4_1a1b0e222a5069561e6732a72733e2651c" prot="private" virt="non-virtual"><scope>XBMCAddon::Tuple&lt; T1, tuple_null_type, tuple_null_type, tuple_null_type, tuple_null_type &gt;</scope><name>v1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

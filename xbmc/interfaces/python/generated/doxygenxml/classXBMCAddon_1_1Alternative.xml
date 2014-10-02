@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1Alternative" kind="class" prot="public">
+    <compoundname>XBMCAddon::Alternative</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>T1</declname>
+        <defname>T1</defname>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>T2</declname>
+        <defname>T2</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1Alternative_1a1121c0bab5112abac970a3566cd64a6c" prot="private" static="no" mutable="no">
+        <type>WhichAlternative</type>
+        <definition>WhichAlternative XBMCAddon::Alternative&lt; T1, T2 &gt;::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="33" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1Alternative_1ac8a78b878f2cc9c8a99f7ee9027c2534" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char XBMCAddon::Alternative&lt; T1, T2 &gt;::m_data[sizeof(T1) &gt; sizeof(T2)?sizeof(T1):sizeof(T2)]</definition>
+        <argsstring>[sizeof(T1) &gt; sizeof(T2)?sizeof(T1):sizeof(T2)]</argsstring>
+        <name>m_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="34" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1ae18cf9fd4580f7bd968b665acdc9fc10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Alternative&lt; T1, T2 &gt;::Alternative</definition>
+        <argsstring>()</argsstring>
+        <name>Alternative</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="37" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1af4bdecaad3d495b10fa75d412210c1fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Alternative&lt; T1, T2 &gt;::Alternative</definition>
+        <argsstring>(const Alternative &amp;o)</argsstring>
+        <name>Alternative</name>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1Alternative" kindref="compound">Alternative</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="38" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="38" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1afa35d37586923b3048231ca611b58a1c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>WhichAlternative</type>
+        <definition>WhichAlternative XBMCAddon::Alternative&lt; T1, T2 &gt;::which</definition>
+        <argsstring>() const </argsstring>
+        <name>which</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="48" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1aa89b25a38e87687c3dec77d2f71e0338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T1 &amp;</type>
+        <definition>T1&amp; XBMCAddon::Alternative&lt; T1, T2 &gt;::former</definition>
+        <argsstring>()</argsstring>
+        <name>former</name>
+        <exceptions> throw (WrongTypeException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="50" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1a1f2b44eae7e3328a0ad25449b414049b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T1 &amp;</type>
+        <definition>const T1&amp; XBMCAddon::Alternative&lt; T1, T2 &gt;::former</definition>
+        <argsstring>() const </argsstring>
+        <name>former</name>
+        <exceptions> throw (WrongTypeException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="61" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1a4b09082e2d9e25ebd884a0743ba6cecb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T2 &amp;</type>
+        <definition>T2&amp; XBMCAddon::Alternative&lt; T1, T2 &gt;::later</definition>
+        <argsstring>()</argsstring>
+        <name>later</name>
+        <exceptions> throw (WrongTypeException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="69" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="69" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1a1c03c070d7c1f056f817fce7c3f274dc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T2 &amp;</type>
+        <definition>const T2&amp; XBMCAddon::Alternative&lt; T1, T2 &gt;::later</definition>
+        <argsstring>() const </argsstring>
+        <name>later</name>
+        <exceptions> throw (WrongTypeException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="80" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1a593c2b9737a659c0687455445a6a42f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Alternative&lt; T1, T2 &gt;::operator T1 &amp;</definition>
+        <argsstring>()</argsstring>
+        <name>operator T1 &amp;</name>
+        <exceptions> throw (WrongTypeException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="88" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1a0af04fd470d3f000e4497878ff03e461" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Alternative&lt; T1, T2 &gt;::operator const T1 &amp;</definition>
+        <argsstring>() const </argsstring>
+        <name>operator const T1 &amp;</name>
+        <exceptions> throw (WrongTypeException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="89" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1a75a93bdb344b21ffaddc74a7a23e2200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Alternative&lt; T1, T2 &gt;::operator T2 &amp;</definition>
+        <argsstring>()</argsstring>
+        <name>operator T2 &amp;</name>
+        <exceptions> throw (WrongTypeException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="90" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1Alternative_1ac2aff89914811c170ed7b61b18cbef08" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::Alternative&lt; T1, T2 &gt;::operator const T2 &amp;</definition>
+        <argsstring>() const </argsstring>
+        <name>operator const T2 &amp;</name>
+        <exceptions> throw (WrongTypeException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="91" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" line="30" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Alternative.h" bodystart="29" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1Alternative_1ae18cf9fd4580f7bd968b665acdc9fc10" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>Alternative</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1af4bdecaad3d495b10fa75d412210c1fe" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>Alternative</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1aa89b25a38e87687c3dec77d2f71e0338" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>former</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1a1f2b44eae7e3328a0ad25449b414049b" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>former</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1a4b09082e2d9e25ebd884a0743ba6cecb" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>later</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1a1c03c070d7c1f056f817fce7c3f274dc" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>later</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1ac8a78b878f2cc9c8a99f7ee9027c2534" prot="private" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>m_data</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1a0af04fd470d3f000e4497878ff03e461" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>operator const T1 &amp;</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1ac2aff89914811c170ed7b61b18cbef08" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>operator const T2 &amp;</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1a593c2b9737a659c0687455445a6a42f3" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>operator T1 &amp;</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1a75a93bdb344b21ffaddc74a7a23e2200" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>operator T2 &amp;</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1a1121c0bab5112abac970a3566cd64a6c" prot="private" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>pos</name></member>
+      <member refid="classXBMCAddon_1_1Alternative_1afa35d37586923b3048231ca611b58a1c" prot="public" virt="non-virtual"><scope>XBMCAddon::Alternative</scope><name>which</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

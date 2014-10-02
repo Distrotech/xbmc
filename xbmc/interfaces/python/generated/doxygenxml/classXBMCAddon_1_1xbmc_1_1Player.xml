@@ -1,0 +1,958 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmc_1_1Player" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmc::Player</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonCallback" prot="public" virt="non-virtual">XBMCAddon::AddonCallback</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IPlayerCallback</basecompoundref>
+    <includes refid="Player_8h" local="no">Player.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1Player_1a907757f2c5e08fd47c8c30bbcc1bffbe" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::Player::iPlayList</definition>
+        <argsstring></argsstring>
+        <name>iPlayList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="58" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1Player_1ab4681aa4e0e783555b44fe0b1e8f85a6" prot="private" static="no" mutable="no">
+        <type>EPLAYERCORES</type>
+        <definition>EPLAYERCORES XBMCAddon::xbmc::Player::playerCore</definition>
+        <argsstring></argsstring>
+        <name>playerCore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="59" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1Player_1ade01cc9d40787f8447c657da90690ec9" prot="public" static="yes" mutable="no">
+        <type><ref refid="classXBMCAddon_1_1Alternative" kindref="compound">PlayParameter</ref></type>
+        <definition>PlayParameter XBMCAddon::xbmc::Player::defaultPlayParameter</definition>
+        <argsstring></argsstring>
+        <name>defaultPlayParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="68" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a598fe54a30dfd8a122053c06d243b1bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::playStream</definition>
+        <argsstring>(const String &amp;item=emptyString, const XBMCAddon::xbmcgui::ListItem *listitem=NULL, bool windowed=false)</argsstring>
+        <name>playStream</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>item</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *</type>
+          <declname>listitem</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>windowed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="61" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="84" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a75156267bd18f5650dab2e11bda55421" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::playPlaylist</definition>
+        <argsstring>(const PlayList *playlist=NULL, bool windowed=false, int startpos=-1)</argsstring>
+        <name>playPlaylist</name>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1xbmc_1_1PlayList" kindref="compound">PlayList</ref> *</type>
+          <declname>playlist</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>windowed</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startpos</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="62" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="130" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ab524923ef0738de1e77bc9c343143c0e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::playCurrent</definition>
+        <argsstring>(bool windowed=false)</argsstring>
+        <name>playCurrent</name>
+        <param>
+          <type>bool</type>
+          <declname>windowed</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="64" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="114" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a5d59b017dc5a0e12933bab1a04ce4619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::Player::Player</definition>
+        <argsstring>(int playerCore=EPC_NONE)</argsstring>
+        <name>Player</name>
+        <param>
+          <type>int</type>
+          <declname>playerCore</declname>
+          <defval>EPC_NONE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="74" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="40" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a23a5fa2f929537c588e1473104a9dc56" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::Player::~Player</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Player</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="75" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="59" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a178d4318eb1e7e41c7f79fd0f1ac7dd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::play</definition>
+        <argsstring>(const PlayParameter &amp;item=Player::defaultPlayParameter, const XBMCAddon::xbmcgui::ListItem *listitem=NULL, bool windowed=false, int startpos=-1)</argsstring>
+        <name>play</name>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1Alternative" kindref="compound">PlayParameter</ref> &amp;</type>
+          <declname>item</declname>
+          <defval>Player::defaultPlayParameter</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">XBMCAddon::xbmcgui::ListItem</ref> *</type>
+          <declname>listitem</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>windowed</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startpos</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>play([item, listitem, windowed, startpos]) <ndash/> Play this item.<linebreak/>
+<linebreak/>
+item : [opt] string - filename, url or playlist.<linebreak/>
+listitem : [opt] listitem - used with setInfo() to set different infolabels.<linebreak/>
+windowed : [opt] bool - true=play video windowed, false=play users preference.(default)<linebreak/>
+startpos : [opt] int - starting position when playing a playlist. Default = -1<linebreak/>
+<linebreak/>
+*Note, If item is not given then the <ref refid="classXBMCAddon_1_1xbmc_1_1Player" kindref="compound">Player</ref> will try to play the current item<linebreak/>
+ in the current playlist.<linebreak/>
+<linebreak/>
+ You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.<linebreak/>
+<linebreak/>
+example:<linebreak/>
+<itemizedlist>
+<listitem><para>listitem = <ref refid="classXBMCAddon_1_1xbmcgui_1_1ListItem" kindref="compound">xbmcgui.ListItem</ref>(&apos;Ironman&apos;)<linebreak/>
+</para></listitem><listitem><para>listitem.setInfo(&apos;video&apos;, {&apos;Title&apos;: &apos;Ironman&apos;, &apos;Genre&apos;: &apos;Science Fiction&apos;})<linebreak/>
+</para></listitem><listitem><para>xbmc.Player().play(url, listitem, windowed)<linebreak/>
+</para></listitem><listitem><para>xbmc.Player().play(playlist, listitem, windowed, startpos)<linebreak/>
+</para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="97" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="71" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a38fd67b138549f331adbc8460054445f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::stop</definition>
+        <argsstring>()</argsstring>
+        <name>stop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a38fd67b138549f331adbc8460054445f" kindref="member">stop()</ref> <ndash/> Stop playing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="103" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="153" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1abb09ad22abb0e98eb334793c0013e39b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::pause</definition>
+        <argsstring>()</argsstring>
+        <name>pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1abb09ad22abb0e98eb334793c0013e39b" kindref="member">pause()</ref> <ndash/> Pause playing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="108" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="159" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a7c6e8d7ad526ca9732cca80fd03eceb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::playnext</definition>
+        <argsstring>()</argsstring>
+        <name>playnext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a7c6e8d7ad526ca9732cca80fd03eceb7" kindref="member">playnext()</ref> <ndash/> Play next item in playlist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="113" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="165" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ad260b0016ce5bc8c31243cb065dd6774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::playprevious</definition>
+        <argsstring>()</argsstring>
+        <name>playprevious</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ad260b0016ce5bc8c31243cb065dd6774" kindref="member">playprevious()</ref> <ndash/> Play previous item in playlist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="118" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="175" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a9e84214919b459053d009e9c520b0738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::playselected</definition>
+        <argsstring>(int selected)</argsstring>
+        <name>playselected</name>
+        <param>
+          <type>int</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a9e84214919b459053d009e9c520b0738" kindref="member">playselected()</ref> <ndash/> Play a certain item from the current playlist. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="123" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="185" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a7e02a58e7121c0c4cf36935fa963b266" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::onPlayBackStarted</definition>
+        <argsstring>()</argsstring>
+        <name>onPlayBackStarted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a7e02a58e7121c0c4cf36935fa963b266" kindref="member">onPlayBackStarted()</ref> <ndash/> onPlayBackStarted method.</para><para>Will be called when xbmc starts playing a file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="131" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="257" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ad6ea73a615e765f22ef984725698fcdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::onPlayBackEnded</definition>
+        <argsstring>()</argsstring>
+        <name>onPlayBackEnded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ad6ea73a615e765f22ef984725698fcdb" kindref="member">onPlayBackEnded()</ref> <ndash/> onPlayBackEnded method.</para><para>Will be called when xbmc stops playing a file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="140" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="262" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ad377d165fe0bbb8186a478f4ddbccdc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::onPlayBackStopped</definition>
+        <argsstring>()</argsstring>
+        <name>onPlayBackStopped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ad377d165fe0bbb8186a478f4ddbccdc3" kindref="member">onPlayBackStopped()</ref> <ndash/> onPlayBackStopped method.</para><para>Will be called when user stops xbmc playing a file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="148" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1af584e2a791441d507680a4c4e1f5326c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::onPlayBackPaused</definition>
+        <argsstring>()</argsstring>
+        <name>onPlayBackPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1af584e2a791441d507680a4c4e1f5326c" kindref="member">onPlayBackPaused()</ref> <ndash/> onPlayBackPaused method.</para><para>Will be called when user pauses a playing file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="156" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="272" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a4ee6689735727bb8fb654f877e084233" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::onPlayBackResumed</definition>
+        <argsstring>()</argsstring>
+        <name>onPlayBackResumed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a4ee6689735727bb8fb654f877e084233" kindref="member">onPlayBackResumed()</ref> <ndash/> onPlayBackResumed method.</para><para>Will be called when user resumes a paused file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="164" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1aa24c24f76002dce160a7be2c6765d26a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::onQueueNextItem</definition>
+        <argsstring>()</argsstring>
+        <name>onQueueNextItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1aa24c24f76002dce160a7be2c6765d26a" kindref="member">onQueueNextItem()</ref> <ndash/> onQueueNextItem method.</para><para>Will be called when user queues the next item </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="171" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="282" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a05845b1a8a4a195656311ea6a4b4e38c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::onPlayBackSpeedChanged</definition>
+        <argsstring>(int speed)</argsstring>
+        <name>onPlayBackSpeedChanged</name>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onPlayBackSpeedChanged(speed) <ndash/> onPlayBackSpeedChanged method.</para><para>speed : integer - current speed of player.</para><para>*Note, negative speed means player is rewinding, 1 is normal playback speed.</para><para>Will be called when players speed changes. (eg. user FF/RW) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="182" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="287" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a9e3e67565072c0826971002e60903fe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::onPlayBackSeek</definition>
+        <argsstring>(int time, int seekOffset)</argsstring>
+        <name>onPlayBackSeek</name>
+        <param>
+          <type>int</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seekOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onPlayBackSeek(time, seekOffset) <ndash/> onPlayBackSeek method.</para><para>time : integer - time to seek to.<linebreak/>
+seekOffset : integer - ?.</para><para>Will be called when user seeks to a time </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="192" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="292" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a9c03c8bd24195f284322de340cb9c029" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::onPlayBackSeekChapter</definition>
+        <argsstring>(int chapter)</argsstring>
+        <name>onPlayBackSeekChapter</name>
+        <param>
+          <type>int</type>
+          <declname>chapter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onPlayBackSeekChapter(chapter) <ndash/> onPlayBackSeekChapter method.</para><para>chapter : integer - chapter to seek to.</para><para>Will be called when user performs a chapter seek </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="201" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="297" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ab91e4694ba0dfe3487850741ef7b2239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::Player::isPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>isPlaying</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ab91e4694ba0dfe3487850741ef7b2239" kindref="member">isPlaying()</ref> <ndash/> returns True is xbmc is playing a file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="207" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="302" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a11fa246b6eec213c97fa6ec16f4fd189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::Player::isPlayingAudio</definition>
+        <argsstring>()</argsstring>
+        <name>isPlayingAudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a11fa246b6eec213c97fa6ec16f4fd189" kindref="member">isPlayingAudio()</ref> <ndash/> returns True is xbmc is playing an audio file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="213" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="308" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a00f58bc7e17813954c35e9ea480ed28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmc::Player::isPlayingVideo</definition>
+        <argsstring>()</argsstring>
+        <name>isPlayingVideo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a00f58bc7e17813954c35e9ea480ed28b" kindref="member">isPlayingVideo()</ref> <ndash/> returns True if xbmc is playing a video. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="219" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="314" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a90a093c13cf8a18f65fbf284381d7414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::Player::getPlayingFile</definition>
+        <argsstring>()</argsstring>
+        <name>getPlayingFile</name>
+        <exceptions> throw (PlayerException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a90a093c13cf8a18f65fbf284381d7414" kindref="member">getPlayingFile()</ref> <ndash/> returns the current playing file as a string.</para><para>Throws: Exception, if player is not playing a file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="227" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="320" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a487f3e98ff5530d8292f70067fac91fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double XBMCAddon::xbmc::Player::getTime</definition>
+        <argsstring>()</argsstring>
+        <name>getTime</name>
+        <exceptions> throw (PlayerException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a487f3e98ff5530d8292f70067fac91fe" kindref="member">getTime()</ref> <ndash/> Returns the current time of the current playing media as fractional seconds.</para><para>Throws: Exception, if player is not playing a file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="235" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="364" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a6f60b33fa67e22dcf5795156d99313b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::seekTime</definition>
+        <argsstring>(double seekTime)</argsstring>
+        <name>seekTime</name>
+        <param>
+          <type>double</type>
+          <declname>seekTime</declname>
+        </param>
+        <exceptions> throw (PlayerException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a6f60b33fa67e22dcf5795156d99313b0" kindref="member">seekTime()</ref> <ndash/> Seeks the specified amount of time as fractional seconds. The time specified is relative to the beginning of the currently playing media file.</para><para>Throws: Exception, if player is not playing a file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="245" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="373" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a952d4555c064aa37f1ea111f44e081d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::setSubtitles</definition>
+        <argsstring>(const char *subtitleFile)</argsstring>
+        <name>setSubtitles</name>
+        <param>
+          <type>const char *</type>
+          <declname>subtitleFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a952d4555c064aa37f1ea111f44e081d0" kindref="member">setSubtitles()</ref> <ndash/> set subtitle file and enable subtitlesn </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="251" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="382" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a85434e8738909497c85ff0957ca57935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::showSubtitles</definition>
+        <argsstring>(bool bVisible)</argsstring>
+        <name>showSubtitles</name>
+        <param>
+          <type>bool</type>
+          <declname>bVisible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>showSubtitles(visible) <ndash/> enable/disable subtitles</para><para>visible : boolean - True for visible subtitles.</para><para>example:<itemizedlist>
+<listitem><para>xbmc.Player().showSubtitles(True) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="262" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="398" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ab2b9d2081c8d8f1e5b5dc2eabb241497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::Player::getSubtitles</definition>
+        <argsstring>()</argsstring>
+        <name>getSubtitles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ab2b9d2081c8d8f1e5b5dc2eabb241497" kindref="member">getSubtitles()</ref> <ndash/> get subtitle stream name </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="268" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="408" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a7fe9e40dd20b4d513b4630ed8bf57a4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::disableSubtitles</definition>
+        <argsstring>()</argsstring>
+        <name>disableSubtitles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DisableSubtitles() <ndash/> disable subtitles </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="274" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="425" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a27735faa05279e41b1869a7773da9463" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; String &gt; *</type>
+        <definition>std::vector&lt; String &gt; * XBMCAddon::xbmc::Player::getAvailableSubtitleStreams</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailableSubtitleStreams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a27735faa05279e41b1869a7773da9463" kindref="member">getAvailableSubtitleStreams()</ref> <ndash/> get Subtitle stream names </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="280" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="436" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1aad0ad9dba3ea09bc201f39026f5a4e29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::setSubtitleStream</definition>
+        <argsstring>(int iStream)</argsstring>
+        <name>setSubtitleStream</name>
+        <param>
+          <type>int</type>
+          <declname>iStream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setSubtitleStream(stream) <ndash/> set Subtitle Stream</para><para>stream : int</para><para>example:<itemizedlist>
+<listitem><para>setSubtitleStream(1) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="291" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="458" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a7d7284635371ad79b153f9ea0ef3beb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagVideo" kindref="compound">InfoTagVideo</ref> *</type>
+        <definition>InfoTagVideo * XBMCAddon::xbmc::Player::getVideoInfoTag</definition>
+        <argsstring>()</argsstring>
+        <name>getVideoInfoTag</name>
+        <exceptions> throw (PlayerException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a7d7284635371ad79b153f9ea0ef3beb0" kindref="member">getVideoInfoTag()</ref> <ndash/> returns the VideoInfoTag of the current playing Movie.</para><para>Throws: Exception, if player is not playing a file or current file is not a movie file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="298" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="329" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a5c4411d7d6a666c2af50bb8e44b213a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic" kindref="compound">InfoTagMusic</ref> *</type>
+        <definition>InfoTagMusic * XBMCAddon::xbmc::Player::getMusicInfoTag</definition>
+        <argsstring>()</argsstring>
+        <name>getMusicInfoTag</name>
+        <exceptions> throw (PlayerException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a5c4411d7d6a666c2af50bb8e44b213a8" kindref="member">getMusicInfoTag()</ref> <ndash/> returns the MusicInfoTag of the current playing &apos;Song&apos;.</para><para>Throws: Exception, if player is not playing a file or current file is not a music file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="306" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="342" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a1770985204bb62d2dadb9d44e7cc44be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double XBMCAddon::xbmc::Player::getTotalTime</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalTime</name>
+        <exceptions> throw (PlayerException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1a1770985204bb62d2dadb9d44e7cc44be" kindref="member">getTotalTime()</ref> <ndash/> Returns the total time of the current playing media in seconds. This is only accurate to the full second.</para><para>Throws: Exception, if player is not playing a file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="314" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="355" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ae3671991ab82fda045f7091df48f3b68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; String &gt; *</type>
+        <definition>std::vector&lt; String &gt; * XBMCAddon::xbmc::Player::getAvailableAudioStreams</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailableAudioStreams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player_1ae3671991ab82fda045f7091df48f3b68" kindref="member">getAvailableAudioStreams()</ref> <ndash/> get Audio stream names </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="320" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="471" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a8af6b071cff08a644ab253c586918ad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Player::setAudioStream</definition>
+        <argsstring>(int iStream)</argsstring>
+        <name>setAudioStream</name>
+        <param>
+          <type>int</type>
+          <declname>iStream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setAudioStream(stream) <ndash/> set Audio Stream.</para><para>stream : int</para><para>example:</para><para><itemizedlist>
+<listitem><para>setAudioStream(1) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="331" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="493" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ac554bbe5d1d33cd28bb56d503559fa8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmc::Player::OnPlayBackStarted</definition>
+        <argsstring>()</argsstring>
+        <name>OnPlayBackStarted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="334" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="203" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ad86602b7033b33537b1476025d97ecb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmc::Player::OnPlayBackEnded</definition>
+        <argsstring>()</argsstring>
+        <name>OnPlayBackEnded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="335" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="209" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1aa161ebf4c831c1e8752f99df0fa2c4d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmc::Player::OnPlayBackStopped</definition>
+        <argsstring>()</argsstring>
+        <name>OnPlayBackStopped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="336" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="215" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a7a4c0cfac939ae65d759c3179ea49f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmc::Player::OnPlayBackPaused</definition>
+        <argsstring>()</argsstring>
+        <name>OnPlayBackPaused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="337" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="221" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a5456bb9b3e4c8b06f519d6a837536754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmc::Player::OnPlayBackResumed</definition>
+        <argsstring>()</argsstring>
+        <name>OnPlayBackResumed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="338" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="227" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1ab571e0e8ad23b51c75bb3361e2c95dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmc::Player::OnQueueNextItem</definition>
+        <argsstring>()</argsstring>
+        <name>OnQueueNextItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="339" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="233" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a40deda695b9b0ed72bc98545c3c37da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmc::Player::OnPlayBackSpeedChanged</definition>
+        <argsstring>(int iSpeed)</argsstring>
+        <name>OnPlayBackSpeedChanged</name>
+        <param>
+          <type>int</type>
+          <declname>iSpeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="340" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="239" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1add8d7c98b8f2cdde9a3d89309d6ef037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmc::Player::OnPlayBackSeek</definition>
+        <argsstring>(int iTime, int seekOffset)</argsstring>
+        <name>OnPlayBackSeek</name>
+        <param>
+          <type>int</type>
+          <declname>iTime</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seekOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="341" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="245" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Player_1a0661007923c0f0b86de342789cc83933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGHIDDENVIRTUAL void</type>
+        <definition>void XBMCAddon::xbmc::Player::OnPlayBackSeekChapter</definition>
+        <argsstring>(int iChapter)</argsstring>
+        <name>OnPlayBackSeekChapter</name>
+        <param>
+          <type>int</type>
+          <declname>iChapter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="342" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.cpp" bodystart="251" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Player" kindref="compound">Player</ref> class.</para><para>Player() <ndash/> Creates a new <ref refid="classXBMCAddon_1_1xbmc_1_1Player" kindref="compound">Player</ref> class. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="422">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>XBMCAddon::xbmc::Player</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1Player"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+        <childnode refid="424" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="424">
+        <label>IPlayerCallback</label>
+      </node>
+      <node id="423">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="421">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="422" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="427">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+        <childnode refid="429" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="425">
+        <label>XBMCAddon::xbmc::Player</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1Player"/>
+        <childnode refid="426" relation="public-inheritance">
+        </childnode>
+        <childnode refid="431" relation="public-inheritance">
+        </childnode>
+        <childnode refid="432" relation="usage">
+          <edgelabel>defaultPlayParameter</edgelabel>
+        </childnode>
+      </node>
+      <node id="430">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::CallbackHandler &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="431">
+        <label>IPlayerCallback</label>
+      </node>
+      <node id="428">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="432">
+        <label>XBMCAddon::Alternative&lt; T1, T2 &gt;</label>
+        <link refid="classXBMCAddon_1_1Alternative"/>
+      </node>
+      <node id="429">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="427" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="427" relation="public-inheritance">
+        </childnode>
+        <childnode refid="430" relation="usage">
+          <edgelabel>handler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Player.h" line="56" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Player.h" bodystart="55" bodyend="346"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1af8df138f0052acf6a7eaf5fd08db5e1c" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ade01cc9d40787f8447c657da90690ec9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>defaultPlayParameter</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7fe9e40dd20b4d513b4630ed8bf57a4a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>disableSubtitles</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ae3671991ab82fda045f7091df48f3b68" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getAvailableAudioStreams</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a27735faa05279e41b1869a7773da9463" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getAvailableSubtitleStreams</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a5c4411d7d6a666c2af50bb8e44b213a8" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getMusicInfoTag</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a90a093c13cf8a18f65fbf284381d7414" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getPlayingFile</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab2b9d2081c8d8f1e5b5dc2eabb241497" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getSubtitles</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a487f3e98ff5530d8292f70067fac91fe" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getTime</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a1770985204bb62d2dadb9d44e7cc44be" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getTotalTime</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7d7284635371ad79b153f9ea0ef3beb0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>getVideoInfoTag</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1ad4fc1fc86c9c648108acccfd6ad15f94" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>handler</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a8edad836d7559ad1536469c68be57254" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>hasHandler</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a6891140d172d754c95d2412cfbc7b211" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>invokeCallback</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a907757f2c5e08fd47c8c30bbcc1bffbe" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>iPlayList</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab91e4694ba0dfe3487850741ef7b2239" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>isPlaying</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a11fa246b6eec213c97fa6ec16f4fd189" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>isPlayingAudio</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a00f58bc7e17813954c35e9ea480ed28b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>isPlayingVideo</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ad6ea73a615e765f22ef984725698fcdb" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>onPlayBackEnded</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ad86602b7033b33537b1476025d97ecb0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>OnPlayBackEnded</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1af584e2a791441d507680a4c4e1f5326c" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>onPlayBackPaused</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7a4c0cfac939ae65d759c3179ea49f59" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>OnPlayBackPaused</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a4ee6689735727bb8fb654f877e084233" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>onPlayBackResumed</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a5456bb9b3e4c8b06f519d6a837536754" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>OnPlayBackResumed</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a9e3e67565072c0826971002e60903fe1" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>onPlayBackSeek</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1add8d7c98b8f2cdde9a3d89309d6ef037" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>OnPlayBackSeek</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a9c03c8bd24195f284322de340cb9c029" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>onPlayBackSeekChapter</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a0661007923c0f0b86de342789cc83933" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>OnPlayBackSeekChapter</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a05845b1a8a4a195656311ea6a4b4e38c" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>onPlayBackSpeedChanged</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a40deda695b9b0ed72bc98545c3c37da5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>OnPlayBackSpeedChanged</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ac554bbe5d1d33cd28bb56d503559fa8f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>OnPlayBackStarted</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7e02a58e7121c0c4cf36935fa963b266" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>onPlayBackStarted</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ad377d165fe0bbb8186a478f4ddbccdc3" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>onPlayBackStopped</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1aa161ebf4c831c1e8752f99df0fa2c4d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>OnPlayBackStopped</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1aa24c24f76002dce160a7be2c6765d26a" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>onQueueNextItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab571e0e8ad23b51c75bb3361e2c95dc1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>OnQueueNextItem</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1abb09ad22abb0e98eb334793c0013e39b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>pause</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a178d4318eb1e7e41c7f79fd0f1ac7dd1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>play</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab524923ef0738de1e77bc9c343143c0e" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>playCurrent</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a5d59b017dc5a0e12933bab1a04ce4619" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>Player</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ab4681aa4e0e783555b44fe0b1e8f85a6" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>playerCore</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a7c6e8d7ad526ca9732cca80fd03eceb7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>playnext</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a75156267bd18f5650dab2e11bda55421" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>playPlaylist</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1ad260b0016ce5bc8c31243cb065dd6774" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>playprevious</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a9e84214919b459053d009e9c520b0738" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>playselected</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a598fe54a30dfd8a122053c06d243b1bd" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>playStream</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a6f60b33fa67e22dcf5795156d99313b0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>seekTime</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a8af6b071cff08a644ab253c586918ad4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>setAudioStream</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a863529cf2b2849d2ce2f86737cd2826d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>setHandler</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a952d4555c064aa37f1ea111f44e081d0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>setSubtitles</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1aad0ad9dba3ea09bc201f39026f5a4e29" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>setSubtitleStream</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a85434e8738909497c85ff0957ca57935" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>showSubtitles</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a38fd67b138549f331adbc8460054445f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Player</scope><name>stop</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a5f55e978e7785c907d7f30ec08f37324" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>~AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Player_1a23a5fa2f929537c588e1473104a9dc56" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Player</scope><name>~Player</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

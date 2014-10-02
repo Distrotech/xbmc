@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmc::InfoTagMusic</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <includes refid="InfoTagMusic_8h" local="no">InfoTagMusic.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a88ab733cf33857393f71bbc6c1201981" prot="private" static="no" mutable="no">
+        <type>MUSIC_INFO::CMusicInfoTag *</type>
+        <definition>MUSIC_INFO::CMusicInfoTag* XBMCAddon::xbmc::InfoTagMusic::infoTag</definition>
+        <argsstring></argsstring>
+        <name>infoTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="36" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a627900dc3cfb4218f47b57174d2f8cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::InfoTagMusic::InfoTagMusic</definition>
+        <argsstring>(const MUSIC_INFO::CMusicInfoTag &amp;tag)</argsstring>
+        <name>InfoTagMusic</name>
+        <param>
+          <type>const MUSIC_INFO::CMusicInfoTag &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="40" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1aaf11481508dae9b6e1f0db5b9fa0f9dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::InfoTagMusic::InfoTagMusic</definition>
+        <argsstring>()</argsstring>
+        <name>InfoTagMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="42" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a25f621df913f365ab1ecc01d7db13ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::InfoTagMusic::~InfoTagMusic</definition>
+        <argsstring>()</argsstring>
+        <name>~InfoTagMusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="43" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a1e9304322bf006864bf1041756e9a655" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getURL</definition>
+        <argsstring>()</argsstring>
+        <name>getURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a1e9304322bf006864bf1041756e9a655" kindref="member">getURL()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="48" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1aa489d1eae006db4773ca7b284f0e670e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1aa489d1eae006db4773ca7b284f0e670e" kindref="member">getTitle()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="52" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a966d21b8414ac69774cd13b1066796b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getArtist</definition>
+        <argsstring>()</argsstring>
+        <name>getArtist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a966d21b8414ac69774cd13b1066796b4" kindref="member">getArtist()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="56" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1ae158009fa0f9b7e908d2a0dd5132ddd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getAlbum</definition>
+        <argsstring>()</argsstring>
+        <name>getAlbum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1ae158009fa0f9b7e908d2a0dd5132ddd7" kindref="member">getAlbum()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="60" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a13c4a40ed8b84da9796cddf3aa6da495" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getAlbumArtist</definition>
+        <argsstring>()</argsstring>
+        <name>getAlbumArtist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a13c4a40ed8b84da9796cddf3aa6da495" kindref="member">getAlbumArtist()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="64" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a90c7c8357176aead68e3ccf972a4e252" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getGenre</definition>
+        <argsstring>()</argsstring>
+        <name>getGenre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a90c7c8357176aead68e3ccf972a4e252" kindref="member">getGenre()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="68" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a0e4fe09390215c26267696f093c48e70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::InfoTagMusic::getDuration</definition>
+        <argsstring>()</argsstring>
+        <name>getDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a0e4fe09390215c26267696f093c48e70" kindref="member">getDuration()</ref> <ndash/> returns an integer.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="72" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1af67917954114bc1f5c3c6958b9c5904d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::InfoTagMusic::getTrack</definition>
+        <argsstring>()</argsstring>
+        <name>getTrack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1af67917954114bc1f5c3c6958b9c5904d" kindref="member">getTrack()</ref> <ndash/> returns an integer.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="76" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a9a5d57677f5cdad30f6b2b07b4c9abbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::InfoTagMusic::getDisc</definition>
+        <argsstring>()</argsstring>
+        <name>getDisc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a9a5d57677f5cdad30f6b2b07b4c9abbc" kindref="member">getDisc()</ref> <ndash/> returns an integer.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="80" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a13f9b6ac310c7d4031179c1164b437b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getReleaseDate</definition>
+        <argsstring>()</argsstring>
+        <name>getReleaseDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a13f9b6ac310c7d4031179c1164b437b7" kindref="member">getReleaseDate()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="84" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a7f7f6e7f52851b043572988349de06ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::InfoTagMusic::getListeners</definition>
+        <argsstring>()</argsstring>
+        <name>getListeners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a7f7f6e7f52851b043572988349de06ae" kindref="member">getListeners()</ref> <ndash/> returns an integer.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="88" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1acf95fc6a989b7ebf49ae7952fef78b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::InfoTagMusic::getPlayCount</definition>
+        <argsstring>()</argsstring>
+        <name>getPlayCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1acf95fc6a989b7ebf49ae7952fef78b2b" kindref="member">getPlayCount()</ref> <ndash/> returns an integer.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="92" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a17ec759df2a573113ad2a634c0575f7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getLastPlayed</definition>
+        <argsstring>()</argsstring>
+        <name>getLastPlayed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a17ec759df2a573113ad2a634c0575f7b" kindref="member">getLastPlayed()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="96" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a7ff6719e7892036879b58cc0fa384206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getComment</definition>
+        <argsstring>()</argsstring>
+        <name>getComment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a7ff6719e7892036879b58cc0fa384206" kindref="member">getComment()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="100" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a73340e49d7595d2c7ba7bf74d3c7031d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagMusic::getLyrics</definition>
+        <argsstring>()</argsstring>
+        <name>getLyrics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a73340e49d7595d2c7ba7bf74d3c7031d" kindref="member">getLyrics()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="104" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.cpp" bodystart="115" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic" kindref="compound">InfoTagMusic</ref> class.<linebreak/>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="343">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="344" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="344">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="342">
+        <label>XBMCAddon::xbmc::InfoTagMusic</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic"/>
+        <childnode refid="343" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="346">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="347" relation="public-inheritance">
+        </childnode>
+        <childnode refid="348" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="347">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="348">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="346" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="345">
+        <label>XBMCAddon::xbmc::InfoTagMusic</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic"/>
+        <childnode refid="346" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" line="34" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/InfoTagMusic.h" bodystart="33" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1ae158009fa0f9b7e908d2a0dd5132ddd7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getAlbum</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a13c4a40ed8b84da9796cddf3aa6da495" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getAlbumArtist</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a966d21b8414ac69774cd13b1066796b4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getArtist</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a7ff6719e7892036879b58cc0fa384206" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getComment</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a9a5d57677f5cdad30f6b2b07b4c9abbc" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getDisc</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a0e4fe09390215c26267696f093c48e70" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getDuration</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a90c7c8357176aead68e3ccf972a4e252" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getGenre</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a17ec759df2a573113ad2a634c0575f7b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getLastPlayed</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a7f7f6e7f52851b043572988349de06ae" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getListeners</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a73340e49d7595d2c7ba7bf74d3c7031d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getLyrics</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1acf95fc6a989b7ebf49ae7952fef78b2b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getPlayCount</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a13f9b6ac310c7d4031179c1164b437b7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getReleaseDate</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1aa489d1eae006db4773ca7b284f0e670e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getTitle</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1af67917954114bc1f5c3c6958b9c5904d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getTrack</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a1e9304322bf006864bf1041756e9a655" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>getURL</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a88ab733cf33857393f71bbc6c1201981" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>infoTag</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a627900dc3cfb4218f47b57174d2f8cab" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>InfoTagMusic</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1aaf11481508dae9b6e1f0db5b9fa0f9dd" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>InfoTagMusic</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagMusic_1a25f621df913f365ab1ecc01d7db13ef1" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagMusic</scope><name>~InfoTagMusic</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

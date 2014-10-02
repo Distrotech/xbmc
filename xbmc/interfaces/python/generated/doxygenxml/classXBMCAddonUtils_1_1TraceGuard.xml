@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddonUtils_1_1TraceGuard" kind="class" prot="public">
+    <compoundname>XBMCAddonUtils::TraceGuard</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddonUtils_1_1TraceGuard_1a3039f03b850523a59cd44eefaf0de877" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* XBMCAddonUtils::TraceGuard::function</definition>
+        <argsstring></argsstring>
+        <name>function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="78" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddonUtils_1_1TraceGuard_1ab099b5dc5c052bb0c8decb8cdc41379c" prot="public" static="no" mutable="no">
+        <type><ref refid="classXBMCAddonUtils_1_1TraceGuard" kindref="compound">TraceGuard</ref> *</type>
+        <definition>TraceGuard* XBMCAddonUtils::TraceGuard::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="80" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddonUtils_1_1TraceGuard_1a3042704ea038c9233bc820b38fdd41cb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddonUtils::TraceGuard::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="81" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddonUtils_1_1TraceGuard_1ae1cc895f294d88eadfd8e110afd46d65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * XBMCAddonUtils::TraceGuard::getSpaces</definition>
+        <argsstring>()</argsstring>
+        <name>getSpaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="83" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddonUtils_1_1TraceGuard_1a9cc97542a37230fdd9c5a4ce88c6e822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddonUtils::TraceGuard::TraceGuard</definition>
+        <argsstring>(const char *_function)</argsstring>
+        <name>TraceGuard</name>
+        <param>
+          <type>const char *</type>
+          <declname>_function</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="85" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="96" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddonUtils_1_1TraceGuard_1a6d7d1e7af168ba1dc3d175878da2130c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddonUtils::TraceGuard::TraceGuard</definition>
+        <argsstring>()</argsstring>
+        <name>TraceGuard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="86" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="106" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddonUtils_1_1TraceGuard_1a53100b5dd2b6afdef4ff0047bc8cab03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddonUtils::TraceGuard::~TraceGuard</definition>
+        <argsstring>()</argsstring>
+        <name>~TraceGuard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="87" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.cpp" bodystart="114" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="477">
+        <label>XBMCAddonUtils::TraceGuard</label>
+        <link refid="classXBMCAddonUtils_1_1TraceGuard"/>
+        <childnode refid="477" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="77" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" bodystart="76" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classXBMCAddonUtils_1_1TraceGuard_1a3042704ea038c9233bc820b38fdd41cb" prot="public" virt="non-virtual"><scope>XBMCAddonUtils::TraceGuard</scope><name>depth</name></member>
+      <member refid="classXBMCAddonUtils_1_1TraceGuard_1a3039f03b850523a59cd44eefaf0de877" prot="private" virt="non-virtual"><scope>XBMCAddonUtils::TraceGuard</scope><name>function</name></member>
+      <member refid="classXBMCAddonUtils_1_1TraceGuard_1ae1cc895f294d88eadfd8e110afd46d65" prot="public" virt="non-virtual"><scope>XBMCAddonUtils::TraceGuard</scope><name>getSpaces</name></member>
+      <member refid="classXBMCAddonUtils_1_1TraceGuard_1ab099b5dc5c052bb0c8decb8cdc41379c" prot="public" virt="non-virtual"><scope>XBMCAddonUtils::TraceGuard</scope><name>parent</name></member>
+      <member refid="classXBMCAddonUtils_1_1TraceGuard_1a9cc97542a37230fdd9c5a4ce88c6e822" prot="public" virt="non-virtual"><scope>XBMCAddonUtils::TraceGuard</scope><name>TraceGuard</name></member>
+      <member refid="classXBMCAddonUtils_1_1TraceGuard_1a6d7d1e7af168ba1dc3d175878da2130c" prot="public" virt="non-virtual"><scope>XBMCAddonUtils::TraceGuard</scope><name>TraceGuard</name></member>
+      <member refid="classXBMCAddonUtils_1_1TraceGuard_1a53100b5dd2b6afdef4ff0047bc8cab03" prot="public" virt="non-virtual"><scope>XBMCAddonUtils::TraceGuard</scope><name>~TraceGuard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmc_1_1Monitor" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmc::Monitor</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonCallback" prot="public" virt="non-virtual">XBMCAddon::AddonCallback</basecompoundref>
+    <includes refid="Monitor_8h" local="no">Monitor.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a20f69fee3a0f3cea33473aea5c1a2eaf" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::Monitor::Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="37" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a3c9a59e3131585e7b88c1a95c961320d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::Monitor::Monitor</definition>
+        <argsstring>()</argsstring>
+        <name>Monitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="39" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.cpp" bodystart="27" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1aabe15bb12a07d878a3f7e7aa687be154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Monitor::OnSettingsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnSettingsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="42" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a6410fc19a8b26c509b5d5b8d51066fc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Monitor::OnScreensaverActivated</definition>
+        <argsstring>()</argsstring>
+        <name>OnScreensaverActivated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="43" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1adab4061e457748d6d55bc02a9e47e106" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Monitor::OnScreensaverDeactivated</definition>
+        <argsstring>()</argsstring>
+        <name>OnScreensaverDeactivated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="44" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a4fac9c29f24a06fab1e7a08a8b71bd8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Monitor::OnDatabaseUpdated</definition>
+        <argsstring>(const String &amp;database)</argsstring>
+        <name>OnDatabaseUpdated</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>database</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="45" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a2cae608ecd954beab791bae7ee31bed5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Monitor::OnDatabaseScanStarted</definition>
+        <argsstring>(const String &amp;database)</argsstring>
+        <name>OnDatabaseScanStarted</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>database</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="46" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a2a6be8c9450242f587f6b544b35b5e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Monitor::OnAbortRequested</definition>
+        <argsstring>()</argsstring>
+        <name>OnAbortRequested</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="47" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1ae026787d0fce1b19519245cceb1d397a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::Monitor::OnNotification</definition>
+        <argsstring>(const String &amp;sender, const String &amp;method, const String &amp;data)</argsstring>
+        <name>OnNotification</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="48" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1ad47cd83215b30bd830aad64f6db6cb1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const String &amp;</type>
+        <definition>const String&amp; XBMCAddon::xbmc::Monitor::GetId</definition>
+        <argsstring>()</argsstring>
+        <name>GetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="50" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a4a1b533f5d4b6ce6ef114ebbb8882347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::xbmc::Monitor::onSettingsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>onSettingsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a4a1b533f5d4b6ce6ef114ebbb8882347" kindref="member">onSettingsChanged()</ref> <ndash/> onSettingsChanged method.<linebreak/>
+<linebreak/>
+Will be called when addon settings are changed<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="58" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a2ee80f0044e05f3e498d333454644de4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::xbmc::Monitor::onScreensaverActivated</definition>
+        <argsstring>()</argsstring>
+        <name>onScreensaverActivated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a2ee80f0044e05f3e498d333454644de4" kindref="member">onScreensaverActivated()</ref> <ndash/> onScreensaverActivated method.<linebreak/>
+<linebreak/>
+Will be called when screensaver kicks in<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="65" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a28518626e8dd4ac7e9137642efba4e12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::xbmc::Monitor::onScreensaverDeactivated</definition>
+        <argsstring>()</argsstring>
+        <name>onScreensaverDeactivated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a28518626e8dd4ac7e9137642efba4e12" kindref="member">onScreensaverDeactivated()</ref> <ndash/> onScreensaverDeactivated method.<linebreak/>
+<linebreak/>
+Will be called when screensaver goes off<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="72" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1aa63bd4cbcd475d268d6dcc3a9a45b208" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::xbmc::Monitor::onDatabaseUpdated</definition>
+        <argsstring>(const String database)</argsstring>
+        <name>onDatabaseUpdated</name>
+        <param>
+          <type>const String</type>
+          <declname>database</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onDatabaseUpdated(database) <ndash/> onDatabaseUpdated method.<linebreak/>
+<linebreak/>
+database : video/music as string<linebreak/>
+<linebreak/>
+Will be called when database gets updated and return video or music to indicate which DB has been changed<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="81" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a5e6d5a601271ef6e05e0489fe63d1522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::xbmc::Monitor::onDatabaseScanStarted</definition>
+        <argsstring>(const String database)</argsstring>
+        <name>onDatabaseScanStarted</name>
+        <param>
+          <type>const String</type>
+          <declname>database</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onDatabaseScanStarted(database) <ndash/> onDatabaseScanStarted method.<linebreak/>
+<linebreak/>
+ database : video/music as string<linebreak/>
+<linebreak/>
+ Will be called when database update starts and return video or music to indicate which DB is being updated<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="90" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a4337b3a6e652ee8bdc14266a4c0277e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::xbmc::Monitor::onAbortRequested</definition>
+        <argsstring>()</argsstring>
+        <name>onAbortRequested</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a4337b3a6e652ee8bdc14266a4c0277e8" kindref="member">onAbortRequested()</ref> <ndash/> onAbortRequested method.<linebreak/>
+<linebreak/>
+Will be called when XBMC requests Abort<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="97" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1a1062028b4b8529340f500e0f24e41802" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::xbmc::Monitor::onNotification</definition>
+        <argsstring>(const String sender, const String method, const String data)</argsstring>
+        <name>onNotification</name>
+        <param>
+          <type>const String</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>const String</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>const String</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>onNotification(sender, method, data) <ndash/> onNotification method.<linebreak/>
+<linebreak/>
+ sender : sender of the notification<linebreak/>
+ method : name of the notification<linebreak/>
+ data : JSON-encoded data of the notification<linebreak/>
+<linebreak/>
+ Will be called when XBMC receives or sends a notification<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="108" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1Monitor_1ad2b707bb99d0917d9c44696ab800f927" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::Monitor::~Monitor</definition>
+        <argsstring>()</argsstring>
+        <name>~Monitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="110" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.cpp" bodystart="36" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1Monitor" kindref="compound">Monitor</ref> class.</para><para>Monitor() <ndash/> Creates a new <ref refid="classXBMCAddon_1_1xbmc_1_1Monitor" kindref="compound">Monitor</ref> to notify addon about changes. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="412">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="413" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>XBMCAddon::xbmc::Monitor</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1Monitor"/>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="411">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="416">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="418" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="419">
+        <label>XBMCAddon::AddonClass::Ref&lt; XBMCAddon::CallbackHandler &gt;</label>
+        <link refid="classXBMCAddon_1_1AddonClass_1_1Ref"/>
+      </node>
+      <node id="414">
+        <label>XBMCAddon::xbmc::Monitor</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1Monitor"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="417">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="418">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>XBMCAddon::AddonCallback</label>
+        <link refid="classXBMCAddon_1_1AddonCallback"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+        <childnode refid="419" relation="usage">
+          <edgelabel>handler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" line="36" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Monitor.h" bodystart="35" bodyend="111"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1af8df138f0052acf6a7eaf5fd08db5e1c" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1ad47cd83215b30bd830aad64f6db6cb1b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>GetId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1ad4fc1fc86c9c648108acccfd6ad15f94" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>handler</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a8edad836d7559ad1536469c68be57254" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>hasHandler</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a20f69fee3a0f3cea33473aea5c1a2eaf" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>Id</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a6891140d172d754c95d2412cfbc7b211" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>invokeCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a3c9a59e3131585e7b88c1a95c961320d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>Monitor</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a4337b3a6e652ee8bdc14266a4c0277e8" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>onAbortRequested</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a2a6be8c9450242f587f6b544b35b5e5e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>OnAbortRequested</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a2cae608ecd954beab791bae7ee31bed5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>OnDatabaseScanStarted</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a5e6d5a601271ef6e05e0489fe63d1522" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>onDatabaseScanStarted</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1aa63bd4cbcd475d268d6dcc3a9a45b208" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>onDatabaseUpdated</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a4fac9c29f24a06fab1e7a08a8b71bd8f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>OnDatabaseUpdated</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a1062028b4b8529340f500e0f24e41802" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>onNotification</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1ae026787d0fce1b19519245cceb1d397a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>OnNotification</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a6410fc19a8b26c509b5d5b8d51066fc7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>OnScreensaverActivated</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a2ee80f0044e05f3e498d333454644de4" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>onScreensaverActivated</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a28518626e8dd4ac7e9137642efba4e12" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>onScreensaverDeactivated</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1adab4061e457748d6d55bc02a9e47e106" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>OnScreensaverDeactivated</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1a4a1b533f5d4b6ce6ef114ebbb8882347" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>onSettingsChanged</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1aabe15bb12a07d878a3f7e7aa687be154" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>OnSettingsChanged</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a863529cf2b2849d2ce2f86737cd2826d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>setHandler</name></member>
+      <member refid="classXBMCAddon_1_1AddonCallback_1a5f55e978e7785c907d7f30ec08f37324" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>~AddonCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1Monitor_1ad2b707bb99d0917d9c44696ab800f927" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::Monitor</scope><name>~Monitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

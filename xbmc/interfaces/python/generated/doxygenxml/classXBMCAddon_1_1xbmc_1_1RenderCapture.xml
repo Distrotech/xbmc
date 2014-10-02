@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmc_1_1RenderCapture" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmc::RenderCapture</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a8205a291ff07a980c0851c94871f8e7a" prot="private" static="no" mutable="no">
+        <type>CRenderCapture *</type>
+        <definition>CRenderCapture* XBMCAddon::xbmc::RenderCapture::m_capture</definition>
+        <argsstring></argsstring>
+        <name>m_capture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="38" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a5547912072aa37c666d6dee5b9710c33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::RenderCapture::RenderCapture</definition>
+        <argsstring>()</argsstring>
+        <name>RenderCapture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="40" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a3b24439e587078d086e503839bf86755" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual XBMCAddon::xbmc::RenderCapture::~RenderCapture</definition>
+        <argsstring>()</argsstring>
+        <name>~RenderCapture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="41" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a605c98c6c8022875aebc869d7cb802fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::RenderCapture::getWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a605c98c6c8022875aebc869d7cb802fa" kindref="member">getWidth()</ref> <ndash/> returns width of captured image. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="46" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1af70985a08c1871799c3b4c58c5d8fe8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::RenderCapture::getHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1af70985a08c1871799c3b4c58c5d8fe8f" kindref="member">getHeight()</ref> <ndash/> returns height of captured image. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="51" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a78b15e30520a5d6998f1c0a3296851c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::RenderCapture::getCaptureState</definition>
+        <argsstring>()</argsstring>
+        <name>getCaptureState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a78b15e30520a5d6998f1c0a3296851c1" kindref="member">getCaptureState()</ref> <ndash/> returns processing state of capture request.</para><para>The returned value could be compared against the following constants:<itemizedlist>
+<listitem><para>xbmc.CAPTURE_STATE_WORKING : Capture request in progress.</para></listitem><listitem><para>xbmc.CAPTURE_STATE_DONE : Capture request done. The image could be retrieved with <ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a9d979b4cb548eadbc52dda2c6bab0366" kindref="member">getImage()</ref></para></listitem><listitem><para>xbmc.CAPTURE_STATE_FAILED : Capture request failed. </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="61" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1ad409d64cb8fe86b2ab766a75caed5c02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float XBMCAddon::xbmc::RenderCapture::getAspectRatio</definition>
+        <argsstring>()</argsstring>
+        <name>getAspectRatio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1ad409d64cb8fe86b2ab766a75caed5c02" kindref="member">getAspectRatio()</ref> <ndash/> returns aspect ratio of currently displayed video. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="66" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a92e27e1fa6d3798036156189e04afb30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* XBMCAddon::xbmc::RenderCapture::getImageFormat</definition>
+        <argsstring>()</argsstring>
+        <name>getImageFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a92e27e1fa6d3798036156189e04afb30" kindref="member">getImageFormat()</ref> <ndash/> returns format of captured image: &apos;BGRA&apos; or &apos;RGBA&apos;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="71" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a9d979b4cb548eadbc52dda2c6bab0366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XbmcCommons::Buffer</type>
+        <definition>XbmcCommons::Buffer XBMCAddon::xbmc::RenderCapture::getImage</definition>
+        <argsstring>()</argsstring>
+        <name>getImage</name>
+        <exceptions> throw (RenderCaptureException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a9d979b4cb548eadbc52dda2c6bab0366" kindref="member">getImage()</ref> <ndash/> returns captured image as a bytearray.</para><para>The size of the image is <ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a605c98c6c8022875aebc869d7cb802fa" kindref="member">getWidth()</ref> * <ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1af70985a08c1871799c3b4c58c5d8fe8f" kindref="member">getHeight()</ref> * 4 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="83" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="83" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a858b16c43940b19695bf695f855e9667" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmc::RenderCapture::capture</definition>
+        <argsstring>(int width, int height, int flags=0)</argsstring>
+        <name>capture</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>capture(width, height [, flags]) <ndash/> issue capture request.</para><para>width : Width capture image should be rendered to<linebreak/>
+height : Height capture image should should be rendered to<linebreak/>
+flags : Optional. Flags that control the capture processing.</para><para>The value for &apos;flags&apos; could be or&apos;ed from the following constants:<itemizedlist>
+<listitem><para>xbmc.CAPTURE_FLAG_CONTINUOUS : after a capture is done, issue a new capture request immediately</para></listitem><listitem><para>xbmc.CAPTURE_FLAG_IMMEDIATELY : read out immediately when <ref refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a858b16c43940b19695bf695f855e9667" kindref="member">capture()</ref> is called, this can cause a busy wait </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="102" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a8ae3be71d467c86f3908ed58b79cc565" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::RenderCapture::waitForCaptureStateChangeEvent</definition>
+        <argsstring>(unsigned int msecs=0)</argsstring>
+        <name>waitForCaptureStateChangeEvent</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>msecs</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>waitForCaptureStateChangeEvent([msecs]) <ndash/> wait for capture state change event.</para><para>msecs : Milliseconds to wait. Waits forever if not specified.</para><para>The method will return 1 if the Event was triggered. Otherwise it will return 0. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="114" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="114" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1aaa81c514c6714aad3cf677bf4360db18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8_t *</type>
+        <definition>uint8_t* XBMCAddon::xbmc::RenderCapture::GetPixels</definition>
+        <argsstring>()</argsstring>
+        <name>GetPixels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="122" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a2fcebc3dc72218f12e04358c877bcc49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ECAPTURESTATE</type>
+        <definition>ECAPTURESTATE XBMCAddon::xbmc::RenderCapture::GetUserState</definition>
+        <argsstring>()</argsstring>
+        <name>GetUserState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="123" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="450">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="451" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="451">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="449">
+        <label>XBMCAddon::xbmc::RenderCapture</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1RenderCapture"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="453">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="454" relation="public-inheritance">
+        </childnode>
+        <childnode refid="455" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="454">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="452">
+        <label>XBMCAddon::xbmc::RenderCapture</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1RenderCapture"/>
+        <childnode refid="453" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="455">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="453" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" line="37" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/RenderCapture.h" bodystart="36" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a858b16c43940b19695bf695f855e9667" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>capture</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1ad409d64cb8fe86b2ab766a75caed5c02" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>getAspectRatio</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a78b15e30520a5d6998f1c0a3296851c1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>getCaptureState</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1af70985a08c1871799c3b4c58c5d8fe8f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>getHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a9d979b4cb548eadbc52dda2c6bab0366" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>getImage</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a92e27e1fa6d3798036156189e04afb30" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>getImageFormat</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1aaa81c514c6714aad3cf677bf4360db18" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>GetPixels</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a2fcebc3dc72218f12e04358c877bcc49" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>GetUserState</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a605c98c6c8022875aebc869d7cb802fa" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>getWidth</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a8205a291ff07a980c0851c94871f8e7a" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>m_capture</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a5547912072aa37c666d6dee5b9710c33" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>RenderCapture</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a8ae3be71d467c86f3908ed58b79cc565" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>waitForCaptureStateChangeEvent</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1RenderCapture_1a3b24439e587078d086e503839bf86755" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::RenderCapture</scope><name>~RenderCapture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

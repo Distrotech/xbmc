@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::DialogProgress</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <includes refid="Dialog_8h" local="no">Dialog.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1acab59d328374ecc76f03a459c5346e9b" prot="private" static="no" mutable="no">
+        <type>CGUIDialogProgress *</type>
+        <definition>CGUIDialogProgress* XBMCAddon::xbmcgui::DialogProgress::dlg</definition>
+        <argsstring></argsstring>
+        <name>dlg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="295" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a400c119456ea90fcb18140bd8b6d5eb3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::DialogProgress::open</definition>
+        <argsstring></argsstring>
+        <name>open</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="296" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ae1b1ad0bd313aa6cbade996aea9b824f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::DialogProgress::deallocating</definition>
+        <argsstring>()</argsstring>
+        <name>deallocating</name>
+        <reimplements refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0">deallocating</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is meant to be called from the destructor of the lowest level class.</para><para>It&apos;s virtual because it&apos;s a conveinent place to receive messages that we&apos;re about to go be deleted but prior to any real tear-down.</para><para>Any overloading classes need to remember to pass the call up the chain. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="299" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="359" bodyend="368"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1af9ddd777dfcbd6b7ff67581593f38646" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::DialogProgress::DialogProgress</definition>
+        <argsstring>()</argsstring>
+        <name>DialogProgress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="303" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" bodystart="303" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a03858a18ae2bd290d5b448f38258c1e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::DialogProgress::~DialogProgress</definition>
+        <argsstring>()</argsstring>
+        <name>~DialogProgress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="304" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="357" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ae5d256efc8377b1dd2f23a5331b879c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::DialogProgress::create</definition>
+        <argsstring>(const String &amp;heading, const String &amp;line1=emptyString, const String &amp;line2=emptyString, const String &amp;line3=emptyString)</argsstring>
+        <name>create</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>heading</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line1</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line2</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line3</declname>
+          <defval>emptyString</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create(heading[, line1, line2, line3]) <ndash/> Create and show a progress dialog.<linebreak/>
+<linebreak/>
+heading : string or unicode - dialog heading.<linebreak/>
+line1 : [opt] string or unicode - line #1 text.<linebreak/>
+line2 : [opt] string or unicode - line #2 text.<linebreak/>
+line3 : [opt] string or unicode - line #3 text.<linebreak/>
+<linebreak/>
+*Note, Optionally line1 can be sent as multi-line text. In this case line2 and line3 must be omitted.<linebreak/>
+*Note, Use <ref refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a8f9e46fa078ebff44a9747b0fedbb452" kindref="member">update()</ref> to update lines and progressbar.<linebreak/>
+<linebreak/>
+example:<itemizedlist>
+<listitem><para>pDialog = xbmcgui.DialogProgress()</para></listitem><listitem><para>pDialog.create(&apos;XBMC&apos;, &apos;Initializing script...&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="322" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="370" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a8f9e46fa078ebff44a9747b0fedbb452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::DialogProgress::update</definition>
+        <argsstring>(int percent, const String &amp;line1=emptyString, const String &amp;line2=emptyString, const String &amp;line3=emptyString)</argsstring>
+        <name>update</name>
+        <param>
+          <type>int</type>
+          <declname>percent</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line1</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line2</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>line3</declname>
+          <defval>emptyString</defval>
+        </param>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>update(percent[, line1, line2, line3]) <ndash/> Updates the progress dialog.<linebreak/>
+<linebreak/>
+percent : integer - percent complete. (0:100)<linebreak/>
+line1 : [opt] string or unicode - line #1 text.<linebreak/>
+line2 : [opt] string or unicode - line #2 text.<linebreak/>
+line3 : [opt] string or unicode - line #3 text.<linebreak/>
+<linebreak/>
+*Note, Optionally line1 can be sent as multi-line text. In this case line2 and line3 must be omitted.<linebreak/>
+*Note, If percent == 0, the progressbar will be hidden.<linebreak/>
+<linebreak/>
+example:<itemizedlist>
+<listitem><para>pDialog.update(25, &apos;Importing modules...&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="340" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="395" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a797d1e95c7c7c757878d9972d54eced7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::DialogProgress::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a797d1e95c7c7c757878d9972d54eced7" kindref="member">close()</ref> <ndash/> Close the progress dialog.<linebreak/>
+<linebreak/>
+example:<itemizedlist>
+<listitem><para>pDialog.close() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="350" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="423" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ac596fc83abd070fef512c9ecd2ffaaaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::DialogProgress::iscanceled</definition>
+        <argsstring>()</argsstring>
+        <name>iscanceled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ac596fc83abd070fef512c9ecd2ffaaaa" kindref="member">iscanceled()</ref> <ndash/> Returns True if the user pressed cancel.<linebreak/>
+<linebreak/>
+example:<itemizedlist>
+<listitem><para>if (pDialog.iscanceled()): return </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="358" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.cpp" bodystart="430" bodyend="433"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress" kindref="compound">DialogProgress</ref> class (Duh!) </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="316">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="315">
+        <label>XBMCAddon::xbmcgui::DialogProgress</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress"/>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="319">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+        <childnode refid="321" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="320">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="318">
+        <label>XBMCAddon::xbmcgui::DialogProgress</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" line="294" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Dialog.h" bodystart="293" bodyend="359"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a797d1e95c7c7c757878d9972d54eced7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>close</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ae5d256efc8377b1dd2f23a5331b879c9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>create</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ae1b1ad0bd313aa6cbade996aea9b824f" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1af9ddd777dfcbd6b7ff67581593f38646" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>DialogProgress</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1acab59d328374ecc76f03a459c5346e9b" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>dlg</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1ac596fc83abd070fef512c9ecd2ffaaaa" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>iscanceled</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a400c119456ea90fcb18140bd8b6d5eb3" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>open</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a8f9e46fa078ebff44a9747b0fedbb452" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>update</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1DialogProgress_1a03858a18ae2bd290d5b448f38258c1e4" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::DialogProgress</scope><name>~DialogProgress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

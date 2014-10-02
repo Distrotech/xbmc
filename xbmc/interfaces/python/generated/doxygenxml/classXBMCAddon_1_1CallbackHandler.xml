@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1CallbackHandler" kind="class" prot="public" abstract="yes">
+    <compoundname>XBMCAddon::CallbackHandler</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <derivedcompoundref refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler" prot="public" virt="non-virtual">XBMCAddon::RetardedAsynchCallbackHandler</derivedcompoundref>
+    <includes refid="CallbackHandler_8h" local="no">CallbackHandler.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1CallbackHandler_1abb6d9feeb024900932b7ae88b43bba36" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::CallbackHandler::CallbackHandler</definition>
+        <argsstring>()</argsstring>
+        <name>CallbackHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.h" line="36" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1CallbackHandler_1a39aa4770396b7e381bc2b0f4dd739d07" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void XBMCAddon::CallbackHandler::invokeCallback</definition>
+        <argsstring>(Callback *cb)=0</argsstring>
+        <name>invokeCallback</name>
+        <reimplementedby refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler_1a1bea166ac0550878289f28728e508bfa">invokeCallback</reimplementedby>
+        <param>
+          <type><ref refid="classXBMCAddon_1_1Callback" kindref="compound">Callback</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.h" line="39" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is the abstraction representing different ways to handle the execution of callbacks. Different language bindings may have different requirements. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="159">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>XBMCAddon::RetardedAsynchCallbackHandler</label>
+        <link refid="classXBMCAddon_1_1RetardedAsynchCallbackHandler"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="158">
+        <label>XBMCAddon::CallbackHandler</label>
+        <link refid="classXBMCAddon_1_1CallbackHandler"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="163">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+        <childnode refid="165" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="164">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="162">
+        <label>XBMCAddon::CallbackHandler</label>
+        <link refid="classXBMCAddon_1_1CallbackHandler"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="165">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.h" line="34" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/CallbackHandler.h" bodystart="33" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::CallbackHandler</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackHandler</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1CallbackHandler_1abb6d9feeb024900932b7ae88b43bba36" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackHandler</scope><name>CallbackHandler</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::CallbackHandler</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackHandler</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackHandler</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackHandler</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackHandler</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1CallbackHandler_1a39aa4770396b7e381bc2b0f4dd739d07" prot="public" virt="pure-virtual"><scope>XBMCAddon::CallbackHandler</scope><name>invokeCallback</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::CallbackHandler</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::CallbackHandler</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::CallbackHandler</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::CallbackHandler</scope><name>~AddonClass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddonUtils_1_1GuiLock" kind="class" prot="public">
+    <compoundname>XBMCAddonUtils::GuiLock</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddonUtils_1_1GuiLock_1a9b873efa8df4f3f30dd183db356d3e0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddonUtils::GuiLock::GuiLock</definition>
+        <argsstring>()</argsstring>
+        <name>GuiLock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="55" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddonUtils_1_1GuiLock_1ab723a5bf67d909942680953ac48f1dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddonUtils::GuiLock::~GuiLock</definition>
+        <argsstring>()</argsstring>
+        <name>~GuiLock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="56" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" line="53" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/AddonUtils.h" bodystart="52" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classXBMCAddonUtils_1_1GuiLock_1a9b873efa8df4f3f30dd183db356d3e0e" prot="public" virt="non-virtual"><scope>XBMCAddonUtils::GuiLock</scope><name>GuiLock</name></member>
+      <member refid="classXBMCAddonUtils_1_1GuiLock_1ab723a5bf67d909942680953ac48f1dfd" prot="public" virt="non-virtual"><scope>XBMCAddonUtils::GuiLock</scope><name>~GuiLock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,658 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcgui::ControlRadioButton</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcgui_1_1Control" prot="public" virt="non-virtual">XBMCAddon::xbmcgui::Control</basecompoundref>
+    <includes refid="Control_8h" local="no">Control.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1adbf0f1ab66c0303317d0b0c6c121adfc" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlRadioButton::strFont</definition>
+        <argsstring></argsstring>
+        <name>strFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1418" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1ae4303924e87d1b4512e329f955bc2bb0" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlRadioButton::strText</definition>
+        <argsstring></argsstring>
+        <name>strText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1419" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a1541bb8d84022868cf07826cbd464e2a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlRadioButton::strTextureFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1420" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1abf9d73c575e54f364a682f1072487248" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlRadioButton::strTextureNoFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureNoFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1421" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a32d8b7a9287c215453542df824976fda" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlRadioButton::strTextureRadioOnFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureRadioOnFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1422" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1aeb91741560df40d5ecf7b3967069a8ed" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlRadioButton::strTextureRadioOnNoFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureRadioOnNoFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1423" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1423" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a1b0b8474651f9212d89be21c350dd26c" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlRadioButton::strTextureRadioOffFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureRadioOffFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1424" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1ac8b107e0baa54bdf855a3c109640122a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string XBMCAddon::xbmcgui::ControlRadioButton::strTextureRadioOffNoFocus</definition>
+        <argsstring></argsstring>
+        <name>strTextureRadioOffNoFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1425" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1425" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a071f239395f429b6f33f5ac5238d5226" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlRadioButton::textColor</definition>
+        <argsstring></argsstring>
+        <name>textColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1426" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a9c755f4c123d7144b1658d54c0001a3b" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlRadioButton::disabledColor</definition>
+        <argsstring></argsstring>
+        <name>disabledColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1427" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a5eb5526f49806f70d631c2a378fc35e4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlRadioButton::textOffsetX</definition>
+        <argsstring></argsstring>
+        <name>textOffsetX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1428" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a37c169a7dad1cb4225213e260b3c0d05" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlRadioButton::textOffsetY</definition>
+        <argsstring></argsstring>
+        <name>textOffsetY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1429" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1429" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1abe89023b95f9080a7b37d320c0ef8578" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t XBMCAddon::xbmcgui::ControlRadioButton::align</definition>
+        <argsstring></argsstring>
+        <name>align</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1430" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a456365f7c0cf3e7502fc493c9721e37b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmcgui::ControlRadioButton::iAngle</definition>
+        <argsstring></argsstring>
+        <name>iAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1431" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a85ba20213aa4037d7e827785a4e2a01a" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlRadioButton::shadowColor</definition>
+        <argsstring></argsstring>
+        <name>shadowColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1432" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a47f0cd0ad39fa73e352750e97b07781a" prot="public" static="no" mutable="no">
+        <type>color_t</type>
+        <definition>color_t XBMCAddon::xbmcgui::ControlRadioButton::focusedColor</definition>
+        <argsstring></argsstring>
+        <name>focusedColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1433" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1433" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a68b7112735b775649502a0df7be653a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlRadioButton::ControlRadioButton</definition>
+        <argsstring>(long x, long y, long width, long height, const String &amp;label, const char *focusOnTexture=NULL, const char *noFocusOnTexture=NULL, const char *focusOffTexture=NULL, const char *noFocusOffTexture=NULL, const char *focusTexture=NULL, const char *noFocusTexture=NULL, long textOffsetX=CONTROL_TEXT_OFFSET_X, long textOffsetY=CONTROL_TEXT_OFFSET_Y, long _alignment=(XBFONT_LEFT|XBFONT_CENTER_Y), const char *font=NULL, const char *textColor=NULL, const char *disabledColor=NULL, long angle=0, const char *shadowColor=NULL, const char *focusedColor=NULL)</argsstring>
+        <name>ControlRadioButton</name>
+        <param>
+          <type>long</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusOnTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>noFocusOnTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusOffTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>noFocusOffTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>noFocusTexture</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>textOffsetX</declname>
+          <defval>CONTROL_TEXT_OFFSET_X</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>textOffsetY</declname>
+          <defval>CONTROL_TEXT_OFFSET_Y</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>_alignment</declname>
+          <defval>(XBFONT_LEFT|XBFONT_CENTER_Y)</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>disabledColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>angle</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>shadowColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusedColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1339" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="589" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a983182bbd5077a9478c73e43e65dc8e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlRadioButton::setSelected</definition>
+        <argsstring>(bool selected)</argsstring>
+        <name>setSelected</name>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setSelected(selected) <ndash/> Sets the radio buttons&apos;s selected status.</para><para>selected : bool - True=selected (on) / False=not selected (off)</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>self.radiobutton.setSelected(True) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1362" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="643" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1acea559151b6565aa0277580100c924ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcgui::ControlRadioButton::isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1acea559151b6565aa0277580100c924ca" kindref="member">isSelected()</ref> <ndash/> Returns the radio buttons&apos;s selected status.</para><para>example:<itemizedlist>
+<listitem><para>is = self.radiobutton.isSelected() </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1371" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="652" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1adb18213b0a7854920e3196f0eff5fb04" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlRadioButton::setLabel</definition>
+        <argsstring>(const String &amp;label=emptyString, const char *font=NULL, const char *textColor=NULL, const char *disabledColor=NULL, const char *shadowColor=NULL, const char *focusedColor=NULL, const String &amp;label2=emptyString)</argsstring>
+        <name>setLabel</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label</declname>
+          <defval>emptyString</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>font</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>textColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>disabledColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>shadowColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>focusedColor</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>label2</declname>
+          <defval>emptyString</defval>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setLabel(label[, font, textColor, disabledColor, shadowColor, focusedColor]) <ndash/> Set&apos;s the radio buttons text attributes.</para><para>label : string or unicode - text string.<linebreak/>
+font : [opt] string - font used for label text. (e.g. &apos;font13&apos;)<linebreak/>
+textColor : [opt] hexstring - color of enabled radio button&apos;s label. (e.g. &apos;0xFFFFFFFF&apos;)<linebreak/>
+disabledColor : [opt] hexstring - color of disabled radio button&apos;s label. (e.g. &apos;0xFFFF3300&apos;)<linebreak/>
+shadowColor : [opt] hexstring - color of radio button&apos;s label&apos;s shadow. (e.g. &apos;0xFF000000&apos;)<linebreak/>
+focusedColor : [opt] hexstring - color of focused radio button&apos;s label. (e.g. &apos;0xFFFFFF00&apos;)</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>self.radiobutton.setLabel(&apos;Status&apos;, &apos;font14&apos;, &apos;0xFFFFFFFF&apos;, &apos;0xFFFF3300&apos;, &apos;0xFF000000&apos;) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1390" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="664" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1aa99d0ef641490547fb4ce32c3e2b56cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcgui::ControlRadioButton::setRadioDimension</definition>
+        <argsstring>(long x, long y, long width, long height)</argsstring>
+        <name>setRadioDimension</name>
+        <param>
+          <type>long</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>height</declname>
+        </param>
+        <exceptions> throw (<ref refid="classXBMCAddon_1_1UnimplementedException" kindref="compound">UnimplementedException</ref>)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setRadioDimension(x, y, width, height) <ndash/> Sets the radio buttons&apos;s radio texture&apos;s position and size.</para><para>x : integer - x coordinate of radio texture.<linebreak/>
+y : integer - y coordinate of radio texture.<linebreak/>
+width : integer - width of radio texture.<linebreak/>
+height : integer - height of radio texture.</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.</para><para>example:<itemizedlist>
+<listitem><para>self.radiobutton.setRadioDimension(x=100, y=5, width=20, height=20) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1413" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="687" bodyend="699"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1af7b397c6d34b891cc575979545a480f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL bool</type>
+        <definition>SWIGHIDDENVIRTUAL bool XBMCAddon::xbmcgui::ControlRadioButton::canAcceptMessages</definition>
+        <argsstring>(int actionId)</argsstring>
+        <name>canAcceptMessages</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ad44fc311107f120e1bf5f9e0c1814211">canAcceptMessages</reimplements>
+        <param>
+          <type>int</type>
+          <declname>actionId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1416" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1416" bodyend="1416"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1acf3c98d5304ffb3cdcc0aef7b63da8b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>SWIGHIDDENVIRTUAL CGUIControl *</type>
+        <definition>CGUIControl * XBMCAddon::xbmcgui::ControlRadioButton::Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <reimplements refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a90551421a79adc25f50592d0d0043e89">Create</reimplements>
+        <exceptions> throw (WindowException)</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1435" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.cpp" bodystart="701" bodyend="734"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a85969577577b370d6383bc1b7a020f5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcgui::ControlRadioButton::ControlRadioButton</definition>
+        <argsstring>()</argsstring>
+        <name>ControlRadioButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1437" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1437" bodyend="1441"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton" kindref="compound">ControlRadioButton</ref> class.</para><para><ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton" kindref="compound">ControlRadioButton</ref>(x, y, width, height, label[, focusOnTexture, noFocusOnTexture,<linebreak/>
+ focusOffTexture, noFocusOffTexture, focusTexture, noFocusTexture,<linebreak/>
+ textOffsetX, textOffsetY, alignment, font, textColor, disabledColor])</para><para>x : integer - x coordinate of control.<linebreak/>
+y : integer - y coordinate of control.<linebreak/>
+width : integer - width of control.<linebreak/>
+height : integer - height of control.<linebreak/>
+label : string or unicode - text string.<linebreak/>
+focusOnTexture : [opt] string - filename for radio ON focused texture.<linebreak/>
+noFocusOnTexture : [opt] string - filename for radio ON not focused texture.<linebreak/>
+focusOfTexture : [opt] string - filename for radio OFF focused texture.<linebreak/>
+noFocusOffTexture : [opt] string - filename for radio OFF not focused texture.<linebreak/>
+focusTexture : [opt] string - filename for radio ON texture (deprecated, use focusOnTexture and noFocusOnTexture).<linebreak/>
+noFocusTexture : [opt] string - filename for radio OFF texture (deprecated, use focusOffTexture and noFocusOffTexture).<linebreak/>
+textOffsetX : [opt] integer - horizontal text offset<linebreak/>
+textOffsetY : [opt] integer - vertical text offset<linebreak/>
+alignment : [opt] integer - alignment of label - *Note, see xbfont.h<linebreak/>
+font : [opt] string - font used for label text. (e.g. &apos;font13&apos;)<linebreak/>
+textColor : [opt] hexstring - color of enabled checkmark&apos;s label. (e.g. &apos;0xFFFFFFFF&apos;)<linebreak/>
+disabledColor : [opt] hexstring - color of disabled checkmark&apos;s label. (e.g. &apos;0xFFFF3300&apos;)</para><para>*Note, You can use the above as keywords for arguments and skip certain optional arguments.<linebreak/>
+ Once you use a keyword, all following arguments require the keyword.<linebreak/>
+ After you create the control, you need to add it to the window with addControl().</para><para>example:<itemizedlist>
+<listitem><para>self.radiobutton = <ref refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton" kindref="compound">xbmcgui.ControlRadioButton</ref>(100, 250, 200, 50, &apos;Enable&apos;, font=&apos;font14&apos;) </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="272">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="273" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="270">
+        <label>XBMCAddon::xbmcgui::ControlRadioButton</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="271">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="276">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="277" relation="public-inheritance">
+        </childnode>
+        <childnode refid="278" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="277">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="274">
+        <label>XBMCAddon::xbmcgui::ControlRadioButton</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton"/>
+        <childnode refid="275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="275">
+        <label>XBMCAddon::xbmcgui::Control</label>
+        <link refid="classXBMCAddon_1_1xbmcgui_1_1Control"/>
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="278">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/Control.h" line="1337" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/Control.h" bodystart="1336" bodyend="1443"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1abe89023b95f9080a7b37d320c0ef8578" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>align</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1af7b397c6d34b891cc575979545a480f4" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>canAcceptMessages</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aba01bf41b2e134c5b6c56c645773111e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>Control</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a4337ab7595b7cc6aca2eb7510067c728" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>controlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac1e1aa737b881c6d48e8f835a9a38f3b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>controlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a68b7112735b775649502a0df7be653a6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>ControlRadioButton</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a85969577577b370d6383bc1b7a020f5a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>ControlRadioButton</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0f64496cd3f47bb86a69096984060681" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>controlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac22927946710cc0152f80ec03f2a7b19" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>controlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1acf3c98d5304ffb3cdcc0aef7b63da8b7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>Create</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a9c755f4c123d7144b1658d54c0001a3b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>disabledColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a459ef963aff77bcd3b94c731580cca92" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>dwHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a0594c29026ce33f93da497d4739cf2db" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>dwPosX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a082bd10bb17b2e06ba2c66e4d5c89076" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>dwPosY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a09ec4357c7696031c0dbf27dfe9a7ab3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>dwWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a47f0cd0ad39fa73e352750e97b07781a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>focusedColor</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a1324db4f6a1c923f40711344f7e208ff" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>getHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6a3989df5298f5165b59a73155bafdb1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>getId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a21a679353632887bed370b0d54c841b3" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>getPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af1b19d1516e7756e16eedfc880602243" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>getWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac72e0cadbf7a8b0ec66299085fdb8083" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>getX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aadf9649e0f9891d00bc22e7e0dda7df0" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>getY</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a456365f7c0cf3e7502fc493c9721e37b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>iAngle</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a010243cc31f63805e840261bb06db684" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>iControlDown</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a831f2a90cd2386d6619b8d3244f3c3c6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>iControlId</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6d2c926cbf74ea3319f6751613a439d9" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>iControlLeft</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ab5d517c7663a4b9d974fe5abcaec8462" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>iControlRight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a59ac3f58260c830b0104198420157ae4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>iControlUp</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a762cabd8a02fa224e164cd2b7e467465" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>iParentId</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1acea559151b6565aa0277580100c924ca" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>isSelected</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a7bd60f560d45968bbe1426c263198534" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>operator&lt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a43fa362a752eef414ce817a9949a1cf1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>operator==</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac622958d57c2680ad7077bd8bf00d41e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>operator&gt;</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aefdaa3fba21ce3ffeb4d21268aeb947a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>pGUIControl</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1af9d0e604ae56521b35b04acb93613f9e" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setAnimations</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1ac45a0f76e5d0605a1706abac62952df8" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setEnableCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a2741facef1d6730289d5572e256678f7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setEnabled</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a25280450c5fbf816106d82840e2b9442" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setHeight</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1adb18213b0a7854920e3196f0eff5fb04" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setLabel</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a8f280d0ba18e1766ffdb0cec17dbc464" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setNavigation</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a03048c7627077b3bb9c2197d6ddf8152" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setPosition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1aa99d0ef641490547fb4ce32c3e2b56cf" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setRadioDimension</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a983182bbd5077a9478c73e43e65dc8e1" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setSelected</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a80e809b56d258c43ea813315c15b6c81" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setVisible</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a6f5b424b8bde8e4210e6e20572abf72d" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setVisibleCondition</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1aaf6c51df65738d70afca44842119b360" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>setWidth</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a85ba20213aa4037d7e827785a4e2a01a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>shadowColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1adbf0f1ab66c0303317d0b0c6c121adfc" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>strFont</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1ae4303924e87d1b4512e329f955bc2bb0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>strText</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a1541bb8d84022868cf07826cbd464e2a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>strTextureFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1abf9d73c575e54f364a682f1072487248" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>strTextureNoFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a1b0b8474651f9212d89be21c350dd26c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>strTextureRadioOffFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1ac8b107e0baa54bdf855a3c109640122a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>strTextureRadioOffNoFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a32d8b7a9287c215453542df824976fda" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>strTextureRadioOnFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1aeb91741560df40d5ecf7b3967069a8ed" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>strTextureRadioOnNoFocus</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a071f239395f429b6f33f5ac5238d5226" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>textColor</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a5eb5526f49806f70d631c2a378fc35e4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>textOffsetX</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1ControlRadioButton_1a37c169a7dad1cb4225213e260b3c0d05" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>textOffsetY</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcgui_1_1Control_1a76cf22380945688660f8fe9befa388ab" prot="public" virt="virtual"><scope>XBMCAddon::xbmcgui::ControlRadioButton</scope><name>~Control</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

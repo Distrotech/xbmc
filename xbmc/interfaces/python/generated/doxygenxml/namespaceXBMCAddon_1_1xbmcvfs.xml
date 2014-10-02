@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceXBMCAddon_1_1xbmcvfs" kind="namespace">
+    <compoundname>XBMCAddon::xbmcvfs</compoundname>
+    <innerclass refid="classXBMCAddon_1_1xbmcvfs_1_1File" prot="public">XBMCAddon::xbmcvfs::File</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcvfs_1_1Stat" prot="public">XBMCAddon::xbmcvfs::Stat</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcvfs_1a262e70bb7b0a8c6e72cb4f5064921518" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcvfs::copy</definition>
+        <argsstring>(const String &amp;strSource, const String &amp;strDestnation)</argsstring>
+        <name>copy</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>strSource</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>strDestnation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>copy(source, destination) <ndash/> copy file to destination, returns true/false.</para><para>source : file to copy.<linebreak/>
+destination : destination file</para><para>example:<itemizedlist>
+<listitem><para>success = xbmcvfs.copy(source, destination) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" line="34" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcvfs_1ae9206752214c4c7693773dff12b522e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcvfs::deleteFile</definition>
+        <argsstring>(const String &amp;strSource)</argsstring>
+        <name>deleteFile</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>delete(file)</para><para>file : file to delete</para><para>example:<itemizedlist>
+<listitem><para>xbmcvfs.delete(file) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" line="41" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcvfs_1a0c61e5aa94db77b6ddbb3463bac5f84a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcvfs::rename</definition>
+        <argsstring>(const String &amp;file, const String &amp;newFile)</argsstring>
+        <name>rename</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const String &amp;</type>
+          <declname>newFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>rename(file, newFileName)</para><para>file : file to rename<linebreak/>
+newFileName : new filename, including the full path</para><para>example:<itemizedlist>
+<listitem><para>success = xbmcvfs.rename(file,newFileName) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" line="48" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" bodystart="48" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcvfs_1a57892d91dadea995668fca2489f9244c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcvfs::exists</definition>
+        <argsstring>(const String &amp;path)</argsstring>
+        <name>exists</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>exists(path)</para><para>path : file or folder (folder must end with slash or backslash)</para><para>example:<itemizedlist>
+<listitem><para>success = xbmcvfs.exists(path) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" line="55" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcvfs_1a32b6b488c6a81a8688876d5100b43e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcvfs::mkdir</definition>
+        <argsstring>(const String &amp;path)</argsstring>
+        <name>mkdir</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>mkdir(path) <ndash/> Create a folder.</para><para>path : folder</para><para>example:<itemizedlist>
+<listitem><para>success = xbmcvfs.mkdir(path) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" line="64" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" bodystart="64" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcvfs_1a1e1d2de35b6da8d473c5b40a7758946b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcvfs::mkdirs</definition>
+        <argsstring>(const String &amp;path)</argsstring>
+        <name>mkdirs</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>mkdirs(path) <ndash/> Create folder(s) - it will create all folders in the path.</para><para>path : folder</para><para>example:<itemizedlist>
+<listitem><para>success = xbmcvfs.mkdirs(path) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" line="71" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcvfs_1af25cf51648f1305386d8fe416dde9738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool XBMCAddon::xbmcvfs::rmdir</definition>
+        <argsstring>(const String &amp;path, bool force)</argsstring>
+        <name>rmdir</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>rmdir(path) <ndash/> Remove a folder.</para><para>path : folder</para><para>example:<itemizedlist>
+<listitem><para>success = xbmcvfs.rmdir(path) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" line="77" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceXBMCAddon_1_1xbmcvfs_1a7698b757a1b7749c1a43cfc9a94753a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1Tuple" kindref="compound">Tuple</ref>&lt; std::vector&lt; String &gt;, std::vector&lt; String &gt; &gt;</type>
+        <definition>Tuple&lt; std::vector&lt; String &gt;, std::vector&lt; String &gt; &gt; XBMCAddon::xbmcvfs::listdir</definition>
+        <argsstring>(const String &amp;path)</argsstring>
+        <name>listdir</name>
+        <param>
+          <type>const String &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>listdir(path) <ndash/> lists content of a folder.</para><para>path : folder</para><para>example:<itemizedlist>
+<listitem><para>dirs, files = xbmcvfs.listdir(path) </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" line="83" column="1" bodyfile="/root/xbmc/xbmc/interfaces/legacy/ModuleXbmcvfs.cpp" bodystart="83" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/xbmc/xbmc/interfaces/legacy/File.cpp" line="26" column="1"/>
+  </compounddef>
+</doxygen>
