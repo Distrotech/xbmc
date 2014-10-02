@@ -19,7 +19,7 @@ CXXFLAGS_FOR_BUILD += \
   -I@abs_top_srcdir@/xbmc \
   -I@abs_top_srcdir@/xbmc/linux
 
-LDFLAGS_FOR_BUILD += -lSDL_image -lSDL -llzo2
+LDFLAGS_FOR_BUILD += -L@libdir@ -lSDL_image -lSDL -llzo2
 LDFLAGS_FOR_BUILD += -L@abs_top_srcdir@/lib/libsquish -lsquish-native
 
 ifeq ($(findstring Darwin,$(shell uname -s)),Darwin)
