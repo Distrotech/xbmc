@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_46b910ad7cfda937c86ea93fba147044" kind="dir">
+    <compoundname>/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi</compoundname>
+    <innerfile refid="WsgiErrorStream_8cpp">WsgiErrorStream.cpp</innerfile>
+    <innerfile refid="WsgiErrorStream_8h">WsgiErrorStream.h</innerfile>
+    <innerfile refid="WsgiInputStream_8cpp">WsgiInputStream.cpp</innerfile>
+    <innerfile refid="WsgiInputStream_8h">WsgiInputStream.h</innerfile>
+    <innerfile refid="WsgiResponse_8cpp">WsgiResponse.cpp</innerfile>
+    <innerfile refid="WsgiResponse_8h">WsgiResponse.h</innerfile>
+    <innerfile refid="WsgiResponseBody_8cpp">WsgiResponseBody.cpp</innerfile>
+    <innerfile refid="WsgiResponseBody_8h">WsgiResponseBody.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/"/>
+  </compounddef>
+</doxygen>
