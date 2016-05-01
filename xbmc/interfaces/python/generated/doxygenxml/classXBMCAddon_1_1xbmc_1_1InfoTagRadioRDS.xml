@@ -1,0 +1,569 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmc::InfoTagRadioRDS</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1AddonClass" prot="public" virt="non-virtual">XBMCAddon::AddonClass</basecompoundref>
+    <includes refid="InfoTagRadioRDS_8h" local="no">InfoTagRadioRDS.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad3e1460cd559fa9b4577de4c8e598b4d" prot="private" static="no" mutable="no">
+        <type>PVR::CPVRRadioRDSInfoTagPtr</type>
+        <definition>PVR::CPVRRadioRDSInfoTagPtr XBMCAddon::xbmc::InfoTagRadioRDS::infoTag</definition>
+        <argsstring></argsstring>
+        <name>infoTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="36" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a652411b9f03d555f9372745e64f07f56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::InfoTagRadioRDS::InfoTagRadioRDS</definition>
+        <argsstring>(const PVR::CPVRRadioRDSInfoTagPtr tag)</argsstring>
+        <name>InfoTagRadioRDS</name>
+        <param>
+          <type>const PVR::CPVRRadioRDSInfoTagPtr</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="40" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8496ae739a4e8ae0f14695669fc5a1c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::InfoTagRadioRDS::InfoTagRadioRDS</definition>
+        <argsstring>()</argsstring>
+        <name>InfoTagRadioRDS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="42" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ac9f87adb6d3c22cbacff51745c78eb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmc::InfoTagRadioRDS::~InfoTagRadioRDS</definition>
+        <argsstring>()</argsstring>
+        <name>~InfoTagRadioRDS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="43" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a2f8ea007984600b7aebe035202fe5331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getTitle</definition>
+        <argsstring>()</argsstring>
+        <name>getTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a2f8ea007984600b7aebe035202fe5331" kindref="member">getTitle()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="48" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ae421805746053c8e2256d4ddf7998b91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getBand</definition>
+        <argsstring>()</argsstring>
+        <name>getBand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ae421805746053c8e2256d4ddf7998b91" kindref="member">getBand()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="52" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8a0fcbca204df2728230eb73deec3246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getArtist</definition>
+        <argsstring>()</argsstring>
+        <name>getArtist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8a0fcbca204df2728230eb73deec3246" kindref="member">getArtist()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="56" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="57" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ac5604e9931bafdcaf7f3b186fcbf957b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getComposer</definition>
+        <argsstring>()</argsstring>
+        <name>getComposer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ac5604e9931bafdcaf7f3b186fcbf957b" kindref="member">getComposer()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="60" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a7db5d069b7db78bf3f4ef5b831e41b7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getConductor</definition>
+        <argsstring>()</argsstring>
+        <name>getConductor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a7db5d069b7db78bf3f4ef5b831e41b7b" kindref="member">getConductor()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="64" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1afa61b47b467c36d951c5c2b09a3b963c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getAlbum</definition>
+        <argsstring>()</argsstring>
+        <name>getAlbum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1afa61b47b467c36d951c5c2b09a3b963c" kindref="member">getAlbum()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="68" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="78" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1af19fd392f41570015932057b285923e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getComment</definition>
+        <argsstring>()</argsstring>
+        <name>getComment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1af19fd392f41570015932057b285923e5" kindref="member">getComment()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="72" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a91954da151b803f4a2c1ab3314851605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int XBMCAddon::xbmc::InfoTagRadioRDS::getAlbumTrackNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getAlbumTrackNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a91954da151b803f4a2c1ab3314851605" kindref="member">getAlbumTrackNumber()</ref> <ndash/> returns a integer.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="76" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="92" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a33deef06ec002e96b045efda776da2c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getInfoNews</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoNews</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a33deef06ec002e96b045efda776da2c1" kindref="member">getInfoNews()</ref> <ndash/> returns an string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="80" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a0faa3b6bb7d27bfd42527595ea3e535c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getInfoNewsLocal</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoNewsLocal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a0faa3b6bb7d27bfd42527595ea3e535c" kindref="member">getInfoNewsLocal()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="84" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="106" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a25eb5ac39c99affa65b1684d2c112bcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getInfoSport</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoSport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a25eb5ac39c99affa65b1684d2c112bcb" kindref="member">getInfoSport()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="88" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ab5feb617029193e112277f0ce000bdf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getInfoStock</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoStock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ab5feb617029193e112277f0ce000bdf4" kindref="member">getInfoStock()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="92" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="120" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a751c1e9b7611669564b71e24933a1df4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getInfoWeather</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoWeather</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a751c1e9b7611669564b71e24933a1df4" kindref="member">getInfoWeather()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="96" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="127" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a3a737b959f15550dfa313a979b8cadfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getInfoHoroscope</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoHoroscope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a3a737b959f15550dfa313a979b8cadfb" kindref="member">getInfoHoroscope()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="100" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="134" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a6c9578a7b86ff1d1bcba5712d9594e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getInfoCinema</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoCinema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a6c9578a7b86ff1d1bcba5712d9594e5e" kindref="member">getInfoCinema()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="104" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="141" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad4313511c284903e85cc2138b59043af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getInfoLottery</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLottery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad4313511c284903e85cc2138b59043af" kindref="member">getInfoLottery()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="108" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="148" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8956fcffa3eba71d102bca5cd32441ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getInfoOther</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoOther</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8956fcffa3eba71d102bca5cd32441ff" kindref="member">getInfoOther()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="112" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="155" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a06b153d6b179c42b0397e12fd1228473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getEditorialStaff</definition>
+        <argsstring>()</argsstring>
+        <name>getEditorialStaff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a06b153d6b179c42b0397e12fd1228473" kindref="member">getEditorialStaff()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="116" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="162" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ada3edf6a56767c7ace6c6f50bd501a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getProgStation</definition>
+        <argsstring>()</argsstring>
+        <name>getProgStation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ada3edf6a56767c7ace6c6f50bd501a2d" kindref="member">getProgStation()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="120" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="169" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a60bf699b66c7c54257f2b3a0731b6247" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getProgStyle</definition>
+        <argsstring>()</argsstring>
+        <name>getProgStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a60bf699b66c7c54257f2b3a0731b6247" kindref="member">getProgStyle()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="124" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="176" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a4ec6468ba272fcceac2e079d882b2e3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getProgHost</definition>
+        <argsstring>()</argsstring>
+        <name>getProgHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a4ec6468ba272fcceac2e079d882b2e3d" kindref="member">getProgHost()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="128" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="183" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad1522125bf1f69aaa55931ffa8c81693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getProgWebsite</definition>
+        <argsstring>()</argsstring>
+        <name>getProgWebsite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad1522125bf1f69aaa55931ffa8c81693" kindref="member">getProgWebsite()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="132" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="190" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a52c1c13bd81eb0972d5f6aaeb0e5705c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getProgNow</definition>
+        <argsstring>()</argsstring>
+        <name>getProgNow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a52c1c13bd81eb0972d5f6aaeb0e5705c" kindref="member">getProgNow()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="136" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="197" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1afbd6dc26053487bfe7b8e33bb7d00630" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getProgNext</definition>
+        <argsstring>()</argsstring>
+        <name>getProgNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1afbd6dc26053487bfe7b8e33bb7d00630" kindref="member">getProgNext()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="140" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="204" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a1f08095bc4c504bd615fb7f0f261c2b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getPhoneHotline</definition>
+        <argsstring>()</argsstring>
+        <name>getPhoneHotline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a1f08095bc4c504bd615fb7f0f261c2b7" kindref="member">getPhoneHotline()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="144" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="211" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad3a82cea75915831539fa7a91df1b0ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getEMailHotline</definition>
+        <argsstring>()</argsstring>
+        <name>getEMailHotline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad3a82cea75915831539fa7a91df1b0ae" kindref="member">getEMailHotline()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="148" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="218" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a69e9bb8694d1b17781db97159f8d3d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getPhoneStudio</definition>
+        <argsstring>()</argsstring>
+        <name>getPhoneStudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a69e9bb8694d1b17781db97159f8d3d37" kindref="member">getPhoneStudio()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="152" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="225" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a52edd40bd9978a3934d9e6cded1fa03f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getEMailStudio</definition>
+        <argsstring>()</argsstring>
+        <name>getEMailStudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a52edd40bd9978a3934d9e6cded1fa03f" kindref="member">getEMailStudio()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="156" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="232" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1af43c0e8263057d862d1aa6a34e117593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>String</type>
+        <definition>String XBMCAddon::xbmc::InfoTagRadioRDS::getSMSStudio</definition>
+        <argsstring>()</argsstring>
+        <name>getSMSStudio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1af43c0e8263057d862d1aa6a34e117593" kindref="member">getSMSStudio()</ref> <ndash/> returns a string.<linebreak/>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="160" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.cpp" bodystart="239" bodyend="244"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS" kindref="compound">InfoTagRadioRDS</ref> class.<linebreak/>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="355">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="356" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="354">
+        <label>XBMCAddon::xbmc::InfoTagRadioRDS</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS"/>
+        <childnode refid="355" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="356">
+        <label>CCriticalSection</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="358">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="359" relation="public-inheritance">
+        </childnode>
+        <childnode refid="360" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="357">
+        <label>XBMCAddon::xbmc::InfoTagRadioRDS</label>
+        <link refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS"/>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="359">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="360">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="358" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" line="34" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h" bodystart="33" bodyend="162"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1afa61b47b467c36d951c5c2b09a3b963c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getAlbum</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a91954da151b803f4a2c1ab3314851605" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getAlbumTrackNumber</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8a0fcbca204df2728230eb73deec3246" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getArtist</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ae421805746053c8e2256d4ddf7998b91" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getBand</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1af19fd392f41570015932057b285923e5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getComment</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ac5604e9931bafdcaf7f3b186fcbf957b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getComposer</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a7db5d069b7db78bf3f4ef5b831e41b7b" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getConductor</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a06b153d6b179c42b0397e12fd1228473" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getEditorialStaff</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad3a82cea75915831539fa7a91df1b0ae" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getEMailHotline</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a52edd40bd9978a3934d9e6cded1fa03f" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getEMailStudio</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a6c9578a7b86ff1d1bcba5712d9594e5e" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getInfoCinema</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a3a737b959f15550dfa313a979b8cadfb" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getInfoHoroscope</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad4313511c284903e85cc2138b59043af" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getInfoLottery</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a33deef06ec002e96b045efda776da2c1" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getInfoNews</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a0faa3b6bb7d27bfd42527595ea3e535c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getInfoNewsLocal</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8956fcffa3eba71d102bca5cd32441ff" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getInfoOther</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a25eb5ac39c99affa65b1684d2c112bcb" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getInfoSport</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ab5feb617029193e112277f0ce000bdf4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getInfoStock</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a751c1e9b7611669564b71e24933a1df4" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getInfoWeather</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a1f08095bc4c504bd615fb7f0f261c2b7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getPhoneHotline</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a69e9bb8694d1b17781db97159f8d3d37" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getPhoneStudio</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a4ec6468ba272fcceac2e079d882b2e3d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getProgHost</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1afbd6dc26053487bfe7b8e33bb7d00630" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getProgNext</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a52c1c13bd81eb0972d5f6aaeb0e5705c" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getProgNow</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ada3edf6a56767c7ace6c6f50bd501a2d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getProgStation</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a60bf699b66c7c54257f2b3a0731b6247" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getProgStyle</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad1522125bf1f69aaa55931ffa8c81693" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getProgWebsite</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1af43c0e8263057d862d1aa6a34e117593" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getSMSStudio</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a2f8ea007984600b7aebe035202fe5331" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>getTitle</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad3e1460cd559fa9b4577de4c8e598b4d" prot="private" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>infoTag</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a652411b9f03d555f9372745e64f07f56" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>InfoTagRadioRDS</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8496ae739a4e8ae0f14695669fc5a1c3" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>InfoTagRadioRDS</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ac9f87adb6d3c22cbacff51745c78eb02" prot="public" virt="virtual"><scope>XBMCAddon::xbmc::InfoTagRadioRDS</scope><name>~InfoTagRadioRDS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

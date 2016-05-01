@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceXBMCAddon_1_1xbmcwsgi" kind="namespace">
+    <compoundname>XBMCAddon::xbmcwsgi</compoundname>
+    <innerclass refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiErrorStream" prot="public">XBMCAddon::xbmcwsgi::WsgiErrorStream</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator" prot="public">XBMCAddon::xbmcwsgi::WsgiInputStreamIterator</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream" prot="public">XBMCAddon::xbmcwsgi::WsgiInputStream</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiResponse" prot="public">XBMCAddon::xbmcwsgi::WsgiResponse</innerclass>
+    <innerclass refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiResponseBody" prot="public">XBMCAddon::xbmcwsgi::WsgiResponseBody</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceXBMCAddon_1_1xbmcwsgi_1a60e96c9f6725c2ca6d2ab169d64fd938" prot="public" static="no">
+        <type><ref refid="classXBMCAddon_1_1Tuple" kindref="compound">Tuple</ref>&lt; String, String &gt;</type>
+        <definition>typedef Tuple&lt;String, String&gt; XBMCAddon::xbmcwsgi::WsgiHttpHeader</definition>
+        <argsstring></argsstring>
+        <name>WsgiHttpHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiResponse.h" line="31" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiResponse.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiErrorStream.cpp" line="29" column="1"/>
+  </compounddef>
+</doxygen>

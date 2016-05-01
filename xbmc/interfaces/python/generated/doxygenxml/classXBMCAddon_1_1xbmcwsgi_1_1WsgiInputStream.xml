@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream" kind="class" prot="public">
+    <compoundname>XBMCAddon::xbmcwsgi::WsgiInputStream</compoundname>
+    <basecompoundref refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator" prot="public" virt="non-virtual">XBMCAddon::xbmcwsgi::WsgiInputStreamIterator</basecompoundref>
+    <includes refid="WsgiInputStream_8h" local="no">WsgiInputStream.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a368ecf2359c90fb3f225a6f31a3a7e02" prot="public" static="no" mutable="no">
+        <type>HTTPPythonRequest *</type>
+        <definition>HTTPPythonRequest* XBMCAddon::xbmcwsgi::WsgiInputStream::m_request</definition>
+        <argsstring></argsstring>
+        <name>m_request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.h" line="94" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a51943702658e73ce93f3bf0ef374aef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcwsgi::WsgiInputStream::WsgiInputStream</definition>
+        <argsstring>()</argsstring>
+        <name>WsgiInputStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.h" line="82" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.cpp" bodystart="147" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a1e64ba63f358f4afe0d91fcf9a049d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>XBMCAddon::xbmcwsgi::WsgiInputStream::~WsgiInputStream</definition>
+        <argsstring>()</argsstring>
+        <name>~WsgiInputStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.h" line="83" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.cpp" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1af205f4c18aa09a6b0fd1c8d5461055ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator" kindref="compound">WsgiInputStreamIterator</ref> *</type>
+        <definition>WsgiInputStreamIterator * XBMCAddon::xbmcwsgi::WsgiInputStream::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.h" line="86" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.cpp" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a78eb7da453d7b0d3029cb108fa020c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator" kindref="compound">WsgiInputStreamIterator</ref> *</type>
+        <definition>WsgiInputStreamIterator * XBMCAddon::xbmcwsgi::WsgiInputStream::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.h" line="87" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.cpp" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a90dcea98f551f77c1eb477b0f5d1fb0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void XBMCAddon::xbmcwsgi::WsgiInputStream::SetRequest</definition>
+        <argsstring>(HTTPPythonRequest *request)</argsstring>
+        <name>SetRequest</name>
+        <param>
+          <type>HTTPPythonRequest *</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the given request. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.h" line="92" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.cpp" bodystart="167" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents the wsgi.input stream to access data from a HTTP request. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="617">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="618" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="618">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="616">
+        <label>XBMCAddon::xbmcwsgi::WsgiInputStreamIterator</label>
+        <link refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator"/>
+        <childnode refid="617" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="615">
+        <label>XBMCAddon::xbmcwsgi::WsgiInputStream</label>
+        <link refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream"/>
+        <childnode refid="616" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="621">
+        <label>XBMCAddon::AddonClass</label>
+        <link refid="classXBMCAddon_1_1AddonClass"/>
+        <childnode refid="622" relation="public-inheritance">
+        </childnode>
+        <childnode refid="623" relation="usage">
+          <edgelabel>languageHook</edgelabel>
+        </childnode>
+      </node>
+      <node id="622">
+        <label>CCriticalSection</label>
+      </node>
+      <node id="620">
+        <label>XBMCAddon::xbmcwsgi::WsgiInputStreamIterator</label>
+        <link refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator"/>
+        <childnode refid="621" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="623">
+        <label>XBMCAddon::LanguageHook</label>
+        <link refid="classXBMCAddon_1_1LanguageHook"/>
+        <childnode refid="621" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="619">
+        <label>XBMCAddon::xbmcwsgi::WsgiInputStream</label>
+        <link refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream"/>
+        <childnode refid="620" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.h" line="80" column="1" bodyfile="/root/git-working/xbmc/xbmc/interfaces/legacy/wsgi/WsgiInputStream.h" bodystart="79" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classXBMCAddon_1_1AddonClass_1ab70ccb0c1ca2f4099577e9ca59ae8f49" prot="public" virt="virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>Acquire</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a74bc7e400ada8647197d1575968f81d7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1af205f4c18aa09a6b0fd1c8d5461055ae" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>begin</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1afd73e0ec1af35bf37e3e54971d23abd0" prot="protected" virt="virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>deallocating</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a78eb7da453d7b0d3029cb108fa020c1d" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>end</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1aada720c100a3ee5eb6a7831ca8b2af89" prot="public" virt="non-virtual" ambiguityscope="XBMCAddon::xbmcwsgi::WsgiInputStreamIterator::"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>end</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a55737a3a6205d2692484e186f1cc46d5" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>GetClassname</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a42cb67038af10d4b53c2e7a13ee22591" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>GetLanguageHook</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae3c30a0f64241012499d1f4a6d5fdfe7" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>getNextClassIndex</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ac87e43c43bf816d5341a2aebec8ccf81" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>getNumAddonClasses</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a218a8226c7ef2f361af6671a5f25efd0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>isDeallocating</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1aa71b56d06a92152c726833de1308405e" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>languageHook</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1ab7433fd058132ce1db7584406c1e7de2" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>m_data</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1aea3155d0af6a6948d8341c34951693e0" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>m_offset</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1a9042ce306861ff73f2692dd1d5cd651f" prot="protected" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>m_remaining</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a368ecf2359c90fb3f225a6f31a3a7e02" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>m_request</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1a9c7874cede7c730883f45fd95bd645f6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>operator!=</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1ab122cde7c9262dc9d9b2abc8047c3a8a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>operator*</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1ac4d736b1415f5b0d9949c917084160c7" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>operator++</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1a11be4ac45705f59b02ada96d520ec8c2" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>operator==</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1a3ee931e281a7a019e2ecda72b7cceea6" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>read</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1a8af94325934877c24d90d506d0b34123" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>readline</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1ab1cdc83635f177a8910504acea9956e8" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>readlines</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1a5c5ab8cbc38921ad05e9a853f1e52493" prot="public" virt="virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>Release</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a90dcea98f551f77c1eb477b0f5d1fb0a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>SetRequest</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a51943702658e73ce93f3bf0ef374aef0" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>WsgiInputStream</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1ad07243c5cf48d124c71f993a90a52f2a" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>WsgiInputStreamIterator</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1adee4934eb32101aaa197c8494f6a8813" prot="public" virt="non-virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>WsgiInputStreamIterator</name></member>
+      <member refid="classXBMCAddon_1_1AddonClass_1ae27cdf6c5fab63f5d09e965e1573fce7" prot="public" virt="virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>~AddonClass</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStream_1a1e64ba63f358f4afe0d91fcf9a049d89" prot="public" virt="virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>~WsgiInputStream</name></member>
+      <member refid="classXBMCAddon_1_1xbmcwsgi_1_1WsgiInputStreamIterator_1ac0d77ff94e483467c0faeb679542bb3b" prot="public" virt="virtual"><scope>XBMCAddon::xbmcwsgi::WsgiInputStream</scope><name>~WsgiInputStreamIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

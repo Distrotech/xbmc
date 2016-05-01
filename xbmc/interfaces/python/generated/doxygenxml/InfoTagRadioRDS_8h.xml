@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="InfoTagRadioRDS_8h" kind="file">
+    <compoundname>InfoTagRadioRDS.h</compoundname>
+    <innerclass refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS" prot="public">XBMCAddon::xbmc::InfoTagRadioRDS</innerclass>
+    <innernamespace refid="namespaceXBMCAddon">XBMCAddon</innernamespace>
+    <innernamespace refid="namespaceXBMCAddon_1_1xbmc">XBMCAddon::xbmc</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2005-2015<sp/>Team<sp/>KODI</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>http://kodi.tv</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>This<sp/>Program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2,<sp/>or<sp/>(at<sp/>your<sp/>option)</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/>any<sp/>later<sp/>version.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/>This<sp/>Program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/>See<sp/>the</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/>along<sp/>with<sp/>KODI;<sp/>see<sp/>the<sp/>file<sp/>COPYING.<sp/><sp/>If<sp/>not,<sp/>see</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/>&lt;http://www.gnu.org/licenses/&gt;.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pvr/channels/PVRRadioRDSInfoTag.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;AddonClass.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">XBMCAddon</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">xbmc</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33" refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS" kindref="compound">InfoTagRadioRDS</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1AddonClass" kindref="compound">AddonClass</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>PVR::CPVRRadioRDSInfoTagPtr<sp/>infoTag;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SWIG</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS" kindref="compound">InfoTagRadioRDS</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PVR::CPVRRadioRDSInfoTagPtr<sp/>tag);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS" kindref="compound">InfoTagRadioRDS</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS" kindref="compound">InfoTagRadioRDS</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a2f8ea007984600b7aebe035202fe5331" kindref="member">getTitle</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ae421805746053c8e2256d4ddf7998b91" kindref="member">getBand</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8a0fcbca204df2728230eb73deec3246" kindref="member">getArtist</ref>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ac5604e9931bafdcaf7f3b186fcbf957b" kindref="member">getComposer</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a7db5d069b7db78bf3f4ef5b831e41b7b" kindref="member">getConductor</ref>();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1afa61b47b467c36d951c5c2b09a3b963c" kindref="member">getAlbum</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1af19fd392f41570015932057b285923e5" kindref="member">getComment</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a91954da151b803f4a2c1ab3314851605" kindref="member">getAlbumTrackNumber</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a33deef06ec002e96b045efda776da2c1" kindref="member">getInfoNews</ref>();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a0faa3b6bb7d27bfd42527595ea3e535c" kindref="member">getInfoNewsLocal</ref>();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a25eb5ac39c99affa65b1684d2c112bcb" kindref="member">getInfoSport</ref>();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ab5feb617029193e112277f0ce000bdf4" kindref="member">getInfoStock</ref>();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a751c1e9b7611669564b71e24933a1df4" kindref="member">getInfoWeather</ref>();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a3a737b959f15550dfa313a979b8cadfb" kindref="member">getInfoHoroscope</ref>();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a6c9578a7b86ff1d1bcba5712d9594e5e" kindref="member">getInfoCinema</ref>();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad4313511c284903e85cc2138b59043af" kindref="member">getInfoLottery</ref>();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a8956fcffa3eba71d102bca5cd32441ff" kindref="member">getInfoOther</ref>();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a06b153d6b179c42b0397e12fd1228473" kindref="member">getEditorialStaff</ref>();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ada3edf6a56767c7ace6c6f50bd501a2d" kindref="member">getProgStation</ref>();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a60bf699b66c7c54257f2b3a0731b6247" kindref="member">getProgStyle</ref>();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a4ec6468ba272fcceac2e079d882b2e3d" kindref="member">getProgHost</ref>();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad1522125bf1f69aaa55931ffa8c81693" kindref="member">getProgWebsite</ref>();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a52c1c13bd81eb0972d5f6aaeb0e5705c" kindref="member">getProgNow</ref>();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1afbd6dc26053487bfe7b8e33bb7d00630" kindref="member">getProgNext</ref>();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a1f08095bc4c504bd615fb7f0f261c2b7" kindref="member">getPhoneHotline</ref>();</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1ad3a82cea75915831539fa7a91df1b0ae" kindref="member">getEMailHotline</ref>();</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a69e9bb8694d1b17781db97159f8d3d37" kindref="member">getPhoneStudio</ref>();</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1a52edd40bd9978a3934d9e6cded1fa03f" kindref="member">getEMailStudio</ref>();</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/><ref refid="classXBMCAddon_1_1xbmc_1_1InfoTagRadioRDS_1af43c0e8263057d862d1aa6a34e117593" kindref="member">getSMSStudio</ref>();</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/root/git-working/xbmc/xbmc/interfaces/legacy/InfoTagRadioRDS.h"/>
+  </compounddef>
+</doxygen>
