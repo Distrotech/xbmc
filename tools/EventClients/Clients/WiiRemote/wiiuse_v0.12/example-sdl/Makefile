@@ -41,7 +41,7 @@ BIN = ./$(OBJ_DIR)/wiiuse-sdl
 #
 # Inclusion paths.
 #
-INCLUDES = -I../src/ -I/usr/include/SDL
+INCLUDES = -I../src/ -I=/usr/include/SDL
 
 #
 # Generate a list of object files
