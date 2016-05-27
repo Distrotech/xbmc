@@ -4,5 +4,6 @@ make -C tools/depends/target/libdcadec clean
 make -C tools/depends/target/libdcadec PREFIX=${PREFIX} LIBDIR=${PREFIX}/${C_LIBDIRS}
 mkdir -p ${3}/${PREFIX}/${C_LIBDIRS}
 make -C tools/depends/target/libdcadec PREFIX=${3}/${PREFIX} LIBDIR=${3}/${PREFIX}/${C_LIBDIRS}
-make -C ./tools/depends/native/libsquish-native/ clean all
+make -C ./tools/depends/native/libsquish-native/ clean
+make -C ./tools/depends/native/libsquish-native/ all
 
